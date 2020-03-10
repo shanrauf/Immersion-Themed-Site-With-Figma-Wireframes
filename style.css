@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: 50px auto 0 auto;
   max-width: 50%;
 }
 .mia-logo {
@@ -174,6 +174,9 @@ a {
 @media screen and (max-width: 1285px) {
   .cards-wrapper {
     grid-template-columns: 1fr 1fr;
+  }
+  .landing {
+    max-width: 80%;
   }
 }
 
