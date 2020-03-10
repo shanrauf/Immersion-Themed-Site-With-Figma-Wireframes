@@ -5,6 +5,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: auto;
+  max-width: 50%;
 }
 .mia-logo {
   width: 50%;
@@ -16,7 +18,6 @@
 
 .landing-text {
   width: 100%;
-  max-width: 85%;
   text-align: center;
   font-size: 30px;
 }
@@ -35,7 +36,8 @@
 }
 
 body {
-  margin: 35px;
+  /* max-width: 85%; */
+  margin: auto;
   min-height: 100vh;
   font-family: 'Open Sans';
   background: #edf8fe;
@@ -181,10 +183,6 @@ a {
   }
   .info {
     justify-content: center;
-  }
-  .card-grid-space .num {
-    /margin-left: 0;
-    /text-align: center;
   }
 }
 
