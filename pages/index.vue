@@ -17,10 +17,19 @@
           >Learn More</BaseButton
         >
       </div>
+      <!-- <button
+        class="cd-scroll-down cd-image-replace"
+        @click="scrollTo('articles-section')"
+      >
+        scroll down
+      </button> -->
     </section>
+
     <BaseWave color="#204f70" />
 
-    <section class="articles-section">
+    <v-divider />
+
+    <section id="articles-section" class="articles-section">
       <div class="featured-article">
         <h1>Featured Article title</h1>
         <span>Date</span>
@@ -48,20 +57,33 @@ export default {
   components: {
     BaseButton,
     BaseWave
+  },
+  methods: {
+    scrollTo(elementId) {
+      const section = document.getElementById(elementId)
+      const top = section.offsetTop
+      window.scrollTo({
+        top,
+        behavior: 'smooth'
+      })
+    }
   }
 }
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/partials/variables';
+
+@import '../assets/scss/partials/mixins';
+
+@import '../assets/scss/partials/layout';
+
 .landing-section {
   background: #204f70;
-  // background: #efefef;
-  // background-size: cover;
-  // background-position: bottom;
-  // background-image: url(('../assets/manga_wall.jpg'));
   margin-bottom: -2px;
   width: 100%;
-  height: 95vh;
+  // height: 95vh;
+  height: 35vh;
 }
 .landing-content {
   height: 80%;
@@ -86,8 +108,24 @@ export default {
   background: #fff;
   width: 100%;
   height: 100vh;
-  display: flex; // could also do grid...
-  flex-direction: row;
-  justify-content: center;
+  // display: flex; // could also do grid...
+  // flex-direction: row;
+  // justify-content: center;
+}
+.cd-scroll-down {
+  position: relative;
+  @include center(x);
+  bottom: 0px;
+  width: 44px;
+  height: 44px;
+  background: url(../assets/cd-arrow-bottom.svg) no-repeat center center;
+}
+.cd-image-replace {
+  /* replace text with image */
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  color: transparent;
 }
 </style>
