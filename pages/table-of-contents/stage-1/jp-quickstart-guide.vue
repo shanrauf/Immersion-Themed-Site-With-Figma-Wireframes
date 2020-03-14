@@ -262,9 +262,9 @@
     </p>
     <p>
       When you should add things to Anki will be discussed in the
-      <nuxt-link class="link3" href="#srs" rel="noopener">SRS section</nuxt-link
-      >. Resources you can use to look things up are listed in the
-      <nuxt-link class="link3" href="#tools" rel="noopener"
+      <nuxt-link class="link3" to="#srs" rel="noopener">SRS section</nuxt-link>.
+      Resources you can use to look things up are listed in the
+      <nuxt-link class="link3" to="#tools" rel="noopener"
         >tools section</nuxt-link
       >.
     </p>
@@ -538,7 +538,7 @@
         allows you to extract audio for your immersion pod, as was talked about
         above. It also opens up the possibility of using Netflix with Subs2srs,
         which will be discussed in the
-        <nuxt-link class="link3" href="#sentence-mining" rel="noopener"
+        <nuxt-link class="link3" to="#sentence-mining" rel="noopener"
           >sentence mining section</nuxt-link
         >.
       </li>
@@ -595,8 +595,8 @@
         >desktop version</a
       >
       is available for Windows, Mac and Linux, there’s a fully
-      <nuxt-link class="link3" href="https://ankiweb.net/" rel="noopener"
-        >online version</nuxt-link
+      <a class="link3" href="https://ankiweb.net/" rel="noopener"
+        >online version</a
       >, and there are smartphone apps for both
       <a
         class="link3"
@@ -2607,7 +2607,7 @@
     <ul>
       <li>
         <nuxt-link
-          href="/table-of-contents/anki/low-key-anki/low-key-anki-summary-and-installation/"
+          to="/table-of-contents/anki/low-key-anki/low-key-anki-summary-and-installation/"
           target="_blank"
           rel="noopener"
           >Low-Key Anki</nuxt-link
@@ -2630,7 +2630,7 @@
         >
         (guide can be found
         <nuxt-link
-          href="/table-of-contents/anki/mia-japanese-addon/"
+          to="/table-of-contents/anki/mia-japanese-addon/"
           target="_blank"
           rel="noopener"
           >here</nuxt-link
