@@ -125,14 +125,14 @@ export default {
   color: transparent;
 }
 @media screen and (max-width: 700px) {
-  .landing-content {
-    // margin: 0 10px;
+  .landing-section {
+    justify-content: flex-start;
   }
   .landing-title {
-    font-size: 30px;
+    font-size: 25px;
   }
   .landing-text {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 </style>

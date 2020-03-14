@@ -15,11 +15,25 @@
           <nuxt-link class="nav-item-text" to="/contact">Contact</nuxt-link>
         </li>
       </ul>
-      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon
+        class="nav-drawer-icon"
+        color="#fff"
+        @click="drawer = true"
+      ></v-app-bar-nav-icon>
     </nav>
-    <v-navigation-drawer v-model="drawer" absolute temporary right>
+    <v-navigation-drawer
+      v-model="drawer"
+      class="nav-drawer"
+      absolute
+      temporary
+      right
+    >
       <v-list nav dense>
         <v-list-item-group>
+          <v-list-item @click="goTo('/')">
+            <v-list-item-title>Home</v-list-item-title>
+          </v-list-item>
+
           <v-list-item @click="goTo('/about')">
             <v-list-item-title>About</v-list-item-title>
           </v-list-item>
@@ -37,11 +51,6 @@
       </v-list>
     </v-navigation-drawer>
   </div>
-  <!-- <font-awesome-icon
-            class="social-icon"
-            :icon="['fab', 'twitter']"
-            :style="{ color: '#1DA1F2' }"
-        /> -->
 </template>
 
 <script>
@@ -77,6 +86,12 @@ nav {
   text-transform: uppercase;
   text-align: left;
 }
+.nav-drawer {
+  display: none;
+}
+.nav-drawer-icon {
+  display: none;
+}
 .nav-items li {
   list-style: none;
   display: inline-block;
@@ -106,6 +121,12 @@ nav {
 @media screen and (max-width: 768px) {
   .nav-items {
     display: none;
+  }
+  .nav-drawer {
+    display: block;
+  }
+  .nav-drawer-icon {
+    display: inline-flex;
   }
 }
 //
