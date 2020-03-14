@@ -1,50 +1,46 @@
 <template>
-  <v-footer padless>
-    <v-card class="flex" flat tile>
-      <v-card-title>
-        <div class="footer-container">
-          <strong class="subheading"
-            ><strong class="copyright"
-              >Copyright &copy; {{ new Date().getFullYear() }} Mass Immersion
-              Approach</strong
-            ></strong
-          >
+  <v-footer>
+    <div class="footer-container">
+      <strong class="subheading"
+        ><strong class="copyright"
+          >Copyright &copy; {{ new Date().getFullYear() }} Mass Immersion
+          Approach</strong
+        ></strong
+      >
 
-          <div class="social-icons">
-            <a href="https://youtube.com/user/MATTvsJapan">
-              <font-awesome-icon
-                class="social-icon"
-                :icon="['fab', 'youtube']"
-                :style="{ color: '#FF0000' }"
-              />
-            </a>
+      <div class="social-icons">
+        <a href="https://youtube.com/user/MATTvsJapan">
+          <font-awesome-icon
+            class="social-icon"
+            :icon="['fab', 'youtube']"
+            :style="{ color: '#FF0000' }"
+          />
+        </a>
 
-            <a href="https://twitter.com/mattvsjapan">
-              <font-awesome-icon
-                class="social-icon"
-                :icon="['fab', 'twitter']"
-                :style="{ color: '#1DA1F2' }"
-            /></a>
-            <a href="https://www.patreon.com/massimmersionapproach">
-              <font-awesome-icon
-                class="social-icon"
-                :icon="['fab', 'patreon']"
-                :style="{ color: '#f96854' }"
-              />
-            </a>
-            <a href="https://ko-fi.com/massimmersionapproach">
-              <font-awesome-icon
-                class="social-icon"
-                :icon="['fas', 'coffee']"
-                :style="{
-                  color: '#29ABE0'
-                }"
-              />
-            </a>
-          </div>
-        </div>
-      </v-card-title>
-    </v-card>
+        <a href="https://twitter.com/mattvsjapan">
+          <font-awesome-icon
+            class="social-icon"
+            :icon="['fab', 'twitter']"
+            :style="{ color: '#1DA1F2' }"
+        /></a>
+        <a href="https://www.patreon.com/massimmersionapproach">
+          <font-awesome-icon
+            class="social-icon"
+            :icon="['fab', 'patreon']"
+            :style="{ color: '#f96854' }"
+          />
+        </a>
+        <a href="https://ko-fi.com/massimmersionapproach">
+          <font-awesome-icon
+            class="social-icon"
+            :icon="['fas', 'coffee']"
+            :style="{
+              color: '#29ABE0'
+            }"
+          />
+        </a>
+      </div>
+    </div>
   </v-footer>
 </template>
 
@@ -54,7 +50,7 @@ export default {}
 
 <style lang="scss" scoped>
 .copyright {
-  font-size: 12px;
+  font-size: 15px;
 }
 .social-icons {
   display: flex;
