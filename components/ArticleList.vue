@@ -1,14 +1,14 @@
 <template>
   <div class="content clearfix">
     <div class="main-content">
-      <h1 class="recent-post-title">{{ title }}</h1>
+      <h1 v-if="title" class="recent-post-title">{{ title }}</h1>
       <ArticlePreview
         v-for="article in articles"
         :key="article.title"
         v-bind="article"
       />
     </div>
-    <div class="sidebar">
+    <!-- <div class="sidebar">
       <div class="section topics">
         <h2 class="section-title">Popular Posts</h2>
         <ul>
@@ -29,7 +29,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -45,7 +45,7 @@ export default {
     title: {
       type: String,
       required: false,
-      default: 'Results'
+      default: ''
     },
     articles: {
       type: Array,
@@ -68,7 +68,8 @@ export default {
 }
 
 .content .main-content .recent-post-title {
-  margin: 20px;
+  width: 80%;
+  margin: 20px auto;
 }
 .content .sidebar {
   width: 30%;

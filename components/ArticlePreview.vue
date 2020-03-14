@@ -10,14 +10,25 @@
       <p class="preview-text">
         {{ description }}
       </p>
-      <nuxt-link :to="link" class="read-more">Read More</nuxt-link>
+      <BaseButton
+        background-color="#436c8a"
+        rounded
+        padding="8px 40px"
+        class="read-more"
+        @click="goTo(link)"
+        >Read More</BaseButton
+      >
     </div>
   </v-card>
 </template>
 
 <script>
+import BaseButton from '~/components/BaseButton'
 export default {
   transition: 'page',
+  components: {
+    BaseButton
+  },
   props: {
     title: {
       type: String,
@@ -33,14 +44,19 @@ export default {
       required: true,
       default: ''
     }
+  },
+  methods: {
+    goTo(link) {
+      this.$router.push(link)
+    }
   }
 }
 </script>
 
 <style lang="scss" scoped>
 .post {
-  width: 70%;
-  height: 270px;
+  width: 80%;
+  height: 250px;
   margin: 20px auto;
   border-radius: 5px;
   background: white;
@@ -54,7 +70,7 @@ export default {
 // }
 .post .post-preview {
   padding: 20px;
-  width: 75%;
+  width: 80%;
   /* float: right; */
   float: left;
 }

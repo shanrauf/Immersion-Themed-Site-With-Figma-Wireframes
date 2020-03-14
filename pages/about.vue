@@ -1,13 +1,17 @@
 <template>
   <div class="article-container">
-    <h2>MIA – Optimizing the Path to Fluency</h2>
+    <h1>About the Mas Immersion Approach</h1>
+    <br />
     <div class="article-content">
       <img
+        style="margin: 0 auto;"
         src="~/assets/Matt-and-Yoga.jpg"
         alt="Matt and Yoga"
         width="1280"
         height="720"
       />
+      <br />
+
       <p>
         Finding the time and energy to learn a foreign language isn’t easy. It’s
         no surprise that most language learning products try to lure in
@@ -288,6 +292,7 @@ export default { transition: 'page' }
 
 <style lang="scss" scoped>
 .article-container {
+  margin: 25px auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -295,7 +300,7 @@ export default { transition: 'page' }
   justify-content: center;
 }
 .article-content {
-  width: 70%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

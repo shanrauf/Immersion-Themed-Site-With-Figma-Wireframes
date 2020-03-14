@@ -1493,6 +1493,7 @@ export default {
 
 <style lang="scss" scoped>
 .article-container {
+  margin: 25px auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1500,7 +1501,7 @@ export default {
   justify-content: center;
 }
 .article-content {
-  width: 70%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

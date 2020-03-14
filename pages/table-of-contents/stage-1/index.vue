@@ -1,64 +1,86 @@
 <template>
   <div class="article-container">
-    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link>
-    <h2>Stage 1</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/table-of-contents/stage-1/stage-1-overview"
-          >Stage 1 Overview</nuxt-link
-        >
-      </li>
-    </ul>
-    <h3>Theory</h3>
-    <ul>
-      <li>
-        <nuxt-link to="/table-of-contents/stage-1/the-fluency-illusion/"
-          >The Fluency Illusion</nuxt-link
-        >
-      </li>
-      <li>
-        <nuxt-link to="/table-of-contents/stage-1/epistemology/"
-          >Epistemology</nuxt-link
-        >
-      </li>
-      <li>
-        <nuxt-link to="/table-of-contents/stage-1/theory-versus-practice/"
-          >Theory vs. Practice</nuxt-link
-        >
-      </li>
-      <li>
-        <nuxt-link to="/table-of-contents/stage-1/acquisition-vs-learning/"
-          >Acquisition vs. Learning</nuxt-link
-        >
-      </li>
-      <li>
-        <nuxt-link to="/table-of-contents/stage-1/6-point-model/"
-          >The 6-Point Model of Language Ability</nuxt-link
-        >
-      </li>
-    </ul>
-    <h3>Practice</h3>
-    <ul>
-      <li>
-        <nuxt-link to="/table-of-contents/stage-1/jp-quickstart-guide/"
-          >Japanese Quickstart Guide</nuxt-link
-        >
-      </li>
-      <li>
-        <nuxt-link to="/table-of-contents/stage-1/recognition-rtk/"
-          >Recognition RTK / RTH</nuxt-link
-        >
-      </li>
-    </ul>
+    <h1>Stage 1</h1>
+    <ArticleList :articles="articles" />
+
+    <ArticleList title="Theory" :articles="theoryArticles" />
+
+    <ArticleList title="Practice" :articles="practiceArticles" />
   </div>
 </template>
 
 <script>
-export default { transition: 'page' }
+import ArticleList from '~/components/ArticleList'
+
+export default {
+  transition: 'page',
+  components: {
+    ArticleList
+  },
+  data() {
+    return {
+      articles: [
+        {
+          title: 'Stage 1 Overview',
+          description:
+            'The goals of stage 1 of MIA are to build a foundation in language acquisition theory, create a robust immersion environment, become comfortable with tools such as Anki, etc.',
+          link: '/table-of-contents/stage-1/stage-1-overview'
+        }
+      ],
+      theoryArticles: [
+        {
+          title: 'The Fluency Illusion',
+          description:
+            'If you’re a beginner (or any level, really) in a foreign language, up to what point are you able to judge someone’s language ability? The answer to this question is simple: You can only judge ability up to your own level...',
+          link: '/table-of-contents/stage-1/theory/the-fluency-illusion'
+        },
+        {
+          title: 'Epistemology',
+          description:
+            'The Dunning–Kruger effect is a cognitive bias in which, for any given skill, people at relatively low levels tend to overestimate their ability, due to not being competent enough to recognize their own incompetence. In language learning...',
+          link: '/table-of-contents/stage-1/theory/epistemology'
+        },
+        {
+          title: 'Theory Vs. Practice',
+          description:
+            'In the context of language acqusition, the idea of Theory vs Practice applies on two different levels...',
+          link: '/table-of-contents/stage-1/theory/theory-versus-practice'
+        },
+        {
+          title: 'Acquisition Vs. Learning',
+          description:
+            'The difference between acquisition and learning is crucial to understand when attempting to learn a foreign langauge.',
+          link: '/table-of-contents/stage-1/theory/acquisition-vs-learning'
+        },
+        {
+          title: 'The 6-Point Model of Language Ability',
+          description:
+            "As language learners, we need to be able to talk about different levels of ability. It's what allows us to set concrete goals, measure how effective different methods are, and determine how qualified someone is to give advice.",
+          link: '/table-of-contents/stage-1/theory/6-point-model'
+        }
+      ],
+      practiceArticles: [
+        {
+          title: 'Japanese Quickstart Guide',
+          description:
+            'The following guide was designed to contain everything needed to complete Stage 1 of MIA for Japanese. It’s mainly focused on what to do and less on why to do it.',
+          link: '/table-of-contents/stage-1/jp-quickstart-guide'
+        },
+        {
+          title: 'Recognition RTK / RTH',
+          description:
+            'In the two videos above I am talking about Japanese kanji and the book Remembering the Kanji, but all of the same principles apply to Chinese hanzi and the books Remembering Simplified Hanzi and Remembering Traditional Hanzi (from here on RTH) respectively.',
+          link: '/table-of-contents/stage-1/practice/recognition-rtk'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
 .article-container {
+  margin: 25px auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -66,7 +88,7 @@ export default { transition: 'page' }
   justify-content: center;
 }
 .article-content {
-  width: 70%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
