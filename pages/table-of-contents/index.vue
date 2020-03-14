@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="article-container">
     <h2 style="text-align: center;">Table of Contents</h2>
     <h1 style="text-align: center;">
       <nuxt-link to="/table-of-contents/stage-0/">Stage 0</nuxt-link>
@@ -32,4 +32,19 @@
 export default { transition: 'page' }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.article-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.article-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+</style>

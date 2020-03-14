@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
-    <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
+  <div class="article-container">
+    <p>
+      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+      <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
+    </p>
     <h2>Stage 1 Overview</h2>
     For a brief summary of the action steps in written form:
     <nuxt-link to="/table-of-contents/stage-0/overview/"
@@ -25,4 +27,19 @@
 export default { transition: 'page' }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.article-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.article-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+</style>

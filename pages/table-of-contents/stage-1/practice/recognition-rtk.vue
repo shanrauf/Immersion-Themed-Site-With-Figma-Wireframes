@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="article-container">
     <p>
       <strong>UPDATE 8/15/2019:</strong> We have decided to change the term Lazy
       Kanji to Recognition RTK, as it is more straightforward and objectively
@@ -136,4 +136,19 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.article-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.article-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+</style>

@@ -1,8 +1,10 @@
 <template>
-  <div>
+  <div class="article-container">
     <h2>Mass Immersion Approach</h2>
-    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
-    <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
+    <p>
+      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+      <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
+    </p>
     <h2>The 6-Point Model of Language Ability</h2>
     <p style="text-align: center;">Table of Contents</p>
 
@@ -464,14 +466,14 @@
     definition, as the word means something different to everyone. But in the
     context of MIA, the minimum criteria to be considered “fluent” is as
     follows:
-    <p style="text-align: left;"><strong>Spoken Language:</strong></p>
+    <p><strong>Spoken Language:</strong></p>
     <img
       src="https://massimmersionapproach.com/imgs/2019/01/spoken_fluency.svg"
       alt=""
       width="500"
       height="400"
     />
-    <p style="text-align: left;"><strong>Written Language:</strong></p>
+    <p><strong>Written Language:</strong></p>
     <img
       src="https://massimmersionapproach.com/imgs/2019/01/written_fluent.svg"
       alt=""
@@ -667,4 +669,19 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.article-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.article-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+</style>

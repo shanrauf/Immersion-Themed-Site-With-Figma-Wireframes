@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="article-container">
     <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
     <nuxt-link to="/anki/">Anki</nuxt-link>
     <h2>Can the "Easy" Button Save the Day?</h2>
@@ -81,4 +81,19 @@
 export default { transition: 'page' }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.article-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.article-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+</style>

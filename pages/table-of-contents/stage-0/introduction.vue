@@ -78,9 +78,10 @@ export default {
   justify-content: center;
 }
 .article-content {
+  width: 70%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 .post {

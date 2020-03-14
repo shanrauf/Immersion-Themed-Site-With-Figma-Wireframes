@@ -1,8 +1,10 @@
 <template>
-  <div>
+  <div class="article-container">
     <h2>Mass Immersion Approach</h2>
-    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
-    <nuxt-link to="/table-of-contents/tools/">Tools</nuxt-link>
+    <p>
+      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+      <nuxt-link to="/table-of-contents/tools/">Tools</nuxt-link>
+    </p>
     <h2>Glossary</h2>
     <p style="text-align: center; font-size: 25px;">
       <nuxt-link to="#A">A</nuxt-link> <nuxt-link to="#B">B </nuxt-link
@@ -378,4 +380,19 @@
 export default { transition: 'page' }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.article-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.article-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+</style>

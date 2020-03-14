@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="article-container">
     <section class="landing-section">
       <div class="landing-content">
         <h1 class="landing-title">
