@@ -178,8 +178,8 @@
         target language, and place it in the following directory:
       </p>
       <code>
-        C:/Users/[<em>user</em>]/AppData/Roaming/
-        Anki2/addons/211655992655/user_files/dictionaries
+        C:/Users/[<em>user</em>]/AppData/Roaming/ Anki2/addons/211655992655/
+        user_files/dictionaries
       </code>
 
       <p>
@@ -619,8 +619,8 @@
         folder
       </p>
       <p>
-        C:/Users/[<em>user</em>]/AppData/Roaming/
-        Anki2/addons21/1655992655/user_files/ dictionaries/[<em>language</em>]
+        C:/Users/[<em>user</em>]/AppData/Roaming/ Anki2/addons21/1655992655/
+        user_files/dictionaries/[<em>language</em>]
       </p>
       <img
         src="https://massimmersionapproach.com/imgs/2019/12/mia-dict-header4.png"
@@ -1745,8 +1745,8 @@
         reference in the following directory:
       </p>
       <code
-        >C:/User>s/[C:/Users/[user]/AppData/Roaming/ Anki2/addons21/1655992655/
-        user_files/fonts</code
+        >C:/User>s/[C:/Users/[user]/AppData/ Roaming/Anki2/addons21/
+        1655992655/user_files/fonts</code
       >
 
       <p>
@@ -2046,7 +2046,7 @@ export default { transition: 'page' }
 <style lang="scss" scoped>
 .article-container {
   margin: 25px auto;
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2069,10 +2069,10 @@ img {
 }
 @media screen and (max-width: 600px) {
   .article-container {
-    width: 80%;
+    width: 85%;
   }
   .article-content img {
-    max-width: 400px;
+    max-width: 200px;
   }
 }
 </style>

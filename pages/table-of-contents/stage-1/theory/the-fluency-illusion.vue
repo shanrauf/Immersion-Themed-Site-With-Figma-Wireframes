@@ -78,7 +78,7 @@ export default {
 <style lang="scss" scoped>
 .article-container {
   margin: 25px auto;
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
