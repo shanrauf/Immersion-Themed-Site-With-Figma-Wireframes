@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2>Mass Immersion Approach</h2>
     <a href="/table-of-contents/">Table of Contents</a> |
     <a href="/table-of-contents/stage-1/">Stage 1</a>
     <h2>Stage 1 Overview</h2>

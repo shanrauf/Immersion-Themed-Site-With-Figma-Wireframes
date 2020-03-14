@@ -14,6 +14,7 @@
           padding="12px 40px"
           rounded
           border="2px solid #207069"
+          @click="goToAbout"
           >Learn More</BaseButton
         >
       </div>
@@ -66,6 +67,9 @@ export default {
         top,
         behavior: 'smooth'
       })
+    },
+    goToAbout() {
+      this.$router.push('/about')
     }
   }
 }
