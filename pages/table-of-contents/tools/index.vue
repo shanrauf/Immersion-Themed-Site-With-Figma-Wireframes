@@ -1,39 +1,49 @@
 <template>
   <div class="article-container">
-    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link>
-    <h2>Tools</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/table-of-contents/tools/glossary/">Glossary</nuxt-link>
-      </li>
-      <li><nuxt-link to="/table-of-contents/anki/">Anki</nuxt-link></li>
-      <li>
-        <nuxt-link
-          to="https://frenchyann.github.io/language-aptitude-graphs"
-          target="_blank"
-          rel="noopener"
-          >6-Point Ability Graphing Widget</nuxt-link
-        >
-      </li>
-    </ul>
+    <h1>Tools</h1>
+    <ArticleList :articles="articles" />
   </div>
 </template>
 
 <script>
-export default { transition: 'page' }
+import ArticleList from '~/components/ArticleList'
+
+export default {
+  transition: 'page',
+  components: {
+    ArticleList
+  },
+  data() {
+    return {
+      articles: [
+        {
+          title: 'MIA Glossary',
+          description:
+            'The MIA Glossary contains entries for all technical, language learning terms that you may come across on the site.',
+          link: '/table-of-contents/tools/glossary'
+        },
+        {
+          title: 'Anki',
+          description:
+            'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
+          link: '/table-of-contents/anki'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
 .article-container {
   margin: 25px auto;
-  width: 100%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .article-content {
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

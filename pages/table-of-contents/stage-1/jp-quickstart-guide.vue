@@ -2561,7 +2561,7 @@
                   You can find a comprehensive guide for using MorphMan
                   <nuxt-link
                     class="link3"
-                    to="/table-of-contents/anki/morphman/"
+                    to="/table-of-contents/anki/table-of-contents/anki/morphman/"
                     target="_blank"
                     rel="noopener"
                     >here</nuxt-link
@@ -3433,14 +3433,13 @@ export default {
 <style lang="scss" scoped>
 .article-container {
   margin: 25px auto;
-  width: 100%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .article-content {
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

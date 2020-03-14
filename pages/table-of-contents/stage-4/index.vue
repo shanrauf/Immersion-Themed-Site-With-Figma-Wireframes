@@ -11,14 +11,13 @@ export default { transition: 'page', components: { ComingSoon } }
 <style lang="scss" scoped>
 .article-container {
   margin: 25px auto;
-  width: 100%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .article-content {
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

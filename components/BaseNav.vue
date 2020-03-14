@@ -5,11 +5,6 @@
     </nuxt-link>
     <ul class="nav-items">
       <li><nuxt-link class="nav-item-text" to="/about">About</nuxt-link></li>
-      <!-- <li>
-        <nuxt-link class="nav-item-text" to="/table-of-contents"
-          >Table of Contents</nuxt-link
-        >
-      </li> -->
       <li>
         <nuxt-link class="nav-item-text" to="/table-of-contents">
           Table of Contents</nuxt-link
@@ -58,11 +53,20 @@ nav {
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 0 25px;
+  padding: 0 20px;
   font-size: 15px;
   display: block;
   line-height: 30px;
   position: relative;
   z-index: 1;
 }
+@media screen and (max-width: 600px) {
+  .nav-item-text {
+    letter-spacing: 0px;
+    font-size: 12px;
+    padding: 0 15px;
+    letter-spacing: 1px;
+  }
+}
+//
 </style>

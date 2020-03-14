@@ -1,120 +1,135 @@
 <template>
   <div class="article-container">
-    <p>
-      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
-      <nuxt-link to="/table-of-contents/tools/">Tools</nuxt-link>
-    </p>
-    <h2>Anki</h2>
-    <ul>
-      <li>
-        Low-Key Anki
-        <ul>
-          <li>
-            <nuxt-link to="/table-of-contents/anki/low-key-anki/intro/"
-              >Intro</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link
-              to="/table-of-contents/anki/low-key-anki/the-forgetting-curve/"
-              >The Forgetting Curve</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link
-              to="/table-of-contents/anki/low-key-anki/forgetting-strategically/"
-              >Forgetting Strategically</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link
-              to="/table-of-contents/anki/low-key-anki/the-ease-factor-problem/"
-              >The Ease Factor Problem</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link
-              to="/table-of-contents/anki/low-key-anki/can-the-easy-button-save-the-day/"
-              >Can the "Easy" Button Save the Day?</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link
-              to="/table-of-contents/anki/low-key-anki/solving-the-ease-factor-problem/"
-              >Solving the Ease Factor Problem</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link
-              to="/table-of-contents/anki/low-key-anki/low-key-anki-no-penalties-or-boosting/"
-              >Low-Key Anki: No Penalties or Boosting</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link
-              to="/table-of-contents/anki/low-key-anki/low-key-anki-pass-fail/"
-              >Low-Key Anki: Pass/Fail</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link
-              to="/table-of-contents/anki/low-key-anki/low-key-anki-summary-and-installation/"
-              >Low-Key Anki: Summary and Installation</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link
-              to="/table-of-contents/anki/low-key-anki/low-key-anki-usage-guide/"
-              >Low-Key Anki: Usage Guide</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link to="/table-of-contents/anki/low-key-anki/closing/"
-              >Closing</nuxt-link
-            >
-          </li>
-        </ul>
-      </li>
-      <li>
-        <nuxt-link to="/table-of-contents/anki/mia-japanese-addon/"
-          >MIA Japanese Add-on Guide</nuxt-link
-        >
-      </li>
-      <li>
-        <nuxt-link to="/table-of-contents/anki/mia-dictionary/"
-          >MIA Dictionary Add-on Guide</nuxt-link
-        >
-      </li>
-      <li>
-        <nuxt-link to="/morphman">Comprehensive Guide to MorphMan</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link
-          to="https://pheartheceal.github.io/anki-optimizer/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Anki Optimizer and Simulator</nuxt-link
-        >
-      </li>
-    </ul>
+    <h1>Anki</h1>
+    <ArticleList title="Low-Key Anki" :articles="lowKeyAnkiArticles" />
+
+    <ArticleList title="Anki Guides" :articles="articles" />
   </div>
 </template>
 
 <script>
-export default { transition: 'page' }
+import ArticleList from '~/components/ArticleList'
+
+export default {
+  transition: 'page',
+  components: {
+    ArticleList
+  },
+  data() {
+    return {
+      articles: [
+        {
+          title: 'MIA Japanese Addon Guide',
+          description:
+            'MIA Japanese is an Anki 2.1 add-on that provides a variety of features for improving the ease and efficiency of Japanese study.',
+          link: '/table-of-contents/anki/mia-japanese-addon/'
+        },
+        {
+          title: 'MIA Dictionary Addon Guide',
+          description:
+            'The MIA Dictionary Anki addon is designed to radically streamline the card creation process for language learning.',
+          link: '/table-of-contents/anki/mia-dictionary'
+        },
+        {
+          title: 'MorphMan Guide',
+          description:
+            'MorphMan is an Anki add-on that keeps track of what words you know and uses that to reorder your new cards into an optimal order for learning.',
+          link: '/table-of-contents/anki/morphman'
+        },
+        {
+          title: 'Anki Optimizer and Simulator',
+          description:
+            'This tool helps you optimize your learning steps and interval modifier in Anki.',
+          link: 'https://pheartheceal.github.io/anki-optimizer/'
+        }
+      ],
+      lowKeyAnkiArticles: [
+        {
+          title: 'Low-Key Anki: Introduction',
+          description:
+            'The MIA Glossary contains entries for all technical, language learning terms that you may come across on the site.',
+          link: '/table-of-contents/anki/low-key-anki/intro'
+        },
+        {
+          title: 'The Forgetting Curve',
+          description:
+            'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
+          link: '/table-of-contents/anki/low-key-anki/the-forgetting-curve'
+        },
+        {
+          title: 'Forgetting Strategically',
+          description:
+            'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
+          link: '/table-of-contents/anki/low-key-anki/forgetting-strategically'
+        },
+        {
+          title: 'The Ease Factor Problem',
+          description:
+            'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
+          link: '/table-of-contents/anki/low-key-anki/the-ease-factor-problem'
+        },
+        {
+          title: 'Can the Easy Button Save The Day',
+          description:
+            'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
+          link:
+            '/table-of-contents/anki/low-key-anki/can-the-easy-button-save-the-day'
+        },
+        {
+          title: 'Solving the Ease Factor Problem',
+          description:
+            'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
+          link:
+            '/table-of-contents/anki/low-key-anki/solving-the-ease-factor-problem'
+        },
+        {
+          title: 'Low-Key Anki: No Penalties or Boosting',
+          description:
+            'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
+          link:
+            '/table-of-contents/anki/low-key-anki/low-key-anki-no-penalties-or-boosting'
+        },
+        {
+          title: 'Low-Key Anki: Pass/Fail',
+          description:
+            'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
+          link: '/table-of-contents/anki/low-key-anki/low-key-anki-pass-fail'
+        },
+        {
+          title: 'Low-Key Anki: Summary and Installation',
+          description:
+            'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
+          link:
+            '/table-of-contents/anki/low-key-anki/low-key-anki-summary-and-installation'
+        },
+        {
+          title: 'Low-Key Anki: Usage Guide',
+          description:
+            'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
+          link: 'table-of-contents/anki/low-key-anki/low-key-anki-usage-guide'
+        },
+        {
+          title: 'Low-Key Anki: Closing',
+          description:
+            'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
+          link: 'table-of-contents/anki/low-key-anki/closing'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
 .article-container {
   margin: 25px auto;
-  width: 100%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .article-content {
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

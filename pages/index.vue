@@ -28,24 +28,9 @@
 
     <BaseWave color="#204f70" />
 
-    <v-divider />
-
     <section id="articles-section" class="articles-section">
-      <div class="featured-article">
-        <h1>Featured Article title</h1>
-        <span>Date</span>
-        <div class="featured-article-content">
-          <p>ajflajslefjsaliejfilasjeflsaef</p>
-          <nuxt-link to="/">Read More ></nuxt-link>
-        </div>
-      </div>
-      <div class="popular-articles">
-        <div class="popular-article">
-          <h1>Title</h1>
-          <span>Date</span>
-          <p>Mini description or first line?</p>
-        </div>
-      </div>
+      <h1 style="font-size: 50px;">Popular Posts:</h1>
+      <ArticleCarousel />
     </section>
   </div>
 </template>
@@ -53,12 +38,14 @@
 <script>
 import BaseButton from '~/components/BaseButton'
 import BaseWave from '~/components/BaseWave'
+import ArticleCarousel from '~/components/ArticleCarousel'
 
 export default {
   transition: 'page',
   components: {
     BaseButton,
-    BaseWave
+    BaseWave,
+    ArticleCarousel
   },
   methods: {
     scrollTo(elementId) {
@@ -112,10 +99,11 @@ export default {
 .articles-section {
   background: #fff;
   width: 100%;
-  height: 100vh;
-  // display: flex; // could also do grid...
-  // flex-direction: row;
-  // justify-content: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .cd-scroll-down {
   position: relative;
