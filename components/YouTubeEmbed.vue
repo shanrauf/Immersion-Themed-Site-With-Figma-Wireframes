@@ -49,6 +49,9 @@ export default {
 }
 
 .video-container iframe {
+  /*
+  With this, iframes don't appear unless content in div, but without it, some video heights get clipped on pages
+  */
   position: absolute;
   top: 0;
   left: 0;
