@@ -25,12 +25,12 @@ export default {
     width: {
       type: String,
       required: false,
-      default: '640'
+      default: '640px'
     },
     height: {
       type: String,
       required: false,
-      default: '360'
+      default: '360px'
     }
   }
 }

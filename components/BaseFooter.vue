@@ -11,32 +11,44 @@
 
         <v-spacer></v-spacer>
 
-        <font-awesome-icon
-          class="social-icon"
-          :icon="['fab', 'youtube']"
-          :style="{ color: '#FF0000' }"
-        />
-        <font-awesome-icon
-          class="social-icon"
-          :icon="['fab', 'twitter']"
-          :style="{ color: '#1DA1F2' }"
-        />
-        <font-awesome-icon
-          class="social-icon"
-          :icon="['fab', 'patreon']"
-          :style="{ color: '#f96854' }"
-        />
-        <font-awesome-icon
-          class="social-icon"
-          :icon="['fas', 'coffee']"
-          :style="{
-            color: '#29ABE0'
-          }"
-        />
+        <a href="https://youtube.com/user/MATTvsJapan">
+          <font-awesome-icon
+            class="social-icon"
+            :icon="['fab', 'youtube']"
+            :style="{ color: '#FF0000' }"
+          />
+        </a>
+
+        <a href="https://twitter.com/mattvsjapan">
+          <font-awesome-icon
+            class="social-icon"
+            :icon="['fab', 'twitter']"
+            :style="{ color: '#1DA1F2' }"
+        /></a>
+        <a href="https://www.patreon.com/massimmersionapproach">
+          <font-awesome-icon
+            class="social-icon"
+            :icon="['fab', 'patreon']"
+            :style="{ color: '#f96854' }"
+          />
+        </a>
+        <a href="https://ko-fi.com/massimmersionapproach">
+          <font-awesome-icon
+            class="social-icon"
+            :icon="['fas', 'coffee']"
+            :style="{
+              color: '#29ABE0'
+            }"
+          />
+        </a>
       </v-card-title>
     </v-card>
   </v-footer>
 </template>
+
+<script>
+export default {}
+</script>
 
 <style lang="scss" scoped>
 .copyright {

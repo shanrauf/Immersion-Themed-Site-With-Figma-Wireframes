@@ -143,11 +143,11 @@
         is more desirable. Now, there will also be times where no amount of
         reformatting is enough, and a card simply won't stick. In cases like
         these, it's best to just delete the card. According to the
-        <nuxt-link
-          to="https://www.supermemo.com/articles/theory.htm"
+        <a
+          href="https://www.supermemo.com/articles/theory.htm"
           target="_blank"
           rel="noopener"
-          >SuperMemo website</nuxt-link
+          >SuperMemo website</a
         >, "Eliminating 10% of the most difficult items in a generic material
         may produce an increase in the speed of learning of up to 300%"; the
         time that stubborn leeches eat up simply isn't worth the time they take

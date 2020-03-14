@@ -161,11 +161,11 @@
       </p>
       <p>
         (If you have trouble downloading from MEGA, make sure to
-        <nuxt-link
-          to="https://www.lifewire.com/download-multiple-files-in-google-chrome-4103618"
+        <a
+          href="https://www.lifewire.com/download-multiple-files-in-google-chrome-4103618"
           target="_blank"
           rel="noopener noreferrer"
-          >allow any site to download multiple files automatically</nuxt-link
+          >allow any site to download multiple files automatically</a
         >
         in your browser.)
       </p>

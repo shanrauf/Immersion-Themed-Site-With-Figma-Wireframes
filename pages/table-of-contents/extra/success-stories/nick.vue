@@ -11,17 +11,17 @@
       <p>
         Nick got wicked good at Japanese in an incredibly short amount of time.
         An interview with him can be found
-        <nuxt-link
-          to="https://www.patreon.com/posts/interview-with-2-16483471"
+        <a
+          href="https://www.patreon.com/posts/interview-with-2-16483471"
           target="_blank"
           rel="noopener noreferrer"
-          >here</nuxt-link
+          >here</a
         >. A video of Nick giving advice to Japanese learners can be found
-        <nuxt-link
-          to="https://youtu.be/o-TqyBgFZn0"
+        <a
+          href="https://youtu.be/o-TqyBgFZn0"
           target="_blank"
           rel="noopener noreferrer"
-          >here</nuxt-link
+          >here</a
         >. Below is an audio recording of Nick speaking Japanese. It was
         recorded in January, 2018, almost exactly three years after he began
         learning Japanese. Below is an essay he wrote around the same time.

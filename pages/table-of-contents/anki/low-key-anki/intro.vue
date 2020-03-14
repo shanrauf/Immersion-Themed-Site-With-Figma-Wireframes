@@ -30,11 +30,11 @@
         the <em>ease factor problem</em> and <em>Low-Key Anki</em> but other
         aspects of Anki optimization that I will be covering in the future as
         well, such as optimal retention rate. I recommend watching
-        <nuxt-link
-          to="https://www.youtube.com/watch?v=lz60qTP2Gx0"
+        <a
+          href="https://www.youtube.com/watch?v=lz60qTP2Gx0"
           target="_blank"
           rel="noopener"
-          >my guide on the basics of Anki's algorithm</nuxt-link
+          >my guide on the basics of Anki's algorithm</a
         >
         before tackling this guide, as I will be assuming a basic understanding
         of how Anki's algorithm works.
@@ -56,11 +56,11 @@
         That said, I highly encourage you to
         <em>empower yourself</em> by learning how this program you plan on
         investing so many hours into actually works. To quote
-        <nuxt-link
-          to="https://www.lesswrong.com/posts/fg9fXrHpeaDD6pEPL/truly-part-of-you"
+        <a
+          href="https://www.lesswrong.com/posts/fg9fXrHpeaDD6pEPL/truly-part-of-you"
           target="_blank"
           rel="noopener"
-          >Eliezer Yudkowsky</nuxt-link
+          >Eliezer Yudkowsky</a
         >:
       </p>
       <blockquote>
@@ -77,11 +77,11 @@
 
       <p>
         All information I don't specifically cite either comes from the
-        <nuxt-link
-          to="https://www.supermemo.com/english/contents.htm"
+        <a
+          href="https://www.supermemo.com/english/contents.htm"
           target="_blank"
           rel="noopener"
-          >SuperMemo website</nuxt-link
+          >SuperMemo website</a
         >
         or the
         <nuxt-link

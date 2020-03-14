@@ -215,27 +215,25 @@
         At the current moment MIA is still brand new, and the majority of the
         content has not been created yet. What has been created can be found on
         the <nuxt-link to="/table-of-contents/">table of contents</nuxt-link>.
-        You can also check the
-        <nuxt-link to="/updates/">updates</nuxt-link> page for a list of the
-        most recent content.
-        <nuxt-link
-          to="https://www.youtube.com/user/MATTvsJapan"
+
+        <a
+          href="https://www.youtube.com/user/MATTvsJapan"
           target="_blank"
           rel="noopener noreferrer"
-          >Matt</nuxt-link
+          >Matt</a
         >
         and
-        <nuxt-link
-          to="https://www.youtube.com/c/yogamia"
+        <a
+          href="https://www.youtube.com/c/yogamia"
           target="_blank"
           rel="noopener noreferrer"
-          >Yoga</nuxt-link
+          >Yoga</a
         >’s YouTube channels, as well as the
-        <nuxt-link
-          to="https://www.patreon.com/massimmersionapproach"
+        <a
+          href="https://www.patreon.com/massimmersionapproach"
           target="_blank"
           rel="noopener noreferrer"
-          >MIA Patreon Discord Server</nuxt-link
+          >MIA Patreon Discord Server</a
         >, are also great places to find more MIA-related content, tools and
         resources.
       </p>
@@ -250,26 +248,26 @@
       <p>
         Of course, financial support through
         <strong
-          ><nuxt-link
-            to="https://www.patreon.com/massimmersionapproach"
+          ><a
+            href="https://www.patreon.com/massimmersionapproach"
             target="_blank"
             rel="noopener noreferrer"
-            >Patreon</nuxt-link
+            >Patreon</a
           ></strong
         >
         (our main platform),
-        <nuxt-link
-          to="https://www.subscribestar.com/massimmersionapproach"
+        <a
+          href="https://www.subscribestar.com/massimmersionapproach"
           target="_blank"
           rel="noopener noreferrer"
-          >SubscribeStar</nuxt-link
+          >SubscribeStar</a
         >
         or
-        <nuxt-link
+        <a
           to="https://ko-fi.com/massimmersionapproach"
           target="_blank"
           rel="noopener noreferrer"
-          >Ko-fi</nuxt-link
+          >Ko-fi</a
         >
         is greatly appreciated. Ultimately, it’s what allows us to continue
         working on MIA. However, simply by using MIA to acquire a foreign

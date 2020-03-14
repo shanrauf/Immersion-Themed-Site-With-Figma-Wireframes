@@ -223,19 +223,19 @@
         You are already straining your mind trying to correctly answer your
         cards; you don't want to be wasting additional mental energy deciding
         <em>how well you knew something</em>. Ja-dark also cited a
-        <nuxt-link
-          to="https://www.researchgate.net/publication/45604645_Improving_college_students%27_evaluation_of_text_learning_using_idea-unit_standards"
+        <a
+          href="https://www.researchgate.net/publication/45604645_Improving_college_students%27_evaluation_of_text_learning_using_idea-unit_standards"
           target="_blank"
           rel="noopener noreferrer"
-          >study</nuxt-link
+          >study</a
         >
         that found that self-scoring how successful you were at recalling
         something taxes working memory.
-        <nuxt-link
-          to="https://eshapard.github.io/anki/target-an-80-90-percent-success-rate-in-anki.html"
+        <a
+          href="https://eshapard.github.io/anki/target-an-80-90-percent-success-rate-in-anki.html"
           target="_blank"
           rel="noopener noreferrer"
-          >Eshapard</nuxt-link
+          >Eshapard</a
         >
         summed it up perfectly when he said, "From my experience, it really
         slows you down if you're always trying to figure out whether a card you

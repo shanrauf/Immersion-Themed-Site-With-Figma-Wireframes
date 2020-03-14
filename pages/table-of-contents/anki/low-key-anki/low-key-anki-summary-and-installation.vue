@@ -77,11 +77,11 @@
 
       <h1>Installation (Anki 2.0)</h1>
       <p>
-        <nuxt-link
-          to="https://www.mediafire.com/file/0kr8qzf06kybc3f/Low-Key+Anki+2.0.zip"
+        <a
+          href="https://www.mediafire.com/file/0kr8qzf06kybc3f/Low-Key+Anki+2.0.zip"
           target="_blank"
           rel="noopener noreferrer"
-          >Here</nuxt-link
+          >Here</a
         >
         you will find a link to a zip file with three files in it. Each of these
         files is an Anki add-on. To install them, in Anki, go to "Tools &gt;
@@ -108,11 +108,11 @@
         of lapsed cards 100% of the previous interval. This modified version
         will <em>not</em> override the "New Interval" setting in the deck
         options, so whatever is in the deck options will be used. Credit goes to
-        <nuxt-link
-          to="https://www.youtube.com/channel/UCQFe3x4WAgm7joN5daMm5Ew"
+        <a
+          href="https://www.youtube.com/channel/UCQFe3x4WAgm7joN5daMm5Ew"
           target="_blank"
           rel="noopener noreferrer"
-          >Yoga</nuxt-link
+          >Yoga</a
         >
         for the modification.
       </p>
@@ -127,11 +127,11 @@
         the review or learning queue: “3” for review and “2” for learning.) If
         you are studying Japanese and would like to replace the words "pass" and
         "fail" with their Japanese translation, "当たり" and "外れ,"
-        <nuxt-link
-          to="https://www.mediafire.com/file/c2i0rrynqbak2et/PassFail+2.0+%28JP%29.zip"
+        <a
+          href="https://www.mediafire.com/file/c2i0rrynqbak2et/PassFail+2.0+%28JP%29.zip"
           target="_blank"
           rel="noopener noreferrer"
-          >here</nuxt-link
+          >here</a
         >
         is a modified version of the add-on.
       </p>
@@ -153,11 +153,11 @@
       </p>
       <h1 id="2.1">Installation (Anki 2.1)</h1>
       <p>
-        <nuxt-link
-          to="https://www.mediafire.com/file/lzm3qli6bdh2ubw/Low-Key+Anki+2.1.zip"
+        <a
+          href="https://www.mediafire.com/file/lzm3qli6bdh2ubw/Low-Key+Anki+2.1.zip"
           target="_blank"
           rel="noopener noreferrer"
-          >Here</nuxt-link
+          >Here</a
         >
         you will find a link to a zip file with three folders in it. Each of
         these folders is an Anki add-on. To install them, place the three
@@ -195,11 +195,11 @@
         review and “2” for learning.) If you are studying Japanese and would
         like to replace the words "pass" and "fail" with their Japanese
         translation, "当たり" and "外れ,"
-        <nuxt-link
-          to="https://www.mediafire.com/file/l4d63dqsw75urw9/PassFail+2.1+%28JP%29.zip"
+        <a
+          href="https://www.mediafire.com/file/l4d63dqsw75urw9/PassFail+2.1+%28JP%29.zip"
           target="_blank"
           rel="noopener noreferrer"
-          >here</nuxt-link
+          >here</a
         >
         is a modified version of the add-on.
       </p>

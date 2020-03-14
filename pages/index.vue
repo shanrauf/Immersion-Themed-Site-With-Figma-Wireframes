@@ -124,7 +124,7 @@ export default {
   white-space: nowrap;
   color: transparent;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .landing-content {
     margin: 0 10px;
   }

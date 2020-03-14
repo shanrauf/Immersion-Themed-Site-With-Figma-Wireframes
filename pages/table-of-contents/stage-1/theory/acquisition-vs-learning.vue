@@ -6,7 +6,11 @@
     </div>
     <h1>Acquisition vs. Learning</h1>
     <div class="article-content">
-      <YouTubeEmbed src="https://youtube.com/embed/CgIvG2ui5D8" />
+      <p>
+        Here is a video on this very subject of acquisiton versus learning in
+        the context of language acquisition.
+      </p>
+      <YouTubeEmbed src="https://www.youtube.com/embed/CgIvG2ui5D8" />
     </div>
   </div>
 </template>

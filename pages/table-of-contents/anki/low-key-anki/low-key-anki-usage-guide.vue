@@ -55,17 +55,17 @@
         types of memories are in a single, big bucket, your brain will be forced
         to sift through a lot more in order to arrive at the answer. In
         cognitive psychology, this is what is known as
-        <nuxt-link
-          to="https://www.amazon.com/Make-Stick-Science-Successful-Learning/dp/0674729013"
+        <a
+          href="https://www.amazon.com/Make-Stick-Science-Successful-Learning/dp/0674729013"
           target="_blank"
           rel="noopener noreferrer"
-          >the interleaving effect</nuxt-link
+          >the interleaving effect</a
         >; you can think of this as a form of
-        <nuxt-link
-          to="https://en.wikipedia.org/wiki/Desirable_difficulty"
+        <a
+          href="https://en.wikipedia.org/wiki/Desirable_difficulty"
           target="_blank"
           rel="noopener noreferrer"
-          >desirable difficulty</nuxt-link
+          >desirable difficulty</a
         >.
       </p>
 

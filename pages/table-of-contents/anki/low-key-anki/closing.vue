@@ -85,11 +85,11 @@
       <p>
         As of this writing, it's been nearly five months since I initially
         presented Low-Key Anki to my
-        <nuxt-link
-          to="https://www.patreon.com/mattvsjapan"
+        <a
+          href="https://www.patreon.com/mattvsjapan"
           target="_blank"
           rel="noopener noreferrer"
-          >patrons</nuxt-link
+          >patrons</a
         >. When I asked the early adopters what their experience has been, I
         received consistent reports of reduced amount of daily reviews, reduced
         time spent on each card, and massive reductions in stress associated

@@ -5,69 +5,60 @@
     <div class="article-content">
       <p>
         You can find Matt’s content on
-        <nuxt-link
-          to="https://www.youtube.com/user/MATTvsJapan"
+        <a
+          href="https://www.youtube.com/user/MATTvsJapan"
           target="_blank"
           rel="noopener"
-          >YouTube</nuxt-link
+          >YouTube</a
         >
         and
-        <nuxt-link
-          to="https://twitter.com/mattvsjapan"
-          target="_blank"
-          rel="noopener"
-          >Twitter</nuxt-link
+        <a href="https://twitter.com/mattvsjapan" target="_blank" rel="noopener"
+          >Twitter</a
         >, Yoga’s content on
-        <nuxt-link
-          to="https://youtu.be/bx9aU408FGk"
-          target="_blank"
-          rel="noopener"
-          >YouTube</nuxt-link
+        <a href="https://youtu.be/bx9aU408FGk" target="_blank" rel="noopener"
+          >YouTube</a
         >
         and
-        <nuxt-link
-          to="https://twitter.com/Yoga_MIA"
-          target="_blank"
-          rel="noopener"
-          >Twitter</nuxt-link
+        <a href="https://twitter.com/Yoga_MIA" target="_blank" rel="noopener"
+          >Twitter</a
         >
         and additional MIA content on
-        <nuxt-link
-          to="https://www.facebook.com/MassImmersionApproach"
+        <a
+          href="https://www.facebook.com/MassImmersionApproach"
           target="_blank"
           rel="noopener"
-          >Facebook</nuxt-link
+          >Facebook</a
         >
         and
-        <nuxt-link
-          to="https://www.patreon.com/massimmersionapproach"
+        <a
+          href="https://www.patreon.com/massimmersionapproach"
           target="_blank"
           rel="noopener"
-          >Patreon</nuxt-link
+          >Patreon</a
         >.
       </p>
       <p>
         If it wasn’t for the support we receive on Patreon, we would not be able
         to work on MIA full time. If you appreciate our content, please consider
         pledging. If you are not a fan of Patreon, you can also support us on
-        <nuxt-link
-          to="https://www.subscribestar.com/massimmersionapproach"
+        <a
+          href="https://www.subscribestar.com/massimmersionapproach"
           target="_blank"
           rel="noopener"
-          >SubscribeStar</nuxt-link
+          >SubscribeStar</a
         >,
-        <nuxt-link
-          to="https://ko-fi.com/massimmersionapproach"
+        <a
+          href="https://ko-fi.com/massimmersionapproach"
           target="_blank"
           rel="noopener"
-          >Ko-fi</nuxt-link
+          >Ko-fi</a
         >
         or
-        <nuxt-link
-          to="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=AWX62JYXDR7BY&amp;source=url"
+        <a
+          href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=AWX62JYXDR7BY&amp;source=url"
           target="_blank"
           rel="noopener"
-          >PayPal</nuxt-link
+          >PayPal</a
         >.
       </p>
       <p>
@@ -77,11 +68,11 @@
       <p>
         If you would like to seek advice or ask a question directly, the best
         way to do so is through Matt’s
-        <nuxt-link
-          to="https://www.patreon.com/massimmersionapproach"
+        <a
+          href="https://www.patreon.com/massimmersionapproach"
           target="_blank"
           rel="noopener"
-          >biweekly Patreon Q&amp;A</nuxt-link
+          >biweekly Patreon Q&amp;A</a
         >.<strong><br /></strong>
       </p>
       <p>
@@ -93,29 +84,29 @@
         work.
       </p>
       <h1>
-        <nuxt-link
-          to="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=AWX62JYXDR7BY&amp;source=url"
+        <a
+          href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=AWX62JYXDR7BY&amp;source=url"
           target="_blank"
           rel="nofollow noopener"
           class="no-lightbox"
           ><img
             class="aligncenter"
             style="border: 0px; height: 30px;"
-            src="https://web.archive.org/web/20191219122642im_/https://www.paypal.com/en_US/i/btn/x-click-but21.gif"
-            alt=""/></nuxt-link
-        ><nuxt-link
-          to="https://ko-fi.com/D1D3VO8Z"
+            src="https://www.paypal.com/en_US/i/btn/x-click-but21.gif"
+            alt=""/></a
+        ><a
+          href="https://ko-fi.com/D1D3VO8Z"
           target="_blank"
           rel="noopener"
           class="no-lightbox"
           ><img
             class="aligncenter"
             style="border: 0px; height: 32px; width: 140px;"
-            src="https://web.archive.org/web/20191219122642im_/https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2"
+            src="https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2"
             alt="Buy Me a Coffee at ko-fi.com"
             height="36"
             border="0"
-        /></nuxt-link>
+        /></a>
       </h1>
     </div>
   </div>

@@ -518,11 +518,6 @@
                     alt=""
                     width="400"
                     height="85"
-                    srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/k0.png.png        454w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/k0.png-300x64.png 300w
-                    "
-                    sizes="(max-width: 400px) 100vw, 400px"
                   />
                 </p>
                 <p>
@@ -610,8 +605,8 @@
                     width="400"
                     height="119"
                     srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/preferences1.png        413w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/preferences1-300x89.png 300w
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences1.png        413w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences1-300x89.png 300w
                     "
                     sizes="(max-width: 400px) 100vw, 400px"
                   />
@@ -625,9 +620,9 @@
                     width="700"
                     height="359"
                     srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/preferences_note_filter4.png         935w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/preferences_note_filter4-300x154.png 300w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/preferences_note_filter4-768x393.png 768w
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_note_filter4.png         935w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_note_filter4-300x154.png 300w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_note_filter4-768x393.png 768w
                     "
                     sizes="(max-width: 700px) 100vw, 700px"
                   />
@@ -658,9 +653,9 @@
                     width="700"
                     height="352"
                     srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/10/note-filter-order.png         952w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/10/note-filter-order-300x151.png 300w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/10/note-filter-order-768x386.png 768w
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/10/note-filter-order.png         952w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/10/note-filter-order-300x151.png 300w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/10/note-filter-order-768x386.png 768w
                     "
                     sizes="(max-width: 700px) 100vw, 700px"
                   />
@@ -689,9 +684,9 @@
                     width="700"
                     height="359"
                     srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/preferences_extra_fields2.png         935w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/preferences_extra_fields2-300x154.png 300w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/preferences_extra_fields2-768x393.png 768w
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_extra_fields2.png         935w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_extra_fields2-300x154.png 300w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_extra_fields2-768x393.png 768w
                     "
                     sizes="(max-width: 700px) 100vw, 700px"
                   />
@@ -1213,8 +1208,8 @@
                     width="400"
                     height="404"
                     srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/new-cards-in-order-added1.png         490w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/new-cards-in-order-added1-297x300.png 297w
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/new-cards-in-order-added1.png         490w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/new-cards-in-order-added1-297x300.png 297w
                     "
                     sizes="(max-width: 400px) 100vw, 400px"
                   />
@@ -1295,10 +1290,10 @@
                     width="800"
                     height="592"
                     srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/before-repping1.png          1126w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/before-repping1-300x222.png   300w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/before-repping1-768x568.png   768w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/before-repping1-1024x758.png 1024w
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/before-repping1.png          1126w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/before-repping1-300x222.png   300w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/before-repping1-768x568.png   768w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/before-repping1-1024x758.png 1024w
                     "
                     sizes="(max-width: 800px) 100vw, 800px"
                   />
@@ -1317,8 +1312,8 @@
                     width="400"
                     height="367"
                     srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/browser-edit2.png         473w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/browser-edit2-300x275.png 300w
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/browser-edit2.png         473w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/browser-edit2-300x275.png 300w
                     "
                     sizes="(max-width: 400px) 100vw, 400px"
                   />
@@ -1413,8 +1408,8 @@
                     width="350"
                     height="149"
                     srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/01/reorder.png         413w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/01/reorder-300x128.png 300w
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/01/reorder.png         413w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/01/reorder-300x128.png 300w
                     "
                     sizes="(max-width: 350px) 100vw, 350px"
                   />
@@ -1620,10 +1615,10 @@
                     width="700"
                     height="421"
                     srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/morphman-readability-analyzer.png          1030w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/morphman-readability-analyzer-300x181.png   300w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/morphman-readability-analyzer-768x462.png   768w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/09/morphman-readability-analyzer-1024x616.png 1024w
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/morphman-readability-analyzer.png          1030w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/morphman-readability-analyzer-300x181.png   300w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/morphman-readability-analyzer-768x462.png   768w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/morphman-readability-analyzer-1024x616.png 1024w
                     "
                     sizes="(max-width: 700px) 100vw, 700px"
                   />
@@ -1788,8 +1783,8 @@
                     width="500"
                     height="220"
                     srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/02/config.py_.png         704w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/wp-content/uploads/2019/02/config.py_-300x132.png 300w
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/02/config.py_.png         704w,
+                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/02/config.py_-300x132.png 300w
                     "
                     sizes="(max-width: 500px) 100vw, 500px"
                   />
