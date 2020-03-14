@@ -1,5 +1,6 @@
 <template>
   <svg
+    class="wave"
     :style="flippedStyle"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 819 66"
@@ -36,4 +37,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.wave {
+  border-left: 5px solid #204f70;
+  border-right: 5px solid #204f70;
+}
+</style>

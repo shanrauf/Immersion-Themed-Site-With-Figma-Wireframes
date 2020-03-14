@@ -86,9 +86,6 @@ nav {
   text-transform: uppercase;
   text-align: left;
 }
-.nav-drawer {
-  display: none;
-}
 .nav-drawer-icon {
   display: none;
 }
@@ -121,9 +118,6 @@ nav {
 @media screen and (max-width: 768px) {
   .nav-items {
     display: none;
-  }
-  .nav-drawer {
-    display: block;
   }
   .nav-drawer-icon {
     display: inline-flex;
