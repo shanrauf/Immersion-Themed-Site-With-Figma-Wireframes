@@ -21,13 +21,7 @@
         @click="drawer = true"
       ></v-app-bar-nav-icon>
     </nav>
-    <v-navigation-drawer
-      v-model="drawer"
-      class="nav-drawer"
-      absolute
-      temporary
-      right
-    >
+    <v-navigation-drawer v-model="drawer" color="white" app temporary right>
       <v-list nav dense>
         <v-list-item-group>
           <v-list-item @click="goTo('/')">

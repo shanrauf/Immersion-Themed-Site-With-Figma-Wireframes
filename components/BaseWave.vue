@@ -39,7 +39,7 @@ export default {
 
 <style lang="scss" scoped>
 .wave {
-  border-left: 5px solid #204f70;
-  border-right: 5px solid #204f70;
+  /* Fixes weird margin on mobile */
+  width: 105%;
 }
 </style>
