@@ -1,21 +1,63 @@
 <template>
-  <nav>
-    <nuxt-link to="/">
-      <img src="~/assets/mia_white.png" alt="MIA Logo" class="logo" />
-    </nuxt-link>
-    <ul class="nav-items">
-      <li><nuxt-link class="nav-item-text" to="/about">About</nuxt-link></li>
-      <li>
-        <nuxt-link class="nav-item-text" to="/table-of-contents">
-          Table of Contents</nuxt-link
-        >
-      </li>
-      <li>
-        <nuxt-link class="nav-item-text" to="/contact">Contact</nuxt-link>
-      </li>
-    </ul>
-  </nav>
+  <div>
+    <nav>
+      <nuxt-link to="/">
+        <img src="~/assets/mia_white.png" alt="MIA Logo" class="logo" />
+      </nuxt-link>
+      <ul class="nav-items">
+        <li><nuxt-link class="nav-item-text" to="/about">About</nuxt-link></li>
+        <li>
+          <nuxt-link class="nav-item-text" to="/table-of-contents">
+            Table of Contents</nuxt-link
+          >
+        </li>
+        <li>
+          <nuxt-link class="nav-item-text" to="/contact">Contact</nuxt-link>
+        </li>
+      </ul>
+      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+    </nav>
+    <v-navigation-drawer v-model="drawer" absolute temporary right>
+      <v-list nav dense>
+        <v-list-item-group>
+          <v-list-item @click="goTo('/about')">
+            <v-list-item-title>About</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item @click="goTo('/table-of-contents')">
+            <v-list-item-title>Table of Contents</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item>
+            <v-list-item-title @click="goTo('/contact')"
+              >Contact</v-list-item-title
+            >
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
+  </div>
+  <!-- <font-awesome-icon
+            class="social-icon"
+            :icon="['fab', 'twitter']"
+            :style="{ color: '#1DA1F2' }"
+        /> -->
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      drawer: false
+    }
+  },
+  methods: {
+    goTo(link) {
+      this.$router.push(link)
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 nav {
@@ -60,12 +102,10 @@ nav {
   position: relative;
   z-index: 1;
 }
-@media screen and (max-width: 600px) {
-  .nav-item-text {
-    letter-spacing: 0px;
-    font-size: 12px;
-    padding: 0 15px;
-    letter-spacing: 1px;
+
+@media screen and (max-width: 768px) {
+  .nav-items {
+    display: none;
   }
 }
 //

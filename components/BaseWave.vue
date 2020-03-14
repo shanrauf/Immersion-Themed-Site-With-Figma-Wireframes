@@ -29,8 +29,8 @@ export default {
   computed: {
     flippedStyle() {
       return this.flipped
-        ? 'transform: rotate(180deg); margin-bottom: -10px'
-        : 'margin-bottom: -10px;'
+        ? 'transform: rotate(180deg); margin-bottom: -8px'
+        : 'margin-bottom: -8px;'
     }
   }
 }

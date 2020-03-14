@@ -74,7 +74,7 @@ export default {
   background: #204f70;
   margin-bottom: -2px;
   width: 100%;
-  height: 30vh;
+  height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -126,7 +126,7 @@ export default {
 }
 @media screen and (max-width: 700px) {
   .landing-content {
-    margin: 0 10px;
+    // margin: 0 10px;
   }
   .landing-title {
     font-size: 30px;
