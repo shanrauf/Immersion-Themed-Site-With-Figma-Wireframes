@@ -2,19 +2,21 @@
   <div class="article-container">
     <h2>Mass Immersion Approach</h2>
     <p>
-      <a to="/table-of-contents/">Table of Contents</a> |
-      <a to="/table-of-contents/tools/">Tools</a>
+      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+      <nuxt-link to="/table-of-contents/tools/">Tools</nuxt-link>
     </p>
     <h2>Glossary</h2>
     <div class="article-content">
       <p style="text-align: center; font-size: 25px;">
-        <a to="#A">A</a> <a to="#B">B </a><a to="#C">C </a> <a to="#D">D</a>
-        <a to="#E">E</a> <a to="#F">F</a> <a to="#G">G</a> <a to="#H">H</a>
-        <a to="#I">I</a> <a to="#J">J</a> <a to="#K">K</a> <a to="#L">L</a>
-        <a to="#M">M</a> <a to="#N">N</a> <a to="#O">O</a> <a to="#P">P</a>
-        <a to="#Q">Q</a> <a to="#R">R</a> <a to="#S">S</a> <a to="#T">T</a>
-        <a to="#U">U</a> <a to="#V">V</a> <a to="#W">W </a> <a to="#X">X</a>
-        <a to="#Y">Y</a> <a to="#Z">Z</a>
+        <a href="#A">A</a> <a href="#B">B </a><a href="#C">C </a>
+        <a href="#D">D</a> <a href="#E">E</a> <a href="#F">F</a>
+        <a href="#G">G</a> <a href="#H">H</a> <a href="#I">I</a>
+        <a href="#J">J</a> <a href="#K">K</a> <a href="#L">L</a>
+        <a href="#M">M</a> <a href="#N">N</a> <a href="#O">O</a>
+        <a href="#P">P</a> <a href="#Q">Q</a> <a href="#R">R</a>
+        <a href="#S">S</a> <a href="#T">T</a> <a href="#U">U</a>
+        <a href="#V">V</a> <a href="#W">W </a> <a href="#X">X</a>
+        <a href="#Y">Y</a> <a href="#Z">Z</a>
       </p>
 
       <pre>A</pre>
@@ -33,9 +35,9 @@
         your accent is. It is extremely rare for adult learners to achieve the
         level of accent authenticity required to pass this test, but people such
         as
-        <a to="https://en.wikipedia.org/wiki/Dashan" rel="noopener">Dashan</a>
+        <a href="https://en.wikipedia.org/wiki/Dashan" rel="noopener">Dashan</a>
         and
-        <a to="https://www.youtube.com/watch?v=PYlnJpvRwX8" rel="noopener"
+        <a href="https://www.youtube.com/watch?v=PYlnJpvRwX8" rel="noopener"
           >Julien Gaudfroy</a
         >
         have proved that it is indeed possible. Developing a native-like accent
@@ -89,7 +91,7 @@
         native speaker of English, you likely find “the big red dog” much more
         natural than “the red big dog.” There is a
         <a
-          to="https://dictionary.cambridge.org/ja/grammar/british-grammar/about-adjectives-and-adverbs/adjectives-order"
+          href="https://dictionary.cambridge.org/ja/grammar/british-grammar/about-adjectives-and-adverbs/adjectives-order"
           rel="noopener"
           >complicated grammatical rule</a
         >
@@ -118,7 +120,7 @@
         audiobook), as long as one is fully engaged in a linguistically-mediated
         activity, one is actively immersing. Fundamentally, all true linguistic
         ability is cultivated through immersion; knowledge gained through
-        <a to="#active_study"><em>Active Study</em></a> can improve the
+        <a href="#active_study"><em>Active Study</em></a> can improve the
         efficiency at which language is acquired through immersion, but can’t
         directly cause acquisition on its own. Passive and Background Immersion
         can be extremely beneficial, but tend to only bring results to the
@@ -136,7 +138,7 @@
         <em>Active Study</em> refers to conscious, directed effort made to
         increase one’s knowledge of the target language. Active Study
         corresponds to <em>learning</em> in the <em>learning</em>/<a
-          to="#acquisition"
+          href="#acquisition"
           ><em>acquisition</em></a
         >
         dichotomy, and in the context of MIA, is usually contrasted with
@@ -183,7 +185,7 @@
         AJATT’s reputation. Khatzumoto became increasingly less active, and
         eventually completely disappeared from the internet in 2014. He
         resurfaced in 2017 with the announcement that he had created a
-        <a to="https://www.patreon.com/ajatt" rel="noopener">Patreon</a>, and
+        <a href="https://www.patreon.com/ajatt" rel="noopener">Patreon</a>, and
         will be writing articles on self-help and language learning for to those
         who subscribe. These new articles don’t seem to have attracted very much
         attention. MIA is heavily inspired by AJATT. Although there are areas in
@@ -198,7 +200,7 @@
 
       <h2>Anki</h2>
       <p>
-        <a to="https://apps.ankiweb.net/" rel="noopener">Anki</a>
+        <a href="https://apps.ankiweb.net/" rel="noopener">Anki</a>
         is a free open-source SRS. It was created by Damien Elmes in 2006, and
         is regularly updated to this day. The spaced repetition algorithm Anki
         uses is a modified version of SM2, an algorithm created for SuperMemo in
@@ -223,10 +225,10 @@
         platforms), customizability (cards can be designed to fit the precise
         needs of the individual), and the many useful language-learning tools
         that have been created specifically for Anki, such as
-        <a to="http://subs2srs.sourceforge.net/" rel="noopener">subs2srs</a>
+        <a href="http://subs2srs.sourceforge.net/" rel="noopener">subs2srs</a>
         and
-        <a to="https://github.com/FooSoft/yomichan" rel="noopener">Yomichan</a>.
-        MIA seeks to remedy Anki’s flaws by helping learners gain an in-depth
+        <a href="https://github.com/FooSoft/yomichan" rel="noopener">Yomichan</a
+        >. MIA seeks to remedy Anki’s flaws by helping learners gain an in-depth
         understanding of the program such that they can use it optimally.
       </p>
 
@@ -286,8 +288,8 @@
 
       <p>
         <strong>Also see:</strong>
-        <a to="#1T">One-Target Sentence</a>,
-        <a to="#0T">Zero-Target Sentence</a>.
+        <a href="#1T">One-Target Sentence</a>,
+        <a href="#0T">Zero-Target Sentence</a>.
       </p>
 
       <hr />
@@ -319,7 +321,7 @@
         <strong>Note</strong>: Previously, MIA referred to "1T sentences" as
         "i+1 sentences". The term "i+1" comes from Stephen Krashen and his Input
         Hypothesis. From
-        <a to="https://en.wikipedia.org/wiki/Input_hypothesis" rel="noopener"
+        <a href="https://en.wikipedia.org/wiki/Input_hypothesis" rel="noopener"
           >Wikipedia</a
         >: "[The Input Hypothesis] states that learners progress in their
         knowledge of the language when they comprehend language input that is
@@ -337,8 +339,8 @@
 
       <p>
         <strong>Also see:</strong>
-        <a to="#0T">Zero-Target Sentence</a>,
-        <a to="#MT">Multi-Target Sentence</a>.
+        <a href="#0T">Zero-Target Sentence</a>,
+        <a href="#MT">Multi-Target Sentence</a>.
       </p>
 
       <hr />
@@ -395,8 +397,8 @@
 
       <p>
         <strong>Also see:</strong>
-        <a to="#1T">One-Target Sentence</a>,
-        <a to="#MT">Multi-Target Sentence</a>.
+        <a href="#1T">One-Target Sentence</a>,
+        <a href="#MT">Multi-Target Sentence</a>.
       </p>
     </div>
   </div>

@@ -20,7 +20,7 @@ export default {
           title: 'Stage 2 Guide',
           description:
             'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.',
-          link: '/table-of-contents/stage-1/mia-stage-2-guide'
+          link: '/table-of-contents/stage-2/mia-stage-2-guide'
         }
       ]
     }

@@ -2,7 +2,8 @@
   <v-card class="post" raised>
     <div class="post-preview">
       <h1>
-        <nuxt-link :to="link">{{ title }}</nuxt-link>
+        <a v-if="external" :href="link">{{ title }}</a>
+        <nuxt-link v-else :to="link">{{ title }}</nuxt-link>
       </h1>
       <v-card-text>
         {{ description }}
@@ -41,6 +42,11 @@ export default {
       type: String,
       required: true,
       default: ''
+    },
+    external: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   },
   methods: {

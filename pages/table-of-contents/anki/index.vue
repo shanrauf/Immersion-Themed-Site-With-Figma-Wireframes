@@ -40,7 +40,8 @@ export default {
           title: 'Anki Optimizer and Simulator',
           description:
             'This tool helps you optimize your learning steps and interval modifier in Anki.',
-          link: 'https://pheartheceal.github.io/anki-optimizer/'
+          link: 'https://pheartheceal.github.io/anki-optimizer/',
+          external: true
         }
       ],
       lowKeyAnkiArticles: [
