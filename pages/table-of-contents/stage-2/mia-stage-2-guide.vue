@@ -350,7 +350,7 @@
             </div>
           </div>
 
-          <YouTubeEmbed src="https://youtube.com/embed/_LIz-Wbt4us-9s" />
+          <YouTubeEmbed src="https://youtube.com/embed/_LIz-Wbt4us" />
 
           <div
             class="elementor-element elementor-element-8c92da0 elementor-widget elementor-widget-text-editor"
@@ -843,7 +843,7 @@
             </div>
           </div>
 
-          <YouTubeEmbed src="https://youtube.com/embed/a68BQsDGESk-9s" />
+          <YouTubeEmbed src="https://youtube.com/embed/a68BQsDGESk" />
 
           <div
             class="elementor-element elementor-element-ce9b2f0 elementor-widget elementor-widget-text-editor"
