@@ -53,11 +53,11 @@
       <em>why to do it</em>. For more information about the theoretical
       framework of MIA, please check out the other articles on this website as
       well as the
-      <nuxt-link
+      <a
         class="link3"
-        to="https://www.youtube.com/user/MATTvsJapan"
+        href="https://www.youtube.com/user/MATTvsJapan"
         rel="noopener"
-        >Matt vs. Japan YouTube channel</nuxt-link
+        >Matt vs. Japan YouTube channel</a
       >.
     </p>
     <p>
@@ -262,9 +262,9 @@
     </p>
     <p>
       When you should add things to Anki will be discussed in the
-      <nuxt-link class="link3" to="#srs" rel="noopener">SRS section</nuxt-link>.
+      <nuxt-link class="link3" href="#srs" rel="noopener">SRS section</nuxt-link>.
       Resources you can use to look things up are listed in the
-      <nuxt-link class="link3" to="#tools" rel="noopener"
+      <nuxt-link class="link3" href="#tools" rel="noopener"
         >tools section</nuxt-link
       >.
     </p>
@@ -293,13 +293,7 @@
     </p>
     <YouTubeEmbed src="https://youtube.com/embed/5xG-WwqhHBc" />
 
-    <div
-      data-id="6b50f5a"
-      class="elementor-element elementor-element-6b50f5a elementor-widget elementor-widget-text-editor"
-      data-element_type="text-editor.default"
-    >
-      <div class="elementor-widget-container">
-        <div class="elementor-text-editor elementor-clearfix">
+
           <p>
             As the video above hints at, learning to
             <em>tolerate ambiguity</em> is an important part of the immersion
@@ -342,11 +336,11 @@
           <p>
             As you start understanding all the individual words being spoken,
             the
-            <nuxt-link
+            <a
               class="link3"
-              to="https://en.wikipedia.org/wiki/Language_acquisition_device"
+              href="https://en.wikipedia.org/wiki/Language_acquisition_device"
               rel="noopener"
-              >language acquisition device</nuxt-link
+              >language acquisition device</a
             >
             in your brain will naturally fill in the blanks for you, and grammar
             will start to intuitively make sense.
@@ -371,11 +365,11 @@
             amounts of daily immersion lead to exponentially faster progress.
             Said another way, the more spread out your immersion is throughout
             time, the more total time it’s going to take. Check out
-            <nuxt-link
+            <a
               class="link3"
-              to="https://youtu.be/7MxklQXJbz8"
+              href="https://youtu.be/7MxklQXJbz8"
               rel="noopener"
-              >this video</nuxt-link
+              >this video</a
             >
             by BritVsJapan to understand why this is.
           </p>
@@ -458,19 +452,10 @@
               advantage of these opportunities.
             </li>
           </ul>
-        </div>
-      </div>
-    </div>
 
     <YouTubeEmbed src="https://youtube.com/embed/6UqaJ8gmTGg" />
 
-    <div
-      data-id="7ff4301"
-      class="elementor-element elementor-element-7ff4301 elementor-widget elementor-widget-text-editor"
-      data-element_type="text-editor.default"
-    >
-      <div class="elementor-widget-container">
-        <div class="elementor-text-editor elementor-clearfix">
+
           <h2 id="content-guide">Content Quickstart Guide</h2>
           <p>
             Searching for new immersion content will get easier as the amount of
@@ -496,8 +481,8 @@
             <li>
               Choose a topic you’re interested in, look up the Japanese
               equivalent on
-              <nuxt-link class="link3" to="https://jisho.org/" rel="noopener"
-                >jisho.org</nuxt-link
+              <a class="link3" href="https://jisho.org/" rel="noopener"
+                >jisho.org</a
               >, and search that into YouTube. Click around until you find
               something interesting.
             </li>
@@ -509,11 +494,9 @@
               Find recommendations from other people doing MIA in the #media
               channel of the official MIA Discord Server, which you can join
               through
-              <nuxt-link
-                class="link3"
-                to="https://www.patreon.com/massimmersionapproach"
+              <a href="https://www.patreon.com/massimmersionapproach"
                 rel="noopener"
-                >Patreon</nuxt-link
+                >Patreon</a
               >
               (shameless plug!).
             </li>
@@ -531,11 +514,11 @@
             it enables you to easily extract the audio and put it on your
             immersion pod (as mentioned in a video linked earlier in this
             guide). You can find a video on how to do that
-            <nuxt-link
+            <a
               class="link3"
-              to="https://www.youtube.com/watch?v=yxVNj5KHzfI"
+              href="https://www.youtube.com/watch?v=yxVNj5KHzfI"
               rel="noopener"
-              >here</nuxt-link
+              >here</a
             >.
           </p>
           <h3 id="netflix">Netflix</h3>
@@ -555,47 +538,39 @@
               Use a VPN to trick Netflix into thinking you’re in Japan and gain
               access to a much larger collection of Japanese media. Our
               recommended VPN is
-              <nuxt-link class="link3" to="https://nordvpn.com/" rel="noopener"
-                >Nord VPN</nuxt-link
+              <a class="link3" href="https://nordvpn.com/" rel="noopener"
+                >Nord VPN</a
               >.
             </li>
             <li>
               Use the browser extension “Subadub” to make Netflix subtitles
               highlightable, so you can copy and paste text from them
-              (<nuxt-link
-                class="link3"
-                to="https://chrome.google.com/webstore/detail/subadub/jamiekdimmhnnemaaimmdahnahfmfdfk"
+              (<a href="https://chrome.google.com/webstore/detail/subadub/jamiekdimmhnnemaaimmdahnahfmfdfk"
                 rel="noopener"
-                >Chrome link</nuxt-link
+                >Chrome link</a
               >,
-              <nuxt-link
-                class="link3"
-                to="https://addons.mozilla.org/ja/firefox/addon/subadub/"
+              <a href="https://addons.mozilla.org/ja/firefox/addon/subadub/"
                 rel="noopener"
-                >Firefox link</nuxt-link
+                >Firefox link</a
               >).
             </li>
             <li>
               Download content from Netflix using
-              <nuxt-link
-                class="link3"
-                to="https://www.flixgrab.com/"
+              <a href="https://www.flixgrab.com/"
                 rel="noopener"
-                >this tool</nuxt-link
+                >this tool</a
               >. This allows you to extract audio for your immersion pod, as was
               talked about above. It also opens up the possibility of using
               Netflix with Subs2srs, which will be discussed in the
-              <nuxt-link class="link3" to="#sentence-mining" rel="noopener"
+              <nuxt-link class="link3" href="#sentence-mining" rel="noopener"
                 >sentence mining section</nuxt-link
               >.
             </li>
             <li>
               Watch shows with
-              <nuxt-link
-                class="link3"
-                to="https://www.youtube.com/watch?v=sttawmB2eAQ"
+              <a href="https://www.youtube.com/watch?v=sttawmB2eAQ"
                 rel="noopener"
-                >audio description tracks</nuxt-link
+                >audio description tracks</a
               >.
             </li>
           </ul>
@@ -645,28 +620,28 @@
           <p>
             This is why we recommend Anki. Anki is a versatile SRS with a large
             selection of features. The
-            <nuxt-link
+            <a
               class="link3"
-              to="https://apps.ankiweb.net/"
+              href="https://apps.ankiweb.net/"
               rel="noopener"
-              >desktop version</nuxt-link
+              >desktop version</a
             >
             is available for Windows, Mac and Linux, there’s a fully
-            <nuxt-link class="link3" to="https://ankiweb.net/" rel="noopener"
+            <nuxt-link class="link3" href="https://ankiweb.net/" rel="noopener"
               >online version</nuxt-link
             >, and there are smartphone apps for both
-            <nuxt-link
+            <a
               class="link3"
-              to="https://apps.apple.com/us/app/ankimobile-flashcards/id373493387"
+              href="https://apps.apple.com/us/app/ankimobile-flashcards/id373493387"
               rel="noopener"
-              >iOS</nuxt-link
+              >iOS</a
             >
             and
-            <nuxt-link
+            <a
               class="link3"
-              to="https://play.google.com/store/apps/details?id=com.ichi2.anki&amp;hl=en_US"
+              href="https://play.google.com/store/apps/details?id=com.ichi2.anki&amp;hl=en_US"
               rel="noopener"
-              >Android</nuxt-link
+              >Android</a
             >. You can create an account and sync your collection freely between
             each of these platforms.
           </p>
@@ -685,11 +660,11 @@
             originals. For a language learner, these add-ons are really what
             seals the deal for choosing Anki. You can find a list of public
             add-ons
-            <nuxt-link
+            <a
               class="link3"
               to="https://ankiweb.net/shared/addons/2.1"
               rel="noopener"
-              >here</nuxt-link
+              >here</a
             >.
           </p>
           <p>
@@ -698,11 +673,11 @@
             decks with others, as well as benefit from decks others have made.
             MIA original Anki decks will be linked later in this guide. You can
             also find a public database of pre-made Anki decks
-            <nuxt-link
+            <a
               class="link3"
-              to="https://ankiweb.net/shared/decks/"
+              href="https://ankiweb.net/shared/decks/"
               rel="noopener"
-              >here</nuxt-link
+              >here</a
             >.
           </p>
           <h2>Getting Started With Anki</h2>
@@ -716,20 +691,20 @@
           </p>
           <p>
             The
-            <nuxt-link
+            <a
               class="link3"
-              to="https://apps.ankiweb.net/docs/manual.html"
+              href="https://apps.ankiweb.net/docs/manual.html"
               rel="noopener"
-              >official Anki User Manual</nuxt-link
+              >official Anki User Manual</a
             >
             is the most comprehensive explanation of how Anki works. Matt has
             also created a more user-friendly explanation of some crucial
             functions of the program, which you can find
-            <nuxt-link
+            <a
               class="link3"
-              to="https://www.youtube.com/watch?v=lz60qTP2Gx0"
+              href="https://www.youtube.com/watch?v=lz60qTP2Gx0"
               rel="noopener"
-              >here</nuxt-link
+              >here</a
             >.
           </p>
           <p>
@@ -753,11 +728,11 @@
             The last thing we’ll mention here is that, by default, the way
             Anki’s algorithm works actually isn’t very ideal for language
             learning. This can be fixed with a modification to Anki known as
-            “<nuxt-link
+            “<a
               class="link3"
-              to="/table-of-contents/anki/low-key-anki/intro/"
+              href="/table-of-contents/anki/low-key-anki/intro/"
               rel="noopener"
-              >Low-Key Anki</nuxt-link
+              >Low-Key Anki</a
             >“, which consists of 3 add-ons. Unfortunately, there is quite a bit
             of background knowledge needed in order to understand the problems
             with the default Anki algorithm, and why Low-key Anki remedies these
@@ -796,11 +771,11 @@
             a day, things might seem fine for a few days. But within a week or
             two, you’ll end up with hundreds upon hundreds of reviews a day. You
             can use this
-            <nuxt-link
+            <a
               class="link3"
-              to="https://pheartheceal.github.io/anki-optimizer/"
+              href="https://pheartheceal.github.io/anki-optimizer/"
               rel="noopener"
-              >Anki simulator</nuxt-link
+              >Anki simulator</a
             >
             to experiment with the relationship between number of new cards and
             reviews.
@@ -815,11 +790,11 @@
             If you already have a good grasp of hiragana and katakana, you can
             skip this section. If you’re entirely new to the Japanese writing
             system, check out
-            <nuxt-link
+            <a
               class="link3"
-              to="https://youtu.be/CFq2Y43DY0U"
+              href="https://youtu.be/CFq2Y43DY0U"
               rel="noopener"
-              >this video</nuxt-link
+              >this video</a
             >.
           </p>
           <h2>Resources</h2>
@@ -835,51 +810,41 @@
           <p>Some of the most popular resources are:</p>
           <ul>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://amzn.to/34sm0ds"
+              <a href="https://amzn.to/34sm0ds"
                 rel="noopener"
-                >Remembering the Kana</nuxt-link
+                >Remembering the Kana</a
               >
             </li>
             <li>
-              <nuxt-link class="link3" to="https://drmoku.com/" rel="noopener"
-                >Dr. Moku smartphone apps</nuxt-link
+              <a class="link3" href="https://drmoku.com/" rel="noopener"
+                >Dr. Moku smartphone apps</a
               >
             </li>
             <li>
-              <nuxt-link class="link3" to="https://realkana.com/" rel="noopener"
-                >Real Kana</nuxt-link
+              <a class="link3" href="https://realkana.com/" rel="noopener"
+                >Real Kana</a
               >
             </li>
             <li>
               Tofugu’s guide:
-              <nuxt-link
-                class="link3"
-                to="https://www.tofugu.com/japanese/learn-hiragana/"
+              <a href="https://www.tofugu.com/japanese/learn-hiragana/"
                 rel="noopener"
-                >hiragana</nuxt-link
+                >hiragana</a
               >,
-              <nuxt-link
-                class="link3"
-                to="https://www.tofugu.com/japanese/learn-katakana/"
+              <a href="https://www.tofugu.com/japanese/learn-katakana/"
                 rel="noopener"
-                >katakana</nuxt-link
+                >katakana</a
               >
             </li>
             <li>
               JapanesePod101’s YouTube videos:
-              <nuxt-link
-                class="link3"
-                to="https://youtu.be/6p9Il_j0zjc"
+              <a href="https://youtu.be/6p9Il_j0zjc"
                 rel="noopener"
-                >hiragana</nuxt-link
+                >hiragana</a
               >,
-              <nuxt-link
-                class="link3"
-                to="https://youtu.be/s6DKRgtVLGA"
+              <a href="https://youtu.be/s6DKRgtVLGA"
                 rel="noopener"
-                >katakana</nuxt-link
+                >katakana</a
               >
             </li>
           </ul>
@@ -904,12 +869,10 @@
           <p>
             Although it’s probably not necessary, you can also combine any of
             the resources above with Anki.
-            <nuxt-link
-              class="link3"
-              to="https://ankiweb.net/shared/decks/kana"
+            <a href="https://ankiweb.net/shared/decks/kana"
               target="_blank"
               rel="noopener"
-              >Here</nuxt-link
+              >Here</a
             >
             is&nbsp;a link to various Anki decks for hiragana and katakana. On
             that page, you can even find Anki decks created specifically to be
@@ -919,16 +882,7 @@
             If you’re going to use Anki for learning kana, here are our
             recommended option-group settings:
           </p>
-        </div>
-      </div>
-    </div>
-    <div
-      data-id="630fdd2"
-      class="elementor-element elementor-element-630fdd2 elementor-widget elementor-widget-image"
-      data-element_type="image.default"
-    >
-      <div class="elementor-widget-container">
-        <div class="elementor-image">
+
           <img
             width="1024"
             height="329"
@@ -936,16 +890,7 @@
             class="attachment-large size-large"
             alt=""
           />
-        </div>
-      </div>
-    </div>
-    <div
-      data-id="7848fd0"
-      class="elementor-element elementor-element-7848fd0 elementor-widget elementor-widget-text-editor"
-      data-element_type="text-editor.default"
-    >
-      <div class="elementor-widget-container">
-        <div class="elementor-text-editor elementor-clearfix">
+
           <p>
             (Adjust “New cards/day” in the “New Cards” tab at any time to match
             however many new cards you wish to learn a day)
@@ -1063,11 +1008,9 @@
               tihng is taht the frist and lsat ltteer be at the rghit pclae. The
               rset can be a toatl mses and you can sitll raed it wouthit a
               porbelm. Tihs is bcuseae the huamn mnid deos not raed ervey lteter
-              by istlef, but the wrod as a wlohe.” (<nuxt-link
-                class="link3"
-                to="http://www.mrc-cbu.cam.ac.uk/people/matt-davis/cmabridge/"
+              by istlef, but the wrod as a wlohe.” (<a href="http://www.mrc-cbu.cam.ac.uk/people/matt-davis/cmabridge/"
                 rel="noopener"
-                >source</nuxt-link
+                >source</a
               >)
             </p>
           </blockquote>
@@ -1193,11 +1136,11 @@
           <h2>Recognition RTK Anki Deck</h2>
           <p>
             You can find the MIA original RRTK deck
-            <nuxt-link
+            <a
               class="link3"
-              to="https://www.mediafire.com/file/1svvsr7f9cnpwka/Recognition_RTK.apkg/"
+              href="https://www.mediafire.com/file/1svvsr7f9cnpwka/Recognition_RTK.apkg/"
               rel="noopener"
-              >here</nuxt-link
+              >here</a
             >. It comes with 1,000 cards, one for each of the most frequently
             used kanji.
           </p>
@@ -1221,22 +1164,22 @@
             The original RTK number for each kanji is also listed at the top of
             every card. If you click this number, it functions as a hyperlink
             that will take you to the kanji’s entry on
-            <nuxt-link
+            <a
               class="link3"
-              to="http://hochanh.github.io/rtk/"
+              href="http://hochanh.github.io/rtk/"
               rel="noopener"
-              >this site</nuxt-link
+              >this site</a
             >.
           </p>
           <p>
             On the back of each card, you’ll find the original RTK keyword, some
             other meanings of the kanji, and the top two highest-rated mnemonic
             stories from the
-            <nuxt-link
+            <a
               class="link3"
-              to="https://kanji.koohii.com/"
+              href="https://kanji.koohii.com/"
               rel="noopener"
-              >Kanji Koohii website</nuxt-link
+              >Kanji Koohii website</a
             >.
           </p>
           <p>
@@ -1248,11 +1191,11 @@
           <h2>How to Use</h2>
           <p>
             You may want to consider getting your hands on a copy of the actual
-            <br /><nuxt-link
+            <br /><a
               class="link3"
-              to="https://is.gd/eURmBi"
+              href="https://is.gd/eURmBi"
               rel="noopener"
-              >Remembering the Kanji Vol 1 book</nuxt-link
+              >Remembering the Kanji Vol 1 book</a
             >. Understanding how RTK was <em>originally</em> intended to be used
             will likely shed light on a lot of RRTK’s quirks. Like we mentioned
             above, RTK comes with an extensive introduction, which explains the
@@ -1271,11 +1214,11 @@
             will likely make for a bumpy ride, as without referencing the book,
             much of the mnemonic system will be confusing and unclear. For those
             attempting this approach,
-            <nuxt-link
+            <a
               class="link3"
-              to="https://hochanh.github.io/rtk/index.html"
+              href="https://hochanh.github.io/rtk/index.html"
               rel="noopener"
-              >this site</nuxt-link
+              >this site</a
             >
             will likely serve as a useful reference, as it offers component
             breakdowns for every character.
@@ -1289,11 +1232,11 @@
             than active recall, pre-made stories should be good enough. If the
             stories that come on the cards aren’t doing it for you, you can
             check out
-            <nuxt-link
+            <a
               class="link3"
-              to="https://kanji.koohii.com/"
+              href="https://kanji.koohii.com/"
               rel="noopener"
-              >Kanji Koohii</nuxt-link
+              >Kanji Koohii</a
             >
             for inspiration. Also, feel free to take some liberties when
             tinkering with the meaning of components and modifying stories. The
@@ -1402,11 +1345,11 @@
           </p>
           <p>
             Another option is to use the
-            <nuxt-link
+            <a
               class="link3"
-              to="https://ankiweb.net/shared/info/1666520655"
+              href="https://ankiweb.net/shared/info/1666520655"
               rel="noopener"
-              >MIA Retirement add-on</nuxt-link
+              >MIA Retirement add-on</a
             >
             to set a retiring interval for your RRTK deck. If you take this
             approach, we recommend setting a 9-month retiring interval.
@@ -1433,11 +1376,11 @@
           <p>
             For a more in-depth explanation of why you shouldn’t worry about
             kanji readings, watch from 1:53 to 10:55 of
-            <nuxt-link
+            <a
               class="link3"
-              to="https://youtu.be/TgRte6oSoF8?t=113"
+              href="https://youtu.be/TgRte6oSoF8?t=113"
               rel="noopener"
-              >this video</nuxt-link
+              >this video</a
             >
             (note: Matt has updated his views on some of the conclusions reached
             in this video, as reflected in this guide).
@@ -1461,19 +1404,17 @@
             linked below) teach grammar with the intention of helping learners
             become able to <em>output</em>, AKA speak and write, their target
             language. Unfortunately, this doesn’t really work. Because
-            <nuxt-link
-              class="link3"
-              to="/table-of-contents/stage-1/theory/acquisition-vs-learning/"
+            <nuxt-link to="/table-of-contents/stage-1/theory/acquisition-vs-learning/"
               rel="noopener"
               >learned knowledge is largely separate from acquired
               ability</nuxt-link
             >
             and
-            <nuxt-link
+            <a
               class="link3"
-              to="https://youtu.be/y8JK8W8dBxk"
+              href="https://youtu.be/y8JK8W8dBxk"
               rel="noopener"
-              >language isn’t math</nuxt-link
+              >language isn’t math</a
             >, conscious grammar study is <em>not</em> an effective way of
             becoming able to speak and write a foreign language.
           </p>
@@ -1482,11 +1423,11 @@
             <em>acquisition</em>, and this acquisition happens by comprehending
             <em>input</em>, AKA, speech and text, in your target language (this
             is known as the
-            <nuxt-link
+            <a
               class="link3"
-              to="https://en.wikipedia.org/wiki/Input_hypothesis"
+              href="https://en.wikipedia.org/wiki/Input_hypothesis"
               rel="noopener"
-              >input hypothesis</nuxt-link
+              >input hypothesis</a
             >). So, grammar study is useful to the extent that it helps us
             comprehend target language input, but not useful for actually
             speaking and writing the language.
@@ -1496,18 +1437,9 @@
             The idea of theory vs. practice is very relevant to the topic of
             grammar study. The following video explains the basic idea:
           </p>
-        </div>
-      </div>
-    </div>
 
     <YouTubeEmbed src="https://youtube.com/embed/UHAa0mFOsYM" />
-    <div
-      data-id="de85f0a"
-      class="elementor-element elementor-element-de85f0a elementor-widget elementor-widget-text-editor"
-      data-element_type="text-editor.default"
-    >
-      <div class="elementor-widget-container">
-        <div class="elementor-text-editor elementor-clearfix">
+
           <p>
             In the context of grammar, “theory” refers to “conscious grammar
             knowledge gained through study”, and “practice” refers to “intuitive
@@ -1551,11 +1483,11 @@
           </p>
           <p>
             Personally, we recommend
-            <nuxt-link
+            <a
               class="link3"
-              to="http://www.guidetojapanese.org/learn/grammar"
+              href="http://www.guidetojapanese.org/learn/grammar"
               rel="noopener"
-              >Tae Kim’s Japanese Grammar Guide</nuxt-link
+              >Tae Kim’s Japanese Grammar Guide</a
             >. It’s what Matt used, and it worked well for him. It breaks down
             Japanese in a logical and straight forward way and covers all the
             basics without going into too much detail.
@@ -1563,18 +1495,14 @@
           <p>
             If for whatever reason Tae Kim’s guide just really doesn’t sit well
             with you, some other resources you might check out are
-            <nuxt-link
-              class="link3"
-              to="https://www.imabi.net/tableofcontents.htm"
+            <a href="https://www.imabi.net/tableofcontents.htm"
               rel="noopener"
-              >IMABI’S Japanese Grammar Guide</nuxt-link
+              >IMABI’S Japanese Grammar Guide</a
             >
             (thorough and detailed) or
-            <nuxt-link
-              class="link3"
-              to="https://www.youtube.com/playlist?list=PLOcym2c7xnBwU12Flkm5RcLIEhvURQ8TB"
+            <a href="https://www.youtube.com/playlist?list=PLOcym2c7xnBwU12Flkm5RcLIEhvURQ8TB"
               rel="noopener"
-              >Japanese from Zero</nuxt-link
+              >Japanese from Zero</a
             >
             (extremely user-friendly).
           </p>
@@ -1647,11 +1575,9 @@
           <h1 id="vocab">Basic Vocab</h1>
           <p>
             In Japanese, the most frequently used 1,000 words comprise around
-            75% of all spoken and written language (<nuxt-link
-              class="link3"
-              to="https://pj.ninjal.ac.jp/corpus_center/bccwj/freq-list.html"
+            75% of all spoken and written language (<a href="https://pj.ninjal.ac.jp/corpus_center/bccwj/freq-list.html"
               rel="noopener"
-              >source</nuxt-link
+              >source</a
             >). Similar statistics are true for every human language. Because of
             this, memorizing the most frequently used 1,000 words is a great way
             to jumpstart your comprehension when beginning to learn a new
@@ -1710,11 +1636,9 @@
           <p>
             What’s even better is that you can download audio files of native
             audio for all of the sentences in the book on the
-            <nuxt-link
-              class="link3"
-              to="https://www.ask-books.com/jp/hajimete-jlpt/hajimete-jlpt-audio/"
+            <a href="https://www.ask-books.com/jp/hajimete-jlpt/hajimete-jlpt-audio/"
               rel="noopener"
-              >publisher’s website</nuxt-link
+              >publisher’s website</a
             >.
           </p>
           <p>
@@ -1727,18 +1651,14 @@
           </p>
           <p>
             You can purchase the book on
-            <nuxt-link
-              class="link3"
-              to="https://www.amazon.co.jp/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%83%BD%E5%8A%9B%E8%A9%A6%E9%A8%93-N5%E5%8D%98%E8%AA%9E1000-Hajimete-Nouryoku-Vietnamese/dp/4872179811/?language=en_US"
+            <a href="https://www.amazon.co.jp/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%83%BD%E5%8A%9B%E8%A9%A6%E9%A8%93-N5%E5%8D%98%E8%AA%9E1000-Hajimete-Nouryoku-Vietnamese/dp/4872179811/?language=en_US"
               rel="noopener"
-              >Japanese Amazon</nuxt-link
+              >Japanese Amazon</a
             >
             or
-            <nuxt-link
-              class="link3"
-              to="https://omgjapan.com/products/1000-essential-vocabulary-for-the-jlpt-n5"
+            <a href="https://omgjapan.com/products/1000-essential-vocabulary-for-the-jlpt-n5"
               rel="noopener"
-              >OMG Japan</nuxt-link
+              >OMG Japan</a
             >.
           </p>
           <h2>Tango N5 Anki Deck</h2>
@@ -1885,18 +1805,9 @@
             following video for more context. It explains how learning words
             with the SRS fits into the larger language acquisition process:
           </p>
-        </div>
-      </div>
-    </div>
     <YouTubeEmbed src="https://youtube.com/embed/wrBFhsnBQ2k" />
 
-    <div
-      data-id="56d90d7"
-      class="elementor-element elementor-element-56d90d7 elementor-widget elementor-widget-text-editor"
-      data-element_type="text-editor.default"
-    >
-      <div class="elementor-widget-container">
-        <div class="elementor-text-editor elementor-clearfix">
+
           <h2>Why Sentence Cards are Effective</h2>
           <p>
             In order to understand why sentence cards are effective, let’s start
@@ -1939,11 +1850,9 @@
           <p>
             Another problem with isolated vocab cards is that many Japanese
             words have more than one meaning. For example, if you look up the
-            Japanese word “<nuxt-link
-              class="link3"
-              to="https://jisho.org/search/%E3%81%8B%E3%81%91%E3%82%8B"
+            Japanese word “<a href="https://jisho.org/search/%E3%81%8B%E3%81%91%E3%82%8B"
               rel="noopener"
-              >掛ける</nuxt-link
+              >掛ける</a
             >” in the Japanese to English dictionary, the definition listed is
             comically long. Imagine making a flashcard with “掛ける” on the
             front, and that long list of possible meanings on the back. Not only
@@ -1972,22 +1881,18 @@
             <li>
               A sentence tells you not only what a word means, but how it’s
               used. Check out
-              <nuxt-link
-                class="link3"
-                to="http://www.antimoon.com/how/examplesent.htm"
+              <a href="http://www.antimoon.com/how/examplesent.htm"
                 rel="noopener"
-                >this article</nuxt-link
+                >this article</a
               >
               for a more in-depth explanation of this point.
             </li>
             <li>
               A sentence is a larger unit of meaning than an isolated word, so
               it’s much easier to understand sentences without
-              <nuxt-link
-                class="link3"
-                to="https://youtu.be/CRmxNFv04ao"
+              <a href="https://youtu.be/CRmxNFv04ao"
                 rel="noopener"
-                >translating in your head</nuxt-link
+                >translating in your head</a
               >
               than isolated words.
             </li>
@@ -2042,11 +1947,9 @@
             <strong>NOTE</strong>: Previously, MIA referred to “1T sentences” as
             “i+1 sentences”. The term “i+1” comes from Stephen Krashen and his
             Input Hypothesis. From
-            <nuxt-link
-              class="link3"
-              to="https://en.wikipedia.org/wiki/Input_hypothesis"
+            <a href="https://en.wikipedia.org/wiki/Input_hypothesis"
               rel="noopener"
-              >Wikipedia</nuxt-link
+              >Wikipedia</a
             >: “[The Input Hypothesis] states that learners progress in their
             knowledge of the language when they comprehend language input that
             is slightly more advanced than their current level. Krashen called
@@ -2182,11 +2085,9 @@
           <p>
             Do not try to translate the sentence into English. Try to actually
             understand it in Japanese (for tips on how to do this, check out
-            <nuxt-link
-              class="link3"
-              to="https://youtu.be/CRmxNFv04ao"
+            <a href="https://youtu.be/CRmxNFv04ao"
               rel="noopener"
-              >this video</nuxt-link
+              >this video</a
             >. If you find yourself accidentally translating into English,
             that’s fine. Just don’t make an active effort to do so. Also, don’t
             try to recall the exact definition of the target word. Just focus on
@@ -2228,7 +2129,6 @@
             on Anki’s algorithm. To understand why this is, check out our
             article series on
             <nuxt-link
-              class="link3"
               to="/table-of-contents/anki/low-key-anki/intro/"
               rel="noopener"
               >Low-Key Anki</nuxt-link
@@ -2291,21 +2191,17 @@
             </li>
             <li>
               E-readers like
-              <nuxt-link
-                class="link3"
-                to="https://youtu.be/1CrlQHA9i0g"
+              <a href="https://youtu.be/1CrlQHA9i0g"
                 rel="noopener"
-                >Kindle</nuxt-link
+                >Kindle</a
               >
               let you easily highlight and save sentences while reading, which
               you can then export to your computer for card making.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://youtu.be/IS7WzYICAsk"
+              <a href="https://youtu.be/IS7WzYICAsk"
                 rel="noopener"
-                >ShareX</nuxt-link
+                >ShareX</a
               >
               allows you to easily record short segments of audio in real-time.
               This is useful for audio-based sentence cards.
@@ -2330,11 +2226,9 @@
           <p>
             You can get a little more technical with your sentence mining by
             introducing the program
-            <nuxt-link
-              class="link3"
-              to="http://subs2srs.sourceforge.net/"
+            <a href="http://subs2srs.sourceforge.net/"
               rel="noopener"
-              >subs2srs</nuxt-link
+              >subs2srs</a
             >. Subs2srs is a program that lets you make Anki decks out of video
             and subtitle files. For example, if you had a Japanese movie and the
             accompanying Japanese subtitle file, you could use subs2srs to
@@ -2352,17 +2246,15 @@
             acquire the file for the show/movie you want to use, along with a
             correctly timed subtitle file for that show/movie. This can often be
             quite difficult. One way to go about this is with
-            <nuxt-link class="link3" to="#netflix" rel="noopener"
-              >Netflix</nuxt-link
+            <a class="link3" href="#netflix" rel="noopener"
+              >Netflix</a
             >, as was mentioned in the immersion section.
           </p>
           <p>
             You can find a step-by-step tutorial for creating subs2srs decks
-            <nuxt-link
-              class="link3"
-              to="https://youtu.be/4AvgqVGHP8A"
+            <a href="https://youtu.be/4AvgqVGHP8A"
               rel="noopener"
-              >here</nuxt-link
+              >here</a
             >.
           </p>
           <p>
@@ -2370,28 +2262,15 @@
             bank. The following video by BritVsJapan explains the idea in
             detail:
           </p>
-        </div>
-      </div>
-    </div>
-
     <YouTubeEmbed src="https://youtube.com/embed/kCsxLyALIgk" />
 
-    <div
-      data-id="a74a745"
-      class="elementor-element elementor-element-a74a745 elementor-widget elementor-widget-text-editor"
-      data-element_type="text-editor.default"
-    >
-      <div class="elementor-widget-container">
-        <div class="elementor-text-editor elementor-clearfix">
           <h2 id="morphman">MorphMan</h2>
           <p>
             Subs2srs can become even more powerful when combined with
-            <nuxt-link
-              class="link3"
-              to="https://ankiweb.net/shared/info/900801631"
+            <a href="https://ankiweb.net/shared/info/900801631"
               target="_blank"
               rel="noopener"
-              >MorphMan</nuxt-link
+              >MorphMan</a
             >. MorphMan is an Anki add-on that keeps track of what words you
             know, and uses that to reorder your new cards into the optimal
             order. Basically, you can have MorphMan go through your subs2srs
@@ -2399,37 +2278,24 @@
             have had to spend going through it yourself.
           </p>
           <p>Here’s a demonstration of how it works:</p>
-        </div>
-      </div>
-    </div>
 
     <YouTubeEmbed src="https://youtube.com/embed/dVReg8_XnyA" />
 
-    <div
-      data-id="2ac4fcc"
-      class="elementor-element elementor-element-2ac4fcc elementor-widget elementor-widget-text-editor"
-      data-element_type="text-editor.default"
-    >
-      <div class="elementor-widget-container">
-        <div class="elementor-text-editor elementor-clearfix">
+
           <p>
             You can find a comprehensive guide for using MorphMan
-            <nuxt-link
-              class="link3"
-              to="/table-of-contents/anki/table-of-contents/anki/morphman/"
+            <a href="/table-of-contents/anki/table-of-contents/anki/morphman/"
               target="_blank"
               rel="noopener"
-              >here</nuxt-link
+              >here</a
             >.
           </p>
           <h2>Option-Group Settings and Example Cards</h2>
           <p>
-            <nuxt-link
-              class="link3"
-              to="https://www.mediafire.com/file/422gkvon0o7m5av/Example_Sentence_Cards.apkg"
+            <a href="https://www.mediafire.com/file/422gkvon0o7m5av/Example_Sentence_Cards.apkg"
               target="_blank"
               rel="noopener"
-              >Here</nuxt-link
+              >Here</a
             >
             is a link to a small Anki deck containing some examples of different
             kinds of sentence cards.
@@ -2455,16 +2321,6 @@
             The deck also comes with our recommended option-group settings for
             sentence cards:
           </p>
-        </div>
-      </div>
-    </div>
-    <div
-      data-id="8ac82bc"
-      class="elementor-element elementor-element-8ac82bc elementor-widget elementor-widget-image"
-      data-element_type="image.default"
-    >
-      <div class="elementor-widget-container">
-        <div class="elementor-image">
           <img
             width="1024"
             height="337"
@@ -2472,16 +2328,7 @@
             class="attachment-large size-large"
             alt=""
           />
-        </div>
-      </div>
-    </div>
-    <div
-      data-id="927a1d2"
-      class="elementor-element elementor-element-927a1d2 elementor-widget elementor-widget-text-editor"
-      data-element_type="text-editor.default"
-    >
-      <div class="elementor-widget-container">
-        <div class="elementor-text-editor elementor-clearfix">
+
           <p>
             (Adjust “New cards/day” in the “New Cards” tab at any time to match
             however many new cards you wish to learn a day)
@@ -2500,12 +2347,10 @@
           <p>
             Once you know how long you want to spend on Anki each day, you can
             use the
-            <nuxt-link
-              class="link3"
-              to="https://pheartheceal.github.io/anki-optimizer/"
+            <a href="https://pheartheceal.github.io/anki-optimizer/"
               target="_blank"
               rel="noopener"
-              >Anki simulator</nuxt-link
+              >Anki simulator</a
             >‘s “New Cards Calculator” to calculate how the maximum number of
             new cards you can learn each day without exceeding your desired
             amount of time. For our example, let’s say you spend 15 minutes
@@ -2563,33 +2408,25 @@
             </li>
             <li>
               Search one of the following Japanese example sentence websites:
-              <nuxt-link
-                class="link3"
-                to="http://yourei.jp/"
+              <a href="http://yourei.jp/"
                 target="_blank"
                 rel="noopener"
-                >Yourei</nuxt-link
+                >Yourei</a
               >,
-              <nuxt-link
-                class="link3"
-                to="http://nlt.tsukuba.lagoinst.info/search/"
+              <a href="http://nlt.tsukuba.lagoinst.info/search/"
                 target="_blank"
                 rel="noopener"
-                >NINJAL-LWP for TWC</nuxt-link
+                >NINJAL-LWP for TWC</a
               >,
-              <nuxt-link
-                class="link3"
-                to="http://nlb.ninjal.ac.jp/search/"
+              <a href="http://nlb.ninjal.ac.jp/search/"
                 target="_blank"
                 rel="noopener"
-                >NINJAL-LWP for BCCWJ</nuxt-link
+                >NINJAL-LWP for BCCWJ</a
               >,
-              <nuxt-link
-                class="link3"
-                to="https://sentencesearch.neocities.org/"
+              <a href="https://sentencesearch.neocities.org/"
                 target="_blank"
                 rel="noopener"
-                >Sentence Search</nuxt-link
+                >Sentence Search</a
               >.
             </li>
           </ul>
@@ -2776,12 +2613,10 @@
           <p>
             This is a normal and inevitable part of the learning process. To
             learn more about why this happens and how to deal with it, watch
-            <nuxt-link
-              class="link3"
-              to="https://youtu.be/wrBFhsnBQ2k"
+            <a href="https://youtu.be/wrBFhsnBQ2k"
               target="_blank"
               rel="noopener"
-              >this video</nuxt-link
+              >this video</a
             >
             (which was linked at the start of the previous section).
           </p>
@@ -2798,12 +2633,10 @@
           <p>
             After making a couple thousand bilingual sentence cards, we
             recommend making the
-            <nuxt-link
-              class="link3"
-              to="https://www.youtube.com/watch?v=2AH2JmxglzU"
+            <a href="https://www.youtube.com/watch?v=2AH2JmxglzU"
               target="_blank"
               rel="noopener"
-              >monolingual transition</nuxt-link
+              >monolingual transition</a
             >
             and switching to making monolingual sentence cards.
           </p>
@@ -2817,24 +2650,20 @@
             content, you should find that you start feeling ready to start
             speaking naturally. Once that time comes, you can start applying
             some of the techniques Matt talked about in his
-            <nuxt-link
-              class="link3"
-              to="https://youtu.be/YCESUUA0wL0"
+            <a href="https://youtu.be/YCESUUA0wL0"
               target="_blank"
               rel="noopener"
-              >How to Start Outputting</nuxt-link
+              >How to Start Outputting</a
             >
             video. And that should take you to a high level of Japanese fluency.
           </p>
           <p>
             If you’re curious about when exactly to move on to each of those
             steps, and what lies after basic fluency, check out the
-            <nuxt-link
-              class="link3"
-              to="/table-of-contents/stage-0/overview/"
+            <a href="/table-of-contents/stage-0/overview/"
               target="_blank"
               rel="noopener"
-              >MIA Overview</nuxt-link
+              >MIA Overview</a
             >.
           </p>
           <h2>Combining Sentence Mining with Pre-Made Decks</h2>
@@ -2848,12 +2677,10 @@
           <p>
             As mentioned in the basic grammar section, we don’t recommend above
             N4 in the JLPT Tango series. Instead, we consider either a
-            <nuxt-link
-              class="link3"
-              to="http://rtkwiki.koohii.com/wiki/Core_10k"
+            <a href="http://rtkwiki.koohii.com/wiki/Core_10k"
               target="_blank"
               rel="noopener"
-              >Core 10k</nuxt-link
+              >Core 10k</a
             >
             deck or Dictionary of Japanese Grammar deck to be a better choice.
           </p>
@@ -2863,12 +2690,10 @@
             means that going through them from start to finish would be
             extremely redundant. Because of this, supplementing sentence mining
             with pre-made decks pretty much requires the use of
-            <nuxt-link
-              class="link3"
-              to="#morphman"
+            <a href="#morphman"
               target="_blank"
               rel="noopener"
-              >MorphMan</nuxt-link
+              >MorphMan</a
             >. MorphMan will help you find new content in the pre-made deck
             that’s 1T for you given your current knowledge. This way, you can,
             for example, learn 10 mined sentences and 5 pre-made sentences each
@@ -2885,109 +2710,87 @@
           <h2>Content</h2>
           <ul>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://www.netflix.com/"
+              <a href="https://www.netflix.com/"
                 target="_blank"
                 rel="noopener"
-                >Netflix</nuxt-link
+                >Netflix</a
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://www.crunchyroll.com/"
+              <a href="https://www.crunchyroll.com/"
                 target="_blank"
                 rel="noopener"
-                >Crunchyroll</nuxt-link
+                >Crunchyroll</a
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://www.amazon.co.jp/Prime-Video/b?ie=UTF8&amp;node=3535604051"
+              <a href="https://www.amazon.co.jp/Prime-Video/b?ie=UTF8&amp;node=3535604051"
                 target="_blank"
                 rel="noopener"
-                >Amazon Prime Video</nuxt-link
+                >Amazon Prime Video</a
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://www.hulu.jp/"
+              <a href="https://www.hulu.jp/"
                 target="_blank"
                 rel="noopener"
-                >Hulu.jp</nuxt-link
+                >Hulu.jp</a
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://www.youtube.com/"
+              <a href="https://www.youtube.com/"
                 target="_blank"
                 rel="noopener"
-                >YouTube</nuxt-link
+                >YouTube</a
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://www3.nhk.or.jp/news/easy/"
+              <a href="https://www3.nhk.or.jp/news/easy/"
                 target="_blank"
                 rel="noopener"
-                >NHK News Web Easy</nuxt-link
+                >NHK News Web Easy</a
               >
             </li>
           </ul>
           <h2>Online Dictionaries</h2>
           <ul>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://jisho.org/"
+              <a href="https://jisho.org/"
                 target="_blank"
                 rel="noopener"
-                >Jisho</nuxt-link
+                >Jisho</a
               >
               (bilingual)
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://ejje.weblio.jp/"
+              <a href="https://ejje.weblio.jp/"
                 target="_blank"
                 rel="noopener"
-                >Weblio EJJE</nuxt-link
+                >Weblio EJJE</a
               >
               (bilingual)
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://www.weblio.jp/"
+              <a href="https://www.weblio.jp/"
                 target="_blank"
                 rel="noopener"
-                >Weblio</nuxt-link
+                >Weblio</a
               >
               (monolingual)
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://dictionary.goo.ne.jp/"
+              <a href="https://dictionary.goo.ne.jp/"
                 target="_blank"
                 rel="noopener"
-                >Goo</nuxt-link
+                >Goo</a
               >
               (monolingual)
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://www.sanseido.biz/"
+              <a href="https://www.sanseido.biz/"
                 target="_blank"
                 rel="noopener"
-                >Sanseido</nuxt-link
+                >Sanseido</a
               >
               (monolingual)
             </li>
@@ -2995,248 +2798,195 @@
           <h2>Anki Add-ons</h2>
           <ul>
             <li>
-              <nuxt-link
-                class="link3"
-                to="/table-of-contents/anki/low-key-anki/low-key-anki-summary-and-installation/"
+              <nuxt-link href="/table-of-contents/anki/low-key-anki/low-key-anki-summary-and-installation/"
                 target="_blank"
                 rel="noopener"
                 >Low-Key Anki</nuxt-link
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://ankiweb.net/shared/info/3918629684"
+              <a href="https://ankiweb.net/shared/info/3918629684"
                 target="_blank"
                 rel="noopener"
-                >Japanese Support</nuxt-link
+                >Japanese Support</a
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://ankiweb.net/shared/info/278530045"
+              <a href="https://ankiweb.net/shared/info/278530045"
                 target="_blank"
                 rel="noopener"
-                >MIA Japanese Add-on</nuxt-link
+                >MIA Japanese Add-on</a
               >
               (guide can be found
-              <nuxt-link
-                class="link3"
-                to="/table-of-contents/anki/mia-japanese-addon/"
+              <nuxt-link href="/table-of-contents/anki/mia-japanese-addon/"
                 target="_blank"
                 rel="noopener"
                 >here</nuxt-link
               >).
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://ankiweb.net/shared/info/1666520655"
+              <a href="https://ankiweb.net/shared/info/1666520655"
                 target="_blank"
                 rel="noopener"
-                >MIA Retirement Add-on</nuxt-link
+                >MIA Retirement Add-on</a
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://ankiweb.net/shared/info/900801631"
+              <a href="https://ankiweb.net/shared/info/900801631"
                 target="_blank"
                 rel="noopener"
-                >MorphMan</nuxt-link
+                >MorphMan</a
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://ankiweb.net/shared/info/516643804"
+              <a href="https://ankiweb.net/shared/info/516643804"
                 target="_blank"
                 rel="noopener"
-                >Frozen Fields</nuxt-link
+                >Frozen Fields</a
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://ankiweb.net/shared/info/1214357311"
+              <a href="https://ankiweb.net/shared/info/1214357311"
                 target="_blank"
                 rel="noopener"
-                >Image Resizer</nuxt-link
+                >Image Resizer</a
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://ankiweb.net/shared/info/310394744"
+              <a href="https://ankiweb.net/shared/info/310394744"
                 target="_blank"
                 rel="noopener"
-                >Cross Profile Search and Import</nuxt-link
+                >Cross Profile Search and Import</a
               >
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://ankiweb.net/shared/info/498789867"
+              <a href="https://ankiweb.net/shared/info/498789867"
                 target="_blank"
                 rel="noopener"
-                >Replay buttons on card</nuxt-link
+                >Replay buttons on card</a
               >
             </li>
           </ul>
           <h2>General Tools</h2>
           <ul>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://www.google.co.jp/ime/"
+              <a href="https://www.google.co.jp/ime/"
                 target="_blank"
                 rel="noopener"
-                >Google日本語入力</nuxt-link
+                >Google日本語入力</a
               >: Recommended Japanese <em>Input Method Editor</em> (IME), the
               tool used to type Japanese on a computer. Much better than
               Microsoft Japanese IME, the IME that comes with Windows.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://foosoft.net/projects/yomichan/"
+              <a href="https://foosoft.net/projects/yomichan/"
                 target="_blank"
                 rel="noopener"
-                >Yomichan</nuxt-link
+                >Yomichan</a
               >: Firefox and Chrome addon that allows you to import dictionaries
               to get instant hover-lookup of words
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="http://subs2srs.sourceforge.net/"
+              <a href="http://subs2srs.sourceforge.net/"
                 target="_blank"
                 rel="noopener"
-                >Subs2srs</nuxt-link
+                >Subs2srs</a
               >: Takes video files and subtitle files and cards with screenshots
               and/or audio for each line in the sub file. Also useful for batch
               extracting audio from videos.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://youtu.be/IS7WzYICAsk"
+              <a href="https://youtu.be/IS7WzYICAsk"
                 target="_blank"
                 rel="noopener"
-                >ShareX</nuxt-link
+                >ShareX</a
               >: A versatile program for taking screencaps and recording audio
               in real time.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://nordvpn.com/"
+              <a href="https://nordvpn.com/"
                 target="_blank"
                 rel="noopener"
-                >NordVPN</nuxt-link
+                >NordVPN</a
               >: VPN with many Japanese servers.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://www.flixgrab.com/"
+              <a href="https://www.flixgrab.com/"
                 target="_blank"
                 rel="noopener"
-                >FlixGrab</nuxt-link
+                >FlixGrab</a
               >: Program for downloading videos from Netflix.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="http://jdownloader.org/download/index"
+              <a href="http://jdownloader.org/download/index"
                 target="_blank"
                 rel="noopener"
-                >Jdownloader</nuxt-link
+                >Jdownloader</a
               >: Free download management tool (has good support for YouTube).
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://rg3.github.io/youtube-dl/"
+              <a href="https://rg3.github.io/youtube-dl/"
                 target="_blank"
                 rel="noopener"
-                >Youtube-dl</nuxt-link
+                >Youtube-dl</a
               >: Command-line program to download from YouTube and other video
               websites easily.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://mrs0m30n3.github.io/youtube-dl-gui/"
+              <a href="https://mrs0m30n3.github.io/youtube-dl-gui/"
                 target="_blank"
                 rel="noopener"
-                >Youtube-dl-gui</nuxt-link
+                >Youtube-dl-gui</a
               >: A GUI over youtube-dl.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://www.nch.com.au/switch/index.html"
+              <a href="https://www.nch.com.au/switch/index.html"
                 target="_blank"
                 rel="noopener"
-                >Switch Converter</nuxt-link
+                >Switch Converter</a
               >: Video converter.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://handbrake.fr/"
+              <a href="https://handbrake.fr/"
                 target="_blank"
                 rel="noopener"
                 >HandBrake</nuxt-link
               >: Video converter.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://calibre-ebook.com/"
+              <a href="https://calibre-ebook.com/"
                 target="_blank"
                 rel="noopener"
-                >Calibre</nuxt-link
+                >Calibre</a
               >: Powerful, free software for converting, editing and organizing
               ebooks.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="http://capture2text.sourceforge.net/"
+              <a href="http://capture2text.sourceforge.net/"
                 target="_blank"
                 rel="noopener"
-                >Capture2Text</nuxt-link
+                >Capture2Text</a
               >: Optical character recognition (OCR) software that allows you
               turn text from images (e.g. scanned manga) into actual text
               characters.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://fluentcards.com/kindle"
+              <a href="https://fluentcards.com/kindle"
                 target="_blank"
                 rel="noopener"
-                >FluentCards</nuxt-link
+                >FluentCards</a
               >: Drag and drop your kindle vocab.db file into here to extract
               all the words you’ve highlighted while you’ve been reading.
             </li>
             <li>
-              <nuxt-link
-                class="link3"
-                to="https://video.fluentcards.com/"
+              <a href="https://video.fluentcards.com/"
                 target="_blank"
                 rel="noopener"
-                >Video.FluentCards</nuxt-link
+                >Video.FluentCards</a
               >: In-browser video player that allows for easy maneuvering of
               subtitles.
             </li>
           </ul>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
