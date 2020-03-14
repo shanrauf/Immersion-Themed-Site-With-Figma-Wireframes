@@ -1,7 +1,7 @@
 <template>
   <div>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/stage-1/">Stage 1</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
     <h2>Epistemology</h2>
     <h1>Part 1: Effective vs. Ineffective Methods</h1>
     <YouTubeEmbed src="https://www.youtube.com/embed/m5q6N9QHl8c" />
@@ -24,11 +24,11 @@
     with, their advice may be worth listening to. Something else I forgot to
     mention is that another reason you can’t trust people’s self-reports about
     their own language ability is the
-    <a
-      href="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+    <nuxt-link
+      to="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
       target="_blank"
       rel="noopener noreferrer"
-      >Dunning–Kruger effect</a
+      >Dunning–Kruger effect</nuxt-link
     >. The Dunning–Kruger effect is a cognitive bias in which, for any given
     skill, people at relatively low levels tend to overestimate their ability,
     due to not being competent enough to recognize their own incompetence. In
@@ -39,36 +39,36 @@
     comparing their ability to that of native speakers and realize that their
     level is actually quite low. For more on the Dunning–Kruger effect, I highly
     recommend
-    <a
-      href=" https://youtu.be/pOLmD_WVY-E"
+    <nuxt-link
+      to=" https://youtu.be/pOLmD_WVY-E"
       target="_blank"
       rel="noopener noreferrer"
     >
-      this short video</a
+      this short video</nuxt-link
     >. And lastly, I am no exception to these principles! Don’t just blindly
     assume I know what I’m talking about! Go “test” me as well as other popular
     figures in the language learning community. I want you to have confidence
     that the methods I talk about on this site are proven to work. You can find
     videos of me speaking Japanese
-    <a
-      href="https://youtu.be/SrHwPv7gUCE"
+    <nuxt-link
+      to="https://youtu.be/SrHwPv7gUCE"
       target="_blank"
       rel="noopener noreferrer"
-      >here</a
+      >here</nuxt-link
     >
     and
-    <a
-      href="https://youtu.be/SF1_zmj0lLA"
+    <nuxt-link
+      to="https://youtu.be/SF1_zmj0lLA"
       target="_blank"
       rel="noopener noreferrer"
-      >here</a
+      >here</nuxt-link
     >, and a video of Khatzumoto (creator of the AJATT method, which inspired
     MIA) speaking Japanese
-    <a
-      href="https://youtu.be/ejRkuX1RGf4"
+    <nuxt-link
+      to="https://youtu.be/ejRkuX1RGf4"
       target="_blank"
       rel="noopener noreferrer"
-      >here</a
+      >here</nuxt-link
     >. I also encourage you to explore other methods in addition to MIA,
     especially if you ever run into an issue that MIA doesn’t seem to provide a
     specific solution for. Even when using the best methods, it’s important to
@@ -83,6 +83,7 @@
 <script>
 import YouTubeEmbed from '~/components/YouTubeEmbed'
 export default {
+  transition: 'page',
   components: {
     YouTubeEmbed
   }

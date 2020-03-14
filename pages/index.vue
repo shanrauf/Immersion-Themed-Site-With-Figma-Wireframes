@@ -55,6 +55,7 @@ import BaseButton from '~/components/BaseButton'
 import BaseWave from '~/components/BaseWave'
 
 export default {
+  transition: 'page',
   components: {
     BaseButton,
     BaseWave

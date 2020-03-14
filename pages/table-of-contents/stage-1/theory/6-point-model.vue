@@ -1,40 +1,42 @@
 <template>
   <div>
     <h2>Mass Immersion Approach</h2>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/stage-1/">Stage 1</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
     <h2>The 6-Point Model of Language Ability</h2>
     <p style="text-align: center;">Table of Contents</p>
 
     <ul>
-      <li><a href="#intro">Intro</a></li>
-      <li><a href="#considerations">Considerations</a></li>
+      <li><nuxt-link to="#intro">Intro</nuxt-link></li>
+      <li><nuxt-link to="#considerations">Considerations</nuxt-link></li>
       <li>
-        <a href="#rubric">Rubric</a>
-        <a
-          href="https://docs.google.com/spreadsheets/d/1r44DF3b0TNTBCo2_hnjTV60Jl0LHLENxIXrBqUwAIuw/edit?usp=sharing"
+        <nuxt-link to="#rubric">Rubric</nuxt-link>
+        <nuxt-link
+          to="https://docs.google.com/spreadsheets/d/1r44DF3b0TNTBCo2_hnjTV60Jl0LHLENxIXrBqUwAIuw/edit?usp=sharing"
           target="_blank"
           rel="noopener"
-          >(link)</a
+          >(link)</nuxt-link
         >
       </li>
       <li>
-        <a href="#categories">Categories</a>
+        <nuxt-link to="#categories">Categories</nuxt-link>
         <ul>
-          <li><a href="#spoken_language">Spoken Language</a></li>
+          <li><nuxt-link to="#spoken_language">Spoken Language</nuxt-link></li>
         </ul>
       </li>
       <li style="list-style-type: none;">
         <ul>
-          <li><a href="#written_language">Written Language</a></li>
+          <li>
+            <nuxt-link to="#written_language">Written Language</nuxt-link>
+          </li>
         </ul>
       </li>
       <li>
-        <a href="#application">Application</a>
+        <nuxt-link to="#application">Application</nuxt-link>
         <ul>
-          <li><a href="#fluency">Defining Fluency</a></li>
-          <li><a href="#japanese">Japanese Examples</a></li>
-          <li><a href="#english">English Examples</a></li>
+          <li><nuxt-link to="#fluency">Defining Fluency</nuxt-link></li>
+          <li><nuxt-link to="#japanese">Japanese Examples</nuxt-link></li>
+          <li><nuxt-link to="#english">English Examples</nuxt-link></li>
         </ul>
       </li>
     </ul>
@@ -195,11 +197,11 @@
     decided to keep the rubric hosted on Google Sheets for the time being. This
     way, I don’t have to worry about keeping it up to date in multiple places.
     The rubric can be found
-    <a
-      href="https://docs.google.com/spreadsheets/d/1r44DF3b0TNTBCo2_hnjTV60Jl0LHLENxIXrBqUwAIuw/edit?usp=sharing"
+    <nuxt-link
+      to="https://docs.google.com/spreadsheets/d/1r44DF3b0TNTBCo2_hnjTV60Jl0LHLENxIXrBqUwAIuw/edit?usp=sharing"
       target="_blank"
       rel="noopener"
-      >here</a
+      >here</nuxt-link
     >.
     <h1 id="categories">Categories</h1>
     <h2 id="spoken_language">Spoken Language</h2>
@@ -479,11 +481,11 @@
 
     In the charts above, each rung represents “two” of the ten possible points
     (i.e., Grammar is “six”). You can make your own ability graphs
-    <a
-      href="https://frenchyann.github.io/language-aptitude-graphs/"
+    <nuxt-link
+      to="https://frenchyann.github.io/language-aptitude-graphs/"
       target="_blank"
       rel="noopener"
-      >with this tool</a
+      >with this tool</nuxt-link
     >. Here is a chart that compares fluency (blue) to the minimum amount of
     ability required to reliably get confused for a native speaker (purple):
 
@@ -589,14 +591,14 @@
       height="400"
     />
     <h2 id="english">English</h2>
-    <YouiTubeEmbed src="https://youtube.com/embed/xZuo9CloRqQ" /><a
-      href="https://massimmersionapproach.com/imgs/2019/01/graph-GODZILLA-2014-Interview-Ken-Watanabe.svg"
+    <YouiTubeEmbed src="https://youtube.com/embed/xZuo9CloRqQ" /><nuxt-link
+      to="https://massimmersionapproach.com/imgs/2019/01/graph-GODZILLA-2014-Interview-Ken-Watanabe.svg"
       ><img
         src="https://massimmersionapproach.com/imgs/2019/01/graph-GODZILLA-2014-Interview-Ken-Watanabe.svg"
         alt=""
         width="500"
         height="400"
-    /></a>
+    /></nuxt-link>
 
     <hr />
 
@@ -658,6 +660,7 @@
 <script>
 import YouTubeEmbed from '~/components/YouTubeEmbed'
 export default {
+  transition: 'page',
   components: {
     YouTubeEmbed
   }

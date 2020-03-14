@@ -1,7 +1,7 @@
 <template>
   <div>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/stage-1/">Stage 1</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
     <h2>Theory vs. Practice</h2>
     <YouTubeEmbed src="https://youtube.com/embed/UHAa0mFOsYM" />
 
@@ -21,7 +21,7 @@
 </template>
 
 <script>
-export default {}
+export default { transition: 'page' }
 </script>
 
 <style></style>

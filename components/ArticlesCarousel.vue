@@ -17,6 +17,7 @@
 
 <script>
 export default {
+  transition: 'page',
   data() {
     return {
       articles: [

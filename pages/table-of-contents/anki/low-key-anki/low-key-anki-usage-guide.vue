@@ -301,7 +301,7 @@
 </template>
 
 <script>
-export default {}
+export default { transition: 'page' }
 </script>
 
 <style></style>

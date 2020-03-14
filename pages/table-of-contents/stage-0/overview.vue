@@ -1,7 +1,7 @@
 <template>
   <div>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/stage-0/">Stage 0</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/stage-0/">Stage 0</nuxt-link>
     <h2>Overview</h2>
     <h2>Stage 1 – Getting Started</h2>
     <ul>
@@ -133,7 +133,7 @@
 </template>
 
 <script>
-export default {}
+export default { transition: 'page' }
 </script>
 
 <style></style>

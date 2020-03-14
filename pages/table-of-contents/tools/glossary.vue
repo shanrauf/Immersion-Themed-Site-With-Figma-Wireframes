@@ -1,19 +1,23 @@
 <template>
   <div>
     <h2>Mass Immersion Approach</h2>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/tools/">Tools</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/tools/">Tools</nuxt-link>
     <h2>Glossary</h2>
     <p style="text-align: center; font-size: 25px;">
-      <a href="#A">A</a> <a href="#B">B </a><a href="#C">C </a>
-      <a href="#D">D</a> <a href="#E">E</a> <a href="#F">F</a>
-      <a href="#G">G</a> <a href="#H">H</a> <a href="#I">I</a>
-      <a href="#J">J</a> <a href="#K">K</a> <a href="#L">L</a>
-      <a href="#M">M</a> <a href="#N">N</a> <a href="#O">O</a>
-      <a href="#P">P</a> <a href="#Q">Q</a> <a href="#R">R</a>
-      <a href="#S">S</a> <a href="#T">T</a> <a href="#U">U</a>
-      <a href="#V">V</a> <a href="#W">W </a> <a href="#X">X</a>
-      <a href="#Y">Y</a> <a href="#Z">Z</a>
+      <nuxt-link to="#A">A</nuxt-link> <nuxt-link to="#B">B </nuxt-link
+      ><nuxt-link to="#C">C </nuxt-link> <nuxt-link to="#D">D</nuxt-link>
+      <nuxt-link to="#E">E</nuxt-link> <nuxt-link to="#F">F</nuxt-link>
+      <nuxt-link to="#G">G</nuxt-link> <nuxt-link to="#H">H</nuxt-link>
+      <nuxt-link to="#I">I</nuxt-link> <nuxt-link to="#J">J</nuxt-link>
+      <nuxt-link to="#K">K</nuxt-link> <nuxt-link to="#L">L</nuxt-link>
+      <nuxt-link to="#M">M</nuxt-link> <nuxt-link to="#N">N</nuxt-link>
+      <nuxt-link to="#O">O</nuxt-link> <nuxt-link to="#P">P</nuxt-link>
+      <nuxt-link to="#Q">Q</nuxt-link> <nuxt-link to="#R">R</nuxt-link>
+      <nuxt-link to="#S">S</nuxt-link> <nuxt-link to="#T">T</nuxt-link>
+      <nuxt-link to="#U">U</nuxt-link> <nuxt-link to="#V">V</nuxt-link>
+      <nuxt-link to="#W">W </nuxt-link> <nuxt-link to="#X">X</nuxt-link>
+      <nuxt-link to="#Y">Y</nuxt-link> <nuxt-link to="#Z">Z</nuxt-link>
     </p>
 
     <pre>A</pre>
@@ -30,9 +34,12 @@
     practical way to test how native-like your accent is. It is extremely rare
     for adult learners to achieve the level of accent authenticity required to
     pass this test, but people such as
-    <a href="https://en.wikipedia.org/wiki/Dashan" rel="noopener">Dashan</a> and
-    <a href="https://www.youtube.com/watch?v=PYlnJpvRwX8" rel="noopener"
-      >Julien Gaudfroy</a
+    <nuxt-link to="https://en.wikipedia.org/wiki/Dashan" rel="noopener"
+      >Dashan</nuxt-link
+    >
+    and
+    <nuxt-link to="https://www.youtube.com/watch?v=PYlnJpvRwX8" rel="noopener"
+      >Julien Gaudfroy</nuxt-link
     >
     have proved that it is indeed possible. Developing a native-like accent
     hinges on the ability to accurately perceive and notice the subtleties of
@@ -50,7 +57,8 @@
     <hr />
 
     <h2>
-      <a id="acquisition"></a>Acquisition (as opposed to <em>Learning</em>)
+      <nuxt-link id="acquisition"></nuxt-link>Acquisition (as opposed to
+      <em>Learning</em>)
     </h2>
     The distinction between <em>acquisition</em> and <em>learning</em> was
     proposed by Stephen Krashen in his <em>acquisition–learning hypothesis</em>,
@@ -77,10 +85,10 @@
     explain, or realizing that you know the meaning of words you never learned.
     For example, if you are a native speaker of English, you likely find “the
     big red dog” much more natural than “the red big dog.” There is a
-    <a
-      href="https://dictionary.cambridge.org/ja/grammar/british-grammar/about-adjectives-and-adverbs/adjectives-order"
+    <nuxt-link
+      to="https://dictionary.cambridge.org/ja/grammar/british-grammar/about-adjectives-and-adverbs/adjectives-order"
       rel="noopener"
-      >complicated grammatical rule</a
+      >complicated grammatical rule</nuxt-link
     >
     dictating why this is the case, but unless you have formally studied English
     grammar, you most likely have no idea what it is. Notice how you didn’t have
@@ -104,7 +112,8 @@
     to an audiobook), as long as one is fully engaged in a
     linguistically-mediated activity, one is actively immersing. Fundamentally,
     all true linguistic ability is cultivated through immersion; knowledge
-    gained through <a href="#active_study"><em>Active Study</em></a> can improve
+    gained through
+    <nuxt-link to="#active_study"><em>Active Study</em></nuxt-link> can improve
     the efficiency at which language is acquired through immersion, but can’t
     directly cause acquisition on its own. Passive and Background Immersion can
     be extremely beneficial, but tend to only bring results to the extent that
@@ -116,11 +125,11 @@
 
     <hr />
 
-    <h2><a id="active_study"></a>Active Study</h2>
+    <h2><nuxt-link id="active_study"></nuxt-link>Active Study</h2>
     <em>Active Study</em> refers to conscious, directed effort made to increase
     one’s knowledge of the target language. Active Study corresponds to
-    <em>learning</em> in the <em>learning</em>/<a href="#acquisition"
-      ><em>acquisition</em></a
+    <em>learning</em> in the <em>learning</em>/<nuxt-link to="#acquisition"
+      ><em>acquisition</em></nuxt-link
     >
     dichotomy, and in the context of MIA, is usually contrasted with
     <em>Immersion</em>. Examples of Active Study include reading a grammar
@@ -161,32 +170,33 @@
     damaging AJATT’s reputation. Khatzumoto became increasingly less active, and
     eventually completely disappeared from the internet in 2014. He resurfaced
     in 2017 with the announcement that he had created a
-    <a href="https://www.patreon.com/ajatt" rel="noopener">Patreon</a>, and will
-    be writing articles on self-help and language learning for to those who
-    subscribe. These new articles don’t seem to have attracted very much
-    attention. MIA is heavily inspired by AJATT. Although there are areas in
-    which they disagree, MIA and AJATT are much more alike than different. MIA’s
-    stance is that AJATT’s biggest weakness is not its <em>ideas</em>, but the
-    way it <em>communicates</em> those ideas. One could say that, fundamentally,
-    MIA was founded with the goal of bringing Khatzumoto’s insights to a larger
-    audience.
+    <nuxt-link to="https://www.patreon.com/ajatt" rel="noopener"
+      >Patreon</nuxt-link
+    >, and will be writing articles on self-help and language learning for to
+    those who subscribe. These new articles don’t seem to have attracted very
+    much attention. MIA is heavily inspired by AJATT. Although there are areas
+    in which they disagree, MIA and AJATT are much more alike than different.
+    MIA’s stance is that AJATT’s biggest weakness is not its <em>ideas</em>, but
+    the way it <em>communicates</em> those ideas. One could say that,
+    fundamentally, MIA was founded with the goal of bringing Khatzumoto’s
+    insights to a larger audience.
 
     <hr />
 
     <h2>Anki</h2>
-    <a href="https://apps.ankiweb.net/" rel="noopener">Anki</a> is a free
-    open-source SRS. It was created by Damien Elmes in 2006, and is regularly
-    updated to this day. The spaced repetition algorithm Anki uses is a modified
-    version of SM2, an algorithm created for SuperMemo in the late 1980s. Anki’s
-    greatest strength is its flexibility and customizability. It runs on all
-    major platforms (desktop and mobile, online and local), allows for easy
-    importing and exporting, and has built-in syncing. Anki gives users the
-    freedom to fully customize the design and organization of their cards, and
-    even allows for modifications to the program itself in the form of add-ons.
-    Add-ons and pre-made decks created by other users can be found on the Anki
-    website. Anki’s other advantage is that, with the exception of Anki Mobile
-    for iOS, it’s 100% free. Anki’s downside is that it requires a large amount
-    of learning and modification to be used optimally. The extensive
+    <nuxt-link to="https://apps.ankiweb.net/" rel="noopener">Anki</nuxt-link> is
+    a free open-source SRS. It was created by Damien Elmes in 2006, and is
+    regularly updated to this day. The spaced repetition algorithm Anki uses is
+    a modified version of SM2, an algorithm created for SuperMemo in the late
+    1980s. Anki’s greatest strength is its flexibility and customizability. It
+    runs on all major platforms (desktop and mobile, online and local), allows
+    for easy importing and exporting, and has built-in syncing. Anki gives users
+    the freedom to fully customize the design and organization of their cards,
+    and even allows for modifications to the program itself in the form of
+    add-ons. Add-ons and pre-made decks created by other users can be found on
+    the Anki website. Anki’s other advantage is that, with the exception of Anki
+    Mobile for iOS, it’s 100% free. Anki’s downside is that it requires a large
+    amount of learning and modification to be used optimally. The extensive
     customizability can be overwhelming for new users, causing many to become
     frustrated and give up before fully adjusting to the program. Furthermore,
     Anki’s algorithm is simplistic and counterintuitive, and this leads many
@@ -198,73 +208,78 @@
     can be designed to fit the precise needs of the individual), and the many
     useful language-learning tools that have been created specifically for Anki,
     such as
-    <a href="http://subs2srs.sourceforge.net/" rel="noopener">subs2srs</a> and
-    <a href="https://github.com/FooSoft/yomichan" rel="noopener">Yomichan</a>.
-    MIA seeks to remedy Anki’s flaws by helping learners gain an in-depth
+    <nuxt-link to="http://subs2srs.sourceforge.net/" rel="noopener"
+      >subs2srs</nuxt-link
+    >
+    and
+    <nuxt-link to="https://github.com/FooSoft/yomichan" rel="noopener"
+      >Yomichan</nuxt-link
+    >. MIA seeks to remedy Anki’s flaws by helping learners gain an in-depth
     understanding of the program such that they can use it optimally.
 
     <hr />
 
-    <pre><a id="B"></a>B</pre>
+    <pre><nuxt-link id="B"></nuxt-link>B</pre>
 
     <hr />
 
-    <pre><a id="C"></a>C</pre>
+    <pre><nuxt-link id="C"></nuxt-link>C</pre>
 
     <hr />
 
-    <pre><a id="D"></a>D</pre>
+    <pre><nuxt-link id="D"></nuxt-link>D</pre>
 
     <hr />
 
-    <pre><a id="E"></a>E</pre>
+    <pre><nuxt-link id="E"></nuxt-link>E</pre>
 
     <hr />
 
-    <pre><a id="F"></a>F</pre>
+    <pre><nuxt-link id="F"></nuxt-link>F</pre>
 
     <hr />
 
-    <pre><a id="G"></a>G</pre>
+    <pre><nuxt-link id="G"></nuxt-link>G</pre>
 
     <hr />
 
-    <pre><a id="H"></a>H</pre>
+    <pre><nuxt-link id="H"></nuxt-link>H</pre>
 
     <hr />
 
-    <pre><a id="I"></a>I</pre>
+    <pre><nuxt-link id="I"></nuxt-link>I</pre>
 
     <hr />
 
-    <pre><a id="J"></a>J</pre>
+    <pre><nuxt-link id="J"></nuxt-link>J</pre>
 
     <hr />
 
-    <pre><a id="K"></a>K</pre>
+    <pre><nuxt-link id="K"></nuxt-link>K</pre>
 
     <hr />
 
-    <pre><a id="L"></a>L</pre>
+    <pre><nuxt-link id="L"></nuxt-link>L</pre>
 
     <hr />
 
-    <pre><a id="M"></a>M</pre>
+    <pre><nuxt-link id="M"></nuxt-link>M</pre>
     <h2 id="MT">Multi-Target Sentence</h2>
     <strong>Also known as:</strong> MT sentence. A sentence that contains more
     than one unknown word or grammar structure. In other words, a sentence with
     multiple target words/structures.
 
-    <strong>Also see:</strong> <a href="#1T">One-Target Sentence</a>,
-    <a href="#0T">Zero-Target Sentence</a>.
+    <strong>Also see:</strong>
+    <nuxt-link to="#1T">One-Target Sentence</nuxt-link>,
+    <nuxt-link to="#0T">Zero-Target Sentence</nuxt-link>.
 
     <hr />
 
-    <pre><a id="N"></a>N</pre>
+    <pre><nuxt-link id="N"></nuxt-link>N</pre>
 
     <hr />
 
-    <pre><a id="O"></a>O</pre>
+    <pre><nuxt-link id="O"></nuxt-link>O</pre>
     <h2 id="1T">One-Target Sentence</h2>
     <strong>Also known as:</strong> 1T sentence, single-target sentence. A
     sentence that contains one unknown word or grammar structure. The unknown
@@ -283,8 +298,10 @@
     <strong>Note</strong>: Previously, MIA referred to "1T sentences" as "i+1
     sentences". The term "i+1" comes from Stephen Krashen and his Input
     Hypothesis. From
-    <a href="https://en.wikipedia.org/wiki/Input_hypothesis" rel="noopener"
-      >Wikipedia</a
+    <nuxt-link
+      to="https://en.wikipedia.org/wiki/Input_hypothesis"
+      rel="noopener"
+      >Wikipedia</nuxt-link
     >: "[The Input Hypothesis] states that learners progress in their knowledge
     of the language when they comprehend language input that is slightly more
     advanced than their current level. Krashen called this level of input "i+1",
@@ -297,52 +314,53 @@
     slight difference in meaning, we decided to drop the term and adopt the more
     straightforward "one target" instead.
 
-    <strong>Also see:</strong> <a href="#0T">Zero-Target Sentence</a>,
-    <a href="#MT">Multi-Target Sentence</a>.
+    <strong>Also see:</strong>
+    <nuxt-link to="#0T">Zero-Target Sentence</nuxt-link>,
+    <nuxt-link to="#MT">Multi-Target Sentence</nuxt-link>.
 
     <hr />
 
-    <pre><a id="P"></a>P</pre>
+    <pre><nuxt-link id="P"></nuxt-link>P</pre>
 
     <hr />
 
-    <pre><a id="Q"></a>Q</pre>
+    <pre><nuxt-link id="Q"></nuxt-link>Q</pre>
 
     <hr />
 
-    <pre><a id="R"></a>R</pre>
+    <pre><nuxt-link id="R"></nuxt-link>R</pre>
 
     <hr />
 
-    <pre><a id="S"></a>S</pre>
+    <pre><nuxt-link id="S"></nuxt-link>S</pre>
 
     <hr />
 
-    <pre><a id="T"></a>T</pre>
+    <pre><nuxt-link id="T"></nuxt-link>T</pre>
 
     <hr />
 
-    <pre><a id="U"></a>U</pre>
+    <pre><nuxt-link id="U"></nuxt-link>U</pre>
 
     <hr />
 
-    <pre><a id="V"></a>V</pre>
+    <pre><nuxt-link id="V"></nuxt-link>V</pre>
 
     <hr />
 
-    <pre><a id="W"></a>W</pre>
+    <pre><nuxt-link id="W"></nuxt-link>W</pre>
 
     <hr />
 
-    <pre><a id="X"></a>X</pre>
+    <pre><nuxt-link id="X"></nuxt-link>X</pre>
 
     <hr />
 
-    <pre><a id="Y"></a>Y</pre>
+    <pre><nuxt-link id="Y"></nuxt-link>Y</pre>
 
     <hr />
 
-    <pre><a id="Z"></a>Z</pre>
+    <pre><nuxt-link id="Z"></nuxt-link>Z</pre>
     <h2 id="0T">Zero-Target Sentence</h2>
     <strong>Also known as:</strong> 0T Sentence. A sentence that doesn't contain
     any unknown words or grammar structures. In other words, a sentence without
@@ -350,13 +368,14 @@
     contained in a sentence but still can't understand the overall meaning, the
     sentence is still considered to be zero-target.
 
-    <strong>Also see:</strong> <a href="#1T">One-Target Sentence</a>,
-    <a href="#MT">Multi-Target Sentence</a>.
+    <strong>Also see:</strong>
+    <nuxt-link to="#1T">One-Target Sentence</nuxt-link>,
+    <nuxt-link to="#MT">Multi-Target Sentence</nuxt-link>.
   </div>
 </template>
 
 <script>
-export default {}
+export default { transition: 'page' }
 </script>
 
 <style></style>

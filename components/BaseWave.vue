@@ -13,6 +13,7 @@
 
 <script>
 export default {
+  transition: 'page',
   props: {
     flipped: {
       type: Boolean,

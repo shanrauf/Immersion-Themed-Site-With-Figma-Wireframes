@@ -1,7 +1,9 @@
 <template>
   <div>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/extra/success-stories/">Success Stories</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/extra/success-stories/"
+      >Success Stories</nuxt-link
+    >
     <h2>Jamal (Phantom Madman)</h2>
     Jamal speaking after Japanese after 1 year 9 months of MIA:
     <YouTubeEmbed src="https://youtube.com/embed/4HLOmG_K9cE" />
@@ -22,6 +24,7 @@
 <script>
 import YouTubeEmbed from '~/components/YouTubeEmbed'
 export default {
+  transition: 'page',
   components: {
     YouTubeEmbed
   }

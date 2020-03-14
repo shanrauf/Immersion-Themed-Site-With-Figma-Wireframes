@@ -1,10 +1,12 @@
 <template>
   <div>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/stage-1/">Stage 1</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
     <h2>Stage 1 Overview</h2>
     For a brief summary of the action steps in written form:
-    <a href="/table-of-contents/stage-0/overview/">MIA Overview</a>
+    <nuxt-link to="/table-of-contents/stage-0/overview/"
+      >MIA Overview</nuxt-link
+    >
     <h1>Goals:</h1>
     <ul>
       <li>Build a foundation in language acquisition theory.</li>
@@ -20,7 +22,7 @@
 </template>
 
 <script>
-export default {}
+export default { transition: 'page' }
 </script>
 
 <style></style>

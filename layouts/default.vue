@@ -13,6 +13,7 @@ import BaseNav from '~/components/BaseNav'
 import BaseFooter from '~/components/BaseFooter'
 
 export default {
+  transition: 'page',
   components: {
     BaseNav,
     BaseFooter

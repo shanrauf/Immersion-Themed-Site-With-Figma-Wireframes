@@ -1,14 +1,16 @@
 <template>
   <div>
-    <a href="/table-of-contents/">Table of Contents</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link>
     <h2>Extra</h2>
     <ul>
       <li>
-        <a href="/table-of-contents/extra/success-stories/">Success Stories</a>
+        <nuxt-link to="/table-of-contents/extra/success-stories/"
+          >Success Stories</nuxt-link
+        >
       </li>
       <li>
-        <a href="/table-of-contents/extra/patreon-qa-archive/"
-          >Patreon Q&amp;A Archive</a
+        <nuxt-link to="/table-of-contents/extra/patreon-qa-archive/"
+          >Patreon Q&amp;A Archive</nuxt-link
         >
       </li>
     </ul>
@@ -16,7 +18,7 @@
 </template>
 
 <script>
-export default {}
+export default { transition: 'page' }
 </script>
 
 <style></style>

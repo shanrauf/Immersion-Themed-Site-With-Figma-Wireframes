@@ -1,25 +1,31 @@
 <template>
   <div>
-    <a href="/table-of-contents/">Table of Contents</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link>
     <h2>Success Stories</h2>
     <ul>
       <li>
-        <a href="/table-of-contents/extra/success-stories/nick/"
-          >Nick (Nitbean)</a
-        >
-      </li>
-      <li><a href="/table-of-contents/extra/success-stories/ben/">Ben</a></li>
-      <li>
-        <a href="/table-of-contents/extra/success-stories/britvsjapan/"
-          >BritVsJapan</a
+        <nuxt-link to="/table-of-contents/extra/success-stories/nick/"
+          >Nick (Nitbean)</nuxt-link
         >
       </li>
       <li>
-        <a href="/table-of-contents/extra/success-stories/chris/">Chris</a>
+        <nuxt-link to="/table-of-contents/extra/success-stories/ben/"
+          >Ben</nuxt-link
+        >
       </li>
       <li>
-        <a href="/table-of-contents/extra/success-stories/jamal/"
-          >Jamal (Phantom Madman)</a
+        <nuxt-link to="/table-of-contents/extra/success-stories/britvsjapan/"
+          >BritVsJapan</nuxt-link
+        >
+      </li>
+      <li>
+        <nuxt-link to="/table-of-contents/extra/success-stories/chris/"
+          >Chris</nuxt-link
+        >
+      </li>
+      <li>
+        <nuxt-link to="/table-of-contents/extra/success-stories/jamal/"
+          >Jamal (Phantom Madman)</nuxt-link
         >
       </li>
     </ul>
@@ -27,7 +33,7 @@
 </template>
 
 <script>
-export default {}
+export default { transition: 'page' }
 </script>
 
 <style></style>

@@ -1,22 +1,24 @@
 <template>
   <div>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/extra/success-stories/">Success Stories</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/extra/success-stories/"
+      >Success Stories</nuxt-link
+    >
     <h2>Nick (Nitbean)</h2>
     <p>
       Nick got wicked good at Japanese in an incredibly short amount of time. An
       interview with him can be found
-      <a
-        href="https://www.patreon.com/posts/interview-with-2-16483471"
+      <nuxt-link
+        to="https://www.patreon.com/posts/interview-with-2-16483471"
         target="_blank"
         rel="noopener noreferrer"
-        >here</a
+        >here</nuxt-link
       >. A video of Nick giving advice to Japanese learners can be found
-      <a
-        href="https://youtu.be/o-TqyBgFZn0"
+      <nuxt-link
+        to="https://youtu.be/o-TqyBgFZn0"
         target="_blank"
         rel="noopener noreferrer"
-        >here</a
+        >here</nuxt-link
       >. Below is an audio recording of Nick speaking Japanese. It was recorded
       in January, 2018, almost exactly three years after he began learning
       Japanese. Below is an essay he wrote around the same time.
@@ -52,6 +54,7 @@
 <script>
 import YouTubeEmbed from '~/components/YouTubeEmbed'
 export default {
+  transition: 'page',
   components: {
     YouTubeEmbed
   }

@@ -1,8 +1,10 @@
 <template>
   <div>
     <h2>Mass Immersion Approach</h2>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/extra/success-stories/">Success Stories</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/extra/success-stories/"
+      >Success Stories</nuxt-link
+    >
     <h2>BritVsJapan</h2>
     <p>
       BritVsJapan speaking after 2 years of learning Japanese:
@@ -35,6 +37,7 @@
 <script>
 import YouTubeEmbed from '~/components/YouTubeEmbed'
 export default {
+  transition: 'page',
   components: {
     YouTubeEmbed
   }

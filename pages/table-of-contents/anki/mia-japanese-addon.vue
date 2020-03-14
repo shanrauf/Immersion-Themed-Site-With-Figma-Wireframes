@@ -1,7 +1,7 @@
 <template>
   <!-- <div>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/Anki/">Anki</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/Anki/">Anki</nuxt-link>
     <h1>MIA Japanese Addon Guide</h1>
 
   <h2>Intro</h2>
@@ -24,80 +24,50 @@
               <p style="text-align: center;">Table of Contents</p>
               <ul>
                 <li>
-                  <a
-                    class="linkx"
-                    href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#intro"
-                    >Intro</a
+                  <nuxt-link class="linkx" to="#intro">Intro</nuxt-link>
+                </li>
+                <li>
+                  <nuxt-link class="linkx" to="#installation"
+                    >Installation</nuxt-link
                   >
                 </li>
                 <li>
-                  <a
-                    class="linkx"
-                    href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#installation"
-                    >Installation</a
+                  <nuxt-link class="linkx" to="#how-it-works"
+                    >How It Works</nuxt-link
                   >
                 </li>
                 <li>
-                  <a
-                    class="linkx"
-                    href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#how-it-works"
-                    >How It Works</a
+                  <nuxt-link class="linkx" to="#coloring"
+                    >Pitch Accent Coloring</nuxt-link
                   >
                 </li>
                 <li>
-                  <a
-                    class="linkx"
-                    href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#coloring"
-                    >Pitch Accent Coloring</a
+                  <nuxt-link class="linkx" to="#mia-japanese-note-type"
+                    >“MIA Japanese” Note Type</nuxt-link
                   >
                 </li>
                 <li>
-                  <a
-                    class="linkx"
-                    href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#mia-japanese-note-type"
-                    >“MIA Japanese” Note Type</a
+                  <nuxt-link class="linkx" to="#generation"
+                    >Generating Readings, Pitch Accent, and Audio</nuxt-link
                   >
                 </li>
                 <li>
-                  <a
-                    class="linkx"
-                    href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#generation"
-                    >Generating Readings, Pitch Accent, and Audio</a
+                  <nuxt-link class="linkx" to="#mass-generation"
+                    >Mass Generation</nuxt-link
                   >
                 </li>
                 <li>
-                  <a
-                    class="linkx"
-                    href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#mass-generation"
-                    >Mass Generation</a
-                  >
+                  <nuxt-link class="linkx" to="#syntax">The Syntax</nuxt-link>
                 </li>
                 <li>
-                  <a
-                    class="linkx"
-                    href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#syntax"
-                    >The Syntax</a
-                  >
+                  <nuxt-link class="linkx" to="#settings">Settings</nuxt-link>
                 </li>
                 <li>
-                  <a
-                    class="linkx"
-                    href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#settings"
-                    >Settings</a
-                  >
+                  <nuxt-link class="linkx" to="#qa">Q&amp;A</nuxt-link>
                 </li>
                 <li>
-                  <a
-                    class="linkx"
-                    href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#qa"
-                    >Q&amp;A</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="linkx"
-                    href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#js-support"
-                    >MIA Japanese and Japanese Support</a
+                  <nuxt-link class="linkx" to="#js-support"
+                    >MIA Japanese and Japanese Support</nuxt-link
                   >
                 </li>
               </ul>
@@ -121,10 +91,8 @@
             </p>
             <p>
               MIA Japanese does not conflict with the
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#js-support"
-                >Japanese Support</a
+              <nuxt-link class="link3" to="#js-support"
+                >Japanese Support</nuxt-link
               >
               add-on and is fully compatible with MorphMan.
               <strong>The add-on is only compatible with Anki 2.1.</strong>
@@ -133,11 +101,11 @@
             </p>
             <p>
               You can download the add-on
-              <a
+              <nuxt-link
                 class="link3"
-                href="https://ankiweb.net/shared/info/278530045"
+                to="https://ankiweb.net/shared/info/278530045"
                 rel="noopener"
-                >here</a
+                >here</nuxt-link
               >.
             </p>
             <h1 id="installation">Installation</h1>
@@ -178,8 +146,11 @@
             </p>
             <p>
               If you’re on a Mac, please use
-              <a class="link3" href="https://theunarchiver.com/" rel="noopener"
-                >this software</a
+              <nuxt-link
+                class="link3"
+                to="https://theunarchiver.com/"
+                rel="noopener"
+                >this software</nuxt-link
               >
               to unzip the “accentAudio” folder in order to avoid encoding
               issues and unplayable audio files.
@@ -255,18 +226,18 @@
             <p>
               Pitch Accent is a fundamental component of Japanese phonology. If
               you’re new to pitch accent,
-              <a
+              <nuxt-link
                 class="link3"
-                href="https://youtu.be/31d0b_swAAk"
+                to="https://youtu.be/31d0b_swAAk"
                 rel="noopener"
-                >this video</a
+                >this video</nuxt-link
               >
               and
-              <a
+              <nuxt-link
                 class="link3"
-                href="https://youtu.be/75gkm9i_wBc"
+                to="https://youtu.be/75gkm9i_wBc"
                 rel="noopener"
-                >this video</a
+                >this video</nuxt-link
               >
               should serve as a good introduction.
             </p>
@@ -302,13 +273,10 @@
             <p>
               You can customize the color scheme used to represent the different
               pitch accent patterns in the add-on’s
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#settings"
-                >settings</a
-              >. If you change the color associated with a given pitch accent
-              pattern, all the cards in your collection will automatically
-              change to reflect that.
+              <nuxt-link class="link3" to="#settings">settings</nuxt-link>. If
+              you change the color associated with a given pitch accent pattern,
+              all the cards in your collection will automatically change to
+              reflect that.
             </p>
             <p>
               The following videos explain the theoretical underpins of how
@@ -379,10 +347,10 @@
             </p>
             <p>
               If you want to permanently remove the “MIA Japanese” note type,
-              uncheck “Add MIA Japanese Note Type” in the “<a
+              uncheck “Add MIA Japanese Note Type” in the “<nuxt-link
                 class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#active-fields"
-                >Active Fields</a
+                to="#active-fields"
+                >Active Fields</nuxt-link
               >” tab of the add-on’s settings before deleting the note type. If
               you delete the “MIA Japanese” note type without unchecking “Add
               MIA Japanese Note Type”, the add-on will automatically re-generate
@@ -390,11 +358,11 @@
             </p>
             <p>
               The “MIA Japanese” note type was designed for
-              <a
+              <nuxt-link
                 class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/#sentence-cards"
+                to="https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide#sentence-cards"
                 rel="noopener"
-                >sentence cards</a
+                >sentence cards</nuxt-link
               >.
             </p>
             <p>
@@ -453,11 +421,7 @@
               hover over a word, a pop-up will appear with the reading and pitch
               accent information. You can turn off these pop-up pitch graphs in
               the
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#settings"
-                >settings</a
-              >.
+              <nuxt-link class="link3" to="#settings">settings</nuxt-link>.
             </p>
             <p>
               <strong>These features will work on all platforms</strong>,
@@ -510,11 +474,7 @@
               (hotkey: F2). By default, it generates readings and pitch accents
               for all of the words in the selected field. What the sentence
               button does can be customized in the add-on’s
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#settings"
-                >settings</a
-              >.
+              <nuxt-link class="link3" to="#settings">settings</nuxt-link>.
             </p>
             <p>
               <img
@@ -536,19 +496,11 @@
               <em>field(s)</em> respectively. You can change which fields are
               <em>audio fields</em> and <em>pitch graphs fields</em> in the
               add-on’s
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#settings"
-                >settings</a
-              >.
+              <nuxt-link class="link3" to="#settings">settings</nuxt-link>.
             </p>
             <p>
               What the word button does can also be customized in the add-on’s
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#settings"
-                >settings</a
-              >.
+              <nuxt-link class="link3" to="#settings">settings</nuxt-link>.
             </p>
             <p>
               <img
@@ -646,11 +598,7 @@
             </p>
             <p>
               You can edit and remove overwrite rules in the add-on’s
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#settings"
-                >settings</a
-              >.
+              <nuxt-link class="link3" to="#settings">settings</nuxt-link>.
             </p>
             <h1 id="mass-generation">Mass Generation</h1>
             <p>
@@ -787,10 +735,8 @@
               If you’re unfamiliar with the “kifuku” pitch accent pattern, check
               out the video “Thinking About Word-Level Pitch Accent”, which is
               linked in the
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#coloring"
-                >Pitch Accent Coloring</a
+              <nuxt-link class="link3" to="#coloring"
+                >Pitch Accent Coloring</nuxt-link
               >
               section.
             </p>
@@ -870,11 +816,7 @@
               When a single word is comprised of multiple accent phrases, once
               generated, it will appear like in the picture above. To understand
               why this is and what to do about it, watch from 17:52 in the
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#qa"
-                >Q&amp;A video</a
-              >
+              <nuxt-link class="link3" to="#qa">Q&amp;A video</nuxt-link>
               and read the notes below.
             </p>
             <h2 id="browser">In The Browser</h2>
@@ -1150,18 +1092,18 @@
             <p>
               When <em>historical conversion</em> is selected, kanji and kana
               will be converted into
-              <a
+              <nuxt-link
                 class="link3"
-                href="https://en.wikipedia.org/wiki/Ky%C5%ABjitai"
+                to="https://en.wikipedia.org/wiki/Ky%C5%ABjitai"
                 rel="noopener"
-                >pre-WWII kanji</a
+                >pre-WWII kanji</nuxt-link
               >
               and
-              <a
+              <nuxt-link
                 class="link3"
-                href="https://en.wikipedia.org/wiki/Historical_kana_orthography"
+                to="https://en.wikipedia.org/wiki/Historical_kana_orthography"
                 rel="noopener"
-                >pre-WWII kana spelling</a
+                >pre-WWII kana spelling</nuxt-link
               >
               respectively. The conversation is done in real-time through
               JavaScript and doesn’t influence the actual content of fields.
@@ -1171,18 +1113,12 @@
             <p>
               Historical conversion only converts fields that have been added to
               the
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#active-fields"
-                rel="noopener"
-                >active fields table</a
+              <nuxt-link class="link3" to="#active-fields" rel="noopener"
+                >active fields table</nuxt-link
               >. If you want a field to be converted but don’t want furigana or
               pitch accent coloring, add the field to the active fields table
-              with the “<a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#kanji"
-                rel="noopener"
-                >kanji</a
+              with the “<nuxt-link class="link3" to="#kanji" rel="noopener"
+                >kanji</nuxt-link
               >” display type.
             </p>
             <h4>Display Shapes</h4>
@@ -1199,11 +1135,7 @@
               Circles represent alternate accents that are split into multiple
               accent phrases. To learn more about this, read the notes at the
               bottom of the
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#qa"
-                >Q&amp;A section</a
-              >.
+              <nuxt-link class="link3" to="#qa">Q&amp;A section</nuxt-link>.
             </p>
             <h4>Audio On Click</h4>
             <p>
@@ -1240,18 +1172,12 @@
             <p>
               Katakana conversion only converts fields that have been added to
               the
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#active-fields"
-                rel="noopener"
-                >active fields table</a
+              <nuxt-link class="link3" to="#active-fields" rel="noopener"
+                >active fields table</nuxt-link
               >. If you want a field to be converted but don’t want furigana or
               pitch accent coloring, add the field to the active fields table
-              with the “<a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#kanji"
-                rel="noopener"
-                >kanji</a
+              with the “<nuxt-link class="link3" to="#kanji" rel="noopener"
+                >kanji</nuxt-link
               >” display type.
             </p>
             <h2 id="active-fields">Active Fields</h2>
@@ -1488,12 +1414,12 @@
             <h1 id="js-support">MIA Japanese and Japanese Support</h1>
             <p>
               Having Japanese MIA and
-              <a
+              <nuxt-link
                 class="link3"
-                href="https://ankiweb.net/shared/info/3918629684"
+                to="https://ankiweb.net/shared/info/3918629684"
                 rel="noopener"
               >
-                Japanese Support</a
+                Japanese Support</nuxt-link
               >
               installed at the same time will not cause any problems.
             </p>
@@ -1517,21 +1443,15 @@
               “<code>furigana:</code>” in front of the field name, inside the
               curly brackets. Also, make sure to <strong>not</strong> add that
               field to the
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#active-fields"
-                rel="noopener"
-                >active fields table</a
+              <nuxt-link class="link3" to="#active-fields" rel="noopener"
+                >active fields table</nuxt-link
               >.
             </p>
             <p>
               For fields that you plan on generating with the MIA Japanese
               add-on, add them to the
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#active-fields"
-                rel="noopener"
-                >active fields table</a
+              <nuxt-link class="link3" to="#active-fields" rel="noopener"
+                >active fields table</nuxt-link
               >. Also, in your note type template, make sure that
               <code>furigana:</code> is <strong>not</strong> inserted in front
               of the field name, inside of the curly brackets.
@@ -1548,11 +1468,8 @@
             <p>
               If you want to convert cards that you originally generated with
               the Japanese Support add-on to MIA Japanese syntax, use the
-              <a
-                class="link3"
-                href="https://massimmersionapproach.com/table-of-contents/anki/mia-japanese-addon/#mass-generation"
-                rel="noopener"
-                >mass generation</a
+              <nuxt-link class="link3" to="#mass-generation" rel="noopener"
+                >mass generation</nuxt-link
               >
               feature to re-generate with MIA Japanese syntax for those cards.
             </p>
@@ -1567,6 +1484,7 @@
 import YouTubeEmbed from '~/components/YouTubeEmbed'
 
 export default {
+  transition: 'page',
   components: {
     YouTubeEmbed
   }

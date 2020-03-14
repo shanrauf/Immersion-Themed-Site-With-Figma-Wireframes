@@ -1,7 +1,7 @@
 <template>
   <div>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/stage-1/">Stage 1</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
     <h2>The Fluency Illusion</h2>
     <YouTubeEmbed src="https://www.youtube.com/embed/vnGOrXh1dvY" />
 
@@ -53,6 +53,7 @@
 <script>
 import YouTubeEmbed from '~/components/YouTubeEmbed'
 export default {
+  transition: 'page',
   components: {
     YouTubeEmbed
   }

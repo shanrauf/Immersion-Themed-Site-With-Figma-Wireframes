@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2>Mass Immersion Approach</h2>
     <h2>MIA – Optimizing the Path to Fluency</h2>
     <img
       src="~/assets/Matt-and-Yoga.jpg"
@@ -53,11 +52,11 @@
     <img src="~/assets/Matt-400.jpg" alt="" width="400" height="400" />
 
     Matt started learning Japanese around the middle of 2011. Using an
-    immersion-based method called "<a
-      href="https://youtu.be/ugrOTjzLTYk"
+    immersion-based method called "<nuxt-link
+      to="https://youtu.be/ugrOTjzLTYk"
       target="_blank"
       rel="noopener noreferrer"
-      >All Japanese All the Time</a
+      >All Japanese All the Time</nuxt-link
     >" (AJATT)—combined with three years of near full-time dedication—he was
     able to reach a high level of Japanese fluency. But, he still wasn’t
     satisfied. Wanting to reduce the gap he felt between himself and native
@@ -67,11 +66,11 @@
     out other techniques, and begin thinking more critically about how language
     acquisition really worked. After an additional two years of study,
     experimentation and discovery, he finally reached
-    <a
-      href="https://youtu.be/SrHwPv7gUCE"
+    <nuxt-link
+      to="https://youtu.be/SrHwPv7gUCE"
       target="_blank"
       rel="noopener noreferrer"
-      >a level of ability he’s proud of</a
+      >a level of ability he’s proud of</nuxt-link
     >. Besides a six month period he spent in Japan in 2012, Matt learned
     Japanese entirely within the United States. Fast-forward two years, during
     the latter part of 2017 Matt created an online community based around AJATT.
@@ -134,26 +133,27 @@
     learners automate and optimize the language learning process. At the current
     moment MIA is still brand new, and the majority of the content has not been
     created yet. What has been created can be found on the
-    <a href="/table-of-contents/">table of contents</a>. You can also check the
-    <a href="/updates/">updates</a> page for a list of the most recent content.
-    <a
-      href="https://www.youtube.com/user/MATTvsJapan"
+    <nuxt-link to="/table-of-contents/">table of contents</nuxt-link>. You can
+    also check the <nuxt-link to="/updates/">updates</nuxt-link> page for a list
+    of the most recent content.
+    <nuxt-link
+      to="https://www.youtube.com/user/MATTvsJapan"
       target="_blank"
       rel="noopener noreferrer"
-      >Matt</a
+      >Matt</nuxt-link
     >
     and
-    <a
-      href="https://www.youtube.com/c/yogamia"
+    <nuxt-link
+      to="https://www.youtube.com/c/yogamia"
       target="_blank"
       rel="noopener noreferrer"
-      >Yoga</a
+      >Yoga</nuxt-link
     >’s YouTube channels, as well as the
-    <a
-      href="https://www.patreon.com/massimmersionapproach"
+    <nuxt-link
+      to="https://www.patreon.com/massimmersionapproach"
       target="_blank"
       rel="noopener noreferrer"
-      >MIA Patreon Discord Server</a
+      >MIA Patreon Discord Server</nuxt-link
     >, are also great places to find more MIA-related content, tools and
     resources.
     <h1>We Need Your Help</h1>
@@ -161,26 +161,26 @@
     experimentation and feedback from community members is crucial for MIA’s
     further development. Of course, financial support through
     <strong
-      ><a
-        href="https://www.patreon.com/massimmersionapproach"
+      ><nuxt-link
+        to="https://www.patreon.com/massimmersionapproach"
         target="_blank"
         rel="noopener noreferrer"
-        >Patreon</a
+        >Patreon</nuxt-link
       ></strong
     >
     (our main platform),
-    <a
-      href="https://www.subscribestar.com/massimmersionapproach"
+    <nuxt-link
+      to="https://www.subscribestar.com/massimmersionapproach"
       target="_blank"
       rel="noopener noreferrer"
-      >SubscribeStar</a
+      >SubscribeStar</nuxt-link
     >
     or
-    <a
-      href="https://ko-fi.com/massimmersionapproach"
+    <nuxt-link
+      to="https://ko-fi.com/massimmersionapproach"
       target="_blank"
       rel="noopener noreferrer"
-      >Ko-fi</a
+      >Ko-fi</nuxt-link
     >
     is greatly appreciated. Ultimately, it’s what allows us to continue working
     on MIA. However, simply by using MIA to acquire a foreign language, you’re
@@ -192,7 +192,7 @@
 </template>
 
 <script>
-export default {}
+export default { transition: 'page' }
 </script>
 
 <style></style>

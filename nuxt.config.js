@@ -17,7 +17,7 @@ module.exports = {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', to: '/favicon.ico' }]
   },
   /*
    ** Customize the progress-bar color
@@ -26,11 +26,21 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~/assets/transitions.css'],
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [],
+  // /* Layout Transitions */
+  // layoutTransition: {
+  //   name: 'layout',
+  //   mode: ''
+  // },
+  // /* Page Transitions */
+  // pageTransition: {
+  //   name: 'default',
+  //   mode: ''
+  // },
   /*
    ** Nuxt.js dev-modules
    */

@@ -47,21 +47,21 @@
     <p>Downloads:</p>
     <ul>
       <li>
-        <a
-          href="http://www.mediafire.com/file/1svvsr7f9cnpwka/Recognition_RTK.apkg/"
-          >Recognition RTK Anki Deck</a
+        <nuxt-link
+          to="http://www.mediafire.com/file/1svvsr7f9cnpwka/Recognition_RTK.apkg/"
+          >Recognition RTK Anki Deck</nuxt-link
         >
       </li>
       <li>
-        <a
-          href="http://www.mediafire.com/file/e7t66vuelbipln8/Recognition_RTH_%2528Simplified%2529.apkg/"
-          >Recognition RTH (Simplified) Anki Deck</a
+        <nuxt-link
+          to="http://www.mediafire.com/file/e7t66vuelbipln8/Recognition_RTH_%2528Simplified%2529.apkg/"
+          >Recognition RTH (Simplified) Anki Deck</nuxt-link
         >
       </li>
       <li>
-        <a
-          href="http://www.mediafire.com/file/faiab4flxsrwmc6/Recognition_RTH_%2528Traditional%2529.apkg/"
-          >Recognition RTH (Traditional) Anki Deck</a
+        <nuxt-link
+          to="http://www.mediafire.com/file/faiab4flxsrwmc6/Recognition_RTH_%2528Traditional%2529.apkg/"
+          >Recognition RTH (Traditional) Anki Deck</nuxt-link
         >
       </li>
     </ul>
@@ -129,6 +129,7 @@
 <script>
 import YouTubeEmbed from '~/components/YouTubeEmbed'
 export default {
+  transition: 'page',
   components: {
     YouTubeEmbed
   }

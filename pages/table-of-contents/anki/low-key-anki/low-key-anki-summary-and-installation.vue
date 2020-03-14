@@ -1,7 +1,7 @@
 <template>
   <div>
-    <a href="/table-of-contents/">Table of Contents</a> |
-    <a href="/table-of-contents/anki/">Anki</a>
+    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+    <nuxt-link to="/table-of-contents/anki/">Anki</nuxt-link>
     <h2>Low-Key Anki: Summary and Installation</h2>
     <h1>Summary</h1>
     <p>
@@ -73,11 +73,11 @@
 
     <h1>Installation (Anki 2.0)</h1>
     <p>
-      <a
-        href="https://www.mediafire.com/file/0kr8qzf06kybc3f/Low-Key+Anki+2.0.zip"
+      <nuxt-link
+        to="https://www.mediafire.com/file/0kr8qzf06kybc3f/Low-Key+Anki+2.0.zip"
         target="_blank"
         rel="noopener noreferrer"
-        >Here</a
+        >Here</nuxt-link
       >
       you will find a link to a zip file with three files in it. Each of these
       files is an Anki add-on. To install them, in Anki, go to "Tools &gt;
@@ -103,11 +103,11 @@
       lapsed cards 100% of the previous interval. This modified version will
       <em>not</em> override the "New Interval" setting in the deck options, so
       whatever is in the deck options will be used. Credit goes to
-      <a
-        href="https://www.youtube.com/channel/UCQFe3x4WAgm7joN5daMm5Ew"
+      <nuxt-link
+        to="https://www.youtube.com/channel/UCQFe3x4WAgm7joN5daMm5Ew"
         target="_blank"
         rel="noopener noreferrer"
-        >Yoga</a
+        >Yoga</nuxt-link
       >
       for the modification.
     </p>
@@ -122,11 +122,11 @@
       review or learning queue: “3” for review and “2” for learning.) If you are
       studying Japanese and would like to replace the words "pass" and "fail"
       with their Japanese translation, "当たり" and "外れ,"
-      <a
-        href="https://www.mediafire.com/file/c2i0rrynqbak2et/PassFail+2.0+%28JP%29.zip"
+      <nuxt-link
+        to="https://www.mediafire.com/file/c2i0rrynqbak2et/PassFail+2.0+%28JP%29.zip"
         target="_blank"
         rel="noopener noreferrer"
-        >here</a
+        >here</nuxt-link
       >
       is a modified version of the add-on.
     </p>
@@ -148,11 +148,11 @@
     </p>
     <h1 id="2.1">Installation (Anki 2.1)</h1>
     <p>
-      <a
-        href="https://www.mediafire.com/file/lzm3qli6bdh2ubw/Low-Key+Anki+2.1.zip"
+      <nuxt-link
+        to="https://www.mediafire.com/file/lzm3qli6bdh2ubw/Low-Key+Anki+2.1.zip"
         target="_blank"
         rel="noopener noreferrer"
-        >Here</a
+        >Here</nuxt-link
       >
       you will find a link to a zip file with three folders in it. Each of these
       folders is an Anki add-on. To install them, place the three folders in the
@@ -189,11 +189,11 @@
       in the review or learning queue: “3” for review and “2” for learning.) If
       you are studying Japanese and would like to replace the words "pass" and
       "fail" with their Japanese translation, "当たり" and "外れ,"
-      <a
-        href="https://www.mediafire.com/file/l4d63dqsw75urw9/PassFail+2.1+%28JP%29.zip"
+      <nuxt-link
+        to="https://www.mediafire.com/file/l4d63dqsw75urw9/PassFail+2.1+%28JP%29.zip"
         target="_blank"
         rel="noopener noreferrer"
-        >here</a
+        >here</nuxt-link
       >
       is a modified version of the add-on.
     </p>
@@ -216,20 +216,22 @@
     </p>
     <p>
       Previous:
-      <a href="/table-of-contents/anki/low-key-anki/low-key-anki-pass-fail/"
-        >Low-Key Anki: Pass/Fail</a
+      <nuxt-link
+        to="/table-of-contents/anki/low-key-anki/low-key-anki-pass-fail/"
+        >Low-Key Anki: Pass/Fail</nuxt-link
       >
 
       Next:
-      <a href="/table-of-contents/anki/low-key-anki/low-key-anki-usage-guide/"
-        >Low-Key Anki: Usage Guide</a
+      <nuxt-link
+        to="/table-of-contents/anki/low-key-anki/low-key-anki-usage-guide/"
+        >Low-Key Anki: Usage Guide</nuxt-link
       >
     </p>
   </div>
 </template>
 
 <script>
-export default {}
+export default { transition: 'page' }
 </script>
 
 <style></style>

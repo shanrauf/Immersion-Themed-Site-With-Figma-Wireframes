@@ -14,6 +14,7 @@
 
 <script>
 export default {
+  transition: 'page',
   layout: 'empty',
   props: {
     error: {

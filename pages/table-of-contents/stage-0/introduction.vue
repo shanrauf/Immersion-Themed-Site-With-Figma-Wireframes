@@ -62,6 +62,7 @@
 import YouTubeEmbed from '~/components/YouTubeEmbed'
 
 export default {
+  transition: 'page',
   components: {
     YouTubeEmbed
   }
