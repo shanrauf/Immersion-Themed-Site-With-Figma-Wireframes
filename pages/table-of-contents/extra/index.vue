@@ -48,5 +48,8 @@ img {
   .article-container {
     width: 80%;
   }
+  .article-content img {
+    max-width: 400px;
+  }
 }
 </style>
