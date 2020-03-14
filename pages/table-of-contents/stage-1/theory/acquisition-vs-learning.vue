@@ -1,11 +1,13 @@
 <template>
   <div class="article-container">
-    <p>
+    <div>
       <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
       <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
-    </p>
-    <h2>Acquisition vs. Learning</h2>
-    <YouTubeEmbed src="https://youtube.com/embed/CgIvG2ui5D8" />
+    </div>
+    <h1>Acquisition vs. Learning</h1>
+    <div class="article-content">
+      <YouTubeEmbed src="https://youtube.com/embed/CgIvG2ui5D8" />
+    </div>
   </div>
 </template>
 
@@ -34,5 +36,18 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .article-container {
+    width: 80%;
+  }
 }
 </style>

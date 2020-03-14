@@ -1,9 +1,9 @@
 <template>
   <div class="article-container">
-    <p>
+    <div>
       <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
       <nuxt-link to="/table-of-contents/stage-0/">Stage 0</nuxt-link>
-    </p>
+    </div>
     <h1 class="article-title">Overview</h1>
     <div class="article-content">
       <h2>Stage 1 – Getting Started</h2>
@@ -167,5 +167,18 @@ export default { transition: 'page' }
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .article-container {
+    width: 80%;
+  }
 }
 </style>

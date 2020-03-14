@@ -1,35 +1,11 @@
 <template>
   <div class="content clearfix">
-    <div class="main-content">
-      <h1 v-if="title" class="recent-post-title">{{ title }}</h1>
-      <ArticlePreview
-        v-for="article in articles"
-        :key="article.title"
-        v-bind="article"
-      />
-    </div>
-    <!-- <div class="sidebar">
-      <div class="section topics">
-        <h2 class="section-title">Popular Posts</h2>
-        <ul>
-          <li>
-            <nuxt-link to="/table-of-contents/stage-0/introduction/"
-              >Introduction</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link to="/table-of-contents/stage-0/site-layout/"
-              >Site Layout</nuxt-link
-            >
-          </li>
-          <li>
-            <nuxt-link to="/table-of-contents/stage-0/overview/"
-              >Overview</nuxt-link
-            >
-          </li>
-        </ul>
-      </div>
-    </div> -->
+    <h1 v-if="title" class="recent-post-title">{{ title }}</h1>
+    <ArticlePreview
+      v-for="article in articles"
+      :key="article.title"
+      v-bind="article"
+    />
   </div>
 </template>
 
@@ -58,29 +34,13 @@ export default {
 
 <style lang="scss" scoped>
 .content {
-  width: 90%;
+  width: 100%;
   margin: 30px auto 30px;
 }
 
-.content .main-content {
-  width: 70%;
-  float: left;
-}
-
-.content .main-content .recent-post-title {
-  width: 80%;
+.content .recent-post-title {
+  width: 75%;
   margin: 20px auto;
-}
-.content .sidebar {
-  width: 30%;
-  float: left;
-  height: 300px;
-}
-.content .sidebar .section {
-  background: white;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 20px;
 }
 .clearfix::after {
   content: '';

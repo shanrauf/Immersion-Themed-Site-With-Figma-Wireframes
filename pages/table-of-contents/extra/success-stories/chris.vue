@@ -1,51 +1,55 @@
 <template>
   <div class="article-container">
-    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
-    <nuxt-link to="/table-of-contents/extra/success-stories/"
-      >Success Stories</nuxt-link
-    >
-    <h2>Chris</h2>
     <p>
-      Chris speaking after 1.5 years of MIA:
+      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+      <nuxt-link to="/table-of-contents/extra/success-stories"
+        >Success Storiess</nuxt-link
+      >
     </p>
-    <YouTubeEmbed src="https://youtube.com/embed/Svs8Pu_zdAs" />
+    <h1>Chris</h1>
+    <div class="article-content">
+      <p>
+        Chris speaking after 1.5 years of MIA:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/Svs8Pu_zdAs" />
 
-    <p>
-      Interview with Chris:
-    </p>
-    <YouTubeEmbed src="https://youtube.com/embed/8fVk8_mmoNY" />
+      <p>
+        Interview with Chris:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/8fVk8_mmoNY" />
 
-    <h1>Update Videos</h1>
-    <p>
-      1 month update:
-    </p>
-    <YouTubeEmbed src="https://youtube.com/embed/HHH7avGhbic" />
+      <h1>Update Videos</h1>
+      <p>
+        1 month update:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/HHH7avGhbic" />
 
-    <p>
-      6 month update:
-    </p>
-    <YouTubeEmbed src="https://youtube.com/embed/QVGUi06cOwk" />
+      <p>
+        6 month update:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/QVGUi06cOwk" />
 
-    9 month update:
-    <YouTubeEmbed src="https://youtube.com/embed/W4zH6A4L3fc" />
+      9 month update:
+      <YouTubeEmbed src="https://youtube.com/embed/W4zH6A4L3fc" />
 
-    1 year update:
-    <YouTubeEmbed src="https://youtube.com/embed/X0-BaJPhENo" />
+      1 year update:
+      <YouTubeEmbed src="https://youtube.com/embed/X0-BaJPhENo" />
 
-    <p>
-      15 month update:
-    </p>
-    <YouTubeEmbed src="https://youtube.com/embed/MDdyKJTgdAs" />
+      <p>
+        15 month update:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/MDdyKJTgdAs" />
 
-    <p>
-      16 month update:
-    </p>
-    <YouTubeEmbed src="https://youtube.com/embed/OF65LBVci00" />
+      <p>
+        16 month update:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/OF65LBVci00" />
 
-    <p>
-      18 month update:
-    </p>
-    <YouTubeEmbed src="https://youtube.com/embed/qd6tOH-efVg" />
+      <p>
+        18 month update:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/qd6tOH-efVg" />
+    </div>
   </div>
 </template>
 
@@ -73,5 +77,18 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .article-container {
+    width: 80%;
+  }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="article-container">
+  <div>
     <section class="landing-section">
       <div class="landing-content">
         <h1 class="landing-title">
@@ -74,8 +74,10 @@ export default {
   background: #204f70;
   margin-bottom: -2px;
   width: 100%;
-  // height: 95vh;
-  height: 35vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .landing-content {
   height: 80%;
@@ -91,6 +93,7 @@ export default {
   color: #fff;
   max-width: 700px;
   font-size: 50px;
+  margin: 10px 0;
 }
 .landing-text {
   color: #fff;
@@ -120,5 +123,16 @@ export default {
   text-indent: 100%;
   white-space: nowrap;
   color: transparent;
+}
+@media screen and (max-width: 600px) {
+  .landing-content {
+    margin: 0 10px;
+  }
+  .landing-title {
+    font-size: 30px;
+  }
+  .landing-text {
+    font-size: 15px;
+  }
 }
 </style>

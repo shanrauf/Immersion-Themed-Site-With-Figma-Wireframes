@@ -1,11 +1,11 @@
 <template>
   <div class="article-container">
+    <div>
+      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+      <nuxt-link to="/table-of-contents/stage-0/">Stage 0</nuxt-link>
+    </div>
     <h1 class="article-title">Introduction</h1>
     <div class="article-content">
-      <div>
-        <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
-        <nuxt-link to="/table-of-contents/stage-0/">Stage 0</nuxt-link>
-      </div>
       <h1>Welcome to MIA!</h1>
 
       <YouTubeEmbed src="https://youtube.com/embed/KItnRHuKeEs" />
@@ -84,24 +84,17 @@ export default {
   align-items: flex-start;
   justify-content: center;
 }
-.post {
-  width: 95%;
-  height: 270px;
-  margin: 20px auto;
-  border-radius: 5px;
-  background: white;
-  position: relative;
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  clear: both;
 }
-
-.post .post-image {
-  width: 40%;
-  height: 100%;
-  float: left;
-}
-.post .post-preview {
-  padding: 10px;
-  width: 60%;
-  /* float: right; */
-  float: left;
+@media screen and (max-width: 600px) {
+  .article-container {
+    width: 80%;
+  }
 }
 </style>

@@ -1,8 +1,10 @@
 <template>
   <div class="article-container">
-    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
-    <nuxt-link to="/table-of-contents/extra/">Extra</nuxt-link>
-    <h2>Patreon Q&amp;A Archive</h2>
+    <p>
+      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+      <nuxt-link to="/table-of-contents/extra">Extra</nuxt-link>
+    </p>
+    <h1>Patreon Q&amp;A Archive</h1>
     <h2 style="text-align: center;">Table of Contents</h2>
     <h3 style="text-align: center;">2019</h3>
     <ul>
@@ -1268,5 +1270,18 @@ export default { transition: 'page' }
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .article-container {
+    width: 80%;
+  }
 }
 </style>

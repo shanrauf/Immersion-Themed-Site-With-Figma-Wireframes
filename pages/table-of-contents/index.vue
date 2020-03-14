@@ -23,6 +23,9 @@
       <nuxt-link to="/table-of-contents/tools/">Tools</nuxt-link>
     </h1>
     <h1 style="text-align: center;">
+      <nuxt-link to="table-of-contents/anki/">Anki</nuxt-link>
+    </h1>
+    <h1 style="text-align: center;">
       <nuxt-link to="/table-of-contents/extra/">Extra</nuxt-link>
     </h1>
   </div>
@@ -46,5 +49,18 @@ export default { transition: 'page' }
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .article-container {
+    width: 80%;
+  }
 }
 </style>

@@ -1,23 +1,29 @@
 <template>
   <div class="article-container">
-    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
-    <nuxt-link to="/table-of-contents/extra/success-stories/"
-      >Success Stories</nuxt-link
-    >
-    <h2>Jamal (Phantom Madman)</h2>
-    Jamal speaking after Japanese after 1 year 9 months of MIA:
-    <YouTubeEmbed src="https://youtube.com/embed/4HLOmG_K9cE" />
-
-    <h1>Update Videos</h1>
     <p>
-      5 month update:
+      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+      <nuxt-link to="/table-of-contents/extra/success-stories"
+        >Success Storiess</nuxt-link
+      >
     </p>
-    <YouTubeEmbed src="https://youtube.com/embed/IeygfBeIWdc" />
+    <h1>Jamal (Phantom Madman)</h1>
+    <div class="article-content">
+      <p>
+        Jamal speaking after Japanese after 1 year 9 months of MIA:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/4HLOmG_K9cE" />
 
-    <p>
-      1 year update:
-    </p>
-    <YouTubeEmbed src="https://youtube.com/embed/ipYyPQJsUPk" />
+      <h1>Update Videos</h1>
+      <p>
+        5 month update:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/IeygfBeIWdc" />
+
+      <p>
+        1 year update:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/ipYyPQJsUPk" />
+    </div>
   </div>
 </template>
 
@@ -45,5 +51,18 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .article-container {
+    width: 80%;
+  }
 }
 </style>

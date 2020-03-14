@@ -1,19 +1,23 @@
 <template>
   <div class="article-container">
-    <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
-    <nuxt-link to="/table-of-contents/extra/success-stories/"
-      >Success Stories</nuxt-link
-    >
-    <h2>Ben</h2>
     <p>
-      Ben speaking after 2 years of learning Japanese:
+      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+      <nuxt-link to="/table-of-contents/extra/success-stories"
+        >Success Storiess</nuxt-link
+      >
     </p>
-    <YouTubeEmbed src="https://youtube.com/embed/NYb5o2lewkY" />
+    <h1>Ben</h1>
+    <div class="article-content">
+      <p>
+        Ben speaking after 2 years of learning Japanese:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/NYb5o2lewkY" />
 
-    <p>
-      Interview with Ben:
-    </p>
-    <YouTubeEmbed src="https://youtube.com/embed/cFgrqtvfwEQ" />
+      <p>
+        Interview with Ben:
+      </p>
+      <YouTubeEmbed src="https://youtube.com/embed/cFgrqtvfwEQ" />
+    </div>
   </div>
 </template>
 
@@ -41,5 +45,18 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .article-container {
+    width: 80%;
+  }
 }
 </style>

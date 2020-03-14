@@ -1,5 +1,9 @@
 <template>
   <div class="article-container">
+    <div>
+      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+      <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
+    </div>
     <h1>Japanese Quickstart Guide</h1>
     <div class="article-content">
       <div class="elementor-column-wrap  elementor-element-populated">
@@ -3444,5 +3448,18 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .article-container {
+    width: 80%;
+  }
 }
 </style>
