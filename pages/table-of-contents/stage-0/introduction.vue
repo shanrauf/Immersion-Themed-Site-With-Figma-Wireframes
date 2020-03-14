@@ -7,24 +7,12 @@
         <nuxt-link to="/table-of-contents/stage-0/">Stage 0</nuxt-link>
       </div>
       <h1>Welcome to MIA!</h1>
-      <iframe
-        id="ytplayer"
-        type="text/html"
-        width="640"
-        height="360"
-        src="https://youtube.com/embed/KItnRHuKeEs"
-        frameborder="0"
-      ></iframe>
+
+      <YouTubeEmbed src="https://youtube.com/embed/KItnRHuKeEs" />
 
       <h1>The Origin Story</h1>
-      <iframe
-        id="ytplayer"
-        type="text/html"
-        width="640"
-        height="360"
-        src="https://youtube.com/embed/9ogE7WfywHA"
-        frameborder="0"
-      ></iframe>
+      <YouTubeEmbed src="https://youtube.com/embed/9ogE7WfywHA" />
+
       <div>
         Links:
         <ul>
@@ -71,7 +59,13 @@
 </template>
 
 <script>
-export default {}
+import YouTubeEmbed from '~/components/YouTubeEmbed'
+
+export default {
+  components: {
+    YouTubeEmbed
+  }
+}
 </script>
 
 <style lang="scss" scoped>
