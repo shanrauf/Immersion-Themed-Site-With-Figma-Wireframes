@@ -82,22 +82,18 @@
         First, go to MIA Japanese’s add-on page (link above), and install it the
         same way you would any other add-on.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/install1.gif"
-          alt=""
-          width="600"
-          height="442"
-        />
-      </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/install3.gif"
-          alt=""
-          width="600"
-          height="420"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/install1.gif"
+        alt=""
+        width="600"
+        height="442"
+      />
+      <img
+        src="~/assets/mia-japanese-addon/install3.gif"
+        alt=""
+        width="600"
+        height="420"
+      />
       <p>
         Once the add-on finishes downloading, close Anki. Then, go back to MIA
         Japanese’s add-on page and download the audio file pack
@@ -108,7 +104,8 @@
       <p>
         On Windows, this should be the following directory:
         <code
-          >C:\Users\[<em>user</em>]\AppData\Roaming\Anki2\addons21\278530045\user_files</code
+          >C:\Users\[<em>user</em>]\AppData\Roaming\
+          Anki2\addons21\278530045\user_files</code
         >.
       </p>
       <p>
@@ -117,35 +114,29 @@
         to unzip the “accentAudio” folder in order to avoid encoding issues and
         unplayable audio files.
       </p>
-      <h1>
-        <img
-          src="~/assets/mia-japanese-addon/install4.gif"
-          alt=""
-          width="600"
-          height="434"
-        />
-      </h1>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/install2-7.gif"
-          alt=""
-          width="600"
-          height="400"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/install4.gif"
+        alt=""
+        width="600"
+        height="434"
+      />
+      <img
+        src="~/assets/mia-japanese-addon/install2-7.gif"
+        alt=""
+        width="600"
+        height="400"
+      />
       <p>
         Once the folder containing the audio files finishes transferring, you
         should be all good to go.
       </p>
       <h1 id="how-it-works">How It Works</h1>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-generate-and-display3.gif"
-          alt=""
-          width="650"
-          height="423"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-generate-and-display3.gif"
+        alt=""
+        width="650"
+        height="423"
+      />
       <p>
         As you can see in the image above, MIA Japanese generates reading and
         pitch accent information directly into the fields of your cards. This
@@ -161,14 +152,12 @@
         allows you to insert JavaScript code into your existing note types, as
         well as customize exactly how the code functions.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-syntax2.gif"
-          alt=""
-          width="600"
-          height="352"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-syntax2.gif"
+        alt=""
+        width="600"
+        height="352"
+      />
       <p>
         The benefit of this system is that users can use this syntax to quickly
         and easily add or modify reading and pitch information, and any changes
@@ -201,14 +190,12 @@
         pattern, then this association would be enough for you to remember the
         pitch accent of the word.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-color-coding2.gif"
-          alt=""
-          width="700"
-          height="244"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-color-coding2.gif"
+        alt=""
+        width="700"
+        height="244"
+      />
       <p>
         MIA Japanese makes taking advantage of the power of pitch accent
         coloring easy. It allows you to generate pitch accent information for
@@ -256,14 +243,12 @@
         conjugation; it conjugates as a normal non-heiban verb.
       </p>
       <h1 id="mia-japanese-note-type">“MIA Japanese” Note Type</h1>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-note-type-300x238.png"
-          alt=""
-          width="300"
-          height="238"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-note-type-300x238.png"
+        alt=""
+        width="300"
+        height="238"
+      />
       <p>
         When you install MIA Japanese, it will automatically add the “MIA
         Japanese” note type to your collection.
@@ -285,14 +270,12 @@
           >sentence cards</nuxt-link
         >.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-note-type3-768x577.png"
-          alt=""
-          width="600"
-          height="451"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-note-type3-768x577.png"
+        alt=""
+        width="600"
+        height="451"
+      />
       <p>The target sentence goes in the “Expression” field.</p>
       <p>
         Whatever you need to understand the sentence goes in the “Meaning”
@@ -302,14 +285,12 @@
         Audio for the target sentence and/or target word goes in the “Audio”
         field.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-audio-on-front2.gif"
-          alt=""
-          width="700"
-          height="326"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-audio-on-front2.gif"
+        alt=""
+        width="700"
+        height="326"
+      />
       <p>
         The “Audio on Front” field is a conditional field. If the field is left
         completely empty, a text-based sentence card will be generated
@@ -342,14 +323,12 @@
         <strong>These features will work on all platforms</strong>, including
         AnkiWeb, Anki Mobile, or AnkiDroid.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-click.gif"
-          alt=""
-          width="400"
-          height="282"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-click.gif"
+        alt=""
+        width="400"
+        height="282"
+      />
       <p>
         If you’re on a desktop, you can click on any word that’s been generated
         to listen to native audio for that word. This feature relies on the
@@ -360,40 +339,34 @@
       <h1 id="generation">
         Generating Readings, Pitch Accent, and Audio
       </h1>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-4-buttons2-1.png"
-          alt=""
-          width="416"
-          height="50"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-4-buttons2-1.png"
+        alt=""
+        width="416"
+        height="50"
+      />
       <p>
         Once MIA Japanese is installed, the four buttons shown above should
         appear in the browser and add window.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-sentence-button3.gif"
-          alt=""
-          width="600"
-          height="324"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-sentence-button3.gif"
+        alt=""
+        width="600"
+        height="324"
+      />
       <p>
         The first of these, “文(ぶん)”, is the
         <em>sentence</em> button (hotkey: F2). By default, it generates readings
         and pitch accents for all of the words in the selected field. What the
         sentence button does can be customized in the add-on’s
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-word-button.gif"
-          alt=""
-          width="600"
-          height="325"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-word-button.gif"
+        alt=""
+        width="600"
+        height="325"
+      />
       <p>
         The second button, “語(ご)”, is the <em>word</em> button (hotkey: F3).
         By default, it generates native audio and a pitch accent graph for the
@@ -408,39 +381,33 @@
       <p>
         What the word button does can also be customized in the add-on’s
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-select-word.gif"
-          alt=""
-          width="600"
-          height="284"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-select-word.gif"
+        alt=""
+        width="600"
+        height="284"
+      />
       <p>
         There are two ways to select a word. The first is to simply place your
         cursor directly in front of the word. The second is to highlight the
         word. Highlighting allows for more precision.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-select-word4.gif"
-          alt=""
-          width="600"
-          height="260"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-select-word4.gif"
+        alt=""
+        width="600"
+        height="260"
+      />
       <p>
         If the selected word is in a conjugated form, the add-on will
         automatically find the dictionary form of the word.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-alternate-audio.gif"
-          alt=""
-          width="600"
-          height="250"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-alternate-audio.gif"
+        alt=""
+        width="600"
+        height="250"
+      />
       <p>
         In Japanese, sometimes words with different readings share the same
         kanji. If the add-on generates audio for the wrong word, you can correct
@@ -448,38 +415,32 @@
         <strong>a</strong>lternate) and then the reading of the correct word,
         and pressing the word button again.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-saku-button.gif"
-          alt=""
-          width="600"
-          height="390"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-saku-button.gif"
+        alt=""
+        width="600"
+        height="390"
+      />
       <p>
         The third button, “削(さく)”, is the <em>removal</em> button (hotkey:
         F4). It removes readings and pitch accents from the selected field.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-highlight-removal2.gif"
-          alt=""
-          width="600"
-          height="313"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-highlight-removal2.gif"
+        alt=""
+        width="600"
+        height="313"
+      />
       <p>
         You can also remove specific portions of readings and pitch accents from
         a field by highlighting that portion before pressing the removal button.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-r2.gif"
-          alt=""
-          width="600"
-          height="305"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-r2.gif"
+        alt=""
+        width="600"
+        height="305"
+      />
       <p>
         The fourth button, “R+”, is the
         <em>add new overwrite rule</em> button (hotkey: F5). The overwrite rule
@@ -497,14 +458,12 @@
         You can edit and remove overwrite rules in the add-on’s
       </p>
       <h1 id="mass-generation">Mass Generation</h1>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-mass-gen3.gif"
-          alt=""
-          width="800"
-          height="470"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-mass-gen3.gif"
+        alt=""
+        width="800"
+        height="470"
+      />
       <p>
         You can generate readings, pitch accents, and audio for multiple cards
         at once using the mass generation feature. To use this feature, first,
@@ -559,27 +518,23 @@
         doesn’t contain any kanji, the brackets are placed at the very end of
         the word.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-syntax-show12-768x255.png"
-          alt=""
-          width="650"
-          height="216"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-syntax-show12-768x255.png"
+        alt=""
+        width="650"
+        height="216"
+      />
       <p>
         Within the brackets, reading information and pitch accent information
         are separated by a semicolon. Reading information goes before the
         semicolon, and pitch accent information goes after the semicolon.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-syntax-example1-768x324.png"
-          alt=""
-          width="600"
-          height="253"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-syntax-example1-768x324.png"
+        alt=""
+        width="600"
+        height="253"
+      />
       <p>
         The reading portion of the brackets is further divided into two
         segments: the kana reading of the portion of the word in front of the
@@ -644,14 +599,12 @@
         This means that, by default, languages that are usually written with
         spaces, such as English, will also be displayed without spaces.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-spaces.gif"
-          alt=""
-          width="600"
-          height="207"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-spaces.gif"
+        alt=""
+        width="600"
+        height="207"
+      />
       <p>
         In order to counteract this problem, when syntax is generated via the
         sentence button, any pre-existing spaces are replaced with a slightly
@@ -664,14 +617,12 @@
         everything is displayed properly.
       </p>
       <h2>Other Pitch Phenomena</h2>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-syntax-h.gif"
-          alt=""
-          width="600"
-          height="247"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-syntax-h.gif"
+        alt=""
+        width="600"
+        height="247"
+      />
       <p>
         When a word has multiple possible pitch accents, each accent is
         separated by a comma. Accents are listed in order of dominance, and the
@@ -684,14 +635,12 @@
         be used to remember the alternate accents of words in addition to the
         dominant accent.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-compound3.gif"
-          alt=""
-          width="600"
-          height="233"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-compound3.gif"
+        alt=""
+        width="600"
+        height="233"
+      />
       <p>
         When a single word is comprised of multiple accent phrases, once
         generated, it will appear like in the picture above. To understand why
@@ -710,14 +659,12 @@
         in the field of the card. Because of this, if you searched “日本語学習”
         in the search bar at the top of the browser, it would no longer show up.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-nobr.gif"
-          alt=""
-          width="700"
-          height="613"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-nobr.gif"
+        alt=""
+        width="700"
+        height="613"
+      />
       <p>
         You can get around this by adding “nobr” (for “no brackets”) to your
         search. When the letters “nobr” exist anywhere in the search bar, Anki
@@ -725,14 +672,12 @@
         searching.
       </p>
       <h1 id="settings">Settings</h1>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-jp-settings.png"
-          alt=""
-          width="400"
-          height="164"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-jp-settings.png"
+        alt=""
+        width="400"
+        height="164"
+      />
       <p>
         To open the add-on’s settings, go to “MIA” on Anki’s menu bar and select
         “Japanese Settings”.
@@ -745,33 +690,28 @@
       <YouTubeEmbed src="https://youtube.com/embed/4rsLHpEQUXU" />
 
       <h2>Options</h2>
-      <h3>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-settings2.png"
-          alt=""
-          width="700"
-          height="457"
-        /><br />Profiles
-      </h3>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-settings-profile.gif"
-          alt=""
-          width="350"
-          height="187"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-settings2.png"
+        alt=""
+        width="700"
+        height="457"
+      />
+      <h3>Profiles</h3>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-settings-profile.gif"
+        alt=""
+        width="350"
+        height="187"
+      />
       <p>Select which profiles the add-on will be activated for.</p>
       <h3>Generation</h3>
       <h4>“Sentence Button (文)”</h4>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-settings-sentence2.png"
-          alt=""
-          width="500"
-          height="81"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-settings-sentence2.png"
+        alt=""
+        width="500"
+        height="81"
+      />
       <p>Customize the behavior of the sentence button:</p>
       <ul>
         <li>
@@ -798,14 +738,12 @@
         </li>
       </ul>
       <h4>“Word Button (語)”</h4>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-settings-word.png"
-          alt=""
-          width="500"
-          height="90"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-settings-word.png"
+        alt=""
+        width="500"
+        height="90"
+      />
       <p>Customize the behavior of the word button:</p>
       <ul>
         <li>
@@ -832,15 +770,13 @@
         </li>
       </ul>
       <h4>Audio Field(s)</h4>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-settings-AF.png"
-          alt=""
-          width="700"
-          height="58"
-          sizes="(max-width: 700px) 100vw, 700px"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-settings-AF.png"
+        alt=""
+        width="700"
+        height="58"
+        sizes="(max-width: 700px) 100vw, 700px"
+      />
       <p>Select which field(s) audio will be generated in.</p>
       <p>
         If <em>Overwrite</em> is selected, when audio is generated, whatever was
@@ -858,14 +794,12 @@
         default separator is a single line break (&lt;br&gt;).
       </p>
       <h4>Pitch Graph Field(s)</h4>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-settings-PGF.png"
-          alt=""
-          width="700"
-          height="52"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-settings-PGF.png"
+        alt=""
+        width="700"
+        height="52"
+      />
       <p>Select which field(s) pitch graphs will be generated in.</p>
       <p>
         If <em>Overwrite</em> is selected, when a pitch graph is generated,
@@ -900,27 +834,23 @@
         <em>look ahead</em> count.
       </p>
       <h3>Colors</h3>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-settings-colors2-768x71.png"
-          alt=""
-          width="700"
-          height="65"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-settings-colors2-768x71.png"
+        alt=""
+        width="700"
+        height="65"
+      />
       <p>
         Select which colors are associated with each pitch accent pattern. Any
         changes made will be automatically reflected in all of your cards.
       </p>
       <h3>Behavior</h3>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-settings-behavior-768x80.png"
-          alt=""
-          width="700"
-          height="73"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-settings-behavior-768x80.png"
+        alt=""
+        width="700"
+        height="73"
+      />
       <p>
         Various options related to how the JavaScript code inserted into your
         note type templates will render your cards.
@@ -934,14 +864,12 @@
         extremely slow computers or cards with huge amounts of text.
       </p>
       <h4>Historical Conversion</h4>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-historical-conversion2.gif"
-          alt=""
-          width="650"
-          height="424"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-historical-conversion2.gif"
+        alt=""
+        width="650"
+        height="424"
+      />
       <p>
         When <em>historical conversion</em> is selected, kanji and kana will be
         converted into
@@ -998,14 +926,12 @@
         have been generated.
       </p>
       <h4>Katakana Conversion</h4>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-katakana-conversion3.gif"
-          alt=""
-          width="600"
-          height="391"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-katakana-conversion3.gif"
+        alt=""
+        width="600"
+        height="391"
+      />
       <p>
         When <em>katakana conversion</em> is selected, all kana will be
         converted into katakana. The conversation is done in real-time through
@@ -1021,14 +947,12 @@
         type.
       </p>
       <h2 id="active-fields">Active Fields</h2>
-      <h2>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-active-fields2.gif"
-          alt=""
-          width="700"
-          height="457"
-        />
-      </h2>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-active-fields2.gif"
+        alt=""
+        width="700"
+        height="457"
+      />
       <p>
         The <em>active fields</em> tab allows you to insert custom JavaScript
         code into your original note type templates. You can activate this
@@ -1040,14 +964,12 @@
         below). For each note type, for each field you want rendered according
         to a specific display type, add a row to the active fields table.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-active-fields-demo.gif"
-          alt=""
-          width="700"
-          height="457"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-active-fields-demo.gif"
+        alt=""
+        width="700"
+        height="457"
+      />
       <p>
         When you press “Apply” after making changes to the active fields table,
         the add-on will insert custom JavaScript code into your note type
@@ -1073,85 +995,69 @@
         following pictures.
       </p>
       <p><strong id="kanji">Kanji:</strong></p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/display-type-kanji2.gif"
-          alt=""
-          width="600"
-          height="252"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/display-type-kanji2.gif"
+        alt=""
+        width="600"
+        height="252"
+      />
       <p><strong>Colored Kanji:</strong></p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/display-type-coloredkanji2.gif"
-          alt=""
-          width="600"
-          height="253"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/display-type-coloredkanji2.gif"
+        alt=""
+        width="600"
+        height="253"
+      />
       <p><strong>Hover:</strong></p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/display-type-hover2.gif"
-          alt=""
-          width="600"
-          height="253"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/display-type-hover2.gif"
+        alt=""
+        width="600"
+        height="253"
+      />
       <p><strong>Colored Hover:</strong></p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/display-type-coloredhover2.gif"
-          alt=""
-          width="600"
-          height="252"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/display-type-coloredhover2.gif"
+        alt=""
+        width="600"
+        height="252"
+      />
       <p><strong>Kanji Reading:</strong></p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/display-type-kanjireading2.gif"
-          alt=""
-          width="600"
-          height="253"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/display-type-kanjireading2.gif"
+        alt=""
+        width="600"
+        height="253"
+      />
       <p><strong>Colored Kanji Reading :</strong></p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/display-type-coloredkanjireading2.gif"
-          alt=""
-          width="600"
-          height="253"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/display-type-coloredkanjireading2.gif"
+        alt=""
+        width="600"
+        height="253"
+      />
       <p><strong>Reading:</strong></p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/display-type-reading2.gif"
-          alt=""
-          width="600"
-          height="252"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/display-type-reading2.gif"
+        alt=""
+        width="600"
+        height="252"
+      />
       <p><strong>Colored Reading:</strong></p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/display-type-coloredreading2.gif"
-          alt=""
-          width="600"
-          height="252"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/display-type-coloredreading2.gif"
+        alt=""
+        width="600"
+        height="252"
+      />
       <h2>Overwrite Rules</h2>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-overwrite-rules-demo.gif"
+        alt=""
+        width="700"
+        height="457"
+      />
       <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-overwrite-rules-demo.gif"
-          alt=""
-          width="700"
-          height="457"
-        />
         <br />The <em>overwrite rules</em> tab allows you to manage your
         overwrite rules.
       </p>
@@ -1210,14 +1116,12 @@
         multi-accent phrase word. For example, the word “毀誉褒貶” can be
         pronounced as either “きよほうへん [1]” or “きよ・ほうへん [1]-[0]”.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-multiaccent2.gif"
-          alt=""
-          width="600"
-          height="248"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-multiaccent2.gif"
+        alt=""
+        width="600"
+        height="248"
+      />
       <p>
         When a word has multiple possible accents, and one of the alternate
         accents has multiple accent phrases, this is displayed as a circle
@@ -1240,14 +1144,12 @@
         using both, please follow the instructions below to avoid conflict
         between the two add-ons.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-js-support.png"
-          alt=""
-          width="600"
-          height="518"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-js-support.png"
+        alt=""
+        width="600"
+        height="518"
+      />
       <p>
         For fields that you want to generate with the Japanese Support add-on,
         inside your note type template, add “<code>furigana:</code>” in front of
@@ -1263,14 +1165,12 @@
         <strong>not</strong> inserted in front of the field name, inside of the
         curly brackets.
       </p>
-      <p>
-        <img
-          src="~/assets/mia-japanese-addon/mia-japanese-js-convert.gif"
-          alt=""
-          width="700"
-          height="575"
-        />
-      </p>
+      <img
+        src="~/assets/mia-japanese-addon/mia-japanese-js-convert.gif"
+        alt=""
+        width="700"
+        height="575"
+      />
       <p>
         If you want to convert cards that you originally generated with the
         Japanese Support add-on to MIA Japanese syntax, use the

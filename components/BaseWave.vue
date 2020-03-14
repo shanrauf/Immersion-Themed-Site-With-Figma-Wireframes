@@ -40,6 +40,7 @@ export default {
 <style lang="scss" scoped>
 .wave {
   /* Fixes weird margin on mobile */
-  width: 105%;
+  width: 100%;
+  padding: 0 -15px 0 -15px;
 }
 </style>

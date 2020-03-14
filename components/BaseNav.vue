@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="overflow: hidden !important;">
     <nav>
       <nuxt-link to="/">
         <img src="~/assets/mia_white.png" alt="MIA Logo" class="logo" />

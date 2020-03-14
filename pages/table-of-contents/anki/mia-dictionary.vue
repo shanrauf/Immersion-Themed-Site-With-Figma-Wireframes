@@ -145,9 +145,13 @@
         To prevent this, simply disable MIA Dictionary and restart Anki before
         deleting the add-on. Alternatively, you can also delete the add-on by
         closing Anki and deleting MIA Dictionary’s folder from your Anki add-ons
-        folder
-        (<code>C:Users[<em>user</em>]AppDataRoamingAnki2addons211655992655</code>).
+        folder:
       </p>
+      <code
+        >C:/Users/[<em>user</em>]/AppData/Roaming/
+        Anki2/addons/211655992655</code
+      >
+
       <h2 id="dictionaries">Dictionaries</h2>
       <p>
         You can find a library of open-source dictionaries and frequency lists
@@ -173,9 +177,10 @@
         To quickly get started, download the <em>entire</em> folder for your
         target language, and place it in the following directory:
       </p>
-      <code
-        >C:Users[<em>user</em>]AppDataRoamingAnki2addons211655992655user_filesdictionaries</code
-      >
+      <code>
+        C:/Users/[<em>user</em>]/AppData/Roaming/
+        Anki2/addons/211655992655/user_files/dictionaries
+      </code>
 
       <p>
         Each folder contains every open-source dictionary currently available
@@ -234,12 +239,12 @@
         Dictionaries in the proprietary MIA Dictionary format consist of a
         single JSON file. The format of the JSON file is as follows:
       </p>
-      <code
-        >[{"term": "", "altterm": "", "pronunciation": "", "definition": "",
+      <p>
+        [{"term": "", "altterm": "", "pronunciation": "", "definition": "",
         "pos": "", "examples": "", "audio": ""}, {"term": "", "altterm": "",
         "pronunciation": "", "definition": "to separate", "pos": "", "examples":
-        "", "audio": ""}]</code
-      >
+        "", "audio": ""}]
+      </p>
 
       <p>
         Where,
@@ -266,23 +271,23 @@
       <p>
         Example from CEDICT Chinese to English dictionary:
       </p>
-      <code
-        >[{"term": "分隔", "altterm": "", "pronunciation": "fēn gé",
+      <p>
+        [{"term": "分隔", "altterm": "", "pronunciation": "fēn gé",
         "definition": "to divide/to separate/partition", "pos": "", "examples":
         "", "audio": ""}, {"term": "分离", "altterm": "分離", "pronunciation":
         "fēn lí", "definition": "to separate", "pos": "", "examples": "",
-        "audio": ""}]</code
-      >
+        "audio": ""}]
+      </p>
 
       <p>
         Example from Kengdict Korean to English dictionary:
       </p>
-      <code
-        >[{"term": "사회", "altterm": "社會", "pronunciation": "", "definition":
+      <p>
+        [{"term": "사회", "altterm": "社會", "pronunciation": "", "definition":
         "culture,society", "pos": "", "examples": "", "audio": ""}, {"term":
         "사회 계층", "altterm": "", "pronunciation": "", "definition":
-        "stratification", "pos": "", "examples": "", "audio": ""}]</code
-      >
+        "stratification", "pos": "", "examples": "", "audio": ""}]
+      </p>
       <h3>Installing Dictionaries</h3>
       <p>
         To install a dictionary, simply place it within the correct location
@@ -292,8 +297,12 @@
       <em>How it works:</em>
       <p>
         In order to maximize the search speeds, MIA Dictionary creates a single
-        SQLite database to use when searching
-        (<code>C:Users[<em>user</em>]AppDataRoamingAnki2addons211655992655user_filesdbdictionaries.sqlite</code>).
+        SQLite database to use when searching:
+      </p>
+      <!-- <p
+        >C:Users[<em>user</em>]AppDataRoamingAnki2addons211655992655user_filesdbdictionaries.sqlite</p
+      > -->
+      <p>
         This SQLite database is created through importing the dictionaries
         contained within the add-on’s folder structure. Each time an Anki
         profile is loaded, the add-on checks to see if any changes have been
@@ -308,9 +317,11 @@
         The folder structure for dictionaries is as follows:
       </p>
 
-      <code
-        >C:Users[<em>user</em>]AppDataRoamingAnki2addons211655992655user_filesdictionaries[<em>language</em>][<em>dictionary_name</em>]dictinoary_files.json</code
-      >
+      <code>
+        C:/Users/[<em>user</em>]/AppData/Roaming/
+        Anki2/addons/211655992655/user_files/ dictionaries/[<em>language</em>]/
+        [<em>dictionary_name</em>]/dictinoary_files.json
+      </code>
 
       <p>
         Within the “dictionaries” folder, dictionaries are grouped together into
@@ -441,10 +452,10 @@
         be configured as JSON files formatted in the following way:
       </p>
 
-      <code
-        >["you", "I", "the", "to", "a", "it", "and", "that", "of", "in", "what",
-        "is", "me", "we"]</code
-      >
+      <p>
+        ["you", "I", "the", "to", "a", "it", "and", "that", "of", "in", "what",
+        "is", "me", "we"]
+      </p>
 
       <p>
         In this example, “you” represents the most common word in the language,
@@ -455,10 +466,10 @@
         For Japanese, there is also an alternative format that allows readings
         to be associated with each word:
       </p>
-      <code
-        >[["此れ","コレ"], ["私","ワタクシ"], ["時","トキ"], ["まで","マデ"],
-        ["から","カラ"], ["見る","ミル"]]</code
-      >
+      <p>
+        [["此れ","コレ"], ["私","ワタクシ"], ["時","トキ"], ["まで","マデ"],
+        ["から","カラ"], ["見る","ミル"]]
+      </p>
 
       <p>
         This allows the add-on to differentiate words that are written the same
@@ -491,10 +502,13 @@
       <p>
         To install a frequency list, name the file
         <code>frequency.json</code> and place it in the corresponding language
-        category’s folder
-        (<code>C:Users[<em>user</em>]AppDataRoamingAnki2addons211655992655user_filesdictionaries[<em>language</em>]</code>).
-        Only one frequency list per language can be installed at a time.
+        category’s folder:
       </p>
+      <p>
+        C:/Users/[<em>user</em>]/AppData/Roaming/ Anki2/addons/211655992655/
+        user_files/dictionaries/[<em>language</em>]
+      </p>
+      <p>Only one frequency list per language can be installed at a time.</p>
 
       <p>
         At the time of importing a new dictionary, the add-on integrates
@@ -526,8 +540,8 @@
         configured as JSON files formatted in the following way:
       </p>
 
-      <code
-        >[{"inflected":"いなさい","dict":["う"]},
+      <p>
+        [{"inflected":"いなさい","dict":["う"]},
         {"inflected":"いました","dict":["う"]},
         {"inflected":"いません","dict":["う"]},
         "inflected":"かったら","dict":["い"]},
@@ -539,8 +553,8 @@
         {"inflected":"ぎなさい","dict":["ぐ"]},
         {"inflected":"きました","dict":["く","くる"]},
         {"inflected":"ぎました","dict":["ぐ"]},
-        {"inflected":"きません","dict":["く","くる"]}]</code
-      >
+        {"inflected":"きません","dict":["く","くる"]}]
+      </p>
 
       <p>
         Where,
@@ -567,9 +581,12 @@
         To install a conjugation table, name the file
         <code>conjugations.json</code> and place it in the corresponding
         language category’s folder
-        (<code>C:Users[<em>user</em>]AppDataRoamingAnki2addons211655992655user_filesdictionaries[<em>language</em>]</code>).
-        Only one conjugation table can be installed at a time.
       </p>
+      <p>
+        C:/Users/[<em>user</em>]/AppData/Roaming/
+        Anki2/addons/211655992655/user_files/ dictionaries/[<em>language</em>]
+      </p>
+      <p>Only one conjugation table can be installed at a time.</p>
       <p>
         Unlike frequency lists and header.csv’s, once a conjugation table is
         installed, it will immediately be applied to all the dictionaries in the
@@ -600,7 +617,10 @@
         language category by creating a CSV file titled
         <code>header.csv</code> and placing it in that language category’s
         folder
-        (<code>C:Users[<em>user</em>]AppDataRoamingAnki2addons211655992655user_filesdictionaries[<em>language</em>]</code>).
+      </p>
+      <p>
+        C:/Users/[<em>user</em>]/AppData/Roaming/
+        Anki2/addons21/1655992655/user_files/ dictionaries/[<em>language</em>]
       </p>
       <img
         src="https://massimmersionapproach.com/imgs/2019/12/mia-dict-header4.png"
@@ -613,11 +633,11 @@
         The following are the five possible configurations for header.csv's
         contents:
       </p>
-      <code>term,pronunciation,altterm</code>
-      <code>altterm,term,pronunciation</code>
-      <code>altterm,pronunciation,term</code>
-      <code>pronunciation,term,altterm</code>
-      <code>pronunciation,altterm,term</code>
+      <p>term,pronunciation,altterm</p>
+      <p>altterm,term,pronunciation</p>
+      <p>altterm,pronunciation,term</p>
+      <p>pronunciation,term,altterm</p>
+      <p>pronunciation,altterm,term</p>
 
       <img
         src="https://massimmersionapproach.com/imgs/2019/12/mia-dict-header3.png"
@@ -1723,10 +1743,12 @@
         location of a font file on your computer with “Font From File”. The
         "Font From File" option creates a copy of the selected font file to
         reference in the following directory:
-        <code
-          >C:Users[<em>user</em>]AppDataRoamingAnki2addons211655992655user_filesfonts</code
-        >.
       </p>
+      <code
+        >C:/User>s/[C:/Users/[user]/AppData/Roaming/ Anki2/addons21/1655992655/
+        user_files/fonts</code
+      >
+
       <p>
         Mark the corresponding checkbox to select which dictionaries to include
         in the group. Make sure to select dictionaries in the order you want
@@ -2031,6 +2053,7 @@ export default { transition: 'page' }
   justify-content: center;
 }
 .article-content {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -2038,9 +2061,9 @@ export default { transition: 'page' }
 }
 img {
   height: auto;
-  max-width: 100%;
+  max-width: 70%;
   display: block;
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
   clear: both;
 }
