@@ -1,11 +1,31 @@
 <template>
-  <ComingSoon />
+  <div class="article-container">
+    <h1>Stage 2</h1>
+    <ArticleList :articles="articles" />
+  </div>
 </template>
 
 <script>
-import ComingSoon from '~/components/ComingSoon'
+import ArticleList from '~/components/ArticleList'
 
-export default { transition: 'page', components: { ComingSoon } }
+export default {
+  transition: 'page',
+  components: {
+    ArticleList
+  },
+  data() {
+    return {
+      articles: [
+        {
+          title: 'Stage 2 Guide',
+          description:
+            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.',
+          link: '/table-of-contents/stage-1/mia-stage-2-guide'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
