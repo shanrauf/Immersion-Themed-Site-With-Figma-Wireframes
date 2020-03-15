@@ -83,7 +83,7 @@ export default {
 .landing-content {
   height: 80%;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 10px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
