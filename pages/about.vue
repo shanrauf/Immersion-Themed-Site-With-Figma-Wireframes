@@ -1,6 +1,6 @@
 <template>
   <div class="article-container">
-    <h1>About the Mas Immersion Approach</h1>
+    <h1>About the Mass Immersion Approach</h1>
     <br />
     <div class="article-content">
       <img
