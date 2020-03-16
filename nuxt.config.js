@@ -48,13 +48,14 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     '@nuxtjs/vuetify',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'UA-12301-2'
-      }
-    ]
+    '@nuxtjs/google-analytics'
   ],
+  /**
+   * Vue Analytics options
+   */
+  googleAnalytics: {
+    id: 'UA-125257798-1'
+  },
   /*
    ** Nuxt.js modules
    */
