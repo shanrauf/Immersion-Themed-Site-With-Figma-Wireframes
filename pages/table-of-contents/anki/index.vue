@@ -107,13 +107,13 @@ export default {
           title: 'Low-Key Anki: Usage Guide',
           description:
             'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
-          link: 'table-of-contents/anki/low-key-anki/low-key-anki-usage-guide'
+          link: '/table-of-contents/anki/low-key-anki/low-key-anki-usage-guide'
         },
         {
           title: 'Low-Key Anki: Closing',
           description:
             'The Mass Immersion Approach encourages the use of Anki when learning a foreign language and actively develops addons for the program.',
-          link: 'table-of-contents/anki/low-key-anki/closing'
+          link: '/table-of-contents/anki/low-key-anki/closing'
         }
       ]
     }
