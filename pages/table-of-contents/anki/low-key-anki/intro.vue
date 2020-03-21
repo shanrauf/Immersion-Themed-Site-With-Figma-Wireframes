@@ -84,11 +84,11 @@
           >SuperMemo website</a
         >
         or the
-        <nuxt-link
-          to="https://apps.ankiweb.net/docs/manual20.html"
+        <a
+          href="https://apps.ankiweb.net/docs/manual20.html"
           target="_blank"
           rel="noopener"
-          >Anki manual</nuxt-link
+          >Anki manual</a
         >. Next:
         <nuxt-link
           to="/table-of-contents/anki/low-key-anki/the-forgetting-curve/"

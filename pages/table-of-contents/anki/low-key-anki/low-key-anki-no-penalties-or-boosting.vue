@@ -21,11 +21,11 @@
         width="700"
         height="357"
       />
-      <nuxt-link
+      <a
         to="https://ankiweb.net/shared/info/494944895"
         target="_blank"
         rel="noopener"
-        >Ease Factor Histogram Add-on</nuxt-link
+        >Ease Factor Histogram Add-on</a
       >
       <p>
         I explained in a prior section that because aiming for 100% retention is
@@ -211,11 +211,11 @@
 
       <p>
         By assigning each deck its own
-        <nuxt-link
-          to="https://youtu.be/lz60qTP2Gx0?t=315"
+        <a
+          jref="https://youtu.be/lz60qTP2Gx0?t=315"
           target="_blank"
           rel="noopener"
-          >Option Group</nuxt-link
+          >Option Group</a
         >, we can independently adjust the Interval Modifier for each of our
         decks. By intermittently checking our retention rate and adjusting the
         Interval Modifier accordingly (making intervals grow faster for less
@@ -235,11 +235,11 @@
         future). You can also expect an add-on which will automate the process
         of Interval Modifier modulation to come out soon. Until then, I
         recommend
-        <nuxt-link
-          to="https://eshapard.github.io/anki/target-an-80-90-percent-success-rate-in-anki.html"
+        <a
+          href="https://eshapard.github.io/anki/target-an-80-90-percent-success-rate-in-anki.html"
           target="_blank"
           rel="noopener"
-          >this short article</nuxt-link
+          >this short article</a
         >
         by eshapard for learning how to modulate the Interval Modifier.
       </p>

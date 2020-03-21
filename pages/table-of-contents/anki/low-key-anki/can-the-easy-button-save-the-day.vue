@@ -48,15 +48,15 @@
         card easy to answer in a specific moment was due to the same sort of
         memory fluke that I talked about in the previous section. In fact,
         ja-dark actually
-        <nuxt-link
-          to="http://science.sciencemag.org/content/319/5865/966"
+        <a
+          href="http://science.sciencemag.org/content/319/5865/966"
           target="_blank"
           rel="noopener"
-          >cited</nuxt-link
+          >cited</a
         >
-        <nuxt-link
-          to="http://castel.psych.ucla.edu/papers/Logan%20JOL%20Spacing%20ML.pdf"
-          >studies</nuxt-link
+        <a
+          href="http://castel.psych.ucla.edu/papers/Logan%20JOL%20Spacing%20ML.pdf"
+          >studies</a
         >
         that found that people's subjective judgments of how well they know
         something are highly inaccurate. So, just because a card

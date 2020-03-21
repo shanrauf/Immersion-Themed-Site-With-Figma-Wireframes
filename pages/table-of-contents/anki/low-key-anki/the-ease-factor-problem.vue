@@ -65,11 +65,11 @@
       <p>
         Another way to think about what is going here is to borrow the concept
         of "learning rate" from machine learning. The following is a quote from
-        <nuxt-link
-          to="http://slatestarcodex.com/2018/10/22/cognitive-enhancers-mechanisms-and-tradeoffs/"
+        <a
+          href="http://slatestarcodex.com/2018/10/22/cognitive-enhancers-mechanisms-and-tradeoffs/"
           target="_blank"
           rel="noopener"
-          >a Slate Star Codex article</nuxt-link
+          >a Slate Star Codex article</a
         >:
       </p>
       <blockquote>
@@ -116,11 +116,11 @@
         you forget a card, it is either due to poor initial learning, a random
         brain fart, or a simple fluke of memory, <em>not</em> because the card
         is inherently harder than the other cards in your deck. As
-        <nuxt-link
-          to="https://forum.koohii.com/thread-14570.html"
+        <a
+          href="https://forum.koohii.com/thread-14570.html"
           target="_blank"
           rel="noopener"
-          >ja-dark</nuxt-link
+          >ja-dark</a
         >
         put it, "When you fail cards, it's commonly a matter of the quality of
         your memory encoding; that the interval was too long was a symptom of
@@ -145,11 +145,8 @@
         "again" and "hard," the ease factor is reduced to the point where you
         are stuck seeing the card every few days, indefinitely. The following
         image, taken from
-        <nuxt-link
-          to="https://youtu.be/1XaJjbCSXT0"
-          target="_blank"
-          rel="noopener"
-          >Conaanaa's video on the topic</nuxt-link
+        <a to="https://youtu.be/1XaJjbCSXT0" target="_blank" rel="noopener"
+          >Conaanaa's video on the topic</a
         >, demonstrates the radical difference in interval growth between a card
         with a healthy ease factor of 250%, and a card with the minimum ease
         factor of 130%. Starting with an interval of five days, after four

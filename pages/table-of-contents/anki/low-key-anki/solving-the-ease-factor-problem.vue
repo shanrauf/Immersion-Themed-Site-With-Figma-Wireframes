@@ -10,18 +10,18 @@
         I am not the first person to realize that the excessively high "learning
         rate" of Anki's algorithm leads to extremely inefficient scheduling;
         both
-        <nuxt-link
-          to="https://forum.koohii.com/thread-14570.html"
+        <a
+          href="https://forum.koohii.com/thread-14570.html"
           target="_blank"
           rel="noopener"
-          >ja-dark</nuxt-link
+          >ja-dark</a
         >
         and
-        <nuxt-link
-          to="https://eshapard.github.io/aboutme.html"
+        <a
+          href="https://eshapard.github.io/aboutme.html"
           target="_blank"
           rel="noopener"
-          >eshapard</nuxt-link
+          >eshapard</a
         >
         have written about the ease factor problem and proposed possible
         solutions to it. Eshapard initially proposed using longer learning
@@ -32,18 +32,15 @@
         factors remain safe. Although this approach constitutes a big step up
         from vanilla Anki, it has many downsides which I won't go into here. If
         you would like to learn more about this approach, check out eshapard
-        <nuxt-link
-          to="https://eshapard.github.io/anki/what-anki-learning-steps-to-use.html"
+        <a
+          href="https://eshapard.github.io/anki/what-anki-learning-steps-to-use.html"
           target="_blank"
           rel="noopener"
-          >original blog post</nuxt-link
+          >original blog post</a
         >
         about it, or
-        <nuxt-link
-          to="https://youtu.be/1XaJjbCSXT0"
-          target="_blank"
-          rel="noopener"
-          >Conaanaa's video</nuxt-link
+        <a to="https://youtu.be/1XaJjbCSXT0" target="_blank" rel="noopener"
+          >Conaanaa's video</a
         >
         summarizing eshapard's ideas.
       </p>
@@ -56,11 +53,11 @@
         precluding the possibility of using Anki on mobile devices (as an add-on
         is needed to use the new algorithm, and only the desktop version of Anki
         supports add-ons). You can read more about eshapard's new algorithm
-        <nuxt-link
-          to="https://eshapard.github.io/anki/thoughts-on-a-new-algorithm-for-anki.html"
+        <a
+          href="https://eshapard.github.io/anki/thoughts-on-a-new-algorithm-for-anki.html"
           target="_blank"
           rel="noopener"
-          >here</nuxt-link
+          >here</a
         >.
       </p>
 

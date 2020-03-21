@@ -264,7 +264,7 @@
         >
         or
         <a
-          to="https://ko-fi.com/massimmersionapproach"
+          href="https://ko-fi.com/massimmersionapproach"
           target="_blank"
           rel="noopener noreferrer"
           >Ko-fi</a
