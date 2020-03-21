@@ -73,8 +73,8 @@
       </p>
       <p>
         You can download the add-on
-        <nuxt-link to="https://ankiweb.net/shared/info/278530045" rel="noopener"
-          >here</nuxt-link
+        <a href="https://ankiweb.net/shared/info/278530045" rel="noopener"
+          >here</a
         >.
       </p>
       <h1 id="installation">Installation</h1>
@@ -110,7 +110,7 @@
       </p>
       <p>
         If you’re on a Mac, please use
-        <nuxt-link to="https://theunarchiver.com">this software</nuxt-link>
+        <a href="https://theunarchiver.com">this software</a>
         to unzip the “accentAudio” folder in order to avoid encoding issues and
         unplayable audio files.
       </p>
@@ -170,13 +170,9 @@
       <p>
         Pitch Accent is a fundamental component of Japanese phonology. If you’re
         new to pitch accent,
-        <nuxt-link to="https://youtu.be/31d0b_swAAk" rel="noopener"
-          >this video</nuxt-link
-        >
+        <a href="https://youtu.be/31d0b_swAAk" rel="noopener">this video</a>
         and
-        <nuxt-link to="https://youtu.be/75gkm9i_wBc" rel="noopener"
-          >this video</nuxt-link
-        >
+        <a href="https://youtu.be/75gkm9i_wBc" rel="noopener">this video</a>
         should serve as a good introduction.
       </p>
       <p>
@@ -265,7 +261,7 @@
       <p>
         The “MIA Japanese” note type was designed for
         <nuxt-link
-          to="https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide#sentence-cards"
+          to="/table-of-contents/stage-1/jp-quickstart-guide#sentence-cards"
           rel="noopener"
           >sentence cards</nuxt-link
         >.
@@ -873,16 +869,14 @@
       <p>
         When <em>historical conversion</em> is selected, kanji and kana will be
         converted into
-        <nuxt-link
-          to="https://en.wikipedia.org/wiki/Ky%C5%ABjitai"
-          rel="noopener"
-          >pre-WWII kanji</nuxt-link
+        <a href="https://en.wikipedia.org/wiki/Ky%C5%ABjitai" rel="noopener"
+          >pre-WWII kanji</a
         >
         and
-        <nuxt-link
-          to="https://en.wikipedia.org/wiki/Historical_kana_orthography"
+        <a
+          href="https://en.wikipedia.org/wiki/Historical_kana_orthography"
           rel="noopener"
-          >pre-WWII kana spelling</nuxt-link
+          >pre-WWII kana spelling</a
         >
         respectively. The conversation is done in real-time through JavaScript
         and doesn’t influence the actual content of fields. This feature is
@@ -1131,11 +1125,8 @@
       <h1 id="js-support">MIA Japanese and Japanese Support</h1>
       <p>
         Having Japanese MIA and
-        <nuxt-link
-          to="https://ankiweb.net/shared/info/3918629684"
-          rel="noopener"
-        >
-          Japanese Support</nuxt-link
+        <a href="https://ankiweb.net/shared/info/3918629684" rel="noopener">
+          Japanese Support</a
         >
         installed at the same time will not cause any problems.
       </p>

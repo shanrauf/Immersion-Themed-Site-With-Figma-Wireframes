@@ -115,9 +115,7 @@
                   already learned. You can tell MorphMan to re-analyze and
                   reorder your cards as often as you like. This allows you to
                   always learn new cards in a
-                  <nuxt-link
-                    class="link3"
-                    to="https://massimmersionapproach.com/table-of-contents/tools/glossary/#1T"
+                  <nuxt-link to="/table-of-contents/tools/glossary/#1T"
                     >1T</nuxt-link
                   >
                   fashion.
@@ -125,9 +123,7 @@
                 <p>
                   MorphMan is useful for use with subs2srs collections, as it
                   can do the work of finding all of the
-                  <nuxt-link
-                    class="link3"
-                    to="https://massimmersionapproach.com/table-of-contents/tools/glossary/#1T"
+                  <nuxt-link to="/table-of-contents/tools/glossary/#1T"
                     >1T sentences</nuxt-link
                   >
                   in an episode for you. It is also ideal for learning with a
@@ -172,11 +168,9 @@
                   mess in its current form. This guide is an attempt to explain
                   how MorphMan for Anki 2.1 functions as simply as possible.
                   Feel free to skip straight to
-                  <nuxt-link class="link3" to="#installation"
-                    >Installation</nuxt-link
-                  >
-                  or <nuxt-link class="link3" to="#setup">Setup</nuxt-link>, and
-                  refer back to the Glossary whenever clarification is needed.
+                  <nuxt-link to="#installation">Installation</nuxt-link>
+                  or <nuxt-link to="#setup">Setup</nuxt-link>, and refer back to
+                  the Glossary whenever clarification is needed.
                 </p>
                 <p>
                   The following video demonstrates how to set up the basic
@@ -214,9 +208,7 @@
                 </p>
                 <p>
                   You can learn more about the idea
-                  <nuxt-link
-                    class="link3"
-                    to="https://massimmersionapproach.com/table-of-contents/tools/glossary/#1T"
+                  <nuxt-link to="/table-of-contents/tools/glossary/#1T"
                     >here</nuxt-link
                   >.
                 </p>
@@ -224,11 +216,10 @@
                 <p>
                   Short for “morpheme.” A morpheme is “a meaningful
                   morphological unit of a language that cannot be further
-                  divided (e.g. in, come, -ing, forming incoming) [<nuxt-link
-                    class="link3"
-                    to="https://forum.koohii.com/thread-7486.html"
+                  divided (e.g. in, come, -ing, forming incoming) [<a
+                    href="https://forum.koohii.com/thread-7486.html"
                     rel="noopener"
-                    >The Oxford English Dictionary</nuxt-link
+                    >The Oxford English Dictionary</a
                   >]”. In the context of MorphMan, a Morph is basically a word.
                 </p>
                 <h3 id="db">Database (DB)</h3>
@@ -265,12 +256,11 @@
                   </li>
                   <li id="priority">
                     <strong>priority.db</strong>: manually generated using the
-                    <nuxt-link class="link3" to="#database_manager"
+                    <nuxt-link to="#database_manager"
                       >Database Manager</nuxt-link
                     >; cards containing Morphs in this database will be
                     prioritized over cards that would otherwise have the same
-                    <nuxt-link class="link3" to="#mmi">MorphMan Index</nuxt-link
-                    >.
+                    <nuxt-link to="#mmi">MorphMan Index</nuxt-link>.
                   </li>
                   <li>
                     <strong>frequency.txt</strong>: manually generated;
@@ -280,7 +270,7 @@
                   </li>
                   <li>
                     <strong>external.db</strong>: manually generated using the
-                    <nuxt-link class="link3" to="#database_manager"
+                    <nuxt-link to="#database_manager"
                       >Database Manager</nuxt-link
                     >; user-managed database that tracks outside-Anki knowledge.
                     MorphMan assumes that all Morphs in this database are
@@ -294,8 +284,7 @@
                   card. Morphs added through “external.db” are automatically
                   counted as mature. The threshold of when a card gets counted
                   as “mature” can be changed in
-                  <nuxt-link class="link3" to="#configedit">config.py</nuxt-link
-                  >.
+                  <nuxt-link to="#configedit">config.py</nuxt-link>.
                 </p>
                 <h3 id="known">Known</h3>
                 <p>
@@ -303,17 +292,17 @@
                   within the specified field of a “known” card. Same as a “seen”
                   card/Morph. The threshold of when a card gets counted as
                   “known” can be changed in
-                  <nuxt-link class="link3" to="#configedit">config.py</nuxt-link
-                  >. If you change the threshold from the default of 10 seconds
-                  to 24 hours, only cards that have graduated from the learning
-                  queue will be counted as “known”, thereby differentiating
-                  “known” and “seen” cards/Morphs.
+                  <nuxt-link to="#configedit">config.py</nuxt-link>. If you
+                  change the threshold from the default of 10 seconds to 24
+                  hours, only cards that have graduated from the learning queue
+                  will be counted as “known”, thereby differentiating “known”
+                  and “seen” cards/Morphs.
                 </p>
                 <h3 id="seen">Seen</h3>
                 <p>
                   A card that has been reviewed. Also, a morph that is contained
                   within the specified field of a “seen” card. With the default
-                  <nuxt-link class="link3" to="#config">config.py</nuxt-link>
+                  <nuxt-link to="#config">config.py</nuxt-link>
                   settings, “seen” cards/Morphs will also be treated as “known”
                   cards, even before graduating from the learning queue.
                 </p>
@@ -363,9 +352,7 @@
                   <em>the number of unknown Morphs they contain</em>. This means
                   that 0T cards (or what MorphMan calls “comprehension” and
                   “fresh vocab” cards) will be at the very top (although in
-                  <nuxt-link class="link3" to="#general"
-                    >MorphMan Preferences</nuxt-link
-                  >
+                  <nuxt-link to="#general">MorphMan Preferences</nuxt-link>
                   you can tell MorphMan to always skip these cards). Then 1T
                   cards, then MT cards.
                 </p>
@@ -430,17 +417,13 @@
                 <h1 id="installation">Installation</h1>
                 <p>
                   You can download MorphMan for Anki 2.1
-                  <nuxt-link
-                    class="link3"
-                    to="https://ankiweb.net/shared/info/900801631"
+                  <a
+                    href="https://ankiweb.net/shared/info/900801631"
                     rel="noopener"
-                    >here</nuxt-link
+                    >here</a
                   >. The Anki 2.0 version can be found
-                  <nuxt-link
-                    class="link3"
-                    to="https://github.com/kaegi/MorphMan"
-                    rel="noopener"
-                    >here</nuxt-link
+                  <a href="https://github.com/kaegi/MorphMan" rel="noopener"
+                    >here</a
                   >.
                 </p>
                 <p>
@@ -460,29 +443,26 @@
                   The most advanced Japanese parsing dictionary currently
                   available for MorphMan is the MeCab UniDic dictionary, which
                   you can add to MorphMan simply by installing
-                  <nuxt-link
-                    class="link3"
-                    to="https://ankiweb.net/shared/info/13462835"
+                  <a
+                    href="https://ankiweb.net/shared/info/13462835"
                     rel="noopener"
-                    >this add-on</nuxt-link
+                    >this add-on</a
                   >. Once the add-on is installed, simply restart Anki and
                   MorphMan will automatically start using MeCab UniDic for
                   parsing.
                 </p>
                 <p>
                   The
-                  <nuxt-link
-                    class="link3"
-                    to="https://ankiweb.net/shared/info/278530045"
+                  <a
+                    href="https://ankiweb.net/shared/info/278530045"
                     rel="noopener"
-                    >MIA Japanese</nuxt-link
+                    >MIA Japanese</a
                   >
                   or
-                  <nuxt-link
-                    class="link3"
-                    to="https://ankiweb.net/shared/info/3918629684"
+                  <a
+                    href="https://ankiweb.net/shared/info/3918629684"
                     rel="noopener"
-                    >Japanese Support</nuxt-link
+                    >Japanese Support</a
                   >
                   add-ons also come with pre-packaged Japanese parsing
                   dictionaries. If either one of these is installed, MorphMan
@@ -507,8 +487,8 @@
                     re-generate your MorphMan database from scratch using the
                     new dictionary</strong
                   >. In order to do this, simply delete your
-                  <nuxt-link class="link3" to="#all.db">all.db</nuxt-link> and
-                  then run Recalc.
+                  <nuxt-link to="#all.db">all.db</nuxt-link> and then run
+                  Recalc.
                 </p>
                 <h1 id="setup">Setup</h1>
                 <p>
@@ -584,9 +564,7 @@
                   >). The default config.py settings are just fine, so you don’t
                   need to mess with them if you don’t want to. But for those
                   interested, I will be explaining how to tinker with it
-                  <nuxt-link class="link3" to="#config"
-                    >later in the post</nuxt-link
-                  >.
+                  <nuxt-link to="#config">later in the post</nuxt-link>.
                 </p>
                 <p>
                   All of this might sound very complicated at first, but
@@ -706,7 +684,7 @@
                   properly. The other six fields are entirely optional; if you
                   don’t want them, simply don’t add them to your note-type.
                   MorphMan will update the contents of these fields after a
-                  <nuxt-link class="link3" to="#recalc">Recalc</nuxt-link>.
+                  <nuxt-link to="#recalc">Recalc</nuxt-link>.
                 </p>
                 <p>The Six Fields are as follows:</p>
                 <ul>
@@ -730,9 +708,9 @@
                   </li>
                   <li>
                     <strong>MorphMan Index</strong>: Detailed explanation
-                    <nuxt-link class="link3" to="#mmi">here</nuxt-link>. Roughly
-                    corresponds to the difficulty of the card. The ‘due’ time of
-                    card will be set to this value.
+                    <nuxt-link to="#mmi">here</nuxt-link>. Roughly corresponds
+                    to the difficulty of the card. The ‘due’ time of card will
+                    be set to this value.
                   </li>
                   <li>
                     <strong>Unmatures Count</strong>: Number of unmature Morphs
@@ -769,9 +747,7 @@
                 <ul>
                   <li>
                     <strong>Vocab note</strong>: Note that is
-                    <nuxt-link
-                      class="link3"
-                      to="https://massimmersionapproach.com/table-of-contents/tools/glossary/#1T"
+                    <nuxt-link to="/table-of-contents/tools/glossary/#1T"
                       >1T</nuxt-link
                     >
                     (contains one unknown Morph).
@@ -782,18 +758,14 @@
                   </li>
                   <li>
                     <strong>Comprehension note</strong>: Note that is
-                    <nuxt-link
-                      class="link3"
-                      to="https://massimmersionapproach.com/table-of-contents/tools/glossary/#0T"
+                    <nuxt-link to="/table-of-contents/tools/glossary/#0T"
                       >0T</nuxt-link
                     >
                     (contains only mature Morphs).
                   </li>
                   <li>
                     <strong>Not ready</strong>: Note that is
-                    <nuxt-link
-                      class="link3"
-                      to="https://massimmersionapproach.com/table-of-contents/tools/glossary/#MT"
+                    <nuxt-link to="/table-of-contents/tools/glossary/#MT"
                       >MT</nuxt-link
                     >
                     (contains two or more unknown Morphs).
@@ -802,9 +774,9 @@
                     <strong>Already k</strong><strong>nown</strong>: A tag that
                     you can manually add to notes to tell MorphMan that you
                     already know all the Morphs contained in the note. After a
-                    <nuxt-link class="link3" to="#recalc">Recalc</nuxt-link>,
-                    MorphMan will add all the Morphs contained in notes with
-                    this tag to the database of Mature Morphs. “K” (for
+                    <nuxt-link to="#recalc">Recalc</nuxt-link>, MorphMan will
+                    add all the Morphs contained in notes with this tag to the
+                    database of Mature Morphs. “K” (for
                     <em><strong>K</strong>nown</em>) is the hotkey for adding
                     this tag to a card while reviewing or in the browser.
                   </li>
@@ -812,22 +784,17 @@
                     <strong>Priority</strong>: Note contains a Morph that is
                     contained in priority.db. Will be ordered higher than Notes
                     that would otherwise have the same
-                    <nuxt-link class="link3" to="#mmi">MorphMan Index</nuxt-link
-                    >.
+                    <nuxt-link to="#mmi">MorphMan Index</nuxt-link>.
                   </li>
                   <li>
                     <strong>Too Short</strong>: Sentence in the specified field
                     is too short. The threshold can be edited in
-                    <nuxt-link class="link3" to="#configedit"
-                      >config.py</nuxt-link
-                    >.
+                    <nuxt-link to="#configedit">config.py</nuxt-link>.
                   </li>
                   <li>
                     <strong>Too Long</strong>: Sentence in the specified field
                     is too long. The threshold can be edited in
-                    <nuxt-link class="link3" to="#configedit"
-                      >config.py</nuxt-link
-                    >.
+                    <nuxt-link to="#configedit">config.py</nuxt-link>.
                   </li>
                   <li>
                     <strong>Frequency</strong>: Note contains a Morph that is
@@ -874,7 +841,7 @@
                   option to have MorphMan automatically skip over
                   “comprehension” and “fresh vocab” cards, as well as “vocab”
                   cards whose
-                  <nuxt-link class="link3" to="#focus">Focus Morph</nuxt-link>
+                  <nuxt-link to="#focus">Focus Morph</nuxt-link>
                   was already studied that day. In other words, by checking off
                   all three of these boxes in the general tab, you can have
                   MorphMan only show you 1T cards.
@@ -882,11 +849,10 @@
                 <p>
                   “Ignore everything contained within [] brackets” is an option
                   intended for use with the
-                  <nuxt-link
-                    class="link3"
-                    to="https://ankiweb.net/shared/info/278530045"
+                  <a
+                    href="https://ankiweb.net/shared/info/278530045"
                     rel="noopener"
-                    >MIA Japanese</nuxt-link
+                    >MIA Japanese</a
                   >
                   add-on. MIA Japanese adds readings and pitch accents directly
                   into the fields of cards in the form of a simple syntax
@@ -900,7 +866,7 @@
                 <h2 id="types">Note-Types</h2>
                 <p>
                   <img
-                    class="aligncenter wp-image-3244"
+                    class="aligncenter"
                     src="https://massimmersionapproach.com/imgs/2019/09/note-type_target.gif"
                     alt=""
                     width="600"
@@ -1044,13 +1010,13 @@
                   be formatted as a text file titled “frequency.txt”, which
                   contains one word on each line. Once you place a
                   “frequency.txt” file in the
-                  <nuxt-link class="link3" to="#db">database folder</nuxt-link>,
-                  MorphMan will automatically begin using it to sort cards next
-                  time you run Recalc.
+                  <nuxt-link to="#db">database folder</nuxt-link>, MorphMan will
+                  automatically begin using it to sort cards next time you run
+                  Recalc.
                 </p>
                 <p>
                   Please see the
-                  <nuxt-link class="link3" to="#mmi">MorphMan Index</nuxt-link>
+                  <nuxt-link to="#mmi">MorphMan Index</nuxt-link>
                   section to understand exactly how adding a frequency list
                   affects MorphMan’s sorting algorithm.
                 </p>
@@ -1058,14 +1024,14 @@
                   It’s important to note that there are two factors that
                   influence how heavily frequency is weighted in MorphMan’s
                   overall algorithm: “frequency weight” (a value specified in
-                  <nuxt-link class="link3" to="#config">config.py</nuxt-link>)
-                  and frequency list length. When frequency list length is
-                  equal, the greater the “frequency weight”, the more heavily
-                  frequency will be weighted in the overall algorithm. The
-                  default “frequency weight” is 10, but can be changed in
-                  config.py. Additionally, assuming “frequency weight” is equal,
-                  the longer the length of the frequency list, the more heavily
-                  frequency will be weighted in the overall algorithm.
+                  <nuxt-link to="#config">config.py</nuxt-link>) and frequency
+                  list length. When frequency list length is equal, the greater
+                  the “frequency weight”, the more heavily frequency will be
+                  weighted in the overall algorithm. The default “frequency
+                  weight” is 10, but can be changed in config.py. Additionally,
+                  assuming “frequency weight” is equal, the longer the length of
+                  the frequency list, the more heavily frequency will be
+                  weighted in the overall algorithm.
                 </p>
                 <p>
                   Due to the way MorphMan’s algorithm is structured, if
@@ -1101,25 +1067,22 @@
                 </p>
                 <p>
                   You can download a 20k word frequency.txt for Japanese
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.mediafire.com/file/wdsca3u3xsyjw7r/frequency.txt/file"
+                  <a
+                    href="https://www.mediafire.com/file/wdsca3u3xsyjw7r/frequency.txt/file"
                     rel="noopener"
-                    >here</nuxt-link
+                    >here</a
                   >. You can download a 20k word frequency.txt for Chinese
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.mediafire.com/file/3yvegfbq85zdtgd/frequency.txt/file"
+                  <a
+                    href="https://www.mediafire.com/file/3yvegfbq85zdtgd/frequency.txt/file"
                     rel="noopener"
-                    >here</nuxt-link
+                    >here</a
                   >. The Japanese list was created from all of the Japanese
                   subtitles on Netflix, and the Chinese list was created from
                   the
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.plecoforums.com/threads/word-frequency-list-based-on-a-15-billion-character-corpus-bcc-blcu-chinese-corpus.5859/"
+                  <a
+                    href="https://www.plecoforums.com/threads/word-frequency-list-based-on-a-15-billion-character-corpus-bcc-blcu-chinese-corpus.5859/"
                     rel="noopener"
-                    >BLCU Chinese Corpus frequency list</nuxt-link
+                    >BLCU Chinese Corpus frequency list</a
                   >. When using these frequency lists, set your “frequency
                   weight” to .5.
                 </p>
@@ -1147,18 +1110,14 @@
                 <ul>
                   <li>
                     Go through the specified portion of your collection and
-                    generate/update the “<nuxt-link class="link3" to="#all.db"
+                    generate/update the “<nuxt-link to="#all.db"
                       >all.db</nuxt-link
-                    >“, “<nuxt-link class="link3" to="#mature.db"
-                      >mature.db</nuxt-link
-                    >“, “<nuxt-link class="link3" to="#known.db"
-                      >known.db</nuxt-link
-                    >” and “<nuxt-link class="link3" to="#seen.db"
-                      >seen.db</nuxt-link
-                    >” databases.
+                    >“, “<nuxt-link to="#mature.db">mature.db</nuxt-link>“,
+                    “<nuxt-link to="#known.db">known.db</nuxt-link>” and
+                    “<nuxt-link to="#seen.db">seen.db</nuxt-link>” databases.
                   </li>
                   <li>
-                    Merge the “<nuxt-link class="link3" to="#external.db"
+                    Merge the “<nuxt-link to="#external.db"
                       >external.db</nuxt-link
                     >” database with the four databases mentioned above.
                   </li>
@@ -1168,8 +1127,7 @@
                   </li>
                   <li>
                     Reorder your new cards based on their
-                    <nuxt-link class="link3" to="#mmi">MorphMan Index</nuxt-link
-                    >.
+                    <nuxt-link to="#mmi">MorphMan Index</nuxt-link>.
                   </li>
                 </ul>
                 <p>
@@ -1237,22 +1195,18 @@
                 </p>
                 <p>
                   The
-                  <nuxt-link
-                    class="link3"
-                    to="https://youtu.be/tM3yDVN9cBQ?t=138"
-                    rel="noopener"
-                    >MIA Dictionary add-on</nuxt-link
+                  <a href="https://youtu.be/tM3yDVN9cBQ?t=138" rel="noopener"
+                    >MIA Dictionary add-on</a
                   >
                   allows you to automate the process of adding definitions to 1T
                   cards. This makes the “polish while repping” option much more
                   viable for use with subs2srs decks as well. Currently, the MIA
                   Dictionary add-on is in the beta stage of development, and is
                   only available to
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.patreon.com/massimmersionapproach"
+                  <a
+                    href="https://www.patreon.com/massimmersionapproach"
                     rel="noopener"
-                    >MIA patrons</nuxt-link
+                    >MIA patrons</a
                   >. The add-on should be freely availed to the public within a
                   few months.
                 </p>
@@ -1344,9 +1298,7 @@
                     play all the media of the selected cards. Useful when you
                     want to hear the same word pronounced in multiple contexts.
                     Must add the name of the media field to
-                    <nuxt-link class="link3" to="#configedit"
-                      >config.py</nuxt-link
-                    >
+                    <nuxt-link to="#configedit">config.py</nuxt-link>
                     for it to work.
                   </li>
                   <li>
@@ -1526,17 +1478,15 @@
                 <h2 id="database_manager">MorphMan Database Manager</h2>
                 <p>
                   The MorphMan Database Manager is a tool for manipulating
-                  <nuxt-link class="link3" to="#db">database files</nuxt-link>.
-                  Its most important feature is creating database files out of
-                  text files. For example, let’s say you have a Japanese novel
+                  <nuxt-link to="#db">database files</nuxt-link>. Its most
+                  important feature is creating database files out of text
+                  files. For example, let’s say you have a Japanese novel
                   formatted as a text file. You could input this text file into
                   the Database Manager, and have it output a database file with
                   all the Morphs contained in the novel.
                 </p>
                 <p>
-                  If you named this database file “<nuxt-link
-                    class="link3"
-                    to="#external"
+                  If you named this database file “<nuxt-link to="#external"
                     >external.db</nuxt-link
                   >“, and placed it in
                   <code
@@ -1550,13 +1500,11 @@
                   In a similar fashion, you could take the first few thousand
                   words from a frequency list, use the Database Manager to
                   convert that into a database file, name the file “<nuxt-link
-                    class="link3"
                     to="#priority"
                     >priority.db</nuxt-link
                   >“, and place it in the same directory as above. Then, once
                   you run Recalc, MorphMan will give high-frequency words a
-                  higher
-                  <nuxt-link class="link3" to="#mmi">MorphMan Index</nuxt-link>,
+                  higher <nuxt-link to="#mmi">MorphMan Index</nuxt-link>,
                   increasing the efficiency of your learning.
                 </p>
                 <p>
@@ -1579,7 +1527,7 @@
               <div class="elementor-text-editor elementor-clearfix">
                 <p>
                   The above video was created before MorphMan had
-                  <nuxt-link class="link3" to="#frequency"
+                  <nuxt-link to="#frequency"
                     >frequency list functionality</nuxt-link
                   >. Now that frequency lists are supported, the “priority.db”
                   feature is largely obsolete.
@@ -1597,11 +1545,10 @@
                   provide much practical value. If you would like to give it a
                   shot anyway, you can find an explanation of how to use the
                   feature
-                  <nuxt-link
-                    class="link3"
-                    to="http://rtkwiki.koohii.com/wiki/Morph_Man#What_are_adaptive_subs.3F"
+                  <a
+                    href="http://rtkwiki.koohii.com/wiki/Morph_Man#What_are_adaptive_subs.3F"
                     rel="noopener"
-                    >here</nuxt-link
+                    >here</a
                   >. Note that in the current version of MorphMan, “target” must
                   be used in place of “jpn”, and “native” must be used in place
                   of “eng”.
@@ -1660,17 +1607,16 @@
                   <li>
                     <strong>Frequency List</strong>: outputs a frequency list
                     that can be used as your
-                    <nuxt-link class="link3" to="#frequency"
-                      >frequency.txt</nuxt-link
-                    >. Outputted in the form of a text file placed in the
-                    “Output Directory”.
+                    <nuxt-link to="#frequency">frequency.txt</nuxt-link>.
+                    Outputted in the form of a text file placed in the “Output
+                    Directory”.
                   </li>
                 </ul>
                 <p>
                   By default, the Readability Analyzer will be set up for
                   Japanese. To use it with another language, you need to change
                   the “default morphemizer” (or default parsing dictionary) in
-                  <nuxt-link class="link3" to="#default-morphemizer"
+                  <nuxt-link to="#default-morphemizer"
                     >line 34 of config.py</nuxt-link
                   >.
                 </p>
@@ -1744,34 +1690,26 @@
                 <p>
                   If you mess up your config.py and need to start fresh, you can
                   find a copy of the default settings
-                  <nuxt-link
-                    class="link3"
-                    to="https://raw.githubusercontent.com/landonepps/MorphMan21/master/morph/config.py"
+                  <a
+                    href="https://raw.githubusercontent.com/landonepps/MorphMan21/master/morph/config.py"
                     rel="noopener"
-                    >here</nuxt-link
+                    >here</a
                   >.
                 </p>
                 <p>
                   Code editors with like
-                  <nuxt-link
-                    class="link3"
-                    to="https://notepad-plus-plus.org/"
-                    rel="noopener"
-                    >Notepad++</nuxt-link
+                  <a href="https://notepad-plus-plus.org/" rel="noopener"
+                    >Notepad++</a
                   >
                   or
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.sublimetext.com/"
-                    rel="noopener"
-                    >Sublime Text</nuxt-link
+                  <a href="https://www.sublimetext.com/" rel="noopener"
+                    >Sublime Text</a
                   >
                   have
-                  <nuxt-link
-                    class="link3"
-                    to="https://en.wikipedia.org/wiki/Syntax_highlighting"
+                  <a
+                    href="https://en.wikipedia.org/wiki/Syntax_highlighting"
                     rel="noopener"
-                    >syntax highlighting</nuxt-link
+                    >syntax highlighting</a
                   >, which makes viewing and editing config.py much easier. But
                   ultimately any text editor will do.
                 </p>
@@ -1798,14 +1736,14 @@
                 <ul>
                   <li id="configmature">
                     Line 24:
-                    <nuxt-link class="link3" to="#mature">Mature</nuxt-link>
+                    <nuxt-link to="#mature">Mature</nuxt-link>
                     threshold. How many <em>days</em> a card’s interval must be
                     before the Morphs contained in the card are considered
                     “mature”.
                   </li>
                   <li id="configknown">
                     Line 25:
-                    <nuxt-link class="link3" to="#known">Known</nuxt-link>
+                    <nuxt-link to="#known">Known</nuxt-link>
                     threshold. How many <em>seconds</em> has passed since a card
                     was initially seen before the Morphs contained in the card
                     are considered “known”. Once a card graduates from the
@@ -1817,7 +1755,7 @@
                   </li>
                   <li id="configseen">
                     Line 26:
-                    <nuxt-link class="link3" to="#seen">Seen</nuxt-link>
+                    <nuxt-link to="#seen">Seen</nuxt-link>
                     threshold. How many <em>seconds</em> has passed since a card
                     was initially seen before the Morphs contained in the card
                     are considered “seen”.
@@ -1825,9 +1763,7 @@
                   <li>
                     Line 27: Text file import maturity. Default interval given
                     to Morphs that are manually imported by the user via the
-                    <nuxt-link class="link3" to="#external"
-                      >external.db</nuxt-link
-                    >
+                    <nuxt-link to="#external">external.db</nuxt-link>
                     database.
                   </li>
                   <li>
@@ -1839,51 +1775,49 @@
                     Morph for each part of speech they are being used as.
                     Because of this, setting this option to “True” will reduce
                     the total number of known Morphs. Delete
-                    <nuxt-link class="link3" to="#all.db">all.db</nuxt-link> and
-                    run Recalc each time you change this setting.
+                    <nuxt-link to="#all.db">all.db</nuxt-link> and run Recalc
+                    each time you change this setting.
                   </li>
                   <li id="default-morphemizer">
                     Line 34: Default morphemizer. Controls which parsing
                     dictionary the
-                    <nuxt-link class="link3" to="#analyzer"
-                      >Readability Analyzer</nuxt-link
-                    >
+                    <nuxt-link to="#analyzer">Readability Analyzer</nuxt-link>
                     uses. Set to “SpaceMorphemizer” for languages with spaces
                     between words, “CjkCharMorphemizer” for languages that use
                     CJK characters, and “JiebaMorphemizer” for Chinese.
                   </li>
                   <li>
-                    Line 37: Set “<nuxt-link class="link3" to="#browse-morphs"
+                    Line 37: Set “<nuxt-link to="#browse-morphs"
                       >Browse Morphs</nuxt-link
                     >” hotkey.
                   </li>
                   <li>
-                    Line 38: Set “<nuxt-link class="link3" to="#already-known"
+                    Line 38: Set “<nuxt-link to="#already-known"
                       >Already Known Tagger</nuxt-link
                     >” hotkey.
                   </li>
                   <li>
-                    Line 39: Set “<nuxt-link class="link3" to="#batchplay"
+                    Line 39: Set “<nuxt-link to="#batchplay"
                       >Batch Play</nuxt-link
                     >” hotkey.
                   </li>
                   <li>
-                    Line 40: Set “<nuxt-link class="link3" to="#extract"
+                    Line 40: Set “<nuxt-link to="#extract"
                       >Extract Morphemes</nuxt-link
                     >” hotkey.
                   </li>
                   <li>
-                    Line 41: Set “<nuxt-link class="link3" to="#learn-now"
+                    Line 41: Set “<nuxt-link to="#learn-now"
                       >Learn Now</nuxt-link
                     >” hotkey.
                   </li>
                   <li>
-                    Line 42: Set “<nuxt-link class="link3" to="#mass-tagger"
+                    Line 42: Set “<nuxt-link to="#mass-tagger"
                       >Mass Tagger</nuxt-link
                     >” hotkey.
                   </li>
                   <li>
-                    Line 43: Set “<nuxt-link class="link3" to="#view"
+                    Line 43: Set “<nuxt-link to="#view"
                       >View Morphemes</nuxt-link
                     >” hotkey.
                   </li>
@@ -1895,24 +1829,20 @@
                     ensure that you only see cards that are 1T. If “Print number
                     of alternatives skipped” is set to “True,” whenever this
                     reordering happens while you are reviewing, a
-                    <nuxt-link class="link3" to="#skip"
-                      >small notification box</nuxt-link
-                    >
+                    <nuxt-link to="#skip">small notification box</nuxt-link>
                     will briefly appear. If set to “False,” the reordering will
                     still happen, but this notification box will not appear.
                   </li>
                   <li>
                     Line 50: LoadAllDb. If this is set to “False”,
-                    <nuxt-link class="link3" to="#all.db">all.db</nuxt-link>
+                    <nuxt-link to="#all.db">all.db</nuxt-link>
                     will be generate from scratch each time Recalc is run. This
                     will make running Recalc take much longer.
                   </li>
                   <li id="configbatchmedia">
                     Line 65: Batch media fields. By specifying the fields that
                     contain audio on your cards, you can enable the
-                    <nuxt-link class="link3" to="#batchplay"
-                      >Batch Play</nuxt-link
-                    >
+                    <nuxt-link to="#batchplay">Batch Play</nuxt-link>
                     option in the browser.
                   </li>
                   <li id="configmin">
@@ -1920,33 +1850,28 @@
                     Morphs for a sentence to not be considered “too short”.
                     Cards with sentences considered “too short” will receive a
                     lower
-                    <nuxt-link class="link3" to="#mmi">MorphMan Index</nuxt-link
-                    >. For Japanese, a “5” may be a good minimum.
+                    <nuxt-link to="#mmi">MorphMan Index</nuxt-link>. For
+                    Japanese, a “5” may be a good minimum.
                   </li>
                   <li id="configmax">
                     Line 69: Max good sentence length. The maximum number of
                     Morphs for a sentence to not be considered “too long”. Cards
                     with sentences considered “too long” will receive a lower
-                    <nuxt-link class="link3" to="#mmi"
-                      >Morph Man Index</nuxt-link
-                    >. For Japanese, a “15” may be a good maximum.&nbsp;
+                    <nuxt-link to="#mmi">Morph Man Index</nuxt-link>. For
+                    Japanese, a “15” may be a good maximum.&nbsp;
                   </li>
                   <li>
                     Line 70: Reinforce new vocab weight. When a card contains
                     unmature Morphs, the amount specified here will be divided
                     by the interval of the most mature card containing that
                     Morph, and that amount will be subtracted from the
-                    <nuxt-link class="link3" to="#mmi"
-                      >MorphMan Index</nuxt-link
-                    >
+                    <nuxt-link to="#mmi">MorphMan Index</nuxt-link>
                     of that card.
                   </li>
                   <li>
                     Line 71: Verb bonus. The amount specified here will be
                     subtracted from the
-                    <nuxt-link class="link3" to="#mmi"
-                      >MorphMan Index</nuxt-link
-                    >
+                    <nuxt-link to="#mmi">MorphMan Index</nuxt-link>
                     of cards that contain an unknown verb. The idea is that
                     verbs tend to be more useful to learn than other parts of
                     speech.
@@ -1954,27 +1879,19 @@
                   <li id="configpriority">
                     Line 74: Priority.db weight. The amount specified here will
                     be subtracted from the
-                    <nuxt-link class="link3" to="#mmi"
-                      >MorphMan Index</nuxt-link
-                    >
+                    <nuxt-link to="#mmi">MorphMan Index</nuxt-link>
                     of cards that contain an unknown Morph that appears in the
-                    <nuxt-link class="link3" to="#priority"
-                      >priority.db</nuxt-link
-                    >
+                    <nuxt-link to="#priority">priority.db</nuxt-link>
                     database.
                   </li>
                   <li>
                     Line 79: Frequency weight. For cards with Morphs contained
                     within
-                    <nuxt-link class="link3" to="#frequency"
-                      >frequency.txt</nuxt-link
-                    >, the amount specified here will be multiplied by the
-                    “total number of words in frequency.txt” minus “Morph’s
-                    position in frequency.txt”, and that amount will be
-                    subtracted from the
-                    <nuxt-link class="link3" to="#mmi"
-                      >MorphMan Index</nuxt-link
-                    >
+                    <nuxt-link to="#frequency">frequency.txt</nuxt-link>, the
+                    amount specified here will be multiplied by the “total
+                    number of words in frequency.txt” minus “Morph’s position in
+                    frequency.txt”, and that amount will be subtracted from the
+                    <nuxt-link to="#mmi">MorphMan Index</nuxt-link>
                     of the card.
                   </li>
                   <li>

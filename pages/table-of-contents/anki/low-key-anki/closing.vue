@@ -15,11 +15,11 @@
 
       <p>
         Around late 2017, my friend
-        <nuxt-link
-          to="https://vladsperspective.wordpress.com/2017/03/14/optimize-your-anki-youre-overtesting-yourself-on-too-few-cards-make-huge-gains/"
+        <a
+          href="https://vladsperspective.wordpress.com/2017/03/14/optimize-your-anki-youre-overtesting-yourself-on-too-few-cards-make-huge-gains/"
           target="_blank"
           rel="noopener noreferrer"
-          >Vlad</nuxt-link
+          >Vlad</a
         >
         tried to sell me on ja-dark's version of the Low-Key Anki setup, but I
         rejected it before taking the time to fully understand ja-darks

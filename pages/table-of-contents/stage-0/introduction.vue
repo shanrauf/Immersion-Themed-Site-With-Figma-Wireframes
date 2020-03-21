@@ -17,35 +17,35 @@
         Links:
         <ul>
           <li>
-            <nuxt-link
-              to="https://www.antimoon.com/"
+            <a
+              href="https://www.antimoon.com/"
               target="_blank"
               rel="noopener noreferrer"
-              >Antimoon</nuxt-link
+              >Antimoon</a
             >
           </li>
           <li>
-            <nuxt-link
-              to="http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/"
+            <a
+              href="http://www.alljapaneseallthetime.com/blog/all-japanese-all-the-time-ajatt-how-to-learn-japanese-on-your-own-having-fun-and-to-fluency/"
               target="_blank"
               rel="noopener noreferrer"
-              >AJATT</nuxt-link
+              >AJATT</a
             >
           </li>
           <li>
-            <nuxt-link
-              to="https://www.youtube.com/user/MATTvsJapan"
+            <a
+              href="https://www.youtube.com/user/MATTvsJapan"
               target="_blank"
               rel="noopener noreferrer"
-              >Matt's YouTube Channel</nuxt-link
+              >Matt's YouTube Channel</a
             >
           </li>
           <li>
-            <nuxt-link
-              to="https://www.youtube.com/channel/UCQFe3x4WAgm7joN5daMm5Ew"
+            <a
+              href="https://www.youtube.com/channel/UCQFe3x4WAgm7joN5daMm5Ew"
               target="_blank"
               rel="noopener noreferrer"
-              >Yoga's YouTube Channel</nuxt-link
+              >Yoga's YouTube Channel</a
             >
           </li>
         </ul>

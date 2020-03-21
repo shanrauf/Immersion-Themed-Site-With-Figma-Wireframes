@@ -194,11 +194,11 @@
       </p>
       <p>
         From
-        <nuxt-link
-          to="https://en.wikipedia.org/wiki/Decision_fatigue"
+        <a
+          href="https://en.wikipedia.org/wiki/Decision_fatigue"
           target="_blank"
           rel="noopener noreferrer"
-          >Wikipedia</nuxt-link
+          >Wikipedia</a
         >:
       </p>
 

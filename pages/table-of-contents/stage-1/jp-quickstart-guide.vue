@@ -43,20 +43,14 @@
     </div>
     <p>
       The following guide was designed to contain everything needed to complete
-      <nuxt-link
-        class="link3"
-        to="/table-of-contents/stage-0/overview/"
-        rel="noopener"
+      <nuxt-link to="/table-of-contents/stage-0/overview/" rel="noopener"
         >Stage 1 of MIA</nuxt-link
       >
       for Japanese. It’s mainly focused on <em>what to do</em> and less on
       <em>why to do it</em>. For more information about the theoretical
       framework of MIA, please check out the other articles on this website as
       well as the
-      <a
-        class="link3"
-        href="https://www.youtube.com/user/MATTvsJapan"
-        rel="noopener"
+      <a href="https://www.youtube.com/user/MATTvsJapan" rel="noopener"
         >Matt vs. Japan YouTube channel</a
       >.
     </p>
@@ -262,11 +256,9 @@
     </p>
     <p>
       When you should add things to Anki will be discussed in the
-      <nuxt-link class="link3" to="#srs" rel="noopener">SRS section</nuxt-link>.
-      Resources you can use to look things up are listed in the
-      <nuxt-link class="link3" to="#tools" rel="noopener"
-        >tools section</nuxt-link
-      >.
+      <nuxt-link to="#srs" rel="noopener">SRS section</nuxt-link>. Resources you
+      can use to look things up are listed in the
+      <nuxt-link to="#tools" rel="noopener">tools section</nuxt-link>.
     </p>
     <h2 id="what-should-i-be-doing">
       What Should I Actually Be Doing While Actively Listening?
@@ -332,7 +324,6 @@
     <p>
       As you start understanding all the individual words being spoken, the
       <a
-        class="link3"
         href="https://en.wikipedia.org/wiki/Language_acquisition_device"
         rel="noopener"
         >language acquisition device</a
@@ -360,9 +351,7 @@
       daily immersion lead to exponentially faster progress. Said another way,
       the more spread out your immersion is throughout time, the more total time
       it’s going to take. Check out
-      <a class="link3" href="https://youtu.be/7MxklQXJbz8" rel="noopener"
-        >this video</a
-      >
+      <a href="https://youtu.be/7MxklQXJbz8" rel="noopener">this video</a>
       by BritVsJapan to understand why this is.
     </p>
     <p>
@@ -464,9 +453,8 @@
       </li>
       <li>
         Choose a topic you’re interested in, look up the Japanese equivalent on
-        <a class="link3" href="https://jisho.org/" rel="noopener">jisho.org</a>,
-        and search that into YouTube. Click around until you find something
-        interesting.
+        <a href="https://jisho.org/" rel="noopener">jisho.org</a>, and search
+        that into YouTube. Click around until you find something interesting.
       </li>
       <li>
         For recommended Japanese YouTube channels, google “Japanese YouTubers”
@@ -494,10 +482,7 @@
       extract the audio and put it on your immersion pod (as mentioned in a
       video linked earlier in this guide). You can find a video on how to do
       that
-      <a
-        class="link3"
-        href="https://www.youtube.com/watch?v=yxVNj5KHzfI"
-        rel="noopener"
+      <a href="https://www.youtube.com/watch?v=yxVNj5KHzfI" rel="noopener"
         >here</a
       >.
     </p>
@@ -516,8 +501,7 @@
       <li>
         Use a VPN to trick Netflix into thinking you’re in Japan and gain access
         to a much larger collection of Japanese media. Our recommended VPN is
-        <a class="link3" href="https://nordvpn.com/" rel="noopener">Nord VPN</a
-        >.
+        <a href="https://nordvpn.com/" rel="noopener">Nord VPN</a>.
       </li>
       <li>
         Use the browser extension “Subadub” to make Netflix subtitles
@@ -538,7 +522,7 @@
         allows you to extract audio for your immersion pod, as was talked about
         above. It also opens up the possibility of using Netflix with Subs2srs,
         which will be discussed in the
-        <nuxt-link class="link3" to="#sentence-mining" rel="noopener"
+        <nuxt-link to="#sentence-mining" rel="noopener"
           >sentence mining section</nuxt-link
         >.
       </li>
@@ -591,22 +575,17 @@
     <p>
       This is why we recommend Anki. Anki is a versatile SRS with a large
       selection of features. The
-      <a class="link3" href="https://apps.ankiweb.net/" rel="noopener"
-        >desktop version</a
-      >
+      <a href="https://apps.ankiweb.net/" rel="noopener">desktop version</a>
       is available for Windows, Mac and Linux, there’s a fully
-      <a class="link3" href="https://ankiweb.net/" rel="noopener"
-        >online version</a
-      >, and there are smartphone apps for both
+      <a href="https://ankiweb.net/" rel="noopener">online version</a>, and
+      there are smartphone apps for both
       <a
-        class="link3"
         href="https://apps.apple.com/us/app/ankimobile-flashcards/id373493387"
         rel="noopener"
         >iOS</a
       >
       and
       <a
-        class="link3"
         href="https://play.google.com/store/apps/details?id=com.ichi2.anki&amp;hl=en_US"
         rel="noopener"
         >Android</a
@@ -626,9 +605,7 @@
       greatly aid Japanese study, including a few MIA originals. For a language
       learner, these add-ons are really what seals the deal for choosing Anki.
       You can find a list of public add-ons
-      <a class="link3" to="https://ankiweb.net/shared/addons/2.1" rel="noopener"
-        >here</a
-      >.
+      <a href="https://ankiweb.net/shared/addons/2.1" rel="noopener">here</a>.
     </p>
     <p>
       Another useful feature is that Anki allows users to easily import and
@@ -636,9 +613,7 @@
       others, as well as benefit from decks others have made. MIA original Anki
       decks will be linked later in this guide. You can also find a public
       database of pre-made Anki decks
-      <a class="link3" href="https://ankiweb.net/shared/decks/" rel="noopener"
-        >here</a
-      >.
+      <a href="https://ankiweb.net/shared/decks/" rel="noopener">here</a>.
     </p>
     <h2>Getting Started With Anki</h2>
     <p>
@@ -650,19 +625,13 @@
     </p>
     <p>
       The
-      <a
-        class="link3"
-        href="https://apps.ankiweb.net/docs/manual.html"
-        rel="noopener"
+      <a href="https://apps.ankiweb.net/docs/manual.html" rel="noopener"
         >official Anki User Manual</a
       >
       is the most comprehensive explanation of how Anki works. Matt has also
       created a more user-friendly explanation of some crucial functions of the
       program, which you can find
-      <a
-        class="link3"
-        href="https://www.youtube.com/watch?v=lz60qTP2Gx0"
-        rel="noopener"
+      <a href="https://www.youtube.com/watch?v=lz60qTP2Gx0" rel="noopener"
         >here</a
       >.
     </p>
@@ -686,7 +655,6 @@
       The last thing we’ll mention here is that, by default, the way Anki’s
       algorithm works actually isn’t very ideal for language learning. This can
       be fixed with a modification to Anki known as “<a
-        class="link3"
         href="/table-of-contents/anki/low-key-anki/intro/"
         rel="noopener"
         >Low-Key Anki</a
@@ -724,10 +692,7 @@
       something crazy like learning 100 new cards a day, things might seem fine
       for a few days. But within a week or two, you’ll end up with hundreds upon
       hundreds of reviews a day. You can use this
-      <a
-        class="link3"
-        href="https://pheartheceal.github.io/anki-optimizer/"
-        rel="noopener"
+      <a href="https://pheartheceal.github.io/anki-optimizer/" rel="noopener"
         >Anki simulator</a
       >
       to experiment with the relationship between number of new cards and
@@ -743,9 +708,7 @@
       If you already have a good grasp of hiragana and katakana, you can skip
       this section. If you’re entirely new to the Japanese writing system, check
       out
-      <a class="link3" href="https://youtu.be/CFq2Y43DY0U" rel="noopener"
-        >this video</a
-      >.
+      <a href="https://youtu.be/CFq2Y43DY0U" rel="noopener">this video</a>.
     </p>
     <h2>Resources</h2>
     <p>
@@ -764,14 +727,12 @@
         >
       </li>
       <li>
-        <a class="link3" href="https://drmoku.com/" rel="noopener"
+        <a href="https://drmoku.com/" rel="noopener"
           >Dr. Moku smartphone apps</a
         >
       </li>
       <li>
-        <a class="link3" href="https://realkana.com/" rel="noopener"
-          >Real Kana</a
-        >
+        <a href="https://realkana.com/" rel="noopener">Real Kana</a>
       </li>
       <li>
         Tofugu’s guide:
@@ -1063,7 +1024,6 @@
     <p>
       You can find the MIA original RRTK deck
       <a
-        class="link3"
         href="https://www.mediafire.com/file/1svvsr7f9cnpwka/Recognition_RTK.apkg/"
         rel="noopener"
         >here</a
@@ -1090,16 +1050,13 @@
       The original RTK number for each kanji is also listed at the top of every
       card. If you click this number, it functions as a hyperlink that will take
       you to the kanji’s entry on
-      <a class="link3" href="http://hochanh.github.io/rtk/" rel="noopener"
-        >this site</a
-      >.
+      <a href="http://hochanh.github.io/rtk/" rel="noopener">this site</a>.
     </p>
     <p>
       On the back of each card, you’ll find the original RTK keyword, some other
       meanings of the kanji, and the top two highest-rated mnemonic stories from
       the
-      <a class="link3" href="https://kanji.koohii.com/" rel="noopener"
-        >Kanji Koohii website</a
+      <a href="https://kanji.koohii.com/" rel="noopener">Kanji Koohii website</a
       >.
     </p>
     <p>
@@ -1111,7 +1068,7 @@
     <h2>How to Use</h2>
     <p>
       You may want to consider getting your hands on a copy of the actual
-      <br /><a class="link3" href="https://is.gd/eURmBi" rel="noopener"
+      <br /><a href="https://is.gd/eURmBi" rel="noopener"
         >Remembering the Kanji Vol 1 book</a
       >. Understanding how RTK was <em>originally</em> intended to be used will
       likely shed light on a lot of RRTK’s quirks. Like we mentioned above, RTK
@@ -1131,10 +1088,7 @@
       make for a bumpy ride, as without referencing the book, much of the
       mnemonic system will be confusing and unclear. For those attempting this
       approach,
-      <a
-        class="link3"
-        href="https://hochanh.github.io/rtk/index.html"
-        rel="noopener"
+      <a href="https://hochanh.github.io/rtk/index.html" rel="noopener"
         >this site</a
       >
       will likely serve as a useful reference, as it offers component breakdowns
@@ -1148,9 +1102,7 @@
       we are only after recognition, and recognition is much easier than active
       recall, pre-made stories should be good enough. If the stories that come
       on the cards aren’t doing it for you, you can check out
-      <a class="link3" href="https://kanji.koohii.com/" rel="noopener"
-        >Kanji Koohii</a
-      >
+      <a href="https://kanji.koohii.com/" rel="noopener">Kanji Koohii</a>
       for inspiration. Also, feel free to take some liberties when tinkering
       with the meaning of components and modifying stories. The mnemonics are
       just a pragmatic tool for remembering the characters, so whatever works is
@@ -1251,10 +1203,7 @@
     </p>
     <p>
       Another option is to use the
-      <a
-        class="link3"
-        href="https://ankiweb.net/shared/info/1666520655"
-        rel="noopener"
+      <a href="https://ankiweb.net/shared/info/1666520655" rel="noopener"
         >MIA Retirement add-on</a
       >
       to set a retiring interval for your RRTK deck. If you take this approach,
@@ -1282,9 +1231,7 @@
     <p>
       For a more in-depth explanation of why you shouldn’t worry about kanji
       readings, watch from 1:53 to 10:55 of
-      <a class="link3" href="https://youtu.be/TgRte6oSoF8?t=113" rel="noopener"
-        >this video</a
-      >
+      <a href="https://youtu.be/TgRte6oSoF8?t=113" rel="noopener">this video</a>
       (note: Matt has updated his views on some of the conclusions reached in
       this video, as reflected in this guide).
     </p>
@@ -1312,7 +1259,7 @@
         >learned knowledge is largely separate from acquired ability</nuxt-link
       >
       and
-      <a class="link3" href="https://youtu.be/y8JK8W8dBxk" rel="noopener"
+      <a href="https://youtu.be/y8JK8W8dBxk" rel="noopener"
         >language isn’t math</a
       >, conscious grammar study is <em>not</em> an effective way of becoming
       able to speak and write a foreign language.
@@ -1322,10 +1269,7 @@
       <em>acquisition</em>, and this acquisition happens by comprehending
       <em>input</em>, AKA, speech and text, in your target language (this is
       known as the
-      <a
-        class="link3"
-        href="https://en.wikipedia.org/wiki/Input_hypothesis"
-        rel="noopener"
+      <a href="https://en.wikipedia.org/wiki/Input_hypothesis" rel="noopener"
         >input hypothesis</a
       >). So, grammar study is useful to the extent that it helps us comprehend
       target language input, but not useful for actually speaking and writing
@@ -1379,10 +1323,7 @@
     </p>
     <p>
       Personally, we recommend
-      <a
-        class="link3"
-        href="http://www.guidetojapanese.org/learn/grammar"
-        rel="noopener"
+      <a href="http://www.guidetojapanese.org/learn/grammar" rel="noopener"
         >Tae Kim’s Japanese Grammar Guide</a
       >. It’s what Matt used, and it worked well for him. It breaks down
       Japanese in a logical and straight forward way and covers all the basics
@@ -2096,8 +2037,8 @@
       the file for the show/movie you want to use, along with a correctly timed
       subtitle file for that show/movie. This can often be quite difficult. One
       way to go about this is with
-      <a class="link3" href="#netflix" rel="noopener">Netflix</a>, as was
-      mentioned in the immersion section.
+      <a href="#netflix" rel="noopener">Netflix</a>, as was mentioned in the
+      immersion section.
     </p>
     <p>
       You can find a step-by-step tutorial for creating subs2srs decks

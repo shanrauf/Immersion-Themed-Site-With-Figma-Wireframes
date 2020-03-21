@@ -39,7 +39,7 @@
           >original blog post</a
         >
         about it, or
-        <a to="https://youtu.be/1XaJjbCSXT0" target="_blank" rel="noopener"
+        <a href="https://youtu.be/1XaJjbCSXT0" target="_blank" rel="noopener"
           >Conaanaa's video</a
         >
         summarizing eshapard's ideas.

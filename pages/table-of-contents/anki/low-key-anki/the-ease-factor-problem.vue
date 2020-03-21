@@ -145,7 +145,7 @@
         "again" and "hard," the ease factor is reduced to the point where you
         are stuck seeing the card every few days, indefinitely. The following
         image, taken from
-        <a to="https://youtu.be/1XaJjbCSXT0" target="_blank" rel="noopener"
+        <a href="https://youtu.be/1XaJjbCSXT0" target="_blank" rel="noopener"
           >Conaanaa's video on the topic</a
         >, demonstrates the radical difference in interval growth between a card
         with a healthy ease factor of 250%, and a card with the minimum ease

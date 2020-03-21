@@ -77,11 +77,11 @@
 
       <p>
         Matt started learning Japanese around the middle of 2011. Using an
-        immersion-based method called "<nuxt-link
-          to="https://youtu.be/ugrOTjzLTYk"
+        immersion-based method called "<a
+          href="https://youtu.be/ugrOTjzLTYk"
           target="_blank"
           rel="noopener noreferrer"
-          >All Japanese All the Time</nuxt-link
+          >All Japanese All the Time</a
         >" (AJATT)—combined with three years of near full-time dedication—he was
         able to reach a high level of Japanese fluency. But, he still wasn’t
         satisfied.
@@ -99,11 +99,11 @@
       <p>
         After an additional two years of study, experimentation and discovery,
         he finally reached
-        <nuxt-link
-          to="https://youtu.be/SrHwPv7gUCE"
+        <a
+          href="https://youtu.be/SrHwPv7gUCE"
           target="_blank"
           rel="noopener noreferrer"
-          >a level of ability he’s proud of</nuxt-link
+          >a level of ability he’s proud of</a
         >. Besides a six month period he spent in Japan in 2012, Matt learned
         Japanese entirely within the United States.
       </p>

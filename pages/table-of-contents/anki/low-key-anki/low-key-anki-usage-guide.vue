@@ -141,17 +141,17 @@
       <p>
         You can learn more about the details of how filtered decks work, and all
         of the different inputs you can use, in the
-        <nuxt-link
-          to="https://apps.ankiweb.net/docs/manual20.html#filtered-decks-&amp;-cramming"
+        <a
+          href="https://apps.ankiweb.net/docs/manual20.html#filtered-decks-&amp;-cramming"
           target="_blank"
           rel="noopener noreferrer"
-          >Anki manual</nuxt-link
+          >Anki manual</a
         >. I also recommend
-        <nuxt-link
-          to="https://eshapard.github.io/anki/anki-and-the-hidden-dangers-of-filtered-decks.html"
+        <a
+          href="https://eshapard.github.io/anki/anki-and-the-hidden-dangers-of-filtered-decks.html"
           target="_blank"
           rel="noopener noreferrer"
-          >this post</nuxt-link
+          >this post</a
         >
         by eshapard for a few things to be careful of when using filtered decks
         and a related useful add-on.
@@ -230,11 +230,11 @@
           Split your cards into multiple subdecks based on the type of card, in
           order to maximize the homogeneity of the intrinsic difficulty of the
           cards in each subdeck. Create a unique
-          <nuxt-link
-            to="https://youtu.be/lz60qTP2Gx0?t=315"
+          <a
+            href="https://youtu.be/lz60qTP2Gx0?t=315"
             target="_blank"
             rel="noopener noreferrer"
-            >Option Group</nuxt-link
+            >Option Group</a
           >
           for each subdeck.
         </li>
@@ -281,11 +281,11 @@
           Keeping track of the retention rate of each of your subdecks, and
           occasionally adjust the "Interval Modifier" of each to stay in range
           of your desired retention rate. Quick guide on how to do that
-          <nuxt-link
-            to="https://eshapard.github.io/anki/target-an-80-90-percent-success-rate-in-anki.html"
+          <a
+            href="https://eshapard.github.io/anki/target-an-80-90-percent-success-rate-in-anki.html"
             target="_blank"
             rel="noopener noreferrer"
-            >here</nuxt-link
+            >here</a
           >.
         </li>
       </ul>

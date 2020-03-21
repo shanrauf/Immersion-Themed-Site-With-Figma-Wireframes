@@ -64,11 +64,11 @@
 
       <p>
         You can download the add-on
-        <nuxt-link
-          to="https://ankiweb.net/shared/info/1655992655"
+        <a
+          href="https://ankiweb.net/shared/info/1655992655"
           target="_blank"
           rel="noopener noreferrer"
-          ><strong>here</strong></nuxt-link
+          ><strong>here</strong></a
         >.
       </p>
       <p>
@@ -100,11 +100,11 @@
       <p>
         If you're using macOS, you must give Anki accessibility permissions in
         order for the add-on's global hotkeys to function.
-        <nuxt-link
-          to="https://nuance.custhelp.com/app/answers/detail/a_id/15303/~/how-to-enable-accessibility-in-os-x"
+        <a
+          href="https://nuance.custhelp.com/app/answers/detail/a_id/15303/~/how-to-enable-accessibility-in-os-x"
           target="_blank"
           rel="noopener noreferrer"
-          >This link</nuxt-link
+          >This link</a
         >
         explains how to do this.
       </p>
@@ -112,11 +112,11 @@
 
       Unfortunately, Linux is not officially supported and the add-on may not
       work properly under all environments. That said, please check the
-      <nuxt-link
-        to="https://github.com/mass-immersion-approach/MIA-Dictionary-Addon"
+      <a
+        href="https://github.com/mass-immersion-approach/MIA-Dictionary-Addon"
         target="_blank"
         rel="noopener noreferrer"
-        >GitHub repository</nuxt-link
+        >GitHub repository</a
       >
       for any community fixes that may be available.
       <p></p>
@@ -156,11 +156,11 @@
       <p>
         You can find a library of open-source dictionaries and frequency lists
         pre-packaged for use with the add-on
-        <nuxt-link
-          to="https://mega.nz/#F!eyYwyIgY!3q4XQ3BhdvkFg9KsPe5avw!bz4ywa5A"
+        <a
+          href="https://mega.nz/#F!eyYwyIgY!3q4XQ3BhdvkFg9KsPe5avw!bz4ywa5A"
           target="_blank"
           rel="noopener noreferrer"
-          ><strong>here</strong></nuxt-link
+          ><strong>here</strong></a
         >.
       </p>
       <p>
@@ -224,11 +224,11 @@
         MIA Dictionary supports dictionaries in two different file formats: the
         Yomichan Dictionary format, and the proprietary MIA Dictionary format.
       </p>
-      <nuxt-link
-        to="https://foosoft.net/projects/yomichan/"
+      <a
+        href="https://foosoft.net/projects/yomichan/"
         target="_blank"
         rel="noopener noreferrer"
-        >Yomichan</nuxt-link
+        >Yomichan</a
       >
       is a Japanese dictionary browser extension for Firefox and Chrome.
       Dictionaries for Yomichan come in the form of a ZIP file containing a
@@ -416,19 +416,16 @@
       </p>
 
       <blockquote>
-        “<nuxt-link
-          to="https://forvo.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Forvo.com</nuxt-link
+        “<a href="https://forvo.com/" target="_blank" rel="noopener noreferrer"
+          >Forvo.com</a
         >
         is a website that allows access to, and playback of, pronunciation sound
         clips in many different languages in an attempt to facilitate the
-        learning of languages.” -<nuxt-link
-          to="https://en.wikipedia.org/wiki/Forvo"
+        learning of languages.” -<a
+          href="https://en.wikipedia.org/wiki/Forvo"
           target="_blank"
           rel="noopener noreferrer"
-          >Wikipedia</nuxt-link
+          >Wikipedia</a
         >
       </blockquote>
 
@@ -1455,11 +1452,8 @@
       />
       Hotkeys used in the above GIF: “Ctrl+C+Alt” → “Ctrl+S” → “Ctrl+Shift+V” →
       “Ctrl+Enter”. Screenshot taken with
-      <nuxt-link
-        to="https://getsharex.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >ShareX</nuxt-link
+      <a href="https://getsharex.com/" target="_blank" rel="noopener noreferrer"
+        >ShareX</a
       >[/caption]
 
       <p>
@@ -1605,21 +1599,21 @@
       </p>
       <p>
         If you’re on a PC, you can use the free program
-        <nuxt-link
-          to="https://getsharex.com/"
+        <a
+          href="https://getsharex.com/"
           target="_blank"
           rel="noopener noreferrer"
-          >ShareX</nuxt-link
+          >ShareX</a
         >
         to greatly take advantage of this feature. ShareX can be configured so
         that you can record audio from your computer, save it as an mp3 file,
         and copy that file to your clipboard all with the press of a single
         hotkey (tutorial for setting this up
-        <nuxt-link
-          to="https://youtu.be/IS7WzYICAsk"
+        <a
+          href="https://youtu.be/IS7WzYICAsk"
           target="_blank"
           rel="noopener noreferrer"
-          >here</nuxt-link
+          >here</a
         >). Combined with the Exporter, this makes adding audio to cards you
         create from native target language content extremely quickly and easily.
         Although ShareX is only available for PC, you should be able to get the

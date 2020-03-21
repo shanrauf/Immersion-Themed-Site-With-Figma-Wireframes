@@ -88,24 +88,22 @@
                   For more information about the theoretical framework of MIA,
                   please check out the other articles on this website as well as
                   the
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.youtube.com/user/MATTvsJapan"
+                  <a
+                    href="https://www.youtube.com/user/MATTvsJapan"
                     target="_blank"
                     rel="noopener"
-                    >Matt vs. Japan YouTube channel</nuxt-link
+                    >Matt vs. Japan YouTube channel</a
                   >.
                 </p>
                 <p>
                   This guide assumes a basic understanding of the concepts and
                   terms presented in MIA Stage 1. Although a MIA Stage 1 Guide
                   currently doesn’t exist, the
-                  <nuxt-link
-                    class="link3"
-                    to="https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/"
+                  <a
+                    href="https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/"
                     target="_blank"
                     rel="noopener"
-                    >MIA Japanese Quickstart Guide</nuxt-link
+                    >MIA Japanese Quickstart Guide</a
                   >
                   provides virtually all of the necessary information to
                   complete Stage 1 for any major language. If you’re learning a
@@ -193,12 +191,11 @@
                     in-depth on various language acquisition theory and related
                     topics that enhance your understanding of how to learn a
                     language. At the present moment, the
-                    <nuxt-link
-                      class="link3"
-                      to="https://www.youtube.com/user/MATTvsJapan"
+                    <a
+                      href="https://www.youtube.com/user/MATTvsJapan"
                       target="_blank"
                       rel="noopener"
-                      >Matt vs. Japan YouTube channel</nuxt-link
+                      >Matt vs. Japan YouTube channel</a
                     >
                     is the best source for this type of information.
                   </li>
@@ -432,12 +429,11 @@
                   may harm your pronunciation. This is because, even during
                   silent reading, you pronounce everything you read with a voice
                   inside your head (a.k.a.
-                  <nuxt-link
-                    class="link3"
-                    to="https://en.wikipedia.org/wiki/Subvocalization"
+                  <a
+                    href="https://en.wikipedia.org/wiki/Subvocalization"
                     target="_blank"
                     rel="noopener"
-                    >subvocalization</nuxt-link
+                    >subvocalization</a
                   >).
                 </p>
                 <p>
@@ -644,13 +640,12 @@
                 <p>For example, take the following sentence:</p>
                 <blockquote class="bq">
                   <p>
-                    <nuxt-link
-                      class="link3"
-                      to="https://en.wikipedia.org/wiki/Garden-path_sentence#Examples"
+                    <a
+                      href="https://en.wikipedia.org/wiki/Garden-path_sentence#Examples"
                       target="_blank"
                       rel="noopener"
                       >“The complex houses married and single soldiers and their
-                      families.”</nuxt-link
+                      families.”</a
                     >
                   </p>
                 </blockquote>
@@ -804,12 +799,11 @@
                   Another good option is TL subs: if you have access to TL
                   subtitle files, you can treat them as raw text and read them
                   on their own. The
-                  <nuxt-link
-                    class="link3"
-                    to="https://subtitletools.com/convert-subtitles-to-plain-text-online"
+                  <a
+                    href="https://subtitletools.com/convert-subtitles-to-plain-text-online"
                     target="_blank"
                     rel="noopener"
-                    >Subtitle Tools website</nuxt-link
+                    >Subtitle Tools website</a
                   >
                   can come in handy here as it allows you to convert subtitle
                   files into plain text. Consider reading the transcripts of
@@ -1355,12 +1349,8 @@
                 <p>
                   For example, take the Japanese word “tanjun” (単純,
                   たんじゅん). The online English-Japanese dictionary
-                  <nuxt-link
-                    class="link3"
-                    to="https://jisho.org/"
-                    target="_blank"
-                    rel="noopener"
-                    >Jisho</nuxt-link
+                  <a href="https://jisho.org/" target="_blank" rel="noopener"
+                    >Jisho</a
                   >
                   defines the word “tanjun” as:
                 </p>
@@ -1538,12 +1528,11 @@
                 </p>
                 <p>
                   For example, here is
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.merriam-webster.com/dictionary/cut"
+                  <a
+                    href="https://www.merriam-webster.com/dictionary/cut"
                     target="_blank"
                     rel="noopener"
-                    >Merriam-Webster’s first definition for “cut”</nuxt-link
+                    >Merriam-Webster’s first definition for “cut”</a
                   >:
                 </p>
                 <blockquote class="bq">
@@ -1597,13 +1586,11 @@
                 </p>
                 <p>
                   To give a concrete illustration, here is
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.merriam-webster.com/dictionary/experience"
+                  <a
+                    href="https://www.merriam-webster.com/dictionary/experience"
                     target="_blank"
                     rel="noopener"
-                    >Merriam-Webster’s second definition for
-                    “experience”</nuxt-link
+                    >Merriam-Webster’s second definition for “experience”</a
                   >:
                 </p>
                 <blockquote class="bq">
@@ -2016,12 +2003,11 @@
                 </p>
                 <p>
                   For example, take
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.merriam-webster.com/dictionary/thing"
+                  <a
+                    href="https://www.merriam-webster.com/dictionary/thing"
                     target="_blank"
                     rel="noopener"
-                    >the following Merriam-Webster definition:</nuxt-link
+                    >the following Merriam-Webster definition:</a
                   >
                 </p>
                 <blockquote class="bq">
@@ -2041,12 +2027,11 @@
                 </blockquote>
                 <p>
                   That’s
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.merriam-webster.com/dictionary/the"
+                  <a
+                    href="https://www.merriam-webster.com/dictionary/the"
                     target="_blank"
                     rel="noopener"
-                    >Merriam-Webster’s first definition of “the.”</nuxt-link
+                    >Merriam-Webster’s first definition of “the.”</a
                   >
                 </p>
                 <p>
@@ -2062,12 +2047,11 @@
                 <p>
                   Next, we have nouns. Many nouns simply don’t lend themselves
                   to being described with words very well. For example, the
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.merriam-webster.com/dictionary/piano"
+                  <a
+                    href="https://www.merriam-webster.com/dictionary/piano"
                     target="_blank"
                     rel="noopener"
-                    >Merriam-Webster definition of “piano”</nuxt-link
+                    >Merriam-Webster definition of “piano”</a
                   >
                   is:
                 </p>
@@ -2088,12 +2072,11 @@
                   sometimes a monolingual dictionary will describe everyday
                   items in <b>technical terms</b>; which has the potential to be
                   confusing even to native speakers. For example, the
-                  <nuxt-link
-                    class="link3"
-                    to="https://www.merriam-webster.com/dictionary/camera"
+                  <a
+                    href="https://www.merriam-webster.com/dictionary/camera"
                     target="_blank"
                     rel="noopener"
-                    >Merriam-Webster definition of “camera”</nuxt-link
+                    >Merriam-Webster definition of “camera”</a
                   >
                   is:
                 </p>
@@ -2371,12 +2354,11 @@
                   the <b>“Sentence Cards”</b> and
                   <b>“Sentence Mining” </b>portions of the Stage 1 guide
                   (currently the
-                  <nuxt-link
-                    class="link3"
-                    to="https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/#sentence-mining"
+                  <a
+                    href="https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/#sentence-mining"
                     target="_blank"
                     rel="noopener"
-                    >“Japanese Quickstart Guide”</nuxt-link
+                    >“Japanese Quickstart Guide”</a
                   >). Now that you have more experience under your belt, some of
                   the advice may take on new meanings for you.
                 </p>

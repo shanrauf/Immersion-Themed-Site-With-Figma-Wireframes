@@ -33,11 +33,11 @@
 
       Something else I forgot to mention is that another reason you can’t trust
       people’s self-reports about their own language ability is the
-      <nuxt-link
-        to="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+      <a
+        href="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
         target="_blank"
         rel="noopener noreferrer"
-        >Dunning–Kruger effect</nuxt-link
+        >Dunning–Kruger effect</a
       >. The Dunning–Kruger effect is a cognitive bias in which, for any given
       skill, people at relatively low levels tend to overestimate their ability,
       due to not being competent enough to recognize their own incompetence. In
@@ -62,25 +62,25 @@
         popular figures in the language learning community. I want you to have
         confidence that the methods I talk about on this site are proven to
         work. You can find videos of me speaking Japanese
-        <nuxt-link
-          to="https://youtu.be/SrHwPv7gUCE"
+        <a
+          href="https://youtu.be/SrHwPv7gUCE"
           target="_blank"
           rel="noopener noreferrer"
-          >here</nuxt-link
+          >here</a
         >
         and
-        <nuxt-link
-          to="https://youtu.be/SF1_zmj0lLA"
+        <a
+          href="https://youtu.be/SF1_zmj0lLA"
           target="_blank"
           rel="noopener noreferrer"
-          >here</nuxt-link
+          >here</a
         >, and a video of Khatzumoto (creator of the AJATT method, which
         inspired MIA) speaking Japanese
-        <nuxt-link
-          to="https://youtu.be/ejRkuX1RGf4"
+        <a
+          href="https://youtu.be/ejRkuX1RGf4"
           target="_blank"
           rel="noopener noreferrer"
-          >here</nuxt-link
+          >here</a
         >.
       </p>
 

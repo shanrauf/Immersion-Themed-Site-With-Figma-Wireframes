@@ -13,11 +13,11 @@
         <li><nuxt-link to="#considerations">Considerations</nuxt-link></li>
         <li>
           <nuxt-link to="#rubric">Rubric</nuxt-link>
-          <nuxt-link
-            to="https://docs.google.com/spreadsheets/d/1r44DF3b0TNTBCo2_hnjTV60Jl0LHLENxIXrBqUwAIuw/edit?usp=sharing"
+          <a
+            href="https://docs.google.com/spreadsheets/d/1r44DF3b0TNTBCo2_hnjTV60Jl0LHLENxIXrBqUwAIuw/edit?usp=sharing"
             target="_blank"
             rel="noopener"
-            >(link)</nuxt-link
+            >(link)</a
           >
         </li>
         <li>
@@ -227,11 +227,11 @@
 
       <p>
         The rubric can be found
-        <nuxt-link
-          to="https://docs.google.com/spreadsheets/d/1r44DF3b0TNTBCo2_hnjTV60Jl0LHLENxIXrBqUwAIuw/edit?usp=sharing"
+        <a
+          href="https://docs.google.com/spreadsheets/d/1r44DF3b0TNTBCo2_hnjTV60Jl0LHLENxIXrBqUwAIuw/edit?usp=sharing"
           target="_blank"
           rel="noopener"
-          >here</nuxt-link
+          >here</a
         >.
       </p>
       <h1 id="categories">Categories</h1>
@@ -585,11 +585,11 @@
       <p>
         In the charts above, each rung represents “two” of the ten possible
         points (i.e., Grammar is “six”). You can make your own ability graphs
-        <nuxt-link
-          to="https://frenchyann.github.io/language-aptitude-graphs/"
+        <a
+          href="https://frenchyann.github.io/language-aptitude-graphs/"
           target="_blank"
           rel="noopener"
-          >with this tool</nuxt-link
+          >with this tool</a
         >. Here is a chart that compares fluency (blue) to the minimum amount of
         ability required to reliably get confused for a native speaker (purple):
       </p>
@@ -699,14 +699,14 @@
         height="400"
       />
       <h2 id="english">English</h2>
-      <YouTubeEmbed src="https://youtube.com/embed/xZuo9CloRqQ" /><nuxt-link
-        to="https://massimmersionapproach.com/imgs/2019/01/graph-GODZILLA-2014-Interview-Ken-Watanabe.svg"
+      <YouTubeEmbed src="https://youtube.com/embed/xZuo9CloRqQ" /><a
+        href="https://massimmersionapproach.com/imgs/2019/01/graph-GODZILLA-2014-Interview-Ken-Watanabe.svg"
         ><img
           src="https://massimmersionapproach.com/imgs/2019/01/graph-GODZILLA-2014-Interview-Ken-Watanabe.svg"
           alt=""
           width="500"
           height="400"
-      /></nuxt-link>
+      /></a>
 
       <hr />
 

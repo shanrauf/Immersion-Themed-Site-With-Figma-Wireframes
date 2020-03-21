@@ -22,7 +22,7 @@
         height="357"
       />
       <a
-        to="https://ankiweb.net/shared/info/494944895"
+        href="https://ankiweb.net/shared/info/494944895"
         target="_blank"
         rel="noopener"
         >Ease Factor Histogram Add-on</a
