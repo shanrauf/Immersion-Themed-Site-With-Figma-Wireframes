@@ -1,7 +1,7 @@
 <template>
   <div class="article-container">
     <div>
-      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
+      <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link>|
       <nuxt-link to="/table-of-contents/extra">Extra</nuxt-link>
     </div>
     <h1>Patreon Q&amp;A Archive</h1>
@@ -9,23 +9,51 @@
     <h2 style="text-align: center;">Table of Contents</h2>
     <h3 style="text-align: center;">2019</h3>
     <ul>
-      <li><nuxt-link to="#January12th2019">January</nuxt-link></li>
-      <li><nuxt-link to="#February9th2019">February</nuxt-link></li>
-      <li><nuxt-link to="#March9th2019">March</nuxt-link></li>
-      <li><nuxt-link to="#April6th2019">April</nuxt-link></li>
-      <li><nuxt-link to="#May4th2019">May</nuxt-link></li>
-      <li><nuxt-link to="#June1st2019">June</nuxt-link></li>
-      <li><nuxt-link to="#July13th2019">July</nuxt-link></li>
-      <li><nuxt-link to="#August10th2019">August</nuxt-link></li>
-      <li><nuxt-link to="#September7th2019">September</nuxt-link></li>
-      <li><nuxt-link to="#October5th2019">October</nuxt-link></li>
-      <li><nuxt-link to="#November9th2019">November</nuxt-link></li>
-      <li><nuxt-link to="#December7th2019">December</nuxt-link></li>
+      <li>
+        <nuxt-link to="#January12th2019">January</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#February9th2019">February</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#March9th2019">March</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#April6th2019">April</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#May4th2019">May</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#June1st2019">June</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#July13th2019">July</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#August10th2019">August</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#September7th2019">September</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#October5th2019">October</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#November9th2019">November</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#December7th2019">December</nuxt-link>
+      </li>
     </ul>
     <h3 style="text-align: center;">2020</h3>
     <ul>
-      <li><nuxt-link to="#January9th2020">January</nuxt-link></li>
-      <li><nuxt-link to="#February4th2020">February</nuxt-link></li>
+      <li>
+        <nuxt-link to="#January9th2020">January</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="#February4th2020">February</nuxt-link>
+      </li>
     </ul>
     <div class="article-content">
       <h1 id="January12th2019">
@@ -1286,6 +1314,103 @@
       <p>
         1:00:05 - You said you learned Japanese for the wrong reason; why are
         you learning Mandarin?
+      </p>
+      <h1 id="February29th2020">
+        <a
+          href="https://www.patreon.com/posts/34466983"
+          target="_blank"
+          rel="noopener noreferrer"
+          >February 29th, 2020</a
+        >
+      </h1>
+      <p>
+        00:21 - What would you recommend doing differently when learning
+        Mandarin vs Japanese?
+      </p>
+      <p>
+        18:38 - My experience with different meditation retreats and a long
+        explanation of the current vipassana landscape.
+      </p>
+      <p>
+        58:26 - How can one effectively leverage native speaker friends in the
+        early stages of MIA?
+      </p>
+      <p>
+        1:00:09 - Do you think being raised bilingually gives you an advantage
+        when it comes to acquiring new phonetic systems as an adult?
+      </p>
+      <p>
+        1:02:24 - Where precisely is the line between active and passive
+        immersion?
+      </p>
+      <p>
+        1:07:44 - Do you know the YouTube channel “Xiaomanyc”? Have you
+        considered making videos in that style?
+      </p>
+      <p>
+        1:11:44 - What are your thoughts on using the MIA Vacation addon to only
+        rep on certain days in order to make more time for immersion?
+      </p>
+      <p>
+        1:14:26 - I fell off the wagon and didn’t rep or immerse for a week; how
+        should I jump back into things?
+      </p>
+      <p>
+        1:15:15 - If a word can be written in multiple different ways, should
+        you make a separate card for each one?
+      </p>
+      <p>1:16:52 - How can I learn to build Anki decks from scratch?</p>
+      <h1 id="March14th2020">
+        <a
+          href="https://www.patreon.com/posts/34885889"
+          target="_blank"
+          rel="noopener noreferrer"
+          >March 14th, 2020</a
+        >
+      </h1>
+      <p>
+        2:34 - As a beginner, should I avoid immersion sources that contain
+        mumbling/slurred speech such as podcasts and YouTube videos?
+      </p>
+      <p>
+        11:17 - If my goal is to speak my target language with my kids, should I
+        focus on immersing with media that contains family interactions?
+      </p>
+      <p>
+        14:52 - How come some Japanese sounds seem to be inconsistent?
+      </p>
+      <p>
+        27:08 - My goal is to interact with French people, content that reflects
+        authentic interactions between French people is not very comprehensible.
+        Should I immerse in that type of content anyway, or use something more
+        comprehensible like anime/dramas/movies?
+      </p>
+      <p>
+        31:43 - What do you think about graded readers?
+      </p>
+      <p>
+        39:05 - Have you ever tried meditating in a float tank?
+      </p>
+      <p>
+        39:14 - How should I review cards for Tango N5 & N4; audio cards, text
+        cards, or both?
+      </p>
+      <p>
+        45:41 - I’m struggling with kanji while working through Tango N4; should
+        I go through Production (Traditional) RTK?
+      </p>
+      <p>
+        48:55 - I have a good retention rate in Anki, but I have trouble
+        remember words in my immersion. How should I fix this?
+      </p>
+      <p>
+        55:08 - How natural is the Japanese in the ひいきびいき (Hiikibiiki)
+        podcast?
+      </p>
+      <p>
+        59:51 - Do you think it would be possible to become fluent in a language
+        ONLY through reading (without any prior knowledge or ever using a
+        dictionary)?
       </p>
     </div>
   </div>
