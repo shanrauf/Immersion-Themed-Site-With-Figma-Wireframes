@@ -3,7 +3,7 @@
     <p>
       <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
       <nuxt-link to="/table-of-contents/extra/success-stories"
-        >Success Storiess</nuxt-link
+        >Success Stories</nuxt-link
       >
     </p>
     <h1>Ben</h1>
