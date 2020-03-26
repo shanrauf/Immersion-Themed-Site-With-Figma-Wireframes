@@ -4,12 +4,12 @@
       <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
       <nuxt-link to="/table-of-contents/stage-1/">Stage 1</nuxt-link>
     </div>
-    <p>
-      The following video explains the distinction between acquisiton and
-      learning in the context of language learning:
-    </p>
     <h1 style="text-align: center;">Acquisition vs. Learning</h1>
     <div class="article-content">
+      <p>
+        The following video explains the distinction between acquisiton and
+        learning in the context of language learning:
+      </p>
       <YouTubeEmbed src="https://www.youtube.com/embed/CgIvG2ui5D8" />
     </div>
   </div>

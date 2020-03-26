@@ -6,6 +6,10 @@
     </div>
     <h1>Theory vs. Practice</h1>
     <div class="article-content">
+      <p>
+        The following video discusses theory vs practice as it pertains to
+        langauge learning:
+      </p>
       <YouTubeEmbed src="https://youtube.com/embed/UHAa0mFOsYM" />
 
       <p>
