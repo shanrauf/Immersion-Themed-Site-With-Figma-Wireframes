@@ -23,7 +23,7 @@
       <nuxt-link to="/table-of-contents/tools/">Tools</nuxt-link>
     </h1>
     <h1 style="text-align: center;">
-      <nuxt-link to="table-of-contents/anki/">Anki</nuxt-link>
+      <nuxt-link to="/table-of-contents/anki/">Anki</nuxt-link>
     </h1>
     <h1 style="text-align: center;">
       <nuxt-link to="/table-of-contents/extra/">Extra</nuxt-link>
