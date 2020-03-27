@@ -1032,7 +1032,6 @@
     </p>
     <p>
       <img
-        class="aligncenter wp-image-2730 size-full"
         src="https://massimmersionapproach.com/imgs/2019/09/RRTK-card-1.gif"
         alt=""
         width="687"
@@ -1504,7 +1503,6 @@
     </p>
     <p>
       <img
-        class="aligncenter size-full wp-image-2721"
         src="https://massimmersionapproach.com/imgs/2019/09/BSC.gif"
         alt=""
         width="800"
@@ -2090,7 +2088,6 @@
     </p>
     <p>
       <img
-        class="aligncenter size-full wp-image-2723"
         src="https://massimmersionapproach.com/imgs/2019/09/MSC.gif"
         alt=""
         width="754"

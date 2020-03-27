@@ -493,7 +493,6 @@
                 <h1 id="setup">Setup</h1>
                 <p>
                   <img
-                    class="aligncenter wp-image-3209"
                     src="https://massimmersionapproach.com/imgs/k0.png.png"
                     alt=""
                     width="400"
@@ -577,32 +576,19 @@
                 <h2 id="preferences">MorphMan Preferences</h2>
                 <p>
                   <img
-                    class="aligncenter wp-image-3213"
                     src="https://massimmersionapproach.com/imgs/preferences1.png"
                     alt=""
                     width="400"
                     height="119"
-                    srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences1.png        413w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences1-300x89.png 300w
-                    "
-                    sizes="(max-width: 400px) 100vw, 400px"
                   />
                 </p>
                 <h3>Note Filter</h3>
                 <p>
                   <img
-                    class="aligncenter wp-image-3223"
                     src="https://massimmersionapproach.com/imgs/preferences_note_filter4.png"
                     alt=""
                     width="700"
                     height="359"
-                    srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_note_filter4.png         935w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_note_filter4-300x154.png 300w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_note_filter4-768x393.png 768w
-                    "
-                    sizes="(max-width: 700px) 100vw, 700px"
                   />
                 </p>
                 <p>
@@ -625,17 +611,10 @@
                 </p>
                 <p>
                   <img
-                    class="aligncenter wp-image-3421"
                     src="https://massimmersionapproach.com/imgs/note-filter-order.png"
                     alt=""
                     width="700"
                     height="352"
-                    srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/10/note-filter-order.png         952w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/10/note-filter-order-300x151.png 300w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/10/note-filter-order-768x386.png 768w
-                    "
-                    sizes="(max-width: 700px) 100vw, 700px"
                   />
                 </p>
                 <p>
@@ -656,17 +635,10 @@
                 <h3>Extra Fields</h3>
                 <p>
                   <img
-                    class="aligncenter wp-image-3224"
                     src="https://massimmersionapproach.com/imgs/preferences_extra_fields2.png"
                     alt=""
                     width="700"
                     height="359"
-                    srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_extra_fields2.png         935w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_extra_fields2-300x154.png 300w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/preferences_extra_fields2-768x393.png 768w
-                    "
-                    sizes="(max-width: 700px) 100vw, 700px"
                   />
                 </p>
                 <p>
@@ -728,7 +700,6 @@
                 <h3>Tags</h3>
                 <p>
                   <img
-                    class="aligncenter wp-image-3225"
                     src="https://massimmersionapproach.com/imgs/2019/09/preferences_tags1.png"
                     alt=""
                     width="700"
@@ -826,7 +797,6 @@
                 <h3 id="general">General</h3>
                 <p>
                   <img
-                    class="aligncenter wp-image-3229"
                     src="https://massimmersionapproach.com/imgs/2019/09/preferences_general1.png"
                     alt=""
                     width="700"
@@ -889,7 +859,6 @@
                 </p>
                 <p>
                   <img
-                    class="aligncenter wp-image-3254"
                     src="https://massimmersionapproach.com/imgs/2019/09/note-type_color1.png"
                     alt=""
                     width="700"
@@ -943,7 +912,6 @@
                 </p>
                 <p>
                   <img
-                    class="aligncenter wp-image-3256"
                     src="https://massimmersionapproach.com/imgs/2019/09/css-with-mia-japanese.gif"
                     alt=""
                     width="800"
@@ -958,7 +926,6 @@
                 </p>
                 <p>
                   <img
-                    class="aligncenter wp-image-3258"
                     src="https://massimmersionapproach.com/imgs/2019/09/css-two-fields1.png"
                     alt=""
                     width="700"
@@ -998,7 +965,6 @@
                 </p>
                 <p>
                   <img
-                    class="aligncenter wp-image-3367"
                     src="https://massimmersionapproach.com/imgs/2019/09/morphman-freqtxt1.png"
                     alt=""
                     width="175"
@@ -1058,7 +1024,6 @@
                 </p>
                 <p>
                   <img
-                    class="aligncenter wp-image-3359"
                     src="https://massimmersionapproach.com/imgs/2019/09/morphman-freq-config.png"
                     alt=""
                     width="600"
@@ -1093,7 +1058,6 @@
                 <h2 id="recalc">MorphMan Recalc</h2>
                 <p>
                   <img
-                    class="aligncenter wp-image-3271"
                     src="https://massimmersionapproach.com/imgs/2019/09/recalc2.gif"
                     alt=""
                     width="400"
@@ -1160,16 +1124,10 @@
                 </p>
                 <p>
                   <img
-                    class="aligncenter wp-image-3279"
                     src="https://massimmersionapproach.com/imgs/new-cards-in-order-added1.png"
                     alt=""
                     width="400"
                     height="404"
-                    srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/new-cards-in-order-added1.png         490w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/new-cards-in-order-added1-297x300.png 297w
-                    "
-                    sizes="(max-width: 400px) 100vw, 400px"
                   />
                 </p>
                 <p>
@@ -1238,18 +1196,10 @@
                 </p>
                 <p>
                   <img
-                    class="aligncenter wp-image-3286"
                     src="https://massimmersionapproach.com/imgs/before-repping1.png"
                     alt=""
                     width="800"
                     height="592"
-                    srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/before-repping1.png          1126w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/before-repping1-300x222.png   300w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/before-repping1-768x568.png   768w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/before-repping1-1024x758.png 1024w
-                    "
-                    sizes="(max-width: 800px) 100vw, 800px"
                   />
                 </p>
                 <p>
@@ -1260,16 +1210,10 @@
                 </p>
                 <p>
                   <img
-                    class="aligncenter wp-image-3288"
                     src="https://massimmersionapproach.com/imgs/browser-edit2.png"
                     alt=""
                     width="400"
                     height="367"
-                    srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/browser-edit2.png         473w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/browser-edit2-300x275.png 300w
-                    "
-                    sizes="(max-width: 400px) 100vw, 400px"
                   />
                 </p>
                 <p>
@@ -1354,16 +1298,10 @@
                 <p>
                   <img
                     id="skip"
-                    class="aligncenter wp-image-1775"
                     src="https://massimmersionapproach.com/imgs/reorder.png"
                     alt=""
                     width="350"
                     height="149"
-                    srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/01/reorder.png         413w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/01/reorder-300x128.png 300w
-                    "
-                    sizes="(max-width: 350px) 100vw, 350px"
                   />
                 </p>
                 <p>
@@ -1383,7 +1321,6 @@
                 </p>
                 <p>
                   <img
-                    class="aligncenter wp-image-3297"
                     src="https://massimmersionapproach.com/imgs/2019/09/morphman-learn-now.gif"
                     alt=""
                     width="700"
@@ -1556,18 +1493,10 @@
                 <h2 id="analyzer">Readability Analyzer</h2>
                 <p>
                   <img
-                    class="aligncenter wp-image-3395"
                     src="https://massimmersionapproach.com/imgs/morphman-readability-analyzer.png"
                     alt=""
                     width="700"
                     height="421"
-                    srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/morphman-readability-analyzer.png          1030w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/morphman-readability-analyzer-300x181.png   300w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/morphman-readability-analyzer-768x462.png   768w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/09/morphman-readability-analyzer-1024x616.png 1024w
-                    "
-                    sizes="(max-width: 700px) 100vw, 700px"
                   />
                 </p>
                 <p>
@@ -1715,16 +1644,10 @@
                 </p>
                 <p>
                   <img
-                    class="aligncenter wp-image-1949"
                     src="https://massimmersionapproach.com/imgs/config.py_.png"
                     alt=""
                     width="500"
                     height="220"
-                    srcset="
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/02/config.py_.png         704w,
-                      https://web.archive.org/web/20191217143747im_/https://massimmersionapproach.com/imgs/2019/02/config.py_-300x132.png 300w
-                    "
-                    sizes="(max-width: 500px) 100vw, 500px"
                   />
                 </p>
                 <p>
