@@ -105,7 +105,7 @@
       </p>
       <p>42:03 - How to grade monolingual sentence cards</p>
       <p>45:08 - Lazy Kanji clarification</p>
-      <p>46:28 - Immersion while high? Weed and language acquisition</p>
+      <!-- <p>46:28 - Immersion while high? Weed and language acquisition</p> -->
       <p>48:55 - How to develop a personality in your L2</p>
       <p>
         56:35 - Bonus: a recent story from school. Incompetence of professors
@@ -122,7 +122,7 @@
       <p>00:24 - Could you interview someone around 1 year into the process?</p>
       <p>02:24 - Do you still watch anime?</p>
       <p>09:34 - How much listening should I do before I start reading?</p>
-      <p>14:01 - How has psychedelics changed your perspective?</p>
+      <!-- <p>14:01 - How has psychedelics changed your perspective?</p> -->
       <p>
         39:45 - How/when should I get started with pitch accent? How to color
         code for pitch?
@@ -183,6 +183,16 @@
         1:02:40 - Is it ok to make cards for sentences I don't fully understand?
       </p>
       <p>1:09:08 - MorphMan for the monolingual transition?</p>
+
+      <h1 id="March9th2019">
+        <a
+          href="https://www.patreon.com/posts/25238054"
+          target="_blank"
+          rel="noopener noreferrer"
+          >March 9th, 2019</a
+        >
+      </h1>
+
       <p>0:13 – Is it good to re-watch shows in active immersion?</p>
       <p>4:48 – How do I know which MIA Stage I am at?</p>
       <p>10:23 – Is “speak Japanese with ‘flat’ intonation” good advice?</p>
@@ -201,6 +211,7 @@
       <p>43:21 – How has your meditation practice been going?</p>
       <p>56:25 – Is learning to understand Kansai-ben difficult?</p>
       <p>1:01:57 – Can you walk us through some monolingual definitions?</p>
+
       <h1 id="March23th2019">
         <a
           href="https://www.patreon.com/posts/25569828"
@@ -961,7 +972,7 @@
       <p>
         46:59 - How should I go about learning to understand math in Japanese?
       </p>
-      <p>49:24 - What are your thoughts on microdosing LSD or psilocybin?</p>
+      <!-- <p>49:24 - What are your thoughts on microdosing LSD or psilocybin?</p> -->
       <p>
         56:10 - Do you have any plans to do follow up interviews with people
         you've interviewed in the past?
