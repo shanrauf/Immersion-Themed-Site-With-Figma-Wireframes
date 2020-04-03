@@ -493,7 +493,7 @@
                 <h1 id="setup">Setup</h1>
                 <p>
                   <img
-                    src="https://massimmersionapproach.com/imgs/k0.png.png"
+                    src="https://massimmersionapproach.com/imgs/2019/09/k0.png.png"
                     alt=""
                     width="400"
                     height="85"
@@ -576,7 +576,7 @@
                 <h2 id="preferences">MorphMan Preferences</h2>
                 <p>
                   <img
-                    src="https://massimmersionapproach.com/imgs/preferences1.png"
+                    src="https://massimmersionapproach.com/imgs/2019/09/preferences1.png"
                     alt=""
                     width="400"
                     height="119"
@@ -585,7 +585,7 @@
                 <h3>Note Filter</h3>
                 <p>
                   <img
-                    src="https://massimmersionapproach.com/imgs/preferences_note_filter4.png"
+                    src="https://massimmersionapproach.com/imgs/2019/09/preferences_note_filter4.png"
                     alt=""
                     width="700"
                     height="359"
@@ -611,7 +611,7 @@
                 </p>
                 <p>
                   <img
-                    src="https://massimmersionapproach.com/imgs/note-filter-order.png"
+                    src="https://massimmersionapproach.com/imgs/2019/09/note-filter-order.png"
                     alt=""
                     width="700"
                     height="352"
@@ -635,7 +635,7 @@
                 <h3>Extra Fields</h3>
                 <p>
                   <img
-                    src="https://massimmersionapproach.com/imgs/preferences_extra_fields2.png"
+                    src="https://massimmersionapproach.com/imgs/2019/09/preferences_extra_fields2.png"
                     alt=""
                     width="700"
                     height="359"
@@ -1124,7 +1124,7 @@
                 </p>
                 <p>
                   <img
-                    src="https://massimmersionapproach.com/imgs/new-cards-in-order-added1.png"
+                    src="https://massimmersionapproach.com/imgs/2019/09/new-cards-in-order-added1.png"
                     alt=""
                     width="400"
                     height="404"
@@ -1196,7 +1196,7 @@
                 </p>
                 <p>
                   <img
-                    src="https://massimmersionapproach.com/imgs/before-repping1.png"
+                    src="https://massimmersionapproach.com/imgs/2019/09/before-repping1.png"
                     alt=""
                     width="800"
                     height="592"
@@ -1210,7 +1210,7 @@
                 </p>
                 <p>
                   <img
-                    src="https://massimmersionapproach.com/imgs/browser-edit2.png"
+                    src="https://massimmersionapproach.com/imgs/2019/09/browser-edit2.png"
                     alt=""
                     width="400"
                     height="367"
@@ -1298,7 +1298,7 @@
                 <p>
                   <img
                     id="skip"
-                    src="https://massimmersionapproach.com/imgs/reorder.png"
+                    src="https://massimmersionapproach.com/imgs/2019/01/reorder.png"
                     alt=""
                     width="350"
                     height="149"
@@ -1493,7 +1493,7 @@
                 <h2 id="analyzer">Readability Analyzer</h2>
                 <p>
                   <img
-                    src="https://massimmersionapproach.com/imgs/morphman-readability-analyzer.png"
+                    src="https://massimmersionapproach.com/imgs/2019/09/morphman-readability-analyzer.png"
                     alt=""
                     width="700"
                     height="421"
@@ -1644,7 +1644,7 @@
                 </p>
                 <p>
                   <img
-                    src="https://massimmersionapproach.com/imgs/config.py_.png"
+                    src="https://massimmersionapproach.com/imgs/2019/02/config.py_.png"
                     alt=""
                     width="500"
                     height="220"
