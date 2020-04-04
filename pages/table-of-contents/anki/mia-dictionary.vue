@@ -148,8 +148,7 @@
         folder:
       </p>
       <code
-        >C:/Users/[<em>user</em>]/AppData/Roaming/
-        Anki2/addons/211655992655</code
+        >C:/Users/[<em>user</em>]/AppData/Roaming/Anki2/addons21/1655992655</code
       >
 
       <h2 id="dictionaries">Dictionaries</h2>
@@ -178,7 +177,7 @@
         target language, and place it in the following directory:
       </p>
       <code>
-        C:/Users/[<em>user</em>]/AppData/Roaming/ Anki2/addons/211655992655/
+        C:/Users/[<em>user</em>]/AppData/Roaming/Ank21/addons21/1655992655/
         user_files/dictionaries
       </code>
 
