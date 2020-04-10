@@ -48,12 +48,12 @@
       comparing their ability to that of native speakers and realize that their
       level is actually quite low. For more on the Dunning–Kruger effect, I
       highly recommend
-      <nuxt-link
-        to=" https://youtu.be/pOLmD_WVY-E"
+      <a
+        href="https://youtu.be/pOLmD_WVY-E"
         target="_blank"
         rel="noopener noreferrer"
       >
-        this short video</nuxt-link
+        this short video</a
       >.
 
       <p>

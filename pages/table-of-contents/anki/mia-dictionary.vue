@@ -318,8 +318,8 @@
 
       <code>
         C:/Users/[<em>user</em>]/AppData/Roaming/
-        Anki2/addons/211655992655/user_files/ dictionaries/[<em>language</em>]/
-        [<em>dictionary_name</em>]/dictinoary_files.json
+        Anki2/addons21/1655992655/user_files/ dictionaries/[<em>language</em>]/
+        [<em>dictionary_name</em>]/dictionary_files.json
       </code>
 
       <p>

@@ -35,7 +35,9 @@
 </template>
 
 <script>
-export default { transition: 'page' }
+import YouTubeEmbed from '@/components/YouTubeEmbed'
+
+export default { transition: 'page', components: { YouTubeEmbed } }
 </script>
 
 <style lang="scss" scoped>

@@ -8,53 +8,60 @@
 
     <h2 style="text-align: center;">Table of Contents</h2>
     <h3 style="text-align: center;">2019</h3>
-    <ul>
-      <li>
-        <nuxt-link to="#January12th2019">January</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#February9th2019">February</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#March9th2019">March</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#April6th2019">April</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#May4th2019">May</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#June1st2019">June</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#July13th2019">July</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#August10th2019">August</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#September7th2019">September</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#October5th2019">October</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#November9th2019">November</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#December7th2019">December</nuxt-link>
-      </li>
-    </ul>
+    <div style="width: 80px; text-align: center;">
+      <ul>
+        <li>
+          <nuxt-link to="#January12th2019">January</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#February9th2019">February</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#March9th2019">March</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#April6th2019">April</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#May4th2019">May</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#June1st2019">June</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#July13th2019">July</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#August10th2019">August</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#September7th2019">September</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#October5th2019">October</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#November9th2019">November</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#December7th2019">December</nuxt-link>
+        </li>
+      </ul>
+    </div>
     <h3 style="text-align: center;">2020</h3>
-    <ul>
-      <li>
-        <nuxt-link to="#January9th2020">January</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="#February4th2020">February</nuxt-link>
-      </li>
-    </ul>
+    <div style="width: 80px; text-align: center;">
+      <ul>
+        <li>
+          <nuxt-link to="#January9th2020">January</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#February4th2020">February</nuxt-link>
+        </li>
+        <li>
+          <nuxt-link to="#March14th2020">March</nuxt-link>
+        </li>
+      </ul>
+    </div>
     <div class="article-content">
       <h1 id="January12th2019">
         <a
