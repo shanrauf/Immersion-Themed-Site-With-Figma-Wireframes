@@ -60,6 +60,9 @@
         <li>
           <nuxt-link to="#March14th2020">March</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="#April11th2020">March</nuxt-link>
+        </li>
       </ul>
     </div>
     <div class="article-content">
@@ -1429,6 +1432,60 @@
         59:51 - Do you think it would be possible to become fluent in a language
         ONLY through reading (without any prior knowledge or ever using a
         dictionary)?
+      </p>
+      <h1 id="April11th2020">
+        <a
+          href="https://www.patreon.com/posts/34885889"
+          target="_blank"
+          rel="noopener noreferrer"
+          >April 11th, 2020</a
+        >
+      </h1>
+      <p>
+        0:20 - Would you ever join Terrace House if given the opportunity?
+      </p>
+      <p>
+        3:15 - If my goal is to achieve “all around fluency”, which language
+        domains should I prioritize?
+      </p>
+      <p>
+        10:46 - What are your current recommendations related to how to sentence
+        mine?
+      </p>
+      <p>
+        20:11 - Can you explain what is funny about the Japanese skit “Homeroom”
+        by Kamaitachi
+      </p>
+      <p>
+        29:22 - How should I go about getting used to having my phone/computer
+        set to my target language?
+      </p>
+      <p>
+        39:21 - Have you ever experienced gaining a deeper understanding of a
+        topic due to reading about it in multiple languages?
+      </p>
+      <p>
+        42:05 - How should I treat pitch accent in the context of reviewing
+        sentence cards?
+      </p>
+      <p>
+        50:50 - What are the drawbacks of learning entirely through audio,
+        without doing any reading/watching with subs?
+      </p>
+      <p>
+        54:06 - Can pitch accent study interfere with reading ability? What as
+        your experience been in this area?
+      </p>
+      <p>
+        1:00:40 - Do you think that in the future it will be possible to
+        “download and instantly install” languages onto our brains?
+      </p>
+      <p>
+        1:00:58 - What are some common “usage mistakes” that native Japanese
+        speakers make?
+      </p>
+      <p>
+        1:11:14 - Are you ever going to translate MIA into Japanese?
       </p>
     </div>
   </div>
