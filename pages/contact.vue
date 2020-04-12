@@ -77,7 +77,7 @@
       </p>
       <p>
         Matt also offers one-on-one, hour-long video-call (Skype or Discord)
-        consultation sessions for $60 (USD) a session. As of now, he is only
+        consultation sessions for $100 (USD) a session. As of now, he is only
         able to accept PayPal. If you are interested, please send an email to
         massimmersionapproach at gmail dot com. You can also use that email to
         make a paypal donation if you are in Japan and the above link does not
