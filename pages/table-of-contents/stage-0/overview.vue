@@ -150,7 +150,25 @@
 </template>
 
 <script>
-export default { transition: 'page' }
+export default {
+  transition: 'page',
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Introduction - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Here is an overview of all five stages of the Mass Immersion Approach.'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

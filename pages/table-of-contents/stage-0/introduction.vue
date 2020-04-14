@@ -65,6 +65,22 @@ export default {
   transition: 'page',
   components: {
     YouTubeEmbed
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Introduction - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The Mass Immersion Approach seeks to optimize the path to true foreign language proficiency.'
+        }
+      ]
+    }
   }
 }
 </script>

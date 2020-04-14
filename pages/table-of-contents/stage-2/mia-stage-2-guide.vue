@@ -2475,6 +2475,22 @@ export default {
   transition: 'page',
   components: {
     YouTubeEmbed
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Stage 2 Guide - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.'
+        }
+      ]
+    }
   }
 }
 </script>

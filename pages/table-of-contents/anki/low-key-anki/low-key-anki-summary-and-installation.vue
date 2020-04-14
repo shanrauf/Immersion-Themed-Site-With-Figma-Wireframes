@@ -238,7 +238,25 @@
 </template>
 
 <script>
-export default { transition: 'page' }
+export default {
+  transition: 'page',
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Low-Key Anki (Summary/Installation) - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The following is a description of the Low-Key Anki addon and how to install it.'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

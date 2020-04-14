@@ -71,6 +71,22 @@ export default {
   transition: 'page',
   components: {
     YouTubeEmbed
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'The Fluency Illusion - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'If you’re a beginner (or any level, really) in a foreign language, up to what point are you able to judge someone’s language ability? The answer to this question is simple: You can only judge ability up to your own level...'
+        }
+      ]
+    }
   }
 }
 </script>

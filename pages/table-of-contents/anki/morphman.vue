@@ -1841,6 +1841,22 @@ export default {
   transition: 'page',
   components: {
     YouTubeEmbed
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Morphman Guide - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The following is an in-depth guide of the MorphMan Anki addon.'
+        }
+      ]
+    }
   }
 }
 </script>

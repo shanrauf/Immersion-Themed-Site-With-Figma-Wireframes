@@ -24,7 +24,24 @@
 </template>
 
 <script>
-export default { transition: 'page' }
+export default {
+  transition: 'page',
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Stage 1 Overview - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Here is a general overview of stage one of MIA.'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

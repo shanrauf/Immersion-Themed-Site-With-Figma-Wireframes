@@ -30,6 +30,22 @@ export default {
         }
       ]
     }
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Tools - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The Mass Immersion Approach encourages the use of a variety of tools, such as Anki, the MIA glossary, etc.'
+        }
+      ]
+    }
   }
 }
 </script>

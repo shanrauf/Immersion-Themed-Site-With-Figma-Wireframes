@@ -16,6 +16,22 @@ export default {
   transition: 'page',
   components: {
     YouTubeEmbed
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Site Layout - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Here is a description of the site layout for the Mass Immersion Approach that will help you efficiently utilize the website.'
+        }
+      ]
+    }
   }
 }
 </script>

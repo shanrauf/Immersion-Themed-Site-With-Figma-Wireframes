@@ -2741,6 +2741,22 @@ export default {
   transition: 'page',
   components: {
     YouTubeEmbed
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Stage 2 Guide - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.'
+        }
+      ]
+    }
   }
 }
 </script>

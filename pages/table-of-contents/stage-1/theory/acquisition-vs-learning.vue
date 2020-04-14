@@ -7,8 +7,10 @@
     <h1 style="text-align: center;">Acquisition vs. Learning</h1>
     <div class="article-content">
       <p>
-        The following video explains the distinction between acquisiton and
-        learning in the context of language learning:
+        There is a significant difference between learning and acqusition within
+        the context of langauge acquisiton. The following video explains the
+        distinction between acquisiton and learning in the context of language
+        learning:
       </p>
       <YouTubeEmbed src="https://www.youtube.com/embed/CgIvG2ui5D8" />
     </div>
@@ -22,6 +24,22 @@ export default {
   transition: 'page',
   components: {
     YouTubeEmbed
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Acquisition vs. Learning - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'There is a significant difference between learning and acqusition within the context of langauge acquisiton.'
+        }
+      ]
+    }
   }
 }
 </script>

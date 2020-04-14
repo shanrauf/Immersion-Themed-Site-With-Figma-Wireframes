@@ -775,6 +775,22 @@ export default {
   transition: 'page',
   components: {
     YouTubeEmbed
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: '6-Point Model - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The 6-point model of language ability is a useful tool in comparing the levels of different aspects of language proficiency.'
+        }
+      ]
+    }
   }
 }
 </script>

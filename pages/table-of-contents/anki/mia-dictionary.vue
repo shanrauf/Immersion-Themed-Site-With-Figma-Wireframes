@@ -2033,7 +2033,25 @@
 </template>
 
 <script>
-export default { transition: 'page' }
+export default {
+  transition: 'page',
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'MIA Dictionary Guide - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The following is an in-depth guide of the MIA Dictionary Anki addon.'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

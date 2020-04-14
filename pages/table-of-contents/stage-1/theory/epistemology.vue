@@ -104,6 +104,22 @@ export default {
   transition: 'page',
   components: {
     YouTubeEmbed
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Epistemology - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The Dunning–Kruger effect is a cognitive bias in which, for any given skill, people at relatively low levels tend to overestimate their ability, due to not being competent enough to recognize their own incompetence. In language learning...'
+        }
+      ]
+    }
   }
 }
 </script>

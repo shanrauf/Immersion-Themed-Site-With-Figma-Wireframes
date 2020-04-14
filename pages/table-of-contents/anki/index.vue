@@ -117,6 +117,21 @@ export default {
         }
       ]
     }
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Anki - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'The following is the table of contents for Anki.'
+        }
+      ]
+    }
   }
 }
 </script>

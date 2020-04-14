@@ -103,7 +103,25 @@
 </template>
 
 <script>
-export default { transition: 'page' }
+export default {
+  transition: 'page',
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Low-Key Anki (The Forgetting Curve) - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Your brain is programmed to throw away useless memories in order to optimize the availability of useful ones. You can think of the equation for the forgetting curve as an attempt to mathematically replicate the algorithm that the brain uses in order to determine what memories should get thrown away at what times.'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

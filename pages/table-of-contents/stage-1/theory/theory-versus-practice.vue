@@ -37,7 +37,26 @@
 <script>
 import YouTubeEmbed from '@/components/YouTubeEmbed'
 
-export default { transition: 'page', components: { YouTubeEmbed } }
+export default {
+  transition: 'page',
+  components: { YouTubeEmbed },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Theory vs. Practice - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'In the context of language acqusition, the idea of Theory vs Practice applies on two different levels...'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

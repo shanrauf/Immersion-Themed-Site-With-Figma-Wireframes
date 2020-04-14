@@ -1179,6 +1179,22 @@ export default {
   transition: 'page',
   components: {
     YouTubeEmbed
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'MIA Japanese Addon Guide - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The following is an in-depth guide of the MIA Japanese Anki addon.'
+        }
+      ]
+    }
   }
 }
 </script>

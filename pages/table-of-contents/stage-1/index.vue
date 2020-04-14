@@ -74,6 +74,21 @@ export default {
         }
       ]
     }
+  },
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Stage 1 - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Here is the table of contents for stage one of MIA.'
+        }
+      ]
+    }
   }
 }
 </script>

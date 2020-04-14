@@ -171,7 +171,25 @@
 </template>
 
 <script>
-export default { transition: 'page' }
+export default {
+  transition: 'page',
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Low-Key Anki (The Ease-Factor Problem) - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Anki makes the (realistic) assumption that the intrinsic difficulty of the cards in a given deck are heterogeneous (or in other words, that some cards in your deck will be more or less intrinsically difficult than others)'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

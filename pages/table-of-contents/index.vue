@@ -32,7 +32,25 @@
 </template>
 
 <script>
-export default { transition: 'page' }
+export default {
+  transition: 'page',
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Table of Contents - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The table of contents serves as a guide for the Mass Immersion Approach.'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

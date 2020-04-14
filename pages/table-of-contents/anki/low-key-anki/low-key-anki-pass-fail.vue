@@ -291,7 +291,25 @@
 </template>
 
 <script>
-export default { transition: 'page' }
+export default {
+  transition: 'page',
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Low-Key Anki (Pass/Fail) - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The Mass Immersion Approach seeks to optimize the path to true foreign language proficiency.'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
