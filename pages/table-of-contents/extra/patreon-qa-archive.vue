@@ -1507,7 +1507,11 @@ export default {
           content:
             'Here is an archive of all Patreon QnAs from the Mass Immersion Approach.'
         },
-        { hid: 'og:title', name: 'og:title', content: 'Patreon Archive - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Patreon Archive - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -1517,7 +1521,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Patreon Archive - %s'
+          content: 'Patreon Archive - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

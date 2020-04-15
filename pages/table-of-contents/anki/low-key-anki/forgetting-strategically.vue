@@ -95,7 +95,8 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Low-Key Anki (Forgetting Strategically) - %s'
+          content:
+            'Low-Key Anki (Forgetting Strategically) - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -106,7 +107,8 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Low-Key Anki (Forgetting Strategically) - %s'
+          content:
+            'Low-Key Anki (Forgetting Strategically) - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

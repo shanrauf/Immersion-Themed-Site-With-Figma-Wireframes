@@ -157,7 +157,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Recognition RTK/RTH - %s'
+          content: 'Recognition RTK/RTH - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -168,7 +168,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Recognition RTK/RTH - %s'
+          content: 'Recognition RTK/RTH - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

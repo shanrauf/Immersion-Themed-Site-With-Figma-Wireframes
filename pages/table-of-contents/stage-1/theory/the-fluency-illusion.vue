@@ -88,7 +88,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'The Fluency Illusion - %s'
+          content: 'The Fluency Illusion - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -99,7 +99,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'The Fluency Illusion - %s'
+          content: 'The Fluency Illusion - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

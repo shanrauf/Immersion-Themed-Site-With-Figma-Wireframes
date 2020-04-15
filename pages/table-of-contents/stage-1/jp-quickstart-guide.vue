@@ -2758,7 +2758,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Japanese Quickstart Guide - %s'
+          content: 'Japanese Quickstart Guide - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -2769,7 +2769,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Japanese Quickstart Guide - %s'
+          content: 'Japanese Quickstart Guide - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

@@ -1855,7 +1855,11 @@ export default {
           content:
             'MorphMan is an Anki add-on that keeps track of what words you know and uses that to reorder your new cards into an optimal order for learning.'
         },
-        { hid: 'og:title', name: 'og:title', content: 'Morphman Guide - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Morphman Guide - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -1865,7 +1869,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Morphman Guide - %s'
+          content: 'Morphman Guide - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

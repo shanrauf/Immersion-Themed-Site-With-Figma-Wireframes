@@ -30,7 +30,11 @@ export default {
           content:
             'Here is a description of the site layout for the Mass Immersion Approach that will help you efficiently utilize the website.'
         },
-        { hid: 'og:title', name: 'og:title', content: 'Site Layout - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Site Layout - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -40,7 +44,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Site Layout - %s'
+          content: 'Site Layout - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

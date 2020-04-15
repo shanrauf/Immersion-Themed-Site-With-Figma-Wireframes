@@ -280,7 +280,8 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Low-Key Anki (No Penalties or Boosting) - %s'
+          content:
+            'Low-Key Anki (No Penalties or Boosting) - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -291,7 +292,8 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Low-Key Anki (No Penalties or Boosting) - %s'
+          content:
+            'Low-Key Anki (No Penalties or Boosting) - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

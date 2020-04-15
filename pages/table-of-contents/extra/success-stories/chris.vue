@@ -76,7 +76,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Success Stories (Chris) - %s'
+          content: 'Success Stories (Chris) - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -87,7 +87,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Success Stories (Chris) - %s'
+          content: 'Success Stories (Chris) - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

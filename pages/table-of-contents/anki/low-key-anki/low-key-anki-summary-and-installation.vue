@@ -256,7 +256,8 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Low-Key Anki (Summary/Installation) - %s'
+          content:
+            'Low-Key Anki (Summary/Installation) - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -267,7 +268,8 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Low-Key Anki (Summary/Installation) - %s'
+          content:
+            'Low-Key Anki (Summary/Installation) - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

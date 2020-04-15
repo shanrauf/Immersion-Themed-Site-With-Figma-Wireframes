@@ -47,7 +47,11 @@ export default {
           name: 'description',
           content: 'The following is the table of contents for stage 0 of MIA.'
         },
-        { hid: 'og:title', name: 'og:title', content: 'Stage 0 - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Stage 0 - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -56,7 +60,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Stage 0 - %s'
+          content: 'Stage 0 - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

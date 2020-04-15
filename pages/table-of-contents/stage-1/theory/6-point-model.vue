@@ -789,7 +789,11 @@ export default {
           content:
             'The 6-point model of language ability is a useful tool in comparing the levels of different aspects of language proficiency.'
         },
-        { hid: 'og:title', name: 'og:title', content: '6-Point Model - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: '6-Point Model - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -799,7 +803,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: '6-Point Model - %s'
+          content: '6-Point Model - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

@@ -21,7 +21,11 @@ export default {
           content:
             'The Mass Immersion Approach seeks to optimize the path to true foreign language proficiency.'
         },
-        { hid: 'og:title', name: 'og:title', content: 'Stage 4 - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Stage 4 - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -31,7 +35,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Stage 4 - %s'
+          content: 'Stage 4 - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

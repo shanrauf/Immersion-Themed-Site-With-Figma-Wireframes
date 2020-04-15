@@ -420,7 +420,11 @@ export default {
           content:
             'The MIA glossary defines the various terms used throughout the website.'
         },
-        { hid: 'og:title', name: 'og:title', content: 'Glossary - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Glossary - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -430,7 +434,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Glossary - %s'
+          content: 'Glossary - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

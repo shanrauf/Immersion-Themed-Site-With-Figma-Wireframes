@@ -1193,7 +1193,11 @@ export default {
           content:
             'MIA Japanese is an Anki 2.1 add-on that provides a variety of features for improving the ease and efficiency of Japanese study.'
         },
-        { hid: 'og:title', name: 'og:title', content: '6-Point Model - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: '6-Point Model - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -1203,7 +1207,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: '6-Point Model - %s'
+          content: '6-Point Model - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

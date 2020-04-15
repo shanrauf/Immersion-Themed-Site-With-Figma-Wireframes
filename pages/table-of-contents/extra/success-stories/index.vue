@@ -48,7 +48,11 @@ export default {
           content:
             'These are a few success stories of people who followed the Mass Immersion Approach and reached a high level in their target language.'
         },
-        { hid: 'og:title', name: 'og:title', content: 'Success Stories - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Success Stories - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -58,7 +62,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Success Stories - %s'
+          content: 'Success Stories - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

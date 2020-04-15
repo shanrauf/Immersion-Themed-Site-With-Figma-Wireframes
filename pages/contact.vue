@@ -127,7 +127,11 @@ export default {
           name: 'description',
           content: 'Contact the Mass Immersion Approach!'
         },
-        { hid: 'og:title', name: 'og:title', content: 'Contact - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Contact - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -137,7 +141,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Contact - %s'
+          content: 'Contact - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

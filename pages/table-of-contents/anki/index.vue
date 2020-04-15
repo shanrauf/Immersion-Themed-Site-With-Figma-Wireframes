@@ -130,7 +130,11 @@ export default {
           name: 'description',
           content: 'The following is the table of contents for Anki.'
         },
-        { hid: 'og:title', name: 'og:title', content: 'Anki - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Anki - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -139,7 +143,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Anki - %s'
+          content: 'Anki - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

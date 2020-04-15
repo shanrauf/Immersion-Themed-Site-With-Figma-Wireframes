@@ -56,7 +56,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Theory vs. Practice - %s'
+          content: 'Theory vs. Practice - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -67,7 +67,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Theory vs. Practice - %s'
+          content: 'Theory vs. Practice - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

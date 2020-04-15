@@ -60,7 +60,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Success Stories (britvsjapan) - %s'
+          content: 'Success Stories (britvsjapan) - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -71,7 +71,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Success Stories (britvsjapan) - %s'
+          content: 'Success Stories (britvsjapan) - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

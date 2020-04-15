@@ -189,7 +189,8 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Low-Key Anki (The Ease-Factor Problem) - %s'
+          content:
+            'Low-Key Anki (The Ease-Factor Problem) - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -200,7 +201,8 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Low-Key Anki (Solving the Ease-Factor Problem) - %s'
+          content:
+            'Low-Key Anki (Solving the Ease-Factor Problem) - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

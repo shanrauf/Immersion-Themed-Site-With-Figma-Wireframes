@@ -165,7 +165,11 @@ export default {
           content:
             'Here is an overview of all five stages of the Mass Immersion Approach.'
         },
-        { hid: 'og:title', name: 'og:title', content: 'Overview - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Overview - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -175,7 +179,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Overview - %s'
+          content: 'Overview - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

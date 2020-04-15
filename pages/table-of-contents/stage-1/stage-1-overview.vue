@@ -38,7 +38,11 @@ export default {
           name: 'description',
           content: 'Here is a general overview of stage one of MIA.'
         },
-        { hid: 'og:title', name: 'og:title', content: 'Stage 1 Overview - %s' },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Stage 1 Overview - Mass Immersion Approach'
+        },
         {
           hid: 'og:description',
           name: 'og:description',
@@ -47,7 +51,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Stage 1 Overview - %s'
+          content: 'Stage 1 Overview - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',

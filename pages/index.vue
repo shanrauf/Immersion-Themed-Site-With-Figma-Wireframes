@@ -76,7 +76,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: '%s'
+          content: 'Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -87,7 +87,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: '%s'
+          content: 'Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',
