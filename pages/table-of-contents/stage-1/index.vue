@@ -86,6 +86,24 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'Here is the table of contents for stage one of MIA.'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Stage 1 - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The MIA glossary defines the various terms used throughout the website.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Stage 1 - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'The MIA glossary defines the various terms used throughout the website.'
         }
       ]
     }

@@ -46,7 +46,25 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'The Mass Immersion Approach seeks to optimize the path to true foreign language proficiency.'
+            'These are a few success stories of people who followed the Mass Immersion Approach and reached a high level in their target language.'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Success Stories - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'These are a few success stories of people who followed the Mass Immersion Approach and reached a high level in their target language.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Success Stories - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'These are a few success stories of people who followed the Mass Immersion Approach and reached a high level in their target language.'
         }
       ]
     }

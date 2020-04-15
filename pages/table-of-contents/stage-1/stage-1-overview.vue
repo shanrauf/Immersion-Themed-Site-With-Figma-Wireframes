@@ -37,6 +37,22 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'Here is a general overview of stage one of MIA.'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Stage 1 Overview - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'Here is a general overview of stage one of MIA.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Stage 1 Overview - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: 'Here is a general overview of stage one of MIA.'
         }
       ]
     }

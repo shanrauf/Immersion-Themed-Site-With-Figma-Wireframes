@@ -252,6 +252,28 @@ export default {
           name: 'description',
           content:
             'The following is a description of the Low-Key Anki addon and how to install it.'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Low-Key Anki (Summary/Installation) - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'ThThe following is a description of the Low-Key Anki addon and how to install it.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Low-Key Anki (Summary/Installation) - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'ThThe following is a description of the Low-Key Anki addon and how to install it.'
         }
       ]
     }

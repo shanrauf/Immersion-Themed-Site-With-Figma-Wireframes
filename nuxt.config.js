@@ -15,6 +15,42 @@ module.exports = {
         name: 'description',
         content:
           'The Mass Immersion Approach is a comprehensive approach to acquiring foreign languages.'
+      },
+      { hid: 'og:title', name: 'og:title', content: 'Mass Immersion Approach' },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          'The Mass Immersion Approach is a comprehensive approach to acquiring foreign languages.'
+      },
+      {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://massimmersionapproach.com'
+      },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: 'https://massimmersionapproach.com/mia.png'
+      },
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@MassImmersion' },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          'The Mass Immersion Approach is a comprehensive approach to acquiring foreign languages.'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://massimmersionapproach.com/mia.png'
+      },
+      {
+        hid: 'twitter:image:alt',
+        name: 'twitter:image:alt',
+        content: 'MIA Logo'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', to: '/favicon.ico' }]

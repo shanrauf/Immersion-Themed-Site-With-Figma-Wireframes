@@ -405,7 +405,43 @@
 </template>
 
 <script>
-export default { transition: 'page' }
+export default {
+  transition: 'page',
+  head() {
+    return {
+      title: this.title,
+      titleTemplate: 'Glossary - %s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'The MIA glossary defines the various terms used throughout the website.'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Glossary - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The MIA glossary defines the various terms used throughout the website.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Glossary - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'The MIA glossary defines the various terms used throughout the website.'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

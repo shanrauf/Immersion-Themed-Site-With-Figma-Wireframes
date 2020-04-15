@@ -2488,6 +2488,24 @@ export default {
           name: 'description',
           content:
             'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Stage 2 Guide - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Stage 2 Guide - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.'
         }
       ]
     }

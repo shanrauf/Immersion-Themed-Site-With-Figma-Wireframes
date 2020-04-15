@@ -126,6 +126,24 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'Contact the Mass Immersion Approach!'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Contact - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The Mass Immersion Approach seeks to optimize the path to true foreign language proficiency.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Contact - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'The Mass Immersion Approach seeks to optimize the path to true foreign language proficiency.'
         }
       ]
     }

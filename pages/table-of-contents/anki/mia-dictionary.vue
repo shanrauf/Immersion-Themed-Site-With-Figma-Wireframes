@@ -2046,7 +2046,29 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'The following is an in-depth guide of the MIA Dictionary Anki addon.'
+            'The MIA Dictionary Anki addon is designed to radically streamline the card creation process for language learning.'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'MIA Dictionary Guide - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'TThe MIA Dictionary Anki addon is designed to radically streamline the card creation process for language learning.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'MIA Dictionary Guide - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'TThe MIA Dictionary Anki addon is designed to radically streamline the card creation process for language learning.'
         }
       ]
     }

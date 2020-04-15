@@ -84,6 +84,28 @@ export default {
           name: 'description',
           content:
             'If you’re a beginner (or any level, really) in a foreign language, up to what point are you able to judge someone’s language ability? The answer to this question is simple: You can only judge ability up to your own level...'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'The Fluency Illusion - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'If you’re a beginner (or any level, really) in a foreign language, up to what point are you able to judge someone’s language ability? The answer to this question is simple: You can only judge ability up to your own level...'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'The Fluency Illusion - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'If you’re a beginner (or any level, really) in a foreign language, up to what point are you able to judge someone’s language ability? The answer to this question is simple: You can only judge ability up to your own level...'
         }
       ]
     }

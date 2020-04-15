@@ -1497,13 +1497,31 @@ export default {
   head() {
     return {
       title: this.title,
-      titleTemplate: 'Introduction - %s',
+      titleTemplate: 'Patreon Archive - %s',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial scale=1' },
         {
           hid: 'description',
           name: 'description',
+          content:
+            'Here is an archive of all Patreon QnAs from the Mass Immersion Approach.'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Patreon Archive - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'Here is an archive of all Patreon QnAs from the Mass Immersion Approach.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Patreon Archive - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
           content:
             'Here is an archive of all Patreon QnAs from the Mass Immersion Approach.'
         }

@@ -1191,7 +1191,25 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'The following is an in-depth guide of the MIA Japanese Anki addon.'
+            'MIA Japanese is an Anki 2.1 add-on that provides a variety of features for improving the ease and efficiency of Japanese study.'
+        },
+        { hid: 'og:title', name: 'og:title', content: '6-Point Model - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'MIA Japanese is an Anki 2.1 add-on that provides a variety of features for improving the ease and efficiency of Japanese study.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: '6-Point Model - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'MIA Japanese is an Anki 2.1 add-on that provides a variety of features for improving the ease and efficiency of Japanese study.'
         }
       ]
     }

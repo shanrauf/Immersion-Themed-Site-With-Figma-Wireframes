@@ -305,6 +305,28 @@ export default {
           name: 'description',
           content:
             'The Mass Immersion Approach seeks to optimize the path to true foreign language proficiency.'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Low-Key Anki (Pass/Fail) - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The 6-point model of language ability is a useful tool in comparing the levels of different aspects of language proficiency.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Low-Key Anki (Pass/Fail) - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'The 6-point model of language ability is a useful tool in comparing the levels of different aspects of language proficiency.'
         }
       ]
     }

@@ -46,6 +46,22 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'The following is the table of contents for stage 0 of MIA.'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Stage 0 - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'The following is the table of contents for stage 0 of MIA.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Stage 0 - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: 'The following is the table of contents for stage 0 of MIA.'
         }
       ]
     }

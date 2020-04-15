@@ -129,6 +129,22 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'The following is the table of contents for Anki.'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Anki - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'The following is the table of contents for Anki.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Anki - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: 'The following is the table of contents for Anki.'
         }
       ]
     }

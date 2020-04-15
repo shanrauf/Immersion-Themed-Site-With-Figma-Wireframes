@@ -153,6 +153,28 @@ export default {
           name: 'description',
           content:
             'The Mass Immersion Approach recommends RTK/RTH to Japanese and Chinese learners when learning kanji or hanzi.'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Recognition RTK/RTH - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The Mass Immersion Approach recommends RTK/RTH to Japanese and Chinese learners when learning kanji or hanzi.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Recognition RTK/RTH - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'The Mass Immersion Approach recommends RTK/RTH to Japanese and Chinese learners when learning kanji or hanzi.'
         }
       ]
     }

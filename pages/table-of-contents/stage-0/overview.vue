@@ -155,13 +155,31 @@ export default {
   head() {
     return {
       title: this.title,
-      titleTemplate: 'Introduction - %s',
+      titleTemplate: 'Overview - %s',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial scale=1' },
         {
           hid: 'description',
           name: 'description',
+          content:
+            'Here is an overview of all five stages of the Mass Immersion Approach.'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Overview - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'Here is an overview of all five stages of the Mass Immersion Approach.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Overview - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
           content:
             'Here is an overview of all five stages of the Mass Immersion Approach.'
         }

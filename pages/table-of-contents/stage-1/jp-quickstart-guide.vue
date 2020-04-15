@@ -2745,13 +2745,35 @@ export default {
   head() {
     return {
       title: this.title,
-      titleTemplate: 'Stage 2 Guide - %s',
+      titleTemplate: 'Japanese Quickstart Guide - %s',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial scale=1' },
         {
           hid: 'description',
           name: 'description',
+          content:
+            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Japanese Quickstart Guide - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Japanese Quickstart Guide - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
           content:
             'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.'
         }

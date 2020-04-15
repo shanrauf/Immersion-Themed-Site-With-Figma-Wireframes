@@ -43,6 +43,20 @@ export default {
           name: 'description',
           content:
             'The Mass Immersion Approach encourages the use of a variety of tools, such as Anki, the MIA glossary, etc.'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Tools - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The Mass Immersion Approach encourages the use of a variety of tools, such as Anki, the MIA glossary, etc.'
+        },
+        { hid: 'twitter:title', name: 'twitter:title', content: 'Tools - %s' },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'The Mass Immersion Approach encourages the use of a variety of tools, such as Anki, the MIA glossary, etc.'
         }
       ]
     }

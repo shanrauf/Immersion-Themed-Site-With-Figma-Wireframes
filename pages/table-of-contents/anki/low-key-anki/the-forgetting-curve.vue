@@ -117,6 +117,28 @@ export default {
           name: 'description',
           content:
             'Your brain is programmed to throw away useless memories in order to optimize the availability of useful ones. You can think of the equation for the forgetting curve as an attempt to mathematically replicate the algorithm that the brain uses in order to determine what memories should get thrown away at what times.'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Low-Key Anki (The Forgetting Curve) - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'Your brain is programmed to throw away useless memories in order to optimize the availability of useful ones. You can think of the equation for the forgetting curve as an attempt to mathematically replicate the algorithm that the brain uses in order to determine what memories should get thrown away at what times.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Low-Key Anki (The Forgetting Curve) - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'Your brain is programmed to throw away useless memories in order to optimize the availability of useful ones. You can think of the equation for the forgetting curve as an attempt to mathematically replicate the algorithm that the brain uses in order to determine what memories should get thrown away at what times.'
         }
       ]
     }

@@ -185,6 +185,28 @@ export default {
           name: 'description',
           content:
             'Anki makes the (realistic) assumption that the intrinsic difficulty of the cards in a given deck are heterogeneous (or in other words, that some cards in your deck will be more or less intrinsically difficult than others)'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Low-Key Anki (The Ease-Factor Problem) - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The Mass Immersion Approach seeks to optimize the path to true foreign language proficiency.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Low-Key Anki (Solving the Ease-Factor Problem) - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'The Mass Immersion Approach seeks to optimize the path to true foreign language proficiency.'
         }
       ]
     }

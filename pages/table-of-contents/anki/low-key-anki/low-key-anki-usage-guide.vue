@@ -319,6 +319,26 @@ export default {
           hid: 'description',
           name: 'description',
           content: 'The following is a guide on how to use Low-Key Anki.'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Low-Key Anki (Usage Guide) - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'The following is a guide on how to use Low-Key Anki.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Low-Key Anki (Usage Guide) - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: 'The following is a guide on how to use Low-Key Anki.'
         }
       ]
     }

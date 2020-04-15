@@ -117,6 +117,24 @@ export default {
           name: 'description',
           content:
             'The Dunning–Kruger effect is a cognitive bias in which, for any given skill, people at relatively low levels tend to overestimate their ability, due to not being competent enough to recognize their own incompetence. In language learning...'
+        },
+        { hid: 'og:title', name: 'og:title', content: 'Glossary - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The Dunning–Kruger effect is a cognitive bias in which, for any given skill, people at relatively low levels tend to overestimate their ability, due to not being competent enough to recognize their own incompetence. In language learning...'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Glossary - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'The Dunning–Kruger effect is a cognitive bias in which, for any given skill, people at relatively low levels tend to overestimate their ability, due to not being competent enough to recognize their own incompetence. In language learning...'
         }
       ]
     }

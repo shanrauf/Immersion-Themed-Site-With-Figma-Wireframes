@@ -788,6 +788,24 @@ export default {
           name: 'description',
           content:
             'The 6-point model of language ability is a useful tool in comparing the levels of different aspects of language proficiency.'
+        },
+        { hid: 'og:title', name: 'og:title', content: '6-Point Model - %s' },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The 6-point model of language ability is a useful tool in comparing the levels of different aspects of language proficiency.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: '6-Point Model - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'The 6-point model of language ability is a useful tool in comparing the levels of different aspects of language proficiency.'
         }
       ]
     }

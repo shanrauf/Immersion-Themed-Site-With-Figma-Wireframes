@@ -46,6 +46,28 @@ export default {
           name: 'description',
           content:
             'The table of contents serves as a guide for the Mass Immersion Approach.'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Table of Contents - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'The table of contents serves as a guide for the Mass Immersion Approach.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Table of Contents - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'The table of contents serves as a guide for the Mass Immersion Approach.'
         }
       ]
     }

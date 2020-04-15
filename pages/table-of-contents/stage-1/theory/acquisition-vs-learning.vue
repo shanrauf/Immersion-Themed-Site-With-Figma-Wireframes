@@ -37,6 +37,28 @@ export default {
           name: 'description',
           content:
             'There is a significant difference between learning and acqusition within the context of langauge acquisiton.'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Acquisition vs. Learning - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'There is a significant difference between learning and acqusition within the context of langauge acquisiton.'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Acquisition vs. Learning - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'There is a significant difference between learning and acqusition within the context of langauge acquisiton.'
         }
       ]
     }

@@ -52,6 +52,28 @@ export default {
           name: 'description',
           content:
             'In the context of language acqusition, the idea of Theory vs Practice applies on two different levels...'
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Theory vs. Practice - %s'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'In the context of language acqusition, the idea of Theory vs Practice applies on two different levels...'
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Theory vs. Practice - %s'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'In the context of language acqusition, the idea of Theory vs Practice applies on two different levels...'
         }
       ]
     }
