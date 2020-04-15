@@ -252,10 +252,10 @@
           press "good," or you would like to know it better than you currently
           do, and press "again." It's that simple</strong
         >. And because the answer to this binary choice should be obvious in
-        nearly all cases, not only is <em>decision fatigue</em> is minimized,
+        nearly all cases, not only is <em>decision fatigue</em> minimized,
         conserving your mental energy for actually answering your cards, but
-        <em>time</em> spent making decisions about how to grade cards is reduced
-        as well; shaving just a few milliseconds off your average answer time
+        also <em>time</em> spent making decisions about how to grade cards is
+        reduced; shaving just a few milliseconds off your average answer time
         can lead to saving large amounts of time in the long term. In this way,
         <em>low stakes</em> (no ease penalties + high "New Interval" after
         lapse) makes grading less stressful, and <em>binary choices</em> make
