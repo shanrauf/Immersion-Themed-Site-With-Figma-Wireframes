@@ -61,7 +61,7 @@
           <nuxt-link to="#March14th2020">March</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="#April11th2020">March</nuxt-link>
+          <nuxt-link to="#April11th2020">April</nuxt-link>
         </li>
       </ul>
     </div>
