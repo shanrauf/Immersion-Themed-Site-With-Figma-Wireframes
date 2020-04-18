@@ -358,7 +358,7 @@
             <div class="elementor-widget-container">
               <div class="elementor-text-editor elementor-clearfix">
                 <p>
-                  Additionally, not only is act of reading inherently easier
+                  Additionally, not only is the act of reading inherently easier
                   than listening, but it’s also easier to learn from. It allows
                   for swift word look-ups with pop-up dictionaries and easy Anki
                   card creation through copy/pasting. In contrast, learning from
