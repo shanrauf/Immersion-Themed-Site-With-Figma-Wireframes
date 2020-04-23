@@ -2068,11 +2068,11 @@
 
     <p>
       You can find a comprehensive guide for using MorphMan
-      <a
-        href="/table-of-contents/anki/table-of-contents/anki/morphman/"
+      <nuxt-link
+        to="/table-of-contents/anki/morphman"
         target="_blank"
         rel="noopener"
-        >here</a
+        >here</nuxt-link
       >.
     </p>
     <h2>Option-Group Settings and Example Cards</h2>

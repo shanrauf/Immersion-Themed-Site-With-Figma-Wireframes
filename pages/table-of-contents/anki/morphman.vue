@@ -4,6 +4,7 @@
       <nuxt-link to="/table-of-contents/">Table of Contents</nuxt-link> |
       <nuxt-link to="/table-of-contents/anki">Anki</nuxt-link>
     </p>
+    <h1 style="text-align: center;">MorphMan Addon Guide</h1>
     <div class="article-content">
       <div class="elementor-column-wrap  elementor-element-populated">
         <div class="elementor-widget-wrap">
@@ -15,7 +16,7 @@
             <div class="elementor-widget-container">
               <div class="elementor-text-editor elementor-clearfix">
                 <div class="box">
-                  <p style="text-align: center;">Table of Contents</p>
+                  <p>Table of Contents</p>
                   <ul>
                     <li>
                       <nuxt-link class="linkx" to="#intro">Intro</nuxt-link>
