@@ -43,14 +43,14 @@
     </div>
     <p>
       The following guide was designed to contain everything needed to complete
-      <nuxt-link to="/table-of-contents/stage-0/overview/" rel="noopener"
+      <nuxt-link to="/table-of-contents/stage-0/overview/" target="_blank"
         >Stage 1 of MIA</nuxt-link
       >
       for Japanese. It’s mainly focused on <em>what to do</em> and less on
       <em>why to do it</em>. For more information about the theoretical
       framework of MIA, please check out the other articles on this website as
       well as the
-      <a href="https://www.youtube.com/user/MATTvsJapan" rel="noopener"
+      <a href="https://www.youtube.com/user/MATTvsJapan" target="_blank"
         >Matt vs. Japan YouTube channel</a
       >.
     </p>
@@ -256,9 +256,9 @@
     </p>
     <p>
       When you should add things to Anki will be discussed in the
-      <nuxt-link to="#srs" rel="noopener">SRS section</nuxt-link>. Resources you
-      can use to look things up are listed in the
-      <nuxt-link to="#tools" rel="noopener">tools section</nuxt-link>.
+      <nuxt-link to="#srs">SRS section</nuxt-link>. Resources you can use to
+      look things up are listed in the
+      <nuxt-link to="#tools">tools section</nuxt-link>.
     </p>
     <h2 id="what-should-i-be-doing">
       What Should I Actually Be Doing While Actively Listening?
@@ -325,7 +325,7 @@
       As you start understanding all the individual words being spoken, the
       <a
         href="https://en.wikipedia.org/wiki/Language_acquisition_device"
-        rel="noopener"
+        target="_blank"
         >language acquisition device</a
       >
       in your brain will naturally fill in the blanks for you, and grammar will
@@ -351,7 +351,7 @@
       daily immersion lead to exponentially faster progress. Said another way,
       the more spread out your immersion is throughout time, the more total time
       it’s going to take. Check out
-      <a href="https://youtu.be/7MxklQXJbz8" rel="noopener">this video</a>
+      <a href="https://youtu.be/7MxklQXJbz8" target="_blank">this video</a>
       by BritVsJapan to understand why this is.
     </p>
     <p>
@@ -453,7 +453,7 @@
       </li>
       <li>
         Choose a topic you’re interested in, look up the Japanese equivalent on
-        <a href="https://jisho.org/" rel="noopener">jisho.org</a>, and search
+        <a href="https://jisho.org/" target="_blank">jisho.org</a>, and search
         that into YouTube. Click around until you find something interesting.
       </li>
       <li>
@@ -463,7 +463,7 @@
       <li>
         Find recommendations from other people doing MIA in the #media channel
         of the official MIA Discord Server, which you can join through
-        <a href="https://www.patreon.com/massimmersionapproach" rel="noopener"
+        <a href="https://www.patreon.com/massimmersionapproach" target="_blank"
           >Patreon</a
         >
         (shameless plug!).
@@ -482,7 +482,7 @@
       extract the audio and put it on your immersion pod (as mentioned in a
       video linked earlier in this guide). You can find a video on how to do
       that
-      <a href="https://www.youtube.com/watch?v=yxVNj5KHzfI" rel="noopener"
+      <a href="https://www.youtube.com/watch?v=yxVNj5KHzfI" target="_blank"
         >here</a
       >.
     </p>
@@ -501,34 +501,34 @@
       <li>
         Use a VPN to trick Netflix into thinking you’re in Japan and gain access
         to a much larger collection of Japanese media. Our recommended VPN is
-        <a href="https://nordvpn.com/" rel="noopener">Nord VPN</a>.
+        <a href="https://nordvpn.com/" target="_blank">Nord VPN</a>.
       </li>
       <li>
         Use the browser extension “Subadub” to make Netflix subtitles
         highlightable, so you can copy and paste text from them (<a
           href="https://chrome.google.com/webstore/detail/subadub/jamiekdimmhnnemaaimmdahnahfmfdfk"
-          rel="noopener"
+          target="_blank"
           >Chrome link</a
         >,
         <a
           href="https://addons.mozilla.org/ja/firefox/addon/subadub/"
-          rel="noopener"
+          target="_blank"
           >Firefox link</a
         >).
       </li>
       <li>
         Download content from Netflix using
-        <a href="https://www.flixgrab.com/" rel="noopener">this tool</a>. This
+        <a href="https://www.flixgrab.com/" target="_blank">this tool</a>. This
         allows you to extract audio for your immersion pod, as was talked about
         above. It also opens up the possibility of using Netflix with Subs2srs,
         which will be discussed in the
-        <nuxt-link to="#sentence-mining" rel="noopener"
+        <nuxt-link to="#sentence-mining" target="_blank"
           >sentence mining section</nuxt-link
         >.
       </li>
       <li>
         Watch shows with
-        <a href="https://www.youtube.com/watch?v=sttawmB2eAQ" rel="noopener"
+        <a href="https://www.youtube.com/watch?v=sttawmB2eAQ" target="_blank"
           >audio description tracks</a
         >.
       </li>
@@ -575,19 +575,17 @@
     <p>
       This is why we recommend Anki. Anki is a versatile SRS with a large
       selection of features. The
-      <a href="https://apps.ankiweb.net/" rel="noopener">desktop version</a>
+      <a href="https://apps.ankiweb.net/" target="_blank">desktop version</a>
       is available for Windows, Mac and Linux, there’s a fully
-      <a href="https://ankiweb.net/" rel="noopener">online version</a>, and
+      <a href="https://ankiweb.net/" target="_blank">online version</a>, and
       there are smartphone apps for both
-      <a
-        href="https://apps.apple.com/us/app/ankimobile-flashcards/id373493387"
-        rel="noopener"
+      <a href="https://apps.apple.com/us/app/ankimobile-flashcards/id373493387"
         >iOS</a
       >
       and
       <a
         href="https://play.google.com/store/apps/details?id=com.ichi2.anki&amp;hl=en_US"
-        rel="noopener"
+        target="_blank"
         >Android</a
       >. You can create an account and sync your collection freely between each
       of these platforms.
@@ -605,7 +603,7 @@
       greatly aid Japanese study, including a few MIA originals. For a language
       learner, these add-ons are really what seals the deal for choosing Anki.
       You can find a list of public add-ons
-      <a href="https://ankiweb.net/shared/addons/2.1" rel="noopener">here</a>.
+      <a href="https://ankiweb.net/shared/addons/2.1" target="_blank">here</a>.
     </p>
     <p>
       Another useful feature is that Anki allows users to easily import and
@@ -613,7 +611,7 @@
       others, as well as benefit from decks others have made. MIA original Anki
       decks will be linked later in this guide. You can also find a public
       database of pre-made Anki decks
-      <a href="https://ankiweb.net/shared/decks/" rel="noopener">here</a>.
+      <a href="https://ankiweb.net/shared/decks/" target="_blank">here</a>.
     </p>
     <h2>Getting Started With Anki</h2>
     <p>
@@ -625,13 +623,13 @@
     </p>
     <p>
       The
-      <a href="https://apps.ankiweb.net/docs/manual.html" rel="noopener"
+      <a href="https://apps.ankiweb.net/docs/manual.html" target="_blank"
         >official Anki User Manual</a
       >
       is the most comprehensive explanation of how Anki works. Matt has also
       created a more user-friendly explanation of some crucial functions of the
       program, which you can find
-      <a href="https://www.youtube.com/watch?v=lz60qTP2Gx0" rel="noopener"
+      <a href="https://www.youtube.com/watch?v=lz60qTP2Gx0" target="_blank"
         >here</a
       >.
     </p>
@@ -656,7 +654,7 @@
       algorithm works actually isn’t very ideal for language learning. This can
       be fixed with a modification to Anki known as “<a
         href="/table-of-contents/anki/low-key-anki/intro/"
-        rel="noopener"
+        target="_blank"
         >Low-Key Anki</a
       >“, which consists of 3 add-ons. Unfortunately, there is quite a bit of
       background knowledge needed in order to understand the problems with the
@@ -692,7 +690,7 @@
       something crazy like learning 100 new cards a day, things might seem fine
       for a few days. But within a week or two, you’ll end up with hundreds upon
       hundreds of reviews a day. You can use this
-      <a href="https://pheartheceal.github.io/anki-optimizer/" rel="noopener"
+      <a href="https://pheartheceal.github.io/anki-optimizer/" target="_blank"
         >Anki simulator</a
       >
       to experiment with the relationship between number of new cards and
@@ -708,7 +706,7 @@
       If you already have a good grasp of hiragana and katakana, you can skip
       this section. If you’re entirely new to the Japanese writing system, check
       out
-      <a href="https://youtu.be/CFq2Y43DY0U" rel="noopener">this video</a>.
+      <a href="https://youtu.be/CFq2Y43DY0U" target="_blank">this video</a>.
     </p>
     <h2>Resources</h2>
     <p>
@@ -722,31 +720,35 @@
     <p>Some of the most popular resources are:</p>
     <ul>
       <li>
-        <a href="https://amzn.to/34sm0ds" rel="noopener"
+        <a href="https://amzn.to/34sm0ds" target="_blank"
           >Remembering the Kana</a
         >
       </li>
       <li>
-        <a href="https://drmoku.com/" rel="noopener"
+        <a href="https://drmoku.com/" target="_blank"
           >Dr. Moku smartphone apps</a
         >
       </li>
       <li>
-        <a href="https://realkana.com/" rel="noopener">Real Kana</a>
+        <a href="https://realkana.com/" target="_blank">Real Kana</a>
       </li>
       <li>
         Tofugu’s guide:
-        <a href="https://www.tofugu.com/japanese/learn-hiragana/" rel="noopener"
+        <a
+          href="https://www.tofugu.com/japanese/learn-hiragana/"
+          target="_blank"
           >hiragana</a
         >,
-        <a href="https://www.tofugu.com/japanese/learn-katakana/" rel="noopener"
+        <a
+          href="https://www.tofugu.com/japanese/learn-katakana/"
+          target="_blank"
           >katakana</a
         >
       </li>
       <li>
         JapanesePod101’s YouTube videos:
-        <a href="https://youtu.be/6p9Il_j0zjc" rel="noopener">hiragana</a>,
-        <a href="https://youtu.be/s6DKRgtVLGA" rel="noopener">katakana</a>
+        <a href="https://youtu.be/6p9Il_j0zjc" target="_blank">hiragana</a>,
+        <a href="https://youtu.be/s6DKRgtVLGA" target="_blank">katakana</a>
       </li>
     </ul>
     <p>
@@ -769,12 +771,7 @@
     <p>
       Although it’s probably not necessary, you can also combine any of the
       resources above with Anki.
-      <a
-        href="https://ankiweb.net/shared/decks/kana"
-        target="_blank"
-        rel="noopener"
-        >Here</a
-      >
+      <a href="https://ankiweb.net/shared/decks/kana" target="_blank">Here</a>
       is&nbsp;a link to various Anki decks for hiragana and katakana. On that
       page, you can even find Anki decks created specifically to be used
       alongside some of the resources listed above.
@@ -904,7 +901,7 @@
         huamn mnid deos not raed ervey lteter by istlef, but the wrod as a
         wlohe.” (<a
           href="http://www.mrc-cbu.cam.ac.uk/people/matt-davis/cmabridge/"
-          rel="noopener"
+          target="_blank"
           >source</a
         >)
       </p>
@@ -954,63 +951,54 @@
     <h2>Learning to Recognize the Kanji</h2>
     <p>
       Our recommended method of training kanji recognition is Recognition RTK, a
-      modified version of
-      <em>Remembering the Kanji</em> (RTK) combined with an SRS.
+      modified version of <em>Remembering the Kanji</em> (RTK) combined with an
+      SRS.
     </p>
     <p>
-      Originally, James Heisig wrote the book
-      <em>Remembering the Kanji</em> to help Japanese newcomers become able to
-      both recognize and produce the ~3000 most common kanji. To do this, he
-      employed a number of innovative ideas, such as ordering characters based
-      on their components (instead of frequency), story-based mnemonics using
-      those components, and introducing only a single basic meaning of each
-      kanji (initially ignoring readings and alternate meanings). If you’re
-      interested in learning more about the logic behind RTK, check out the
-      extensive intro at the beginning of the RTK part 1 book.
+      Originally, James Heisig wrote the book <em>Remembering the Kanji</em> to
+      help Japanese newcomers become able to both recognize and produce the
+      ~3,000 most common kanji. To do this, he employed a number of innovative
+      ideas, such as ordering characters based on their components (instead of
+      frequency), creating story-based mnemonics using those components, and
+      introducing only a single basic meaning of each kanji (initially ignoring
+      readings and alternate meanings). If you’re interested in learning more
+      about the logic behind RTK, check out the extensive intro at the beginning
+      of the RTK part 1 book.
     </p>
     <p>
       RTK does open up the possibility of learning to both recognize and produce
       kanji as a pure beginner. But, as we explained above, this is far more
       trouble than it’s worth. Indeed, most of the people who attempt RTK in its
-      original form report giving up before making it to the end.
+      original form give up before making it to the end.
     </p>
     <p>
       Enter Recognition RTK (hereafter “RRTK”). RRTK is an SRS-based
       modification to the original RTK intended to optimize it for training
-      recognition. RRTK flashcards have a kanji on the front and the meaning of
-      the kanji on the back. While reviewing, the goal is to, for each card,
+      recognition. RRTK preserves RTK’s innovative component-based sequencing of
+      kanji and story-based mnemonic system. Where it differs is that RRTK
+      flashcards have a kanji on the <em>front</em> and the meaning of the kanji
+      on the <em>back</em>. While reviewing each card, the goal is to
       <em>recognize</em> the kanji on the front and recall its basic meaning.
     </p>
     <p>
       RRTK also only covers the most frequently used 1,000 kanji. The reason for
-      this is that the main goal of RRTK is
-      <em>not</em> to learn what every kanji means, but simply to bring learners
-      to that point where recognizing a kanji feels similar to recognizing a
-      human face. As soon as you reach this point, you’re going to be better off
-      jumping into real Japanese and picking up more kanji as you go. The idea
-      is that 1,000 kanji should be more than enough to take you to this point.
+      this is that the main goal of RRTK is <em>not</em> to learn what every
+      kanji means, but simply to bring learners to the point where recognizing a
+      kanji feels similar to recognizing a human face. As soon as you reach this
+      point, rather than continuing to study isolated kanji, you’re going to be
+      better off jumping into real Japanese and picking up more kanji as you go.
+      The idea is that 1,000 kanji should be more than enough to take you to
+      this point.
     </p>
     <p>
       Although the main goal of RRTK is to train kanji recognition ability, a
       secondary goal is to help you learn the general meaning of kanji as well.
-      This is why RRTK covers the
-      <em>most frequently used</em> kanji, instead of simply the first 1,000
-      kanji in the original RTK book (remember, RTK orders kanji based on their
-      components, <em>not</em> their frequency). The most frequently used 1,000
-      kanji comprise more than 90% of all kanji used in written Japanese. So,
-      knowing the basic meaning of all of these kanji will be hugely beneficial
-      when diving into real Japanese.
-    </p>
-    <p>
-      In RRTK, the 1,000 most frequently used kanji are still presented in the
-      same order as original RTK. This is important because the component-based
-      order is the foundation of RTK’s unique mnemonic system, which allows for
-      quick and easy memorization of characters. With that said, by reducing
-      RRTK down to 1,000 kanji, we do lose a portion of the effectiveness of the
-      original RTK mnemonic system. The reason for this is that a large portion
-      of the kanji covered in the original RTK will be missing in RRTK, and some
-      of these missing kanji were used in the original mnemonic system. How to
-      deal with this will be discussed below.
+      This is why RRTK covers the <em>most frequently used</em> kanji, instead
+      of simply the first 1,000 kanji in the original RTK book (recall that RTK
+      orders kanji based on their components, not their frequency). The most
+      frequently used 1,000 kanji comprise more than 90% of all kanji used in
+      written Japanese. So, knowing the basic meaning of all of these kanji will
+      be hugely beneficial when diving into real Japanese.
     </p>
     <p>
       <strong>NOTE</strong>: Previously, MIA referred to “Recognition RTK” as
@@ -1025,11 +1013,107 @@
       You can find the MIA original RRTK deck
       <a
         href="https://www.mediafire.com/file/1svvsr7f9cnpwka/Recognition_RTK.apkg/"
-        rel="noopener"
+        target="_blank"
         >here</a
-      >. It comes with 1,000 cards, one for each of the most frequently used
-      kanji.
+      >.
     </p>
+
+    <h3>Credit</h3>
+    <p>
+      The order that kanji are presented in, kanji keywords, and all information
+      regarding primitive elements, were taken directly from
+      <a
+        href="https://www.amazon.com/gp/product/0824835921/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0824835921&linkCode=as2&tag=massimmersion-20&linkId=54c526404d8db547e3389135d9b85518"
+        target="_blank"
+        >Remembering the Kanji 6th Edition</a
+      >
+      by James Heisig. Although the deck was designed to function as a complete
+      replacement for the RTK book, please support the original by purchasing a
+      copy.
+    </p>
+
+    <p>
+      Alternative kanji meanings were taken from
+      <a href="http://www.jedict.com/" target="_blank">JEDict</a>. Mnemonic
+      stories were taken from the
+      <a href="https://kanji.koohii.com/" target="_blank"
+        >Kanji Koohii website</a
+      >.
+    </p>
+
+    <p>
+      Frequency information was taken from
+      <a href="https://scriptin.github.io/kanji-frequency/" target="_blank"
+        >this site</a
+      >, and is based on an Aozora Bunko corpus. In order to account for biases
+      introduced by the specific source of frequency information, some kanji
+      have been manually included and excluded from the deck in accordance with
+      what we thought would be most useful for learners.
+    </p>
+
+    <h3>
+      1,250 Cards for 1,000 Kanji
+    </h3>
+
+    <p>
+      Like we mentioned earlier, one of RTK’s most powerful innovations was
+      sequencing characters based on their components, such that each character
+      learned can be viewed as a simple combination of familiar elements. RRTK
+      makes use of this methodical sequencing to help users learn to recognize
+      the most common 1,000 kanji. That said, applying RTK’s original sequencing
+      to RRTK wasn’t as straightforward as trimming RTK’s kanji list down to the
+      most common characters.
+    </p>
+
+    <p>
+      Within the original RTK book, components of kanji are referred to as
+      “primitive elements”. Please note that RTK’s primitive elements do not
+      align with traditional kanji
+      <a
+        href="https://en.wikipedia.org/wiki/List_of_kanji_radicals_by_frequency"
+        target="_blank"
+        >radicals</a
+      >. To go back to the example from above, RTK breaks down the character
+      “露” (dew) into the primitive elements “雨” (rain) and “路” (path). In
+      this case, both primitive elements also exist as independent kanji.
+      However, there are also primitive elements that do not exist as
+      independent kanji, and are solely used as components of other characters.
+      For example, the primitive element "宀" is used inside many kanji (for
+      example, "家" (house)), but isn't actually a kanji itself.
+    </p>
+
+    <p>
+      Oftentimes, common kanji are composed of fairly uncommon component
+      characters. For example, the extremely common kanji “頭” (head) contains
+      within it the kanji “頁” (page), which is rarely used. Because of this,
+      reducing RTK to strictly the most common 1,000 characters would be quite
+      problematic. Uncommon kanji that function as primitive elements would end
+      up getting removed, which would in turn make learning characters that
+      contain those primitive elements much more difficult.
+    </p>
+
+    <p>
+      In order to remedy this, in addition to the 1,000 most common kanji, the
+      RRTK deck also contains cards for an additional 250 primitive elements.
+      Some of these primitive elements exist as independent kanji, while others
+      are used exclusively as components of other characters. Although these
+      primitive elements are not actually common kanji themselves, because
+      they’re also <em>components</em> of common kanji, learning them is
+      necessary in order to fully benefit from RTK’s original mnemonic system.
+    </p>
+
+    <h3>
+      Card Format
+    </h3>
+
+    <p>
+      The deck consists of 3 different types of cards: kanji cards, primitive
+      element cards, and instruction cards. Kanji cards are for kanji, primitive
+      element cards are for primitive elements that are not themselves
+      independent kanji, and instruction cards provide information about either
+      the deck itself or kanji in general.
+    </p>
+
     <p>
       <img
         src="https://massimmersionapproach.com/imgs/2019/09/RRTK-card-1.gif"
@@ -1038,25 +1122,45 @@
         height="449"
       />
     </p>
+
     <p>
-      On the front of each card, you’ll find a kanji written in 4 different
-      fonts. The reason for having multiple fonts is that, depending on the
-      character, the same kanji can look quite different depending on the font.
-      So, the more you’re exposed to different fonts, the more prepared you’ll
-      be.
+      On the front of each card, you’ll find a kanji or primitive element
+      written in 4 different fonts. The reason for having multiple fonts is
+      that, depending on the character, the same kanji can look quite different
+      depending on the font. So, the more you’re exposed to different fonts, the
+      more prepared you’ll be.
     </p>
+
     <p>
-      The original RTK number for each kanji is also listed at the top of every
-      card. If you click this number, it functions as a hyperlink that will take
-      you to the kanji’s entry on
-      <a href="http://hochanh.github.io/rtk/" rel="noopener">this site</a>.
+      The RTK number for each kanji is listed at the top of every kanji card. If
+      you click this number, it functions as a hyperlink that will take you to
+      the kanji’s entry on
+      <a href="http://hochanh.github.io/rtk/" target="_blank">this site</a>.
+      Please note that the numbers listed here correspond with the kanji’s
+      position within the 2,200 characters presented in the original RTK book,
+      not the kanji’s position within RRTK. On primitive element cards,
+      “Primitive Element” is listed in place of an RTK number.
     </p>
+
     <p>
-      On the back of each card, you’ll find the original RTK keyword, some other
-      meanings of the kanji, and the top two highest-rated mnemonic stories from
-      the
-      <a href="https://kanji.koohii.com/" rel="noopener">Kanji Koohii website</a
-      >.
+      On the back of kanji cards, you’ll find the original RTK keyword, some
+      other meanings of the kanji, the top two highest-rated mnemonic stories
+      from the
+      <a href="https://kanji.koohii.com/" target="_blank"
+        >Kanji Koohii website</a
+      >, and any “primitive element meanings” listed for that kanji in the
+      original RTK book. A “primitive element meaning” is a meaning a character
+      takes on when used as a component of another kanji. For example, when the
+      kanji for "one" (一) is used as a primitive element (for example, in "下"
+      (below)), it can take on the meaning of "ceiling". To help you tell them
+      apart, primitive element meanings are listed in a red font.
+    </p>
+
+    <p>
+      On the back of primitive element cards, an explanation of that primitive’s
+      meaning is all that is listed. As with “primitive element meanings” on
+      kanji cards, the explanations on primitive element cards appear in a red
+      font.
     </p>
     <p>
       The deck also comes pre-set with recommended option-group settings. The
@@ -1064,49 +1168,27 @@
       Cards” tab. Adjust this at any time to reflect how many new kanji you want
       to learn each day.
     </p>
+
     <h2>How to Use</h2>
+
+    <h3>How do I learn new kanji?</h3>
+
     <p>
-      You may want to consider getting your hands on a copy of the actual
-      <br /><a href="https://is.gd/eURmBi" rel="noopener"
-        >Remembering the Kanji Vol 1 book</a
-      >. Understanding how RTK was <em>originally</em> intended to be used will
-      likely shed light on a lot of RRTK’s quirks. Like we mentioned above, RTK
-      comes with an extensive introduction, which explains the original ideas
-      behind the book in great detail.
+      In order to learn a new kanji, break it down into its component primitive
+      elements and come up with a story to link those elements to the kanji’s
+      meaning. If one of the stories on the back of the card makes sense, go
+      with that. If neither of the stories on the back resonate, you can either
+      tweek one of them or come up with something completely new. If you need
+      some inspiration, you can check out other people’s stories on the
+      <a href="https://kanji.koohii.com/">Kanji Koohii website</a>.
     </p>
+
     <p>
-      It’s also a good idea to read through the corresponding sections of the
-      book as you work your way through the Anki deck. This way, you will be
-      formally introduced to each component of RTK’s unique mnemonic system,
-      including those characters that are important for mnemonics but missing
-      from the 1,000 kanji deck.
+      Feel free to take some liberties when tinkering with the meaning of
+      primitive elements and modifying stories. The mnemonics are just a
+      pragmatic tool for remembering the characters, so whatever works is fine.
     </p>
-    <p>
-      If you’re opposed to doing this, it’s not impossible to brute-force your
-      way through the deck without ever looking at the book. This will likely
-      make for a bumpy ride, as without referencing the book, much of the
-      mnemonic system will be confusing and unclear. For those attempting this
-      approach,
-      <a href="https://hochanh.github.io/rtk/index.html" rel="noopener"
-        >this site</a
-      >
-      will likely serve as a useful reference, as it offers component breakdowns
-      for every character.
-    </p>
-    <p>
-      Regardless of what the book says, don’t worry about making your own
-      mnemonic stories; the stories that come on the cards should be good
-      enough. Of course, creating your own original stories would create
-      stronger memories, but it also requires much more time and effort. Since
-      we are only after recognition, and recognition is much easier than active
-      recall, pre-made stories should be good enough. If the stories that come
-      on the cards aren’t doing it for you, you can check out
-      <a href="https://kanji.koohii.com/" rel="noopener">Kanji Koohii</a>
-      for inspiration. Also, feel free to take some liberties when tinkering
-      with the meaning of components and modifying stories. The mnemonics are
-      just a pragmatic tool for remembering the characters, so whatever works is
-      good.
-    </p>
+
     <h3>How many new cards a day?</h3>
     <p>
       Depending on how much time you currently have available, we recommend
@@ -1202,7 +1284,7 @@
     </p>
     <p>
       Another option is to use the
-      <a href="https://ankiweb.net/shared/info/1666520655" rel="noopener"
+      <a href="https://ankiweb.net/shared/info/1666520655"
         >MIA Retirement add-on</a
       >
       to set a retiring interval for your RRTK deck. If you take this approach,
@@ -1230,7 +1312,7 @@
     <p>
       For a more in-depth explanation of why you shouldn’t worry about kanji
       readings, watch from 1:53 to 10:55 of
-      <a href="https://youtu.be/TgRte6oSoF8?t=113" rel="noopener">this video</a>
+      <a href="https://youtu.be/TgRte6oSoF8?t=113">this video</a>
       (note: Matt has updated his views on some of the conclusions reached in
       this video, as reflected in this guide).
     </p>
@@ -1252,23 +1334,20 @@
       below) teach grammar with the intention of helping learners become able to
       <em>output</em>, AKA speak and write, their target language.
       Unfortunately, this doesn’t really work. Because
-      <nuxt-link
-        to="/table-of-contents/stage-1/theory/acquisition-vs-learning/"
-        rel="noopener"
+      <nuxt-link to="/table-of-contents/stage-1/theory/acquisition-vs-learning/"
         >learned knowledge is largely separate from acquired ability</nuxt-link
       >
       and
-      <a href="https://youtu.be/y8JK8W8dBxk" rel="noopener"
-        >language isn’t math</a
-      >, conscious grammar study is <em>not</em> an effective way of becoming
-      able to speak and write a foreign language.
+      <a href="https://youtu.be/y8JK8W8dBxk">language isn’t math</a>, conscious
+      grammar study is <em>not</em> an effective way of becoming able to speak
+      and write a foreign language.
     </p>
     <p>
       Output ability is the result of subconscious
       <em>acquisition</em>, and this acquisition happens by comprehending
       <em>input</em>, AKA, speech and text, in your target language (this is
       known as the
-      <a href="https://en.wikipedia.org/wiki/Input_hypothesis" rel="noopener"
+      <a href="https://en.wikipedia.org/wiki/Input_hypothesis"
         >input hypothesis</a
       >). So, grammar study is useful to the extent that it helps us comprehend
       target language input, but not useful for actually speaking and writing
@@ -1322,7 +1401,7 @@
     </p>
     <p>
       Personally, we recommend
-      <a href="http://www.guidetojapanese.org/learn/grammar" rel="noopener"
+      <a href="http://www.guidetojapanese.org/learn/grammar"
         >Tae Kim’s Japanese Grammar Guide</a
       >. It’s what Matt used, and it worked well for him. It breaks down
       Japanese in a logical and straight forward way and covers all the basics
@@ -1331,13 +1410,12 @@
     <p>
       If for whatever reason Tae Kim’s guide just really doesn’t sit well with
       you, some other resources you might check out are
-      <a href="https://www.imabi.net/tableofcontents.htm" rel="noopener"
+      <a href="https://www.imabi.net/tableofcontents.htm"
         >IMABI’S Japanese Grammar Guide</a
       >
       (thorough and detailed) or
       <a
         href="https://www.youtube.com/playlist?list=PLOcym2c7xnBwU12Flkm5RcLIEhvURQ8TB"
-        rel="noopener"
         >Japanese from Zero</a
       >
       (extremely user-friendly).
@@ -1408,7 +1486,6 @@
       In Japanese, the most frequently used 1,000 words comprise around 75% of
       all spoken and written language (<a
         href="https://pj.ninjal.ac.jp/corpus_center/bccwj/freq-list.html"
-        rel="noopener"
         >source</a
       >). Similar statistics are true for every human language. Because of this,
       memorizing the most frequently used 1,000 words is a great way to
@@ -1464,9 +1541,7 @@
     <p>
       What’s even better is that you can download audio files of native audio
       for all of the sentences in the book on the
-      <a
-        href="https://www.ask-books.com/jp/hajimete-jlpt/hajimete-jlpt-audio/"
-        rel="noopener"
+      <a href="https://www.ask-books.com/jp/hajimete-jlpt/hajimete-jlpt-audio/"
         >publisher’s website</a
       >.
     </p>
@@ -1481,13 +1556,11 @@
       You can purchase the book on
       <a
         href="https://www.amazon.co.jp/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%83%BD%E5%8A%9B%E8%A9%A6%E9%A8%93-N5%E5%8D%98%E8%AA%9E1000-Hajimete-Nouryoku-Vietnamese/dp/4872179811/?language=en_US"
-        rel="noopener"
         >Japanese Amazon</a
       >
       or
       <a
         href="https://omgjapan.com/products/1000-essential-vocabulary-for-the-jlpt-n5"
-        rel="noopener"
         >OMG Japan</a
       >.
     </p>
@@ -1670,7 +1743,6 @@
       Another problem with isolated vocab cards is that many Japanese words have
       more than one meaning. For example, if you look up the Japanese word “<a
         href="https://jisho.org/search/%E3%81%8B%E3%81%91%E3%82%8B"
-        rel="noopener"
         >掛ける</a
       >” in the Japanese to English dictionary, the definition listed is
       comically long. Imagine making a flashcard with “掛ける” on the front, and
@@ -1697,17 +1769,13 @@
       <li>
         A sentence tells you not only what a word means, but how it’s used.
         Check out
-        <a href="http://www.antimoon.com/how/examplesent.htm" rel="noopener"
-          >this article</a
-        >
+        <a href="http://www.antimoon.com/how/examplesent.htm">this article</a>
         for a more in-depth explanation of this point.
       </li>
       <li>
         A sentence is a larger unit of meaning than an isolated word, so it’s
         much easier to understand sentences without
-        <a href="https://youtu.be/CRmxNFv04ao" rel="noopener"
-          >translating in your head</a
-        >
+        <a href="https://youtu.be/CRmxNFv04ao">translating in your head</a>
         than isolated words.
       </li>
       <li>
@@ -1759,19 +1827,18 @@
       <strong>NOTE</strong>: Previously, MIA referred to “1T sentences” as “i+1
       sentences”. The term “i+1” comes from Stephen Krashen and his Input
       Hypothesis. From
-      <a href="https://en.wikipedia.org/wiki/Input_hypothesis" rel="noopener"
-        >Wikipedia</a
-      >: “[The Input Hypothesis] states that learners progress in their
-      knowledge of the language when they comprehend language input that is
-      slightly more advanced than their current level. Krashen called this level
-      of input “i+1”, where “i” is the learner’s interlanguage and “+1″ is the
-      next stage of language acquisition.” In other words, Krashen’s “i+1”
-      refers to input that is immediately comprehensible to the unconscious
-      language acquisition device. On the other hand, MIA was using the term to
-      refer to input that could be consciously comprehended after looking up or
-      inferring the meaning of an unknown word or structure. In order to avoid
-      confusion due to this slight difference in meaning, we decided to drop the
-      term and adopt the more straightforward “one target” instead.
+      <a href="https://en.wikipedia.org/wiki/Input_hypothesis">Wikipedia</a>:
+      “[The Input Hypothesis] states that learners progress in their knowledge
+      of the language when they comprehend language input that is slightly more
+      advanced than their current level. Krashen called this level of input
+      “i+1”, where “i” is the learner’s interlanguage and “+1″ is the next stage
+      of language acquisition.” In other words, Krashen’s “i+1” refers to input
+      that is immediately comprehensible to the unconscious language acquisition
+      device. On the other hand, MIA was using the term to refer to input that
+      could be consciously comprehended after looking up or inferring the
+      meaning of an unknown word or structure. In order to avoid confusion due
+      to this slight difference in meaning, we decided to drop the term and
+      adopt the more straightforward “one target” instead.
     </p>
     <h2>Different Types of Sentence Cards</h2>
     <p>
@@ -1891,9 +1958,9 @@
     <p>
       Do not try to translate the sentence into English. Try to actually
       understand it in Japanese (for tips on how to do this, check out
-      <a href="https://youtu.be/CRmxNFv04ao" rel="noopener">this video</a>. If
-      you find yourself accidentally translating into English, that’s fine. Just
-      don’t make an active effort to do so. Also, don’t try to recall the exact
+      <a href="https://youtu.be/CRmxNFv04ao">this video</a>. If you find
+      yourself accidentally translating into English, that’s fine. Just don’t
+      make an active effort to do so. Also, don’t try to recall the exact
       definition of the target word. Just focus on understanding the actual
       sentence, and getting a feel for what role the target word is playing in
       the sentence.
@@ -1931,7 +1998,7 @@
       We recommend sticking with the “good” and “again” buttons. The “hard”
       button in particular has counter-intuitive negative effects on Anki’s
       algorithm. To understand why this is, check out our article series on
-      <nuxt-link to="/table-of-contents/anki/low-key-anki/intro/" rel="noopener"
+      <nuxt-link to="/table-of-contents/anki/low-key-anki/intro/"
         >Low-Key Anki</nuxt-link
       >.
     </p>
@@ -1990,12 +2057,12 @@
       </li>
       <li>
         E-readers like
-        <a href="https://youtu.be/1CrlQHA9i0g" rel="noopener">Kindle</a>
+        <a href="https://youtu.be/1CrlQHA9i0g">Kindle</a>
         let you easily highlight and save sentences while reading, which you can
         then export to your computer for card making.
       </li>
       <li>
-        <a href="https://youtu.be/IS7WzYICAsk" rel="noopener">ShareX</a>
+        <a href="https://youtu.be/IS7WzYICAsk">ShareX</a>
         allows you to easily record short segments of audio in real-time. This
         is useful for audio-based sentence cards.
       </li>
@@ -2017,12 +2084,12 @@
     <p>
       You can get a little more technical with your sentence mining by
       introducing the program
-      <a href="http://subs2srs.sourceforge.net/" rel="noopener">subs2srs</a>.
-      Subs2srs is a program that lets you make Anki decks out of video and
-      subtitle files. For example, if you had a Japanese movie and the
-      accompanying Japanese subtitle file, you could use subs2srs to
-      automatically create an Anki deck with one card for each subtitle line,
-      along with the corresponding audio and snapshot.
+      <a href="http://subs2srs.sourceforge.net/">subs2srs</a>. Subs2srs is a
+      program that lets you make Anki decks out of video and subtitle files. For
+      example, if you had a Japanese movie and the accompanying Japanese
+      subtitle file, you could use subs2srs to automatically create an Anki deck
+      with one card for each subtitle line, along with the corresponding audio
+      and snapshot.
     </p>
     <p>
       This is extremely powerful because it opens up the possibility of making
@@ -2035,12 +2102,11 @@
       the file for the show/movie you want to use, along with a correctly timed
       subtitle file for that show/movie. This can often be quite difficult. One
       way to go about this is with
-      <a href="#netflix" rel="noopener">Netflix</a>, as was mentioned in the
-      immersion section.
+      <a href="#netflix">Netflix</a>, as was mentioned in the immersion section.
     </p>
     <p>
       You can find a step-by-step tutorial for creating subs2srs decks
-      <a href="https://youtu.be/4AvgqVGHP8A" rel="noopener">here</a>.
+      <a href="https://youtu.be/4AvgqVGHP8A">here</a>.
     </p>
     <p>
       Most methods of working with subs2srs involve creating a sentence bank.
@@ -2051,10 +2117,7 @@
     <h2 id="morphman">MorphMan</h2>
     <p>
       Subs2srs can become even more powerful when combined with
-      <a
-        href="https://ankiweb.net/shared/info/900801631"
-        target="_blank"
-        rel="noopener"
+      <a href="https://ankiweb.net/shared/info/900801631" target="_blank"
         >MorphMan</a
       >. MorphMan is an Anki add-on that keeps track of what words you know, and
       uses that to reorder your new cards into the optimal order. Basically, you
@@ -2068,10 +2131,7 @@
 
     <p>
       You can find a comprehensive guide for using MorphMan
-      <nuxt-link
-        to="/table-of-contents/anki/morphman"
-        target="_blank"
-        rel="noopener"
+      <nuxt-link to="/table-of-contents/anki/morphman" target="_blank"
         >here</nuxt-link
       >.
     </p>
@@ -2080,7 +2140,6 @@
       <a
         href="https://www.mediafire.com/file/422gkvon0o7m5av/Example_Sentence_Cards.apkg"
         target="_blank"
-        rel="noopener"
         >Here</a
       >
       is a link to a small Anki deck containing some examples of different kinds
@@ -2129,10 +2188,7 @@
     </p>
     <p>
       Once you know how long you want to spend on Anki each day, you can use the
-      <a
-        href="https://pheartheceal.github.io/anki-optimizer/"
-        target="_blank"
-        rel="noopener"
+      <a href="https://pheartheceal.github.io/anki-optimizer/" target="_blank"
         >Anki simulator</a
       >‘s “New Cards Calculator” to calculate how the maximum number of new
       cards you can learn each day without exceeding your desired amount of
@@ -2187,20 +2243,14 @@
       </li>
       <li>
         Search one of the following Japanese example sentence websites:
-        <a href="http://yourei.jp/" target="_blank" rel="noopener">Yourei</a>,
-        <a
-          href="http://nlt.tsukuba.lagoinst.info/search/"
-          target="_blank"
-          rel="noopener"
+        <a href="http://yourei.jp/" target="_blank">Yourei</a>,
+        <a href="http://nlt.tsukuba.lagoinst.info/search/" target="_blank"
           >NINJAL-LWP for TWC</a
         >,
-        <a href="http://nlb.ninjal.ac.jp/search/" target="_blank" rel="noopener"
+        <a href="http://nlb.ninjal.ac.jp/search/" target="_blank"
           >NINJAL-LWP for BCCWJ</a
         >,
-        <a
-          href="https://sentencesearch.neocities.org/"
-          target="_blank"
-          rel="noopener"
+        <a href="https://sentencesearch.neocities.org/" target="_blank"
           >Sentence Search</a
         >.
       </li>
@@ -2381,9 +2431,7 @@
     <p>
       This is a normal and inevitable part of the learning process. To learn
       more about why this happens and how to deal with it, watch
-      <a href="https://youtu.be/wrBFhsnBQ2k" target="_blank" rel="noopener"
-        >this video</a
-      >
+      <a href="https://youtu.be/wrBFhsnBQ2k" target="_blank">this video</a>
       (which was linked at the start of the previous section).
     </p>
     <h3>
@@ -2399,10 +2447,7 @@
     <p>
       After making a couple thousand bilingual sentence cards, we recommend
       making the
-      <a
-        href="https://www.youtube.com/watch?v=2AH2JmxglzU"
-        target="_blank"
-        rel="noopener"
+      <a href="https://www.youtube.com/watch?v=2AH2JmxglzU" target="_blank"
         >monolingual transition</a
       >
       and switching to making monolingual sentence cards.
@@ -2417,7 +2462,7 @@
       content, you should find that you start feeling ready to start speaking
       naturally. Once that time comes, you can start applying some of the
       techniques Matt talked about in his
-      <a href="https://youtu.be/YCESUUA0wL0" target="_blank" rel="noopener"
+      <a href="https://youtu.be/YCESUUA0wL0" target="_blank"
         >How to Start Outputting</a
       >
       video. And that should take you to a high level of Japanese fluency.
@@ -2425,10 +2470,7 @@
     <p>
       If you’re curious about when exactly to move on to each of those steps,
       and what lies after basic fluency, check out the
-      <a
-        href="/table-of-contents/stage-0/overview/"
-        target="_blank"
-        rel="noopener"
+      <a href="/table-of-contents/stage-0/overview/" target="_blank"
         >MIA Overview</a
       >.
     </p>
@@ -2443,10 +2485,7 @@
     <p>
       As mentioned in the basic grammar section, we don’t recommend above N4 in
       the JLPT Tango series. Instead, we consider either a
-      <a
-        href="http://rtkwiki.koohii.com/wiki/Core_10k"
-        target="_blank"
-        rel="noopener"
+      <a href="http://rtkwiki.koohii.com/wiki/Core_10k" target="_blank"
         >Core 10k</a
       >
       deck or Dictionary of Japanese Grammar deck to be a better choice.
@@ -2457,12 +2496,11 @@
       going through them from start to finish would be extremely redundant.
       Because of this, supplementing sentence mining with pre-made decks pretty
       much requires the use of
-      <a href="#morphman" target="_blank" rel="noopener">MorphMan</a>. MorphMan
-      will help you find new content in the pre-made deck that’s 1T for you
-      given your current knowledge. This way, you can, for example, learn 10
-      mined sentences and 5 pre-made sentences each day. On days that you’re
-      tight on time and can’t make your own cards, you could rely more heavily
-      on the pre-made decks.
+      <a href="#morphman" target="_blank">MorphMan</a>. MorphMan will help you
+      find new content in the pre-made deck that’s 1T for you given your current
+      knowledge. This way, you can, for example, learn 10 mined sentences and 5
+      pre-made sentences each day. On days that you’re tight on time and can’t
+      make your own cards, you could rely more heavily on the pre-made decks.
     </p>
     <p>
       We should note that this sort of approach is completely optional.&nbsp;
@@ -2474,38 +2512,26 @@
     <h2>Content</h2>
     <ul>
       <li>
-        <a href="https://www.netflix.com/" target="_blank" rel="noopener"
-          >Netflix</a
-        >
+        <a href="https://www.netflix.com/" target="_blank">Netflix</a>
       </li>
       <li>
-        <a href="https://www.crunchyroll.com/" target="_blank" rel="noopener"
-          >Crunchyroll</a
-        >
+        <a href="https://www.crunchyroll.com/" target="_blank">Crunchyroll</a>
       </li>
       <li>
         <a
           href="https://www.amazon.co.jp/Prime-Video/b?ie=UTF8&amp;node=3535604051"
           target="_blank"
-          rel="noopener"
           >Amazon Prime Video</a
         >
       </li>
       <li>
-        <a href="https://www.hulu.jp/" target="_blank" rel="noopener"
-          >Hulu.jp</a
-        >
+        <a href="https://www.hulu.jp/" target="_blank">Hulu.jp</a>
       </li>
       <li>
-        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-          >YouTube</a
-        >
+        <a href="https://www.youtube.com/" target="_blank">YouTube</a>
       </li>
       <li>
-        <a
-          href="https://www3.nhk.or.jp/news/easy/"
-          target="_blank"
-          rel="noopener"
+        <a href="https://www3.nhk.or.jp/news/easy/" target="_blank"
           >NHK News Web Easy</a
         >
       </li>
@@ -2513,31 +2539,23 @@
     <h2>Online Dictionaries</h2>
     <ul>
       <li>
-        <a href="https://jisho.org/" target="_blank" rel="noopener">Jisho</a>
+        <a href="https://jisho.org/" target="_blank">Jisho</a>
         (bilingual)
       </li>
       <li>
-        <a href="https://ejje.weblio.jp/" target="_blank" rel="noopener"
-          >Weblio EJJE</a
-        >
+        <a href="https://ejje.weblio.jp/" target="_blank">Weblio EJJE</a>
         (bilingual)
       </li>
       <li>
-        <a href="https://www.weblio.jp/" target="_blank" rel="noopener"
-          >Weblio</a
-        >
+        <a href="https://www.weblio.jp/" target="_blank">Weblio</a>
         (monolingual)
       </li>
       <li>
-        <a href="https://dictionary.goo.ne.jp/" target="_blank" rel="noopener"
-          >Goo</a
-        >
+        <a href="https://dictionary.goo.ne.jp/" target="_blank">Goo</a>
         (monolingual)
       </li>
       <li>
-        <a href="https://www.sanseido.biz/" target="_blank" rel="noopener"
-          >Sanseido</a
-        >
+        <a href="https://www.sanseido.biz/" target="_blank">Sanseido</a>
         (monolingual)
       </li>
     </ul>
@@ -2547,78 +2565,52 @@
         <nuxt-link
           to="/table-of-contents/anki/low-key-anki/low-key-anki-summary-and-installation/"
           target="_blank"
-          rel="noopener"
           >Low-Key Anki</nuxt-link
         >
       </li>
       <li>
-        <a
-          href="https://ankiweb.net/shared/info/3918629684"
-          target="_blank"
-          rel="noopener"
+        <a href="https://ankiweb.net/shared/info/3918629684" target="_blank"
           >Japanese Support</a
         >
       </li>
       <li>
-        <a
-          href="https://ankiweb.net/shared/info/278530045"
-          target="_blank"
-          rel="noopener"
+        <a href="https://ankiweb.net/shared/info/278530045" target="_blank"
           >MIA Japanese Add-on</a
         >
         (guide can be found
         <nuxt-link
           to="/table-of-contents/anki/mia-japanese-addon/"
           target="_blank"
-          rel="noopener"
           >here</nuxt-link
         >).
       </li>
       <li>
-        <a
-          href="https://ankiweb.net/shared/info/1666520655"
-          target="_blank"
-          rel="noopener"
+        <a href="https://ankiweb.net/shared/info/1666520655" target="_blank"
           >MIA Retirement Add-on</a
         >
       </li>
       <li>
-        <a
-          href="https://ankiweb.net/shared/info/900801631"
-          target="_blank"
-          rel="noopener"
+        <a href="https://ankiweb.net/shared/info/900801631" target="_blank"
           >MorphMan</a
         >
       </li>
       <li>
-        <a
-          href="https://ankiweb.net/shared/info/516643804"
-          target="_blank"
-          rel="noopener"
+        <a href="https://ankiweb.net/shared/info/516643804" target="_blank"
           >Frozen Fields</a
         >
       </li>
       <li>
-        <a
-          href="https://ankiweb.net/shared/info/1214357311"
-          target="_blank"
-          rel="noopener"
+        <a href="https://ankiweb.net/shared/info/1214357311" target="_blank"
           >Image Resizer</a
         >
       </li>
       <li>
-        <a
-          href="https://ankiweb.net/shared/info/310394744"
-          target="_blank"
-          rel="noopener"
+        <a href="https://ankiweb.net/shared/info/310394744" target="_blank"
           >Cross Profile Search and Import</a
         >
       </li>
       <li>
-        <a
-          href="https://ankiweb.net/shared/info/498789867"
-          target="_blank"
-          rel="noopener"
+        <a href="https://ankiweb.net/shared/info/498789867" target="_blank"
           >Replay buttons on card</a
         >
       </li>
@@ -2626,107 +2618,79 @@
     <h2>General Tools</h2>
     <ul>
       <li>
-        <a href="https://www.google.co.jp/ime/" target="_blank" rel="noopener"
+        <a href="https://www.google.co.jp/ime/" target="_blank"
           >Google日本語入力</a
         >: Recommended Japanese <em>Input Method Editor</em> (IME), the tool
         used to type Japanese on a computer. Much better than Microsoft Japanese
         IME, the IME that comes with Windows.
       </li>
       <li>
-        <a
-          href="https://foosoft.net/projects/yomichan/"
-          target="_blank"
-          rel="noopener"
+        <a href="https://foosoft.net/projects/yomichan/" target="_blank"
           >Yomichan</a
         >: Firefox and Chrome addon that allows you to import dictionaries to
         get instant hover-lookup of words
       </li>
       <li>
-        <a
-          href="http://subs2srs.sourceforge.net/"
-          target="_blank"
-          rel="noopener"
-          >Subs2srs</a
-        >: Takes video files and subtitle files and cards with screenshots
-        and/or audio for each line in the sub file. Also useful for batch
-        extracting audio from videos.
+        <a href="http://subs2srs.sourceforge.net/" target="_blank">Subs2srs</a>:
+        Takes video files and subtitle files and cards with screenshots and/or
+        audio for each line in the sub file. Also useful for batch extracting
+        audio from videos.
       </li>
       <li>
-        <a href="https://youtu.be/IS7WzYICAsk" target="_blank" rel="noopener"
-          >ShareX</a
-        >: A versatile program for taking screencaps and recording audio in real
+        <a href="https://youtu.be/IS7WzYICAsk" target="_blank">ShareX</a>: A
+        versatile program for taking screencaps and recording audio in real
         time.
       </li>
       <li>
-        <a href="https://nordvpn.com/" target="_blank" rel="noopener">NordVPN</a
-        >: VPN with many Japanese servers.
+        <a href="https://nordvpn.com/" target="_blank">NordVPN</a>: VPN with
+        many Japanese servers.
       </li>
       <li>
-        <a href="https://www.flixgrab.com/" target="_blank" rel="noopener"
-          >FlixGrab</a
-        >: Program for downloading videos from Netflix.
+        <a href="https://www.flixgrab.com/" target="_blank">FlixGrab</a>:
+        Program for downloading videos from Netflix.
       </li>
       <li>
-        <a
-          href="http://jdownloader.org/download/index"
-          target="_blank"
-          rel="noopener"
+        <a href="http://jdownloader.org/download/index" target="_blank"
           >Jdownloader</a
         >: Free download management tool (has good support for YouTube).
       </li>
       <li>
-        <a
-          href="https://rg3.github.io/youtube-dl/"
-          target="_blank"
-          rel="noopener"
+        <a href="https://rg3.github.io/youtube-dl/" target="_blank"
           >Youtube-dl</a
         >: Command-line program to download from YouTube and other video
         websites easily.
       </li>
       <li>
-        <a
-          href="https://mrs0m30n3.github.io/youtube-dl-gui/"
-          target="_blank"
-          rel="noopener"
+        <a href="https://mrs0m30n3.github.io/youtube-dl-gui/" target="_blank"
           >Youtube-dl-gui</a
         >: A GUI over youtube-dl.
       </li>
       <li>
-        <a
-          href="https://www.nch.com.au/switch/index.html"
-          target="_blank"
-          rel="noopener"
+        <a href="https://www.nch.com.au/switch/index.html" target="_blank"
           >Switch Converter</a
         >: Video converter.
       </li>
       <li>
-        <a href="https://handbrake.fr/" target="_blank" rel="noopener"
-          >HandBrake</a
-        >: Video converter.
+        <a href="https://handbrake.fr/" target="_blank">HandBrake</a>: Video
+        converter.
       </li>
       <li>
-        <a href="https://calibre-ebook.com/" target="_blank" rel="noopener"
-          >Calibre</a
-        >: Powerful, free software for converting, editing and organizing
-        ebooks.
+        <a href="https://calibre-ebook.com/" target="_blank">Calibre</a>:
+        Powerful, free software for converting, editing and organizing ebooks.
       </li>
       <li>
-        <a
-          href="http://capture2text.sourceforge.net/"
-          target="_blank"
-          rel="noopener"
+        <a href="http://capture2text.sourceforge.net/" target="_blank"
           >Capture2Text</a
         >: Optical character recognition (OCR) software that allows you turn
         text from images (e.g. scanned manga) into actual text characters.
       </li>
       <li>
-        <a href="https://fluentcards.com/kindle" target="_blank" rel="noopener"
-          >FluentCards</a
+        <a href="https://fluentcards.com/kindle" target="_blank">FluentCards</a
         >: Drag and drop your kindle vocab.db file into here to extract all the
         words you’ve highlighted while you’ve been reading.
       </li>
       <li>
-        <a href="https://video.fluentcards.com/" target="_blank" rel="noopener"
+        <a href="https://video.fluentcards.com/" target="_blank"
           >Video.FluentCards</a
         >: In-browser video player that allows for easy maneuvering of
         subtitles.
