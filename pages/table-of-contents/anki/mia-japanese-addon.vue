@@ -1196,7 +1196,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: '6-Point Model - Mass Immersion Approach'
+          content: 'MIA Japanese Addon Guide - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
@@ -1207,7 +1207,7 @@ export default {
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: '6-Point Model - Mass Immersion Approach'
+          content: 'MIA Japanese Addon Guide - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',
