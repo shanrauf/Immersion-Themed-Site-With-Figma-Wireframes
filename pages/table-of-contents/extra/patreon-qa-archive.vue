@@ -1487,6 +1487,47 @@
       <p>
         1:11:14 - Are you ever going to translate MIA into Japanese?
       </p>
+      <h1 id="April25th2020">
+        <a
+          href="https://www.patreon.com/posts/36401117"
+          target="_blank"
+          rel="noopener noreferrer"
+          >April 25th, 2020</a
+        >
+      </h1>
+      <p>
+        0:52 - Talking about new RRTK deck
+      </p>
+      <p>
+        07:02 - Are you/MIA ever going to collaborate with Khatzumoto?
+      </p>
+      <p>
+        12:14 - If you never created MIA, what would you be doing with Japanese?
+        Or would you have dropped Japanese and taken an entirely different
+        career path?
+      </p>
+      <p>
+        24:06 - How you developed a set strategy for defending/promoting MIA in
+        a debate?
+      </p>
+      <p>
+        40:04 - In order to increase my reading speed, should I force myself to
+        start skimming?
+      </p>
+      <p>
+        47:25 - Would you consider it a downside of audio cards that they don’t
+        formally test you on your ability to read the target word? Should you
+        make text cards in addition to audio cards?
+      </p>
+      <p>
+        54:35 - What changes to the MIA protocol would recommend for someone who
+        doesn’t care about output?
+      </p>
+      <p>
+        57:25 - Do you think it’s reasonable to learn multiple languages at once
+        with MIA? How should one go about maintaining a fluent L2 in while
+        learning an L3?
+      </p>
     </div>
   </div>
 </template>
