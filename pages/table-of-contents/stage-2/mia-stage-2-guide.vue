@@ -415,7 +415,7 @@
                   tedious and painful.&nbsp;For example, let’s say someone
                   devoted most of their energy into reading while largely
                   neglecting active listening. This person would naturally end
-                  up with highly developed ready ability and rather poor
+                  up with highly developed reading ability and rather poor
                   listening ability. Once this happened, they would likely
                   become accustomed to understanding most of their immersion. In
                   turn, this may lead them to experience tedium and frustration
