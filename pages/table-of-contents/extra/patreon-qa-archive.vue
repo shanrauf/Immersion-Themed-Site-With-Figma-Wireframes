@@ -63,6 +63,9 @@
         <li>
           <nuxt-link to="#April11th2020">April</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="#May9th2020">May</nuxt-link>
+        </li>
       </ul>
     </div>
     <div class="article-content">
@@ -1435,7 +1438,7 @@
       </p>
       <h1 id="April11th2020">
         <a
-          href="https://www.patreon.com/posts/34885889"
+          href="https://www.patreon.com/posts/35891165"
           target="_blank"
           rel="noopener noreferrer"
           >April 11th, 2020</a
@@ -1527,6 +1530,59 @@
         57:25 - Do you think it’s reasonable to learn multiple languages at once
         with MIA? How should one go about maintaining a fluent L2 in while
         learning an L3?
+      </p>
+      <h1 id="May9th2020">
+        <a
+          href="https://www.patreon.com/posts/36929313"
+          target="_blank"
+          rel="noopener noreferrer"
+          >May 9th, 2020</a
+        >
+      </h1>
+
+      <p>
+        00:35 - How has your view of Japan and Japanese culture changed over the
+        last 3 years?
+      </p>
+      <p>
+        11:14 - Did you track your daily immersion hours during your hardcore
+        phase?
+      </p>
+      <p>
+        16:14 - Text cards have been working well for me; should I switch all my
+        cards to audio cards?
+      </p>
+      <p>
+        24:36 - Can you describe the process of becoming able to intuitively
+        understand grammar through listening?
+      </p>
+      <p>
+        26:43 - How would you go about acquiring grammatical gender?
+      </p>
+      <p>
+        28:15 - What percentage should I be understanding before I begin to
+        output?
+      </p>
+      <p>
+        40:44 - That are thoughts on shadowing vs listening and repeating an
+        isolated sentence?
+      </p>
+      <p>
+        48:24 - How would you go about acquiring a diglossic language?
+      </p>
+      <p>
+        53:34 - What is the ideal time-range to spend on each SRS card?
+      </p>
+      <p>
+        54:48 - I find that my mind wanders while active immersion. Do I need to
+        change something?
+      </p>
+      <p>
+        59:46 - Why does the RRTK deck only cover the most common 1k kanji?
+      </p>
+      <p>
+        1:07:31 - Is it possible to succeed in acquiring a language even if you
+        don’t enjoy the process?
       </p>
     </div>
   </div>
