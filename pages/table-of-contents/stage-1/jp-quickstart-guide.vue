@@ -84,7 +84,7 @@
       </p>
       <p>
         On the other hand,
-        <strong style="display: inline-block;"
+        <strong
           >no matter how many words you’ve memorized, without actually listening
           to the language for hundreds of hours, you will understand close to
           nothing</strong
