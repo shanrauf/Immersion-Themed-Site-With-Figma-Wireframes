@@ -1199,7 +1199,7 @@
         primitive elements and come up with a story to link those elements to
         the kanji’s meaning. If one of the stories on the back of the card makes
         sense, go with that. If neither of the stories on the back resonate, you
-        can either tweek one of them or come up with something completely new.
+        can either tweak one of them or come up with something completely new.
         If you need some inspiration, you can check out other people’s stories
         on the
         <a href="https://kanji.koohii.com/">Kanji Koohii website</a>.
