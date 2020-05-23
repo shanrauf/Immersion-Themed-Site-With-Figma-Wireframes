@@ -1584,6 +1584,55 @@
         1:07:31 - Is it possible to succeed in acquiring a language even if you
         don’t enjoy the process?
       </p>
+      <h1 id="May23rd2020">
+        <a
+          href="https://www.patreon.com/posts/37443819"
+          target="_blank"
+          rel="noopener noreferrer"
+          >May 23rd, 2020</a
+        >
+      </h1>
+
+      <p>
+        00:46 - What evidence is there for the idea that early output is
+        harmful?
+      </p>
+      <p>
+        18:26 - I often can’t understand the meaning of sentences despite
+        knowing all the words. Why is this and how do I fix it?
+      </p>
+      <p>
+        28:30 - What did you do to actively stay motivated and avoid burnout
+        while learning Japanese?
+      </p>
+      <p>
+        36:38 - Although I haven’t mastered my initial domain of focus yet, I’m
+        tempted to branch out into other domains to keep things interesting.
+        What’s the best course of action in this situation?
+      </p>
+      <p>
+        48:55 - Would you ever create a separate channel or platform to talk
+        about non-MIA related topics like meditation?
+      </p>
+      <p>
+        59:08 - Could simply learning kanji radicals in isolation function as a
+        replacement for RRTK?
+      </p>
+      <p>
+        1:02:57 - What is your opinion on making bilingual vocab cards for words
+        that are 1:1 between languages?
+      </p>
+      <p>
+        1:05:09 - My Mandarin reading skills are great, but my listening skills
+        are still very poor. What can I do to remedy this?
+      </p>
+      <p>
+        1:09:31 - How broad or narrow is a “domain” of language?
+      </p>
+      <p>
+        1:16:12 - When shadowing, although I can hear where my pronunciation is
+        off, I don’t know how to correct it. Should I study phonetics?
+      </p>
     </div>
   </div>
 </template>
