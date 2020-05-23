@@ -165,13 +165,13 @@
         easy buttons, well, we can simply not press them. But, as I explained in
         a prior section, simply having the extra buttons in sight can have
         adverse effects. If you are using the official Anki app for iOS, you can
-        hide the answer buttons by going to "Settings &gt; Review &gt; Answer
-        Buttons = off", and then program new "again" and "good" buttons in the
-        form of "taps" by going to "Settings &gt; Review &gt; Taps &gt; WHEN
-        ANSWER IS SHOWN &gt; Bottom Left = Answer Again, Bottom Right = Answer
-        Good". Now, after viewing the back of a card, you can press the bottom
-        left of the screen to fail a card and the bottom right of the screen to
-        pass a card, without being tempted to press "hard."
+        hide the answer buttons by going to "Settings &gt; Review &gt; Bottom
+        Bar &gt; Answer Buttons = off", and then program new "again" and "good"
+        buttons in the form of "taps" by going to "Settings &gt; Review &gt;
+        Taps &gt; WHEN ANSWER IS SHOWN &gt; Bottom Left = Answer Again, Bottom
+        Right = Answer Good". Now, after viewing the back of a card, you can
+        press the bottom left of the screen to fail a card and the bottom right
+        of the screen to pass a card, without being tempted to press "hard."
       </p>
       <p>
         Similarly, in AnkiDroid, you can hide the answer buttons by going to
