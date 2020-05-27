@@ -25,6 +25,12 @@ export default {
           link: '/table-of-contents/anki/mia-japanese-addon/'
         },
         {
+          title: 'MIA Editor Addon Guide',
+          description:
+            'MIA Editor is an Anki add-on that makes it quicker and easier to edit cards while reviewing.',
+          link: '/table-of-contents/anki/mia-editor-addon/'
+        },
+        {
           title: 'MIA Dictionary Addon Guide',
           description:
             'The MIA Dictionary Anki addon is designed to radically streamline the card creation process for language learning.',
