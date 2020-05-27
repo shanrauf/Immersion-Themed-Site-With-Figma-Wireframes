@@ -1603,10 +1603,10 @@
         With the help of some of our patrons, we have created an Anki deck
         specifically for the JLPT Tango N5. Because the deck is based on a book,
         we are unable to provide a public link to access the deck. If you would
-        like the deck, please email us with proof of purchase of the book at
-        “massimmersionapproach@gmail.com”, and we will reply with a download
-        link. Either a picture of you with the book or with the receipt can
-        serve as proof of purchase.
+        like the deck, please submit the
+        <a href="https://forms.gle/hzGpFbjNwWqPLRU29">N5 deck request form</a>
+        and we will reply with a download link. Either a picture of you with the
+        book or with the receipt can serve as proof of purchase.
       </p>
       <p>
         <img
@@ -1710,7 +1710,9 @@
         With that said, we think it can be useful to go through the JLPT Tango
         N4 book as well, alongside starting sentence mining. We’ve made an Anki
         deck for the N4 book in a similar style as the N5 deck. Just like with
-        the N5, if you email us with proof of purchase, we’ll send you the deck.
+        the N5, if you submit the
+        <a href="https://forms.gle/WBhbAxY2B6sgm16f8">N4 deck request form</a>,
+        we’ll send you the deck.
       </p>
       <p>
         We don’t recommend going through N3 and beyond, and so we haven’t
@@ -2751,7 +2753,7 @@ import YouTubeEmbed from '~/components/YouTubeEmbed'
 export default {
   transition: 'page',
   components: {
-    YouTubeEmbed
+    YouTubeEmbed,
   },
   head() {
     return {
@@ -2764,33 +2766,33 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.'
+            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.',
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Japanese Quickstart Guide - Mass Immersion Approach'
+          content: 'Japanese Quickstart Guide - Mass Immersion Approach',
         },
         {
           hid: 'og:description',
           name: 'og:description',
           content:
-            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.'
+            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.',
         },
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Japanese Quickstart Guide - Mass Immersion Approach'
+          content: 'Japanese Quickstart Guide - Mass Immersion Approach',
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
           content:
-            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.'
-        }
-      ]
+            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.',
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 
