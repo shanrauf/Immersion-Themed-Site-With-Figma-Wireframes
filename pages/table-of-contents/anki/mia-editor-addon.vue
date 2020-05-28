@@ -83,6 +83,12 @@
                   quickly fix these things on the fly while reviewing, further
                   streamlining the card creation process.
                 </p>
+                <p>
+                  You can download MIA Editor here. Please note that the add-on
+                  is designed to work with specific versions of Anki; see the
+                  <nuxt-link to="#installation">Installation</nuxt-link> section
+                  for more details.
+                </p>
               </div>
             </div>
           </div>
@@ -146,7 +152,8 @@
                 </h3>
                 <p>
                   MIA Editor can be installed in the same manner as any other
-                  Anki add-on.
+                  Anki add-on. You can find the addon on Ankiweb
+                  <a href="https://ankiweb.net/shared/info/1051095155">here</a>.
                 </p>
               </div>
             </div>
