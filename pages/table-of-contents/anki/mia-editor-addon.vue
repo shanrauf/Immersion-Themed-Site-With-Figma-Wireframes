@@ -110,7 +110,7 @@
                   all MIA add-ons are upgraded to the latest stable version of
                   Anki.
                 </p>
-                <h4>Why we use a development cycle:</h4>
+                <h4>Why we use development cycles:</h4>
                 <ul>
                   <li>
                     By not needing to constantly update add-ons each time a new
