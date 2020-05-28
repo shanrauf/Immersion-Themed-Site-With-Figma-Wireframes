@@ -126,8 +126,18 @@
                 </ul>
                 <h4>Current Cycle Details:</h4>
                 <p>
-                  Anki Version: 2.1.22 (Windows and Linux), 2.1.23 (macOS) [The
-                  “alternate” variants are for 32-bit systems] <br />
+                  Anki Version:
+                  <a
+                    href="https://github.com/ankitects/anki/releases/tag/2.1.22"
+                    >2.1.22</a
+                  >
+                  (Windows and Linux),
+                  <a
+                    href="https://github.com/ankitects/anki/releases/tag/2.1.23"
+                    >2.1.23</a
+                  >
+                  (macOS) [The “alternate” variants are for 32-bit systems]
+                  <br />
                   Start Date: April 6th, 2020 <br />
                   Next Cycle Start Date: October 6th, 2020
                 </p>
