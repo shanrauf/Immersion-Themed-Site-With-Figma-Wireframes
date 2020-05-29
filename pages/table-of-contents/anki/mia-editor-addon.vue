@@ -84,8 +84,10 @@
                   streamlining the card creation process.
                 </p>
                 <p>
-                  You can download MIA Editor here. Please note that the add-on
-                  is designed to work with specific versions of Anki; see the
+                  You can download MIA Editor
+                  <a href="https://ankiweb.net/shared/info/1051095155">here</a>.
+                  Please note that the add-on is designed to work with specific
+                  versions of Anki; see the
                   <nuxt-link to="#installation">Installation</nuxt-link> section
                   for more details.
                 </p>
