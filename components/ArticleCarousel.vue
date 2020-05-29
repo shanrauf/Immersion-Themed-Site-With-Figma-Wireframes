@@ -52,10 +52,10 @@ export default {
           link: '/table-of-contents/stage-2/mia-stage-2-guide'
         },
         {
-          title: 'MIA Dictionary Addon Guide',
+          title: 'MIA Editor Addon Guide',
           description:
-            'The MIA Dictionary Anki addon is designed to radically streamline the card creation process for language learning.',
-          link: '/table-of-contents/anki/mia-dictionary'
+            'MIA Editor is an Anki add-on that makes it quicker and easier to edit cards while reviewing.',
+          link: '/table-of-contents/anki/mia-editor-addon'
         }
       ]
     }
