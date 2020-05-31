@@ -29,6 +29,13 @@ module.exports = {
    */
   plugins: [],
   /*
+   ** Nuxt.js dev-modules
+   */
+  buildModules: [
+    // Doc: https://github.com/nuxt-community/eslint-module
+    '@nuxtjs/eslint-module'
+  ],
+  /*
    ** Nuxt.js modules
    */
   modules: [
@@ -37,7 +44,12 @@ module.exports = {
     '@nuxtjs/dotenv',
     '@nuxt/content'
   ],
-  content: {},
+  /**
+   * Nuxt Content config
+   */
+  content: {
+    fullTextSearchFields: ['title', 'description']
+  },
   /*
    ** Build configuration
    */
