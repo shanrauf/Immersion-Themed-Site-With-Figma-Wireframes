@@ -6,7 +6,7 @@
     </p>
     <h1>Stage 2 Guide</h1>
     <div class="article-content">
-      <div class="elementor-column-wrap  elementor-element-populated">
+      <div class="elementor-column-wrap elementor-element-populated">
         <div class="elementor-widget-wrap">
           <div
             class="elementor-element elementor-element-4880340c elementor-widget elementor-widget-text-editor"
@@ -97,7 +97,7 @@
                 </p>
                 <p>
                   This guide assumes a basic understanding of the concepts and
-                  terms presented in MIA Stage 1. Although a MIA Stage 1 Guide
+                  terms presented in MIA Stage 1. Although an MIA Stage 1 Guide
                   currently doesn’t exist, the
                   <a
                     href="https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/"
@@ -2474,7 +2474,7 @@ import YouTubeEmbed from '~/components/YouTubeEmbed'
 export default {
   transition: 'page',
   components: {
-    YouTubeEmbed
+    YouTubeEmbed,
   },
   head() {
     return {
@@ -2487,33 +2487,33 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.'
+            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.',
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Stage 2 Guide - Mass Immersion Approach'
+          content: 'Stage 2 Guide - Mass Immersion Approach',
         },
         {
           hid: 'og:description',
           name: 'og:description',
           content:
-            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.'
+            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.',
         },
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Stage 2 Guide - Mass Immersion Approach'
+          content: 'Stage 2 Guide - Mass Immersion Approach',
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
           content:
-            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.'
-        }
-      ]
+            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.',
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 
