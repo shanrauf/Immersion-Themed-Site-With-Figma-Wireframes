@@ -31,30 +31,32 @@
         be happy with, their advice may be worth listening to.
       </p>
 
-      Something else I forgot to mention is that another reason you can’t trust
-      people’s self-reports about their own language ability is the
-      <a
-        href="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Dunning–Kruger effect</a
-      >. The Dunning–Kruger effect is a cognitive bias in which, for any given
-      skill, people at relatively low levels tend to overestimate their ability,
-      due to not being competent enough to recognize their own incompetence. In
-      language learning, this often manifests as intermediate language learners
-      believing they have reached a very high level in a language, due to
-      comparing themselves to other language learners. When these intermediate
-      learners begin to reach a more advanced level, they usually transition to
-      comparing their ability to that of native speakers and realize that their
-      level is actually quite low. For more on the Dunning–Kruger effect, I
-      highly recommend
-      <a
-        href="https://youtu.be/pOLmD_WVY-E"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        this short video</a
-      >.
+      <p>
+        Something else I forgot to mention is that another reason you can’t
+        trust people’s self-reports about their own language ability is the
+        <a
+          href="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Dunning–Kruger effect</a
+        >. The Dunning–Kruger effect is a cognitive bias in which, for any given
+        skill, people at relatively low levels tend to overestimate their
+        ability, due to not being competent enough to recognize their own
+        incompetence. In language learning, this often manifests as intermediate
+        language learners believing they have reached a very high level in a
+        language, due to comparing themselves to other language learners. When
+        these intermediate learners begin to reach a more advanced level, they
+        usually transition to comparing their ability to that of native speakers
+        and realize that their level is actually quite low. For more on the
+        Dunning–Kruger effect, I highly recommend
+        <a
+          href="https://youtu.be/pOLmD_WVY-E"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          this short video</a
+        >.
+      </p>
 
       <p>
         And lastly, I am no exception to these principles! Don’t just blindly

@@ -66,6 +66,9 @@
         <li>
           <nuxt-link to="#May9th2020">May</nuxt-link>
         </li>
+        <li>
+          <nuxt-link to="#June6th2020">June</nuxt-link>
+        </li>
       </ul>
     </div>
     <div class="article-content">
@@ -1632,6 +1635,38 @@
       <p>
         1:16:12 - When shadowing, although I can hear where my pronunciation is
         off, I don’t know how to correct it. Should I study phonetics?
+      </p>
+
+      <h1 id="June6th2020">
+        <a
+          href="https://www.patreon.com/posts/37966683"
+          target="_blank"
+          rel="noopener noreferrer"
+          >June 6th, 2020</a
+        >
+      </h1>
+      <p>
+        00:18 - What did your family think when you started AJATTing? What do
+        they think about you being fluent in Japanese?
+      </p>
+      <p>
+        17:03 - How many years of learning 10 new words a day was it before you
+        started encountering less than 10 new words a day?
+      </p>
+      <p>
+        28:39 - If you can never “finish” a language, what’s the point of
+        working hard to go from a B2 level to a C1 or C2 level?
+      </p>
+      <p>
+        39:40 - Can you explain what criteria I should use when grading audio
+        sentence cards?
+      </p>
+      <p>
+        50:52 - What does MIA plan on doing about MorphMan going forward?
+      </p>
+      <p>
+        58:49 - Are you dissatisfied with your current uses of Japanese? If you
+        could go back in time, would you learn a different language instead?
       </p>
     </div>
   </div>

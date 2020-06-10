@@ -1949,8 +1949,8 @@
                   dictionary for quickly looking things up while immersing.
                 </p>
                 <p>
-                  Move onto Phase 4 once you feel comfortable<b> </b>enough with
-                  the monolingual dictionary to begin using it for on-the-fly
+                  Move onto Phase 4 once you feel comfortable enough with the
+                  monolingual dictionary to begin using it for on-the-fly
                   look-ups as well, in addition to card creation.
                 </p>
                 <h3>Phase 4</h3>
@@ -2474,7 +2474,7 @@ import YouTubeEmbed from '~/components/YouTubeEmbed'
 export default {
   transition: 'page',
   components: {
-    YouTubeEmbed,
+    YouTubeEmbed
   },
   head() {
     return {
@@ -2487,33 +2487,33 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.',
+            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.'
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Stage 2 Guide - Mass Immersion Approach',
+          content: 'Stage 2 Guide - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
           name: 'og:description',
           content:
-            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.',
+            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.'
         },
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Stage 2 Guide - Mass Immersion Approach',
+          content: 'Stage 2 Guide - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
           content:
-            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.',
-        },
-      ],
+            'The following guide provides the basic instructions necessary to complete MIA Stage 2 for any major language. It’s mainly focused on what to do and less on why to do it.'
+        }
+      ]
     }
-  },
+  }
 }
 </script>
 

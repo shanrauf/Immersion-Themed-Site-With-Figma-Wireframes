@@ -8,7 +8,7 @@
     <div class="article-content">
       <p>
         There is a significant difference between learning and acqusition within
-        the context of langauge acquisiton. The following video explains the
+        the context of language acquisiton. The following video explains the
         distinction between acquisiton and learning in the context of language
         learning:
       </p>

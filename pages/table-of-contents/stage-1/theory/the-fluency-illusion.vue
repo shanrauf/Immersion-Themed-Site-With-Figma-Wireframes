@@ -37,7 +37,7 @@
         judge the atmosphere of the conversation, and my own apparent ability to
         talk with the waiter without creating any misunderstandings. All factors
         that mean very little. I would be able to hide my own discomfort, and
-        the chinese waiter would also lower the difficulty of his speech to
+        the Chinese waiter would also lower the difficulty of his speech to
         accomodate me.
       </p>
       <h1>Judging Language Ability At Higher Levels</h1>
