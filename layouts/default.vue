@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="margin: 0px; padding: 0px; width: 100%">
     <BaseNav />
     <v-content>
       <nuxt />
@@ -20,3 +20,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.v-application--wrap {
+  max-width: 150% !important;
+}
+</style>

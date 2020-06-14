@@ -2753,7 +2753,7 @@ import YouTubeEmbed from '~/components/YouTubeEmbed'
 export default {
   transition: 'page',
   components: {
-    YouTubeEmbed,
+    YouTubeEmbed
   },
   head() {
     return {
@@ -2766,33 +2766,33 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.',
+            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.'
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Japanese Quickstart Guide - Mass Immersion Approach',
+          content: 'Japanese Quickstart Guide - Mass Immersion Approach'
         },
         {
           hid: 'og:description',
           name: 'og:description',
           content:
-            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.',
+            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.'
         },
         {
           hid: 'twitter:title',
           name: 'twitter:title',
-          content: 'Japanese Quickstart Guide - Mass Immersion Approach',
+          content: 'Japanese Quickstart Guide - Mass Immersion Approach'
         },
         {
           hid: 'twitter:description',
           name: 'twitter:description',
           content:
-            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.',
-        },
-      ],
+            'The Japanese quickstart guide describes in-depth how to get started with MIA when studying Japanese. The guide is also applicable to any other target language, excluding the Japanese-specific aspects like kanji and pitch accent.'
+        }
+      ]
     }
-  },
+  }
 }
 </script>
 
