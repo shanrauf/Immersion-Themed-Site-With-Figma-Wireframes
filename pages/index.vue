@@ -12,6 +12,35 @@
         <h1>{{ page.title }}</h1>
         <nuxt-content :document="page" />
       </article>
+      <div class="card">
+        <h1>Overview</h1>
+      </div>
+      <br />
+      <br />
+
+      <div
+        class="card"
+        style="display: flex; flex-direction: column; align-items: flex-start;"
+      >
+        <h2>Stage 1</h2>
+        <h2>Stage 2</h2>
+        <h2>Stage 3</h2>
+      </div>
+      <br />
+      <br />
+
+      <div class="card">
+        <h2>Theory</h2>
+        <h3>article 1</h3>
+        <h3>article 2</h3>
+      </div>
+      <br />
+
+      <div class="card">
+        <h2>Other</h2>
+      </div>
+      <br />
+      <br />
     </div>
   </div>
 </template>
@@ -21,15 +50,15 @@ import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
   },
   async asyncData({ $content }) {
     const page = await $content('test').fetch()
 
     return {
-      page
+      page,
     }
-  }
+  },
 }
 </script>
 
@@ -59,5 +88,11 @@ export default {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
+}
+.card {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
 }
 </style>
