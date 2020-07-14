@@ -1,20 +1,67 @@
 <template>
-  <div class="container">
-    <h1>{{ $route.params.article }}</h1>
-  </div>
+  <!-- <h1>{{ $route.params.article }}</h1> -->
+  <nuxt-content :document="page" />
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'article',
+
+  async asyncData({ $content, params }) {
+    const page = await $content(params.article).fetch()
+
+    return {
+      page,
+    }
+  },
+}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+<style lang="scss">
+.nuxt-content-container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+/* .nuxt-content p {
+  display: block;
+  width: calc(100% - 40px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  max-width: 600px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.nuxt-content img {
+  display: block;
+  width: calc(100% - 40px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  max-width: 600px;
+  font-size: 20px;
+  line-height: 30px;
+} */
+.nuxt-content {
+  p,
+  img,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    display: block;
+    width: calc(100% - 40px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 </style>

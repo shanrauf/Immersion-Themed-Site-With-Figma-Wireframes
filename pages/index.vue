@@ -8,10 +8,7 @@
       <h2 class="subtitle">
         Mass Immersion Approach Website
       </h2>
-      <article>
-        <h1>{{ page.title }}</h1>
-        <nuxt-content :document="page" />
-      </article>
+
       <div class="card">
         <h1>Overview</h1>
       </div>
@@ -51,13 +48,6 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo,
-  },
-  async asyncData({ $content }) {
-    const page = await $content('test').fetch()
-
-    return {
-      page,
-    }
   },
 }
 </script>
