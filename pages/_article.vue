@@ -25,26 +25,6 @@ export default {
   border: 0;
   font-size: 100%;
 }
-/* .nuxt-content p {
-  display: block;
-  width: calc(100% - 40px);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-  max-width: 600px;
-  font-size: 20px;
-  line-height: 30px;
-}
-.nuxt-content img {
-  display: block;
-  width: calc(100% - 40px);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-  max-width: 600px;
-  font-size: 20px;
-  line-height: 30px;
-} */
 .nuxt-content {
   p,
   img,
