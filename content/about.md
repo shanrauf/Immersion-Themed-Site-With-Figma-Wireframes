@@ -3,7 +3,7 @@ title: About the Mass Immersion Approach
 description: Here is an overview of the Mass Immersion Approach.
 ---
 
-<dynamic-image filename="mia.png"></dynamic-image>
+<dynamic-image src="mia.png"></dynamic-image>
 
 <br />
 

@@ -7,7 +7,7 @@ export default {
   name: 'DynamicImage',
 
   props: {
-    filename: {
+    src: {
       type: String,
       required: true,
     },
@@ -15,7 +15,7 @@ export default {
 
   computed: {
     dynamicImage() {
-      return require(`~/assets/${this.filename}`)
+      return require(`~/assets/${this.src}`)
     },
   },
 }
