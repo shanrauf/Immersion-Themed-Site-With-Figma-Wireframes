@@ -8,7 +8,6 @@
             The Mass Immersion Approach seeks to optimize the path to true
             foreign language proficiency
           </p>
-          <MovingWaveButton>Button</MovingWaveButton>
           <LiquidButton ripple hover-wave>Button</LiquidButton>
         </div>
         <div class="image">
@@ -24,6 +23,7 @@
 
     <section class="content">
       <p>MIA | 2020 | Free to use</p>
+      <MovingWaveButton>Immerse</MovingWaveButton>
     </section>
   </div>
 </template>

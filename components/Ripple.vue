@@ -1,11 +1,11 @@
 <template>
   <div class="ripple-container">
-    <span class="ripple r1"></span>
-    <span class="ripple r2"></span>
-    <span class="ripple r3"></span>
-    <span class="ripple r4"></span>
-    <span class="ripple r5"></span>
-    <span class="ripple r6"></span>
+    <div class="ripple r1"></div>
+    <div class="ripple r2"></div>
+    <div class="ripple r3"></div>
+    <div class="ripple r4"></div>
+    <div class="ripple r5"></div>
+    <div class="ripple r6"></div>
   </div>
 </template>
 
@@ -15,20 +15,23 @@ export default {}
 
 <style>
 .ripple-container {
-  /* position: absolute;
-  top: 50%;
-  left: 50%; */
-  transform: translate(-50%, -50%) rotateX(70deg);
+  position: relative;
+  height: 240px;
+  width: 500px;
+  top: -125px;
 }
+
 .ripple {
   position: absolute;
-  top: -50px;
-  transform: translateX(-50%);
-  width: 20px;
-  height: 20px;
+  margin: auto;
+  top: 100px;
+  left: 200px;
+  width: 100px;
+  height: 40px;
   border-radius: 50%;
   animation: ripple 4s linear infinite;
 }
+
 .r2 {
   animation-delay: 0.8s;
 }
@@ -44,31 +47,20 @@ export default {}
 .r6 {
   animation-delay: 4s;
 }
-/* @keyframes ripple {
-  from {
-    border: 4px solid #8e44ad;
-    background: #9b59b670;
-  }
-  to {
-    border: 0px solid #8e44ad;
-    background: #9b59b670;
-    width: 400px;
-    height: 400px;
-    top: 20px;
-    opacity: 0;
-  }
-} */
+
 @keyframes ripple {
   from {
     border: 4px solid rgb(175, 175, 175);
     background: lightgray;
+    opacity: 0.7;
   }
   to {
+    top: 20px;
+    left: 0px;
     border: 0px solid rgb(175, 175, 175);
     background: lightgray;
-    width: 400px;
-    height: 400px;
-    top: 20px;
+    width: 500px;
+    height: 200px;
     opacity: 0;
   }
 }
