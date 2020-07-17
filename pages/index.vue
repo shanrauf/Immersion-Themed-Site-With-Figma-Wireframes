@@ -1,88 +1,118 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        massimmersionapproach.com
-      </h1>
-      <h2 class="subtitle">
-        Mass Immersion Approach Website
-      </h2>
-
-      <div class="card">
-        <h1>Overview</h1>
+  <div>
+    <section class="hero-section">
+      <div class="hero-container">
+        <div class="tagline">
+          <h1>A comprehensive approach to acquiring foreign languages</h1>
+          <p>
+            The Mass Immersion Approach seeks to optimize the path to true
+            foreign language proficiency
+          </p>
+          <MovingWaveButton>Button</MovingWaveButton>
+          <LiquidButton ripple hover-wave>Button</LiquidButton>
+        </div>
+        <div class="image">
+          <DynamicImage src="mia.png" style="z-index: 1;" />
+          <Ripple />
+        </div>
       </div>
-      <br />
-      <br />
 
-      <div
-        class="card"
-        style="display: flex; flex-direction: column; align-items: flex-start;"
-      >
-        <h2>Stage 1</h2>
-        <h2>Stage 2</h2>
-        <h2>Stage 3</h2>
+      <div>
+        <MovingWaves />
       </div>
-      <br />
-      <br />
+    </section>
 
-      <div class="card">
-        <h2>Theory</h2>
-        <h3>article 1</h3>
-        <h3>article 2</h3>
-      </div>
-      <br />
-
-      <div class="card">
-        <h2>Other</h2>
-      </div>
-      <br />
-      <br />
-    </div>
+    <section class="content">
+      <p>MIA | 2020 | Free to use</p>
+    </section>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import MovingWaves from '~/components/MovingWaves.vue'
+import MovingWaveButton from '~/components/MovingWaveButton.vue'
+import LiquidButton from '~/components/LiquidButton.vue'
+import Ripple from '~/components/Ripple.vue'
 
 export default {
   components: {
-    Logo,
+    MovingWaves,
+    MovingWaveButton,
+    LiquidButton,
+    Ripple,
   },
 }
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 48px;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.hero-section {
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+  color: white;
+}
+.hero-container {
+  height: 65vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.tagline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 750px;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  height: 1000px;
+}
+.content {
+  position: relative;
+  height: 20vh;
+  text-align: center;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-.card {
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .content {
+    height: 30vh;
+  }
+  h1 {
+    font-size: 24px;
+  }
 }
 </style>
