@@ -43,17 +43,11 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
-  ],
+  buildModules: ['@nuxtjs/typescript-build'],
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    // Doc: https://github.com/nuxt/content
-    '@nuxt/content',
-  ],
+  modules: ['@nuxtjs/pwa', '@nuxt/content'],
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration
