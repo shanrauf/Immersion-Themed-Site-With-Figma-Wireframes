@@ -3,8 +3,10 @@
     <section class="hero-section">
       <div class="hero-container">
         <div class="tagline">
-          <h1>A comprehensive approach to acquiring foreign languages</h1>
-          <p>
+          <h1 class="title">
+            A comprehensive approach to acquiring foreign languages
+          </h1>
+          <p class="description">
             The Mass Immersion Approach seeks to optimize the path to true
             foreign language proficiency
           </p>
@@ -21,25 +23,37 @@
       </div>
     </section>
 
-    <section class="content">
-      <p>MIA | 2020 | Free to use</p>
-      <MovingWaveButton>Immerse</MovingWaveButton>
+    <Timeline />
+    <section class="more-content">
+      <div class="card">
+        <h2>Theory</h2>
+      </div>
+      <div class="card">
+        <h2>Practice</h2>
+      </div>
+      <div class="card">
+        <h2>Extra</h2>
+      </div>
     </section>
+    <BaseFooter />
   </div>
 </template>
 
 <script>
+import Timeline from '../components/Timeline.vue'
+import BaseFooter from '../components/BaseFooter.vue'
 import MovingWaves from '~/components/MovingWaves.vue'
-import MovingWaveButton from '~/components/MovingWaveButton.vue'
 import LiquidButton from '~/components/LiquidButton.vue'
 import Ripple from '~/components/Ripple.vue'
 
 export default {
+  layout: 'default',
   components: {
     MovingWaves,
-    MovingWaveButton,
     LiquidButton,
     Ripple,
+    Timeline,
+    BaseFooter,
   },
 }
 </script>
@@ -51,13 +65,13 @@ body {
   margin: 0;
 }
 
-h1 {
+.title {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
   font-size: 48px;
 }
-p {
+.description {
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
   font-size: 14px;
@@ -95,23 +109,21 @@ p {
   width: 1000px;
   height: 1000px;
 }
-.content {
-  position: relative;
-  height: 20vh;
-  text-align: center;
-  background-color: white;
+.more-content {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px;
+  height: 250px;
 }
 
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
-  .content {
-    height: 30vh;
-  }
-  h1 {
+  .title {
     font-size: 24px;
   }
 }

@@ -2,7 +2,7 @@
   <nuxt />
 </template>
 
-<style>
+<style scoped>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -15,7 +15,7 @@ html {
   box-sizing: border-box;
 }
 
-*,
+/* *,
 *:before,
 *:after {
   box-sizing: border-box;
@@ -23,5 +23,5 @@ html {
   padding: 0;
   border: 0;
   font-size: 100%;
-}
+} */
 </style>
