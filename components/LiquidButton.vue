@@ -73,7 +73,7 @@ button {
   white-space: nowrap;
   color: #fff;
   background: transparent;
-  background-image: url(https://web.archive.org/web/20160312084140im_/http://splatoon.nintendo.com/assets/img/nav-bg-fill-blue.png?1443460871);
+  background-image: url('../assets/nav-bg-fill-blue.png');
   background-repeat: repeat-x;
   background-position: 0 -100%;
   transition: 1.5s ease;

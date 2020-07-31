@@ -3,17 +3,17 @@
     <section class="hero-section">
       <div class="hero-container">
         <div class="tagline">
-          <h1 class="title">
-            A comprehensive approach to acquiring foreign languages
+          <h1 class="heading-1">
+            A comprehensive guide to reach fluency
           </h1>
-          <p class="description">
+          <p class="body-intro-text">
             The Mass Immersion Approach seeks to optimize the path to true
             foreign language proficiency
           </p>
-          <LiquidButton ripple hover-wave>Button</LiquidButton>
+          <PrimaryButton>Button</PrimaryButton>
         </div>
         <div class="image">
-          <DynamicImage src="mia.png" style="z-index: 1;" />
+          <DynamicImage src="mia_gradient.svg" style="z-index: 1;" />
           <Ripple />
         </div>
       </div>
@@ -43,14 +43,14 @@
 import Timeline from '../components/Timeline.vue'
 import BaseFooter from '../components/BaseFooter.vue'
 import MovingWaves from '~/components/MovingWaves.vue'
-import LiquidButton from '~/components/LiquidButton.vue'
+import PrimaryButton from '~/components/PrimaryButton.vue'
 import Ripple from '~/components/Ripple.vue'
 
 export default {
   layout: 'default',
   components: {
     MovingWaves,
-    LiquidButton,
+    PrimaryButton,
     Ripple,
     Timeline,
     BaseFooter,
@@ -59,31 +59,8 @@ export default {
 </script>
 
 <style>
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
-body {
-  margin: 0;
-}
-
-.title {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 48px;
-}
-.description {
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 1px;
-  font-size: 14px;
-  color: #333333;
-}
-
 .hero-section {
-  background: linear-gradient(
-    60deg,
-    rgba(84, 58, 183, 1) 0%,
-    rgba(0, 172, 193, 1) 100%
-  );
+  background: linear-gradient(60deg, #6a00c1 0%, rgba(0, 172, 193, 1) 100%);
   color: white;
 }
 .hero-container {
@@ -98,8 +75,10 @@ body {
 .tagline {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 750px;
+  align-items: flex-start;
+  width: 800px;
+  height: 400px;
+  justify-content: space-between;
 }
 .image {
   display: flex;
