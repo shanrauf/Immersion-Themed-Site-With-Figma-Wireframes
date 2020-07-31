@@ -11,10 +11,10 @@
         }"
       >
         <div class="content">
-          <h2>{{ entry.title }}</h2>
-          <p>
-            {{ entry.description }}
-          </p>
+          <StageCard :background="entry.background" :color="entry.color">
+            <template #subtitle>{{ entry.title }}</template>
+            <template #heading>{{ entry.description }}</template>
+          </StageCard>
         </div>
       </div>
     </div>
@@ -22,25 +22,71 @@
 </template>
 
 <script>
+import StageCard from '~/components/StageCard.vue'
+
 export default {
+  components: {
+    StageCard,
+  },
+  mounted() {
+    /* eslint-disable */
+    function debounce(func, wait = 15, immediate = true) {
+      var timeout
+      return function () {
+        var context = this,
+          args = arguments
+        var later = function () {
+          timeout = null
+          if (!immediate) func.apply(context, args)
+        }
+        var callNow = immediate && !timeout
+        clearTimeout(timeout)
+        timeout = setTimeout(later, wait)
+        if (callNow) func.apply(context, args)
+      }
+    }
+    // setup timeline item scroll listeners
+    const cards = document.querySelectorAll('.content')
+    const checkSlide = () => {
+      const buffer = 50
+      cards.forEach((card) => {
+        const cardRect = card.getBoundingClientRect()
+        const slideInAt =
+          window.scrollY + window.innerHeight - cardRect.height / 2
+        const isHalfShown = slideInAt - buffer > cardRect.bottom
+        if (isHalfShown) {
+          card.classList.add('active')
+        }
+      })
+    }
+    document.addEventListener('scroll', debounce(checkSlide))
+  },
   data() {
     return {
       timelineItems: [
         {
           title: 'Stage 1',
           description: 'Laying the Groundwork',
+          color: 'white',
+          background: 'linear-gradient(126.53deg, #844eff 0.04%, #88f8ff 100%)',
         },
         {
           title: 'Stage 2',
-          description: 'Building Comprehension and Stuff',
+          description: 'Building Comprehension',
+          color: 'white',
+          background: '#02457A',
         },
         {
           title: 'Stage 3',
-          description: 'Laying the Groundwork',
+          description: 'Basic Fluency',
+          color: 'black',
+          background: 'rgba(255, 255, 255, 0.6)',
         },
         {
           title: 'Stage  4',
-          description: 'Building Comprehension and Stuff',
+          description: 'Comprehensive Fluency and Beyond',
+          color: 'white',
+          background: 'linear-gradient(239.91deg, #00C19C 0%, #6A00C1 100%)',
         },
       ],
     }
@@ -48,14 +94,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 * {
   box-sizing: border-box;
 }
 
 /* Set a background color */
 .timeline-wrapper {
-  background-color: #19529c;
+  // background-color: #f2f6ff;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -70,7 +116,8 @@ export default {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  border-radius: 10px;
+  background-color: #2da1e7;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -80,6 +127,7 @@ export default {
 /* Container around content */
 .entry-container {
   padding: 10px 50px;
+  margin-bottom: 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -94,7 +142,8 @@ export default {
   right: -17px;
   background-color: #61d4e8;
   border: 4px solid #2da1e7;
-  top: 15px;
+  // top: 15px;
+  top: 50%;
   border-radius: 50%;
   z-index: 1;
 }
@@ -109,34 +158,6 @@ export default {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
-.left::before {
-  content: ' ';
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right::before {
-  content: ' ';
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-}
-
 /* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
@@ -144,10 +165,28 @@ export default {
 
 /* The actual content */
 .content {
-  padding: 20px 30px;
-  background-color: white;
+  min-width: 300px;
+  min-height: 260px;
   position: relative;
   border-radius: 6px;
+  top: 20px;
+}
+
+.left .content {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateX(-30%) scale(0.95);
+}
+
+.right .content {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateX(30%) scale(0.95);
+}
+
+.content.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

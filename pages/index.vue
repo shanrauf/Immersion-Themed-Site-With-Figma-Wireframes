@@ -10,7 +10,7 @@
             The Mass Immersion Approach seeks to optimize the path to true
             foreign language proficiency
           </p>
-          <PrimaryButton>Button</PrimaryButton>
+          <PrimaryButton>Get Started</PrimaryButton>
         </div>
         <div class="image">
           <DynamicImage src="mia_gradient.svg" style="z-index: 1;" />
@@ -18,20 +18,24 @@
         </div>
       </div>
 
-      <div>
-        <MovingWaves />
-      </div>
+      <MovingWaves />
     </section>
 
-    <Timeline />
+    <section class="roadmap-section">
+      <h2 class="heading-2 roadmap-title">
+        Roadmap
+      </h2>
+      <Timeline />
+    </section>
+
     <section class="more-content">
-      <div class="card">
+      <div class="more-card">
         <h2>Theory</h2>
       </div>
-      <div class="card">
+      <div class="more-card">
         <h2>Practice</h2>
       </div>
-      <div class="card">
+      <div class="more-card">
         <h2>Extra</h2>
       </div>
     </section>
@@ -88,6 +92,28 @@ export default {
   width: 1000px;
   height: 1000px;
 }
+.roadmap-section {
+  padding: 25px 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.roadmap-section:before {
+  content: '';
+  position: absolute;
+  top: -200px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../assets/blue-strokes.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.roadmap-title {
+  text-align: center;
+  background: #f2f6ff;
+  padding-bottom: 20px;
+}
 .more-content {
   display: flex;
   flex-direction: row;
@@ -95,7 +121,7 @@ export default {
   flex-wrap: wrap;
 }
 
-.card {
+.more-card {
   width: 400px;
   height: 250px;
 }
