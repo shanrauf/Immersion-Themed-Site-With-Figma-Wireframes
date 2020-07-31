@@ -105,7 +105,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../assets/blue-strokes.svg');
+  background-image: url('../assets/blue-strokes.png');
   background-position: right;
   background-repeat: no-repeat;
 }
