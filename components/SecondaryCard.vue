@@ -65,7 +65,7 @@ export default {
 .secondary-card:hover {
   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25);
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .secondary-card {
     width: 100%;
   }

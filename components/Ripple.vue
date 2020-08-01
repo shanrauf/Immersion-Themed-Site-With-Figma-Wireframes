@@ -1,16 +1,38 @@
 <template>
   <div class="ripple-container">
-    <div class="ripple r1"></div>
-    <div class="ripple r2"></div>
-    <div class="ripple r3"></div>
-    <div class="ripple r4"></div>
-    <div class="ripple r5"></div>
-    <div class="ripple r6"></div>
+    <template v-if="delayOver">
+      <div class="ripple r1"></div>
+      <div class="ripple r2"></div>
+      <div class="ripple r3"></div>
+      <div class="ripple r4"></div>
+      <div class="ripple r5"></div>
+      <div class="ripple r6"></div>
+    </template>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    /* seconds */
+    delay: {
+      type: String,
+      required: false,
+      default: '0',
+    },
+  },
+  data() {
+    return {
+      delayOver: false,
+    }
+  },
+  created() {
+    const delay = parseInt(this.delay) * 1000
+    setTimeout(() => {
+      this.delayOver = true
+    }, delay)
+  },
+}
 </script>
 
 <style>
@@ -18,7 +40,14 @@ export default {}
   position: relative;
   height: 240px;
   width: 500px;
-  top: -125px;
+  top: -150px;
+}
+
+@media (max-width: 800px) {
+  .ripple-container {
+    width: 300px;
+    right: 100px;
+  }
 }
 
 .ripple {
@@ -47,6 +76,8 @@ export default {}
 .r6 {
   animation-delay: 4s;
 }
+
+/* Animations */
 
 @keyframes ripple {
   from {

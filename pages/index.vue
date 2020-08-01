@@ -12,9 +12,13 @@
           </p>
           <PrimaryButton>Get Started</PrimaryButton>
         </div>
-        <div class="image">
-          <DynamicImage src="mia_gradient.svg" style="z-index: 1;" />
-          <Ripple />
+        <div class="hero-image-container">
+          <DynamicImage
+            class="hero-image"
+            src="mia_gradient.svg"
+            style="z-index: 1;"
+          />
+          <Ripple delay="1" />
         </div>
       </div>
 
@@ -85,30 +89,31 @@ export default {
 }
 .hero-container {
   height: 65vh;
-  margin: 0;
-  padding: 0;
+  padding: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
 }
 .tagline {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 800px;
-  height: 400px;
+  max-width: 800px;
 }
 #hero-subtitle {
   margin: 20px 0 50px 0;
 }
-.image {
+.hero-image-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 1000px;
-  height: 1000px;
+  width: 400px;
+  height: 350px;
+}
+.hero-image {
+  animation: fade-slide-down 2s cubic-bezier(0, 0.5, 0, 1);
 }
 .roadmap-section {
   padding: 25px 0;
@@ -133,7 +138,7 @@ export default {
   top: 0;
   left: -200px;
   right: 0;
-  bottom: -0;
+  bottom: -300px;
   background-image: url('../assets/purple-blob.png');
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -161,12 +166,49 @@ export default {
   flex-wrap: wrap;
 }
 .more-card {
-  margin: 0 20px;
+  margin: 0 20px 20px 20px;
+}
+@media (max-width: 1100px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    padding: 15px;
+  }
+  .tagline {
+    align-items: center;
+    text-align: center;
+  }
 }
 /*Shrinking for mobile*/
-@media (max-width: 768px) {
-  .title {
-    font-size: 24px;
+@media (max-width: 800px) {
+  .hero-container {
+    align-items: center;
+    height: 60vh;
+  }
+  .hero-image-container {
+    width: 100%;
+    height: 350px;
+  }
+  .roadmap-section:before {
+    /* right: -300px; */
+    background-size: 50%;
+  }
+  .roadmap-section:after {
+    background-size: 50%;
+  }
+}
+
+/* Animations */
+
+@keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: none;
   }
 }
 </style>

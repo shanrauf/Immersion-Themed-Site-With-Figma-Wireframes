@@ -95,13 +95,9 @@ export default {
 </script>
 
 <style lang="scss">
-* {
-  box-sizing: border-box;
-}
-
 /* Set a background color */
 .timeline-wrapper {
-  // background-color: #f2f6ff;
+  overflow-x: hidden;
 }
 
 /* The actual timeline (the vertical ruler) */

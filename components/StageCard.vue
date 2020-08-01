@@ -39,12 +39,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .card {
-  padding: 20px;
-  min-width: 500px;
-  min-height: 260px;
-  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 25px;
+  width: 500px;
+  height: 260px;
+  border-radius: 10px;
+  /* border-radius: 30px; */
   text-decoration: none;
   position: relative;
   display: flex;
@@ -59,24 +61,24 @@ export default {
   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25);
 }
 .card:before {
-  /* Strange aboslute positioning and size because the bg image overflows the card... */
   content: '';
   position: absolute;
-  top: 1px;
+  top: 2px;
   left: 0;
-  right: 9px;
+  right: 0;
   background-image: url('../assets/gradient_swirls.svg');
   bottom: 0;
-  max-width: 98.5%;
+  max-width: 100%;
 }
 /* Place text above background image */
 #card-title,
 #card-subtitle {
   z-index: 1;
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .card {
     width: 100%;
+    height: 200px;
   }
 }
 </style>
