@@ -8,11 +8,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 html,
 body {
   font-family: SF Pro;
-  box-sizing: border-box;
+  width: 100%;
 }
 
 .heading-1 {

@@ -13,7 +13,7 @@
         d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
       />
     </defs>
-    <g class="parallax">
+    <g :class="{ parallax: moving ? true : false }">
       <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
       <use
         xlink:href="#gentle-wave"
@@ -33,7 +33,15 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    moving: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+  },
+}
 </script>
 
 <style>

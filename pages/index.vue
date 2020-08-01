@@ -6,7 +6,7 @@
           <h1 class="heading-1">
             A comprehensive guide to reach fluency
           </h1>
-          <p class="body-intro-text">
+          <p id="hero-subtitle" class="body-intro-text">
             The Mass Immersion Approach seeks to optimize the path to true
             foreign language proficiency
           </p>
@@ -18,7 +18,7 @@
         </div>
       </div>
 
-      <MovingWaves />
+      <Waves moving />
     </section>
 
     <section class="roadmap-section">
@@ -28,15 +28,29 @@
       <Timeline />
     </section>
 
-    <section class="more-content">
-      <div class="more-card">
-        <h2>Theory</h2>
-      </div>
-      <div class="more-card">
-        <h2>Practice</h2>
-      </div>
-      <div class="more-card">
-        <h2>Extra</h2>
+    <section class="more-from-mia-section">
+      <h2 id="more-from-mia-heading" class="heading-2">More From MIA</h2>
+      <div class="more-cards">
+        <SecondaryCard href="/stage-1" class="more-card">
+          <template #heading>Theory</template>
+          <template #subtitle
+            >In-depth descriptions of what makes MIA work and other cool
+            stuff... access here :D</template
+          >
+        </SecondaryCard>
+        <SecondaryCard href="/stage-2" class="more-card">
+          <template #heading>Practice</template>
+          <template #subtitle
+            >Articles explaining practical methods to do the method and stuff
+            like that... access here :D</template
+          > </SecondaryCard
+        ><SecondaryCard href="/stage-3" class="more-card">
+          <template #heading>Extra</template>
+          <template #subtitle
+            >Anki addon guides, MIA success stories, etc... access here
+            :D</template
+          >
+        </SecondaryCard>
       </div>
     </section>
     <BaseFooter />
@@ -46,17 +60,19 @@
 <script>
 import Timeline from '../components/Timeline.vue'
 import BaseFooter from '../components/BaseFooter.vue'
-import MovingWaves from '~/components/MovingWaves.vue'
+import Waves from '~/components/Waves.vue'
 import PrimaryButton from '~/components/PrimaryButton.vue'
 import Ripple from '~/components/Ripple.vue'
+import SecondaryCard from '~/components/SecondaryCard.vue'
 
 export default {
   layout: 'default',
   components: {
-    MovingWaves,
+    Waves,
     PrimaryButton,
     Ripple,
     Timeline,
+    SecondaryCard,
     BaseFooter,
   },
 }
@@ -82,7 +98,9 @@ export default {
   align-items: flex-start;
   width: 800px;
   height: 400px;
-  justify-content: space-between;
+}
+#hero-subtitle {
+  margin: 20px 0 50px 0;
 }
 .image {
   display: flex;
@@ -109,23 +127,42 @@ export default {
   background-position: right;
   background-repeat: no-repeat;
 }
+.roadmap-section:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -200px;
+  right: 0;
+  bottom: -0;
+  background-image: url('../assets/purple-blob.png');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
 .roadmap-title {
   text-align: center;
   background: #f2f6ff;
   padding-bottom: 20px;
 }
-.more-content {
+.more-from-mia-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+#more-from-mia-heading {
+  margin-bottom: 20px;
+}
+.more-cards {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .more-card {
-  width: 400px;
-  height: 250px;
+  margin: 0 20px;
 }
-
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
   .title {

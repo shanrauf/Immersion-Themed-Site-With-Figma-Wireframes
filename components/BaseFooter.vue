@@ -1,30 +1,20 @@
 <template>
   <footer class="site-footer">
     <div class="footer-container">
-      <!-- <ul class="social-media">
-        <li>
-          <a href="https://facebook.com/ummahacks"
-            ><i class="fab fa-facebook-square"></i
-          ></a>
-        </li>
-        <li>
-          <a href="http://twitter.com/ummahacks"
-            ><i class="fab fa-twitter-square"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/ummahacks/"
-            ><i class="fab fa-instagram"></i
-          ></a>
-        </li>
-      </ul> -->
+      <SocialIcons />
       <p class="contact-message">Mass Immersion Approach &copy; 2020</p>
     </div>
   </footer>
 </template>
 
 <script>
-export default {}
+import SocialIcons from '~/components/SocialIcons.vue'
+
+export default {
+  components: {
+    SocialIcons,
+  },
+}
 </script>
 
 <style>
