@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    <h1>Stage 2</h1>
+  </div>
 </template>
 
 <script>

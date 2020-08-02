@@ -15,7 +15,7 @@
         <div class="hero-image-container">
           <DynamicImage
             class="hero-image"
-            src="mia_gradient.svg"
+            src="mia_gradient.png"
             style="z-index: 1;"
           />
           <Ripple delay="1" />
@@ -57,13 +57,11 @@
         </SecondaryCard>
       </div>
     </section>
-    <BaseFooter />
   </div>
 </template>
 
 <script>
 import Timeline from '../components/Timeline.vue'
-import BaseFooter from '../components/BaseFooter.vue'
 import Waves from '~/components/Waves.vue'
 import PrimaryButton from '~/components/PrimaryButton.vue'
 import Ripple from '~/components/Ripple.vue'
@@ -77,7 +75,6 @@ export default {
     Ripple,
     Timeline,
     SecondaryCard,
-    BaseFooter,
   },
 }
 </script>
@@ -88,7 +85,7 @@ export default {
   color: white;
 }
 .hero-container {
-  height: 65vh;
+  min-height: 900px;
   padding: 30px;
   display: flex;
   flex-direction: row;
@@ -162,7 +159,7 @@ export default {
 .more-cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .more-card {
@@ -182,7 +179,6 @@ export default {
 @media (max-width: 800px) {
   .hero-container {
     align-items: center;
-    height: 60vh;
   }
   .hero-image-container {
     width: 100%;

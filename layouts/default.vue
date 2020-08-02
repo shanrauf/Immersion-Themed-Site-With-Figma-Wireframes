@@ -1,8 +1,20 @@
 <template>
   <div>
     <nuxt />
+    <BaseFooter />
   </div>
 </template>
+
+<script>
+import BaseFooter from '~/components/BaseFooter.vue'
+
+export default {
+  transition: 'page',
+  components: {
+    BaseFooter,
+  },
+}
+</script>
 
 <style>
 * {
@@ -17,7 +29,7 @@
 }
 html,
 body {
-  font-family: SF Pro;
+  font-family: SF Pro, Roboto;
   width: 100%;
 }
 

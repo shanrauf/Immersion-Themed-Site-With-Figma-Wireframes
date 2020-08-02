@@ -1,21 +1,21 @@
 <template>
-  <a :href="href" :style="styles" class="card">
+  <nuxt-link :to="to" :style="styles" class="card">
     <span id="card-subtitle" class="body-main-text">
       <slot name="subtitle"></slot>
     </span>
     <span id="card-title" class="heading-4">
       <h3><slot name="heading"></slot></h3>
     </span>
-  </a>
+  </nuxt-link>
 </template>
 
 <script>
 export default {
   props: {
-    href: {
+    to: {
       type: String,
       required: false,
-      default: '#',
+      default: '/',
     },
     background: {
       type: String,
@@ -43,8 +43,8 @@ export default {
 .card {
   box-sizing: border-box;
   padding: 25px;
-  width: 500px;
-  height: 260px;
+  width: 450px;
+  height: 250px;
   border-radius: 10px;
   /* border-radius: 30px; */
   text-decoration: none;
@@ -78,6 +78,12 @@ export default {
 @media (max-width: 800px) {
   .card {
     width: 100%;
+    height: 200px;
+  }
+}
+@media (max-width: 360px) {
+  .card {
+    width: 95%;
     height: 200px;
   }
 }

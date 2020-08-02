@@ -11,7 +11,11 @@
         }"
       >
         <div class="content">
-          <StageCard :background="entry.background" :color="entry.color">
+          <StageCard
+            :to="entry.to"
+            :background="entry.background"
+            :color="entry.color"
+          >
             <template #subtitle>{{ entry.title }}</template>
             <template #heading>{{ entry.description }}</template>
           </StageCard>
@@ -69,24 +73,28 @@ export default {
           description: 'Laying the Groundwork',
           color: 'white',
           background: 'linear-gradient(126.53deg, #844eff 0.04%, #88f8ff 100%)',
+          to: '/stage-1',
         },
         {
           title: 'Stage 2',
           description: 'Building Comprehension',
           color: 'white',
           background: '#02457A',
+          to: '/stage-2',
         },
         {
           title: 'Stage 3',
           description: 'Basic Fluency',
           color: 'black',
           background: 'rgba(255, 255, 255, 0.6)',
+          to: '/stage-3',
         },
         {
           title: 'Stage  4',
           description: 'Comprehensive Fluency and Beyond',
           color: 'white',
           background: 'linear-gradient(239.91deg, #00C19C 0%, #6A00C1 100%)',
+          to: '/stage-4',
         },
       ],
     }

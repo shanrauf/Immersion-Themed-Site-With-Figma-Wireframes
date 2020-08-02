@@ -48,6 +48,7 @@ export default {
 .waves {
   position: relative;
   width: 100%;
+  /* TODO: Check if vh will be fine for Safari? */
   height: 15vh;
   margin-bottom: -7px; /*Fix for safari gap*/
   min-height: 100px;
