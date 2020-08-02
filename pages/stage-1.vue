@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="stage-1-container">
     <section class="stage-hero-section">
       <div class="stage-hero">
         <div class="stage-hero-content">
@@ -21,9 +21,10 @@
     </section>
 
     <section class="stage-description-section">
-      <h2 class="heading-2 roadmap-title">
-        Roadmap
+      <h2 class="heading-2 stage-description-title">
+        Overview
       </h2>
+      <AlternatingContent :content="content" />
     </section>
 
     <section class="relevant-articles-section">
@@ -59,12 +60,35 @@
 <script>
 import SecondaryCard from '~/components/SecondaryCard.vue'
 import StageCard from '~/components/StageCard.vue'
+import AlternatingContent from '~/components/AlternatingContent.vue'
 
 export default {
   layout: 'default',
   components: {
     SecondaryCard,
     StageCard,
+    AlternatingContent,
+  },
+  data() {
+    return {
+      content: [
+        {
+          heading: 'Phonetic System',
+          description:
+            "Learn how the langauge sounds so that you can actually learn the language... duhhhhhhh. Good luck! That is all the guidance we're giving you!",
+        },
+        {
+          heading: 'Writing System',
+          description:
+            "Learn how to read the language so that you can learn the language by reading the language... duhhhhhhh. Good luck! That is all the guidance we're giving you!",
+        },
+        {
+          heading: 'Basic Vocabulary',
+          description:
+            "Learn the most common vocabulary in the langauge so that you suck less when you embark on your language learning journey... duhhhhhhh. Good luck! That is all the guidance we're giving you!",
+        },
+      ],
+    }
   },
 }
 </script>
@@ -96,6 +120,14 @@ export default {
   .stage-hero-section:before {
     top: -500px;
   }
+}
+.stage-description-section {
+  margin: 0 25px;
+}
+.stage-description-title {
+  text-align: center;
+  background: #f2f6ff;
+  padding-bottom: 50px;
 }
 .stage-card-container {
   max-width: 500px;

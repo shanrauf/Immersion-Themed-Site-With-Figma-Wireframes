@@ -1,67 +1,24 @@
 <template>
-  <div class="content-container">
-    <div class="layout">
-      <div class="layout__item layout__item--body">
-        <h2>Lorem Ipsum</h2>
+  <div>
+    <div
+      v-for="section in content"
+      :key="section.heading"
+      class="alternating-content-layout"
+    >
+      <div
+        class="alternating-content-layout__item alternating-content-layout__item--body"
+      >
+        <h2 class="content-heading">{{ section.heading }}</h2>
         <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua.
+          {{ section.description }}
         </p>
       </div>
-      <div class="layout__item layout__item--figure">
+      <div
+        class="alternating-content-layout__item alternating-content-layout__item--figure"
+      >
         <img
+          class="content-img"
           src="https://images.unsplash.com/photo-1516750930166-ed88ab1adb61?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=65c8f6fcafaf68f5fa434b5f076780fd&auto=format&fit=crop&w=600&q=80"
-          alt=""
-        />
-      </div>
-    </div>
-    <div class="layout">
-      <div class="layout__item layout__item--body">
-        <h2>Lorem Ipsum</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua.
-        </p>
-      </div>
-      <div class="layout__item layout__item--figure">
-        <img
-          src="https://images.unsplash.com/photo-1515362790300-999394721afc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2a78b6877abab91c16e757ada8c55e32&auto=format&fit=crop&w=600&q=80"
-          alt=""
-        />
-      </div>
-    </div>
-
-    <div class="layout">
-      <div class="layout__item layout__item--body">
-        <h2>Lorem Ipsum</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua.
-        </p>
-      </div>
-      <div class="layout__item layout__item--figure">
-        <img
-          src="https://images.unsplash.com/photo-1514747348279-46eb4082b804?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1b169d9f50db7714cd7373a3c181162a&auto=format&fit=crop&w=600&q=80"
-          alt=""
-        />
-      </div>
-    </div>
-
-    <div class="layout">
-      <div class="layout__item layout__item--body">
-        <h2>Lorem Ipsum</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua.
-        </p>
-      </div>
-      <div class="layout__item layout__item--figure">
-        <img
-          src="https://images.unsplash.com/photo-1513843000111-3eb82159a25c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82618557ca42a6477f6bb9390eea27bc&auto=format&fit=crop&w=600&q=80"
           alt=""
         />
       </div>
@@ -70,10 +27,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    content: {
+      type: Array,
+      required: true,
+      default: () => [],
+    },
+  },
+}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 $min-width: 15rem;
 
 // 1. Add horizontal and vertical spacing between items.
@@ -83,7 +48,7 @@ $min-width: 15rem;
 // 5. Require at least this amount of space or wrap.
 // 6. Prevent images from sticking to the right in single column mode.
 // 7. (Try to) take as much space as the content needs.
-.layout {
+.alternating-content-layout {
   display: flex;
   flex-wrap: wrap;
   margin-top: -1em; // 1
@@ -127,22 +92,12 @@ $min-width: 15rem;
   }
 }
 
-// MISC
-body {
-  max-width: 64em;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 3em 1em;
-  line-height: 1.5em;
-  font-family: sans-serif;
-}
-
-h2 {
+.content-heading {
   font-size: 2em;
   line-height: 1.2;
 }
 
-img {
+.content-img {
   max-width: 100%;
   max-height: 100%;
   width: auto;
@@ -150,7 +105,7 @@ img {
   vertical-align: middle;
 }
 
-.layout {
+.alternating-content-layout {
   &__item {
     * + * {
       margin-top: 1em;
