@@ -2,26 +2,24 @@
   <div class="stage-1-container">
     <section class="stage-hero-section">
       <div class="stage-hero">
-        <div class="stage-hero-content">
-          <h1 class="hero-heading heading-1" style="color: white;">
-            Learn the phonetic system, basic grammar, and basic vocabulary
-          </h1>
-          <div class="stage-card-container">
-            <StageCard
-              color="white"
-              background="linear-gradient(126.53deg, #844eff 0.04%, #88f8ff 100%)"
-              to="/stage-1"
-            >
-              <template #heading>Laying the Groundwork</template>
-              <template #subtitle>Stage 1</template></StageCard
-            >
-          </div>
+        <h1 class="stage-hero-heading heading-1" style="color: white;">
+          Learn the phonetic system, basic grammar, and basic vocabulary
+        </h1>
+        <div class="stage-card-container">
+          <StageCard
+            color="white"
+            background="linear-gradient(126.53deg, #844eff 0.04%, #88f8ff 100%)"
+            to="/stage-1"
+          >
+            <template #heading>Laying the Groundwork</template>
+            <template #subtitle>Stage 1</template></StageCard
+          >
         </div>
       </div>
     </section>
 
-    <section class="stage-description-section">
-      <h2 class="heading-2 stage-description-title">
+    <section class="stage-description-section" style="background: inherit;">
+      <h2 class="heading-2 stage-overview-heading">
         Overview
       </h2>
       <AlternatingContent :content="content" />
@@ -93,64 +91,84 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .stage-hero-section {
   color: white;
   position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
 }
-.stage-hero-section:before {
+.stage-1-container:after {
+  position: fixed;
   content: '';
-  position: absolute;
-  top: -800px;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background-image: url('../assets/stage-1-blob.svg');
-  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   z-index: -1;
 }
-@media (min-width: 1700px) {
-  .stage-hero-section:before {
-    top: -300px;
-  }
-}
-@media (min-width: 2100px) {
-  .stage-hero-section:before {
-    top: -500px;
-  }
-}
-.stage-description-section {
-  margin: 0 25px;
-}
-.stage-description-title {
-  text-align: center;
-  background: #f2f6ff;
-  padding-bottom: 50px;
-}
-.stage-card-container {
-  max-width: 500px;
-}
-.hero-heading {
-  max-width: 700px;
-}
 .stage-hero {
-  min-height: 1500px;
-  padding: 30px;
-}
-.stage-hero-content {
+  /* Centers hero content horizontally */
   margin: 0 auto;
-  width: 70%;
-  height: 800px;
+  /* Offsets the hero content onto the bg image */
+  width: 80%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
-@media (max-width: 1700px) {
-  .stage-hero-content {
+.stage-card-container {
+  max-width: 500px;
+  padding: 25px;
+  margin-left: 30px;
+}
+.stage-hero-heading {
+  max-width: 750px;
+  padding: 25px 0 25px 70px;
+}
+.stage-overview-heading {
+  text-align: center;
+  color: #f2f6ff;
+}
+@media (max-width: 1200px) {
+  .stage-hero {
+    align-items: center;
+    flex-direction: column;
     width: 100%;
+  }
+  .stage-hero-heading {
+    text-align: center;
+  }
+}
+
+/* Hero background adjustments */
+@media (min-width: 800px) {
+  /* Normal screens */
+  .stage-1-container:after {
+    top: -100px;
+  }
+}
+@media (min-width: 1200px) {
+  /* Larger screens */
+  .stage-1-container:after {
+    top: -300px;
+  }
+}
+@media (min-width: 1600px) {
+  /* Even larger screens */
+  .stage-1-container:after {
+    top: -300px;
+  }
+}
+@media (min-width: 1600px) {
+  /* Even larger screens than that */
+  .stage-1-container:after {
+    top: -400px;
   }
 }
 .relevant-articles-section {
@@ -173,34 +191,6 @@ export default {
 .article-card {
   margin: 0 20px 20px 20px;
 }
-@media (max-width: 1100px) {
-  .stage-hero {
-    flex-direction: column-reverse;
-    padding: 15px;
-  }
-  .tagline {
-    align-items: center;
-    text-align: center;
-  }
-}
-/*Shrinking for mobile*/
-@media (max-width: 800px) {
-  .stage-hero {
-    align-items: center;
-  }
-  .hero-image-container {
-    width: 100%;
-    height: 350px;
-  }
-  .roadmap-section:before {
-    /* right: -300px; */
-    background-size: 50%;
-  }
-  .roadmap-section:after {
-    background-size: 50%;
-  }
-}
-
 /* Animations */
 
 @keyframes fade-slide-down {
