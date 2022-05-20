@@ -80,6 +80,9 @@ export default {
 </script>
 
 <style>
+body {
+  font-family: 'SF Pro';
+}
 .hero-section {
   background: linear-gradient(60deg, #6a00c1 0%, rgba(0, 172, 193, 1) 100%);
   color: white;
@@ -113,7 +116,7 @@ export default {
   animation: fade-slide-down 2s cubic-bezier(0, 0.5, 0, 1);
 }
 .roadmap-section {
-  padding: 25px 0;
+  padding: 0 0 25px 0;
   width: 100%;
   height: 100%;
   position: relative;

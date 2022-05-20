@@ -5,6 +5,7 @@
   "author": "Shan Rauf",
   "private": true,
   "scripts": {
+    "setup": "yarn build && yarn export && yarn serve",
     "dev": "nuxt",
     "dev:network": "nuxt --hostname 0.0.0.0 --port 65305",
     "build": "nuxt-ts build",
