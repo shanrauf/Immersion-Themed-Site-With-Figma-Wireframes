@@ -9,6 +9,7 @@
     "dev": "nuxt",
     "dev:network": "nuxt --hostname 0.0.0.0 --port 65305",
     "build": "nuxt-ts build",
+    "prod": "yarn build && yarn export",
     "start": "nuxt-ts start",
     "export": "nuxt-ts export",
     "serve": "nuxt-ts serve",

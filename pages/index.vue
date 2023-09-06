@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="index-container">
     <section class="hero-section">
       <div class="hero-container">
         <div class="tagline">
@@ -32,7 +32,7 @@
       <Timeline />
     </section>
 
-    <section class="more-from-mia-section">
+    <!-- <section class="more-from-mia-section">
       <h2 id="more-from-mia-heading" class="heading-2">More From MIA</h2>
       <div class="more-cards">
         <SecondaryCard href="/stage-1" class="more-card">
@@ -56,7 +56,7 @@
           >
         </SecondaryCard>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
@@ -82,6 +82,11 @@ export default {
 <style>
 body {
   font-family: 'SF Pro';
+}
+.index-container {
+  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .hero-section {
   background: linear-gradient(60deg, #6a00c1 0%, rgba(0, 172, 193, 1) 100%);

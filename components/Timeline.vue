@@ -12,7 +12,6 @@
       >
         <div class="content">
           <StageCard
-            :to="entry.to"
             :background="entry.background"
             :color="entry.color"
           >
