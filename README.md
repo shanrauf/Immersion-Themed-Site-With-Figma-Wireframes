@@ -1,7 +1,11 @@
-# massimmersionapproach.com
+# Mass Immersion Approach Site
 
-> Mass Immersion Approach website
+Implementation of site design for Mass Immersion Approach.
 
-# TODO:
+## Demo
 
-- consider cloning a local copy of remark-variables to use
+See demo [here](https://super-sopapillas-b54dfa.netlify.app/)
+
+## Figma wireframes
+
+![MIA site Figma wireframes](assets/mia-figma.png)
