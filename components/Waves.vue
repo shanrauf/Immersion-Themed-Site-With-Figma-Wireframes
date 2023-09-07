@@ -27,7 +27,7 @@
         y="5"
         fill="rgba(255,255,255,0.3)"
       />
-      <use xlink:href="#gentle-wave" x="48" y="7" fill="#f2f6ff" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
     </g>
   </svg>
 </template>

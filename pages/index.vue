@@ -151,7 +151,7 @@ body {
 }
 .roadmap-title {
   text-align: center;
-  background: #f2f6ff;
+  background: #fff;
   padding-bottom: 20px;
 }
 .more-from-mia-section {
